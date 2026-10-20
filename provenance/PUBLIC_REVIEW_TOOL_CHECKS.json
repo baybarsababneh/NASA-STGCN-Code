@@ -1,0 +1,58 @@
+[
+  {
+    "check": "Verifier accepts exact fixture roster",
+    "status": "PASS"
+  },
+  {
+    "check": "Verifier rejects unexpected file",
+    "status": "PASS"
+  },
+  {
+    "check": "Verifier rejects changed bytes",
+    "status": "PASS"
+  },
+  {
+    "check": "Verifier rejects symlink",
+    "status": "PASS"
+  },
+  {
+    "check": "Full verification rejects missing external payload",
+    "status": "PASS"
+  },
+  {
+    "check": "Restore recovers exact object",
+    "status": "PASS"
+  },
+  {
+    "check": "Restored full verification passes",
+    "status": "PASS"
+  },
+  {
+    "check": "Restore is idempotent",
+    "status": "PASS"
+  },
+  {
+    "check": "Restore refuses existing mismatch without overwrite",
+    "status": "PASS"
+  },
+  {
+    "check": "Restore rejects corrupt hash and leaves no output",
+    "status": "PASS"
+  },
+  {
+    "check": "Restore rejects traversal path before write",
+    "status": "PASS"
+  },
+  {
+    "check": "Staging unsupported EXP012 fails without creating workspace",
+    "status": "PASS"
+  },
+  {
+    "check": "Staging rejects occupied workspace",
+    "status": "PASS"
+  },
+  {
+    "check": "Verifier rejects unsafe manifest path",
+    "status": "PASS"
+  }
+]

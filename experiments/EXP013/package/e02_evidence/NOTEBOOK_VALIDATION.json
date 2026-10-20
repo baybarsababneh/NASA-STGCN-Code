@@ -1,0 +1,17 @@
+{
+  "NASA_data_or_annotation_values_read": false,
+  "actual_live_Colab_or_Drive_test": false,
+  "checks": {
+    "actual_annotation_cell_failed_seal_blocks_all_label_work": true,
+    "actual_setup_VM_reset_retrieves_cached_bundle_without_upload": true,
+    "actual_setup_first_upload_and_hash_verification": true,
+    "actual_setup_rejects_source_tamper_without_overwrite": true,
+    "all_delivered_source_syntax": true,
+    "bundle_roster_CRC_and_every_payload_SHA256": true,
+    "delivered_source_identity_manifest_matches_actual_bytes": true,
+    "notebook_schema_and_all_cell_syntax": true,
+    "original_package_pins_preserved": true,
+    "seal_verification_precedes_annotation_cache_lookup_and_upload": true
+  },
+  "status": "PASS"
+}

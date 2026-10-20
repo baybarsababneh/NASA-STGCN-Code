@@ -1,0 +1,10 @@
+{
+  "engine": "latex (TeX Live 2023/Debian)",
+  "existing_report_preamble_used": true,
+  "passes": 2,
+  "errors": 0,
+  "undefined_citations_or_references": 0,
+  "duplicate_citations": 0,
+  "overfull_or_underfull_boxes": 0,
+  "scope": "New subsection, conclusion sentence and pinned reference; not a re-layout of the full report"
+}

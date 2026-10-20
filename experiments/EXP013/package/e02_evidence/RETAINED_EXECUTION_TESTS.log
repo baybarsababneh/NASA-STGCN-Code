@@ -1,0 +1,420 @@
+test_checkpoint_format_matches_original_and_rejects_corruption (__main__.ExecutionTests.test_checkpoint_format_matches_original_and_rejects_corruption) ... ok
+test_complete_VM_reset_exact_training_restore_and_completed_job_reuse (__main__.ExecutionTests.test_complete_VM_reset_exact_training_restore_and_completed_job_reuse) ... FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+DURABLE BACKUP VERIFIED epoch_start:SMAP__graph__17 receipt recovery-1791556702066922278-712e3ec8d05f4d7ab8e2319c76aa8ca9.complete.json uploaded_MiB 0.09 seconds 0.01
+DURABLE BACKUP VERIFIED fixture_pause receipt recovery-1791556702196249049-fde1d5caf0f448edbc39288055d149b3.complete.json uploaded_MiB 0.23 seconds 0.01
+RESTORED VERIFIED RECOVERY recovery-1791556702196249049-fde1d5caf0f448edbc39288055d149b3.complete.json files 3
+EXACT RESUME SMAP__graph__17 epoch 1 phase fit next_batch 3
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.69, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.95, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.96, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.99, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.669706 FIT_loss 0.732737 seconds 1.0
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.65, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.91, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.93, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.97, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.506217 FIT_loss 0.66248 seconds 1.0
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.05, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.79, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.11, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.12, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.15, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.669706 FIT_loss 0.732737 seconds 1.2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.65, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.91, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.92, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.96, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.506217 FIT_loss 0.66248 seconds 1.0
+REUSE SMAP__graph__17 COMPLETE
+ok
+test_corrupt_archive_or_receipt_rejected_then_verified_fallback (__main__.ExecutionTests.test_corrupt_archive_or_receipt_rejected_then_verified_fallback) ... DURABLE BACKUP VERIFIED first receipt recovery-1791556706211611750-009112a3e5ef45cfac043877b5fb4850.complete.json uploaded_MiB 0.0 seconds 0.0
+DURABLE BACKUP VERIFIED second receipt recovery-1791556706216140415-7111be17cc874461b487d9796a478ea8.complete.json uploaded_MiB 0.0 seconds 0.0
+REJECTED RECOVERY recovery-1791556706216140415-7111be17cc874461b487d9796a478ea8.complete.json RuntimeError Remote SHA256/size differs
+REJECTED RECOVERY recovery-1791556706216140415-7111be17cc874461b487d9796a478ea8.complete.json RuntimeError Remote SHA256/size differs
+REJECTED RECOVERY recovery-1791556706211611750-009112a3e5ef45cfac043877b5fb4850.complete.json RuntimeError Remote SHA256/size differs
+ok
+test_exact_fit_and_STOP_resume_all_roles_including_optimizer_RNG_mask (__main__.ExecutionTests.test_exact_fit_and_STOP_resume_all_roles_including_optimizer_RNG_mask) ... FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.05, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.72, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.01, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.03, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.06, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.669706 FIT_loss 0.732737 seconds 1.1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.64, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.88, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.89, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.92, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.506217 FIT_loss 0.66248 seconds 0.9
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+EXACT RESUME SMAP__graph__17 epoch 1 phase fit next_batch 3
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.66, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.9, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.92, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.94, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.669706 FIT_loss 0.732737 seconds 0.9
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.62, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.85, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.87, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.89, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.506217 FIT_loss 0.66248 seconds 0.9
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.06, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.62, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.95, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.97, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.0, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.669706 FIT_loss 0.732737 seconds 1.0
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.68, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.0, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.02, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.05, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.506217 FIT_loss 0.66248 seconds 1.1
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.82, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.07, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.08, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EXACT RESUME SMAP__graph__17 epoch 1 phase stop next_batch 29
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.11, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.669706 FIT_loss 0.732737 seconds 1.1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.72, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.96, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.97, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.01, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.506217 FIT_loss 0.66248 seconds 1.0
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.33, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.46, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.47, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.5, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 1 STOP 0.66982 FIT_loss 0.733321 seconds 0.5
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.34, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.47, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.48, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.51, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 2 STOP 0.502699 FIT_loss 0.660002 seconds 0.5
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+EXACT RESUME SMAP__removed__17 epoch 1 phase fit next_batch 3
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.36, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.49, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.5, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.52, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 1 STOP 0.66982 FIT_loss 0.733321 seconds 0.5
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.32, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.45, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.46, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.49, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 2 STOP 0.502699 FIT_loss 0.660002 seconds 0.5
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.31, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.44, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.45, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.47, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 1 STOP 0.66982 FIT_loss 0.733321 seconds 0.5
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.32, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.44, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.45, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.48, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 2 STOP 0.502699 FIT_loss 0.660002 seconds 0.5
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.32, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.45, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.46, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+EXACT RESUME SMAP__removed__17 epoch 1 phase stop next_batch 29
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.49, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 1 STOP 0.66982 FIT_loss 0.733321 seconds 0.5
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.35, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.49, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.5, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.53, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 2 STOP 0.502699 FIT_loss 0.660002 seconds 0.5
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.55, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.77, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.78, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.8, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 1 STOP 0.64767 FIT_loss 0.727853 seconds 0.8
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.54, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.75, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.76, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.79, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 2 STOP 0.480687 FIT_loss 0.639698 seconds 0.8
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+EXACT RESUME SMAP__fusion__17 epoch 1 phase fit next_batch 3
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.54, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.76, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.76, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.79, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 1 STOP 0.64767 FIT_loss 0.727853 seconds 0.8
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.56, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.78, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.79, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.81, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 2 STOP 0.480687 FIT_loss 0.639698 seconds 0.8
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.54, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.76, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.77, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.79, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 1 STOP 0.64767 FIT_loss 0.727853 seconds 0.8
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.54, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.76, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.77, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.79, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 2 STOP 0.480687 FIT_loss 0.639698 seconds 0.8
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.55, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.77, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.78, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+EXACT RESUME SMAP__fusion__17 epoch 1 phase stop next_batch 29
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.8, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 1 STOP 0.64767 FIT_loss 0.727853 seconds 0.8
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.54, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.75, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.77, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.79, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 2 STOP 0.480687 FIT_loss 0.639698 seconds 0.8
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+/workspace/scratch/b601914ec2ba/exp013_e02/official_test_work/official/gdn/models/GDN.py:161: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matrices or `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:3725.)
+  gated_i = torch.arange(0, node_num).T.unsqueeze(1).repeat(1, topk_num).flatten().to(device).unsqueeze(0)
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.01, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.06, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.09, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.1, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.11, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 1.06267 FIT_loss 1.131955 seconds 0.1
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.0, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.09, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.09, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.1, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 2 STOP 1.086469 FIT_loss 1.062802 seconds 0.1
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.01, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+EXACT RESUME SMAP__gdn__17 epoch 1 phase fit next_batch 3
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.06, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.1, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.1, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.11, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 1.06267 FIT_loss 1.131955 seconds 0.1
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.0, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.09, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.1, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.11, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 2 STOP 1.086469 FIT_loss 1.062802 seconds 0.1
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.01, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.09, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.09, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.1, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 1.06267 FIT_loss 1.131955 seconds 0.1
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.0, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.09, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.09, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.1, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 2 STOP 1.086469 FIT_loss 1.062802 seconds 0.1
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.01, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.1, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.1, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+EXACT RESUME SMAP__gdn__17 epoch 1 phase stop next_batch 37
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.11, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 1.06267 FIT_loss 1.131955 seconds 0.1
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.0, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.09, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.09, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.1, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 2 STOP 1.086469 FIT_loss 1.062802 seconds 0.1
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.19, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.2, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.25, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 0.976261 FIT_loss 15.129683 seconds 0.3
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.17, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.18, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.23, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 2 STOP 0.959366 FIT_loss 14.310492 seconds 0.2
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+EXACT RESUME SMAP__catch__17 epoch 1 phase fit next_batch 3
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.19, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.2, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.26, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 0.976261 FIT_loss 15.129683 seconds 0.3
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.17, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.17, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.23, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 2 STOP 0.959366 FIT_loss 14.310492 seconds 0.2
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.19, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.2, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.26, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 0.976261 FIT_loss 15.129683 seconds 0.3
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.18, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.19, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.24, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 2 STOP 0.959366 FIT_loss 14.310492 seconds 0.2
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.17, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.18, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+EXACT RESUME SMAP__catch__17 epoch 1 phase stop next_batch 14
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.24, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 0.976261 FIT_loss 15.129683 seconds 0.2
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.18, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.18, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.24, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 2 STOP 0.959366 FIT_loss 14.310492 seconds 0.2
+ok
+test_incremental_large_object_reuse_and_hash_manifest (__main__.ExecutionTests.test_incremental_large_object_reuse_and_hash_manifest) ... DURABLE BACKUP VERIFIED first receipt recovery-1791556730440072619-5db144079d5e408fb9ec1bfdbfd3b8c1.complete.json uploaded_MiB 33.0 seconds 0.31
+DURABLE BACKUP VERIFIED metadata_only_update receipt recovery-1791556730589118962-4e1a89d675bc47fba666c7276d4bf5f6.complete.json uploaded_MiB 0.0 seconds 0.15
+RESTORED VERIFIED RECOVERY recovery-1791556730589118962-4e1a89d675bc47fba666c7276d4bf5f6.complete.json files 2
+ok
+test_interrupted_commit_and_ambiguous_completed_upload (__main__.ExecutionTests.test_interrupted_commit_and_ambiguous_completed_upload) ... DURABLE BACKUP VERIFIED first receipt recovery-1791556730877255964-fc76f801195a4b72b3dc2d9e778b294a.complete.json uploaded_MiB 0.0 seconds 0.0
+RESTORED VERIFIED RECOVERY recovery-1791556730882446754-058bb6f0100d41bb93d0ae29daef9e32.complete.json files 1
+ok
+test_interrupted_upload_retains_previous_and_rejects_partial (__main__.ExecutionTests.test_interrupted_upload_retains_previous_and_rejects_partial) ... DURABLE BACKUP VERIFIED first receipt recovery-1791556730886504178-cb4622b8f2cd47cba38d8f2393ac099c.complete.json uploaded_MiB 0.0 seconds 0.0
+DURABLE BACKUP VERIFIED retry receipt recovery-1791556730890883694-7f44f29e2be4445aa2c3c369d80cdb9a.complete.json uploaded_MiB 0.0 seconds 0.0
+ok
+test_kernel_death_terminates_hash_seed_pinned_worker (__main__.ExecutionTests.test_kernel_death_terminates_hash_seed_pinned_worker) ... ok
+test_mixed_mission_training_scaler_receives_only_selected_mission (__main__.ExecutionTests.test_mixed_mission_training_scaler_receives_only_selected_mission) ... ok
+test_orchestrator_orders_study_CONFIRM_TEST_and_label_gate (__main__.ExecutionTests.test_orchestrator_orders_study_CONFIRM_TEST_and_label_gate) ... {"UTC": "2026-10-09T14:38:50Z", "completed_fits": 0, "phase": "AWAITING_LABEL_CSV_AFTER_VERIFIED_SEAL", "required_human_action": "Supply the exact historical NASA annotation CSV in the next notebook cell.", "score_seal_sha256": "892335e97ce81c71134c125a4aefd5ab0569af39f19b03e3709fd653ab126b66"}
+ok
+test_original_sampler_order_and_generator_states (__main__.ExecutionTests.test_original_sampler_order_and_generator_states) ... ok
+test_preserved_fit_STOP_CONF_TEST_and_label_gate (__main__.ExecutionTests.test_preserved_fit_STOP_CONF_TEST_and_label_gate) ... ok
+test_retention_preserves_two_verified_states_and_shared_objects (__main__.ExecutionTests.test_retention_preserves_two_verified_states_and_shared_objects) ... DURABLE BACKUP VERIFIED epoch0 receipt recovery-1791556730990814581-5d583095eaba4a0c8ecfea20237c99fe.complete.json uploaded_MiB 0.0 seconds 0.0
+DURABLE BACKUP VERIFIED epoch1 receipt recovery-1791556730993844898-2085d99b7e524ac7910b9a7b30025d43.complete.json uploaded_MiB 0.0 seconds 0.0
+DURABLE BACKUP VERIFIED epoch2 receipt recovery-1791556730997346089-9d05c082eda346389aca11e07ae7772d.complete.json uploaded_MiB 0.0 seconds 0.0
+DURABLE BACKUP VERIFIED epoch3 receipt recovery-1791556731001039398-f366a9f2e0bc4c13b3e7811a84c13c1b.complete.json uploaded_MiB 0.0 seconds 0.0
+RESTORED VERIFIED RECOVERY recovery-1791556731001039398-f366a9f2e0bc4c13b3e7811a84c13c1b.complete.json files 1
+ok
+test_score_call_cache_exact_values_RNG_and_future_isolation (__main__.ExecutionTests.test_score_call_cache_exact_values_RNG_and_future_isolation) ... ok
+test_source_and_environment_compatibility_and_no_overwrite (__main__.ExecutionTests.test_source_and_environment_compatibility_and_no_overwrite) ... DURABLE BACKUP VERIFIED valid receipt recovery-1791556731436432923-028f6b2952134da68f92117b72271aa7.complete.json uploaded_MiB 0.0 seconds 0.0
+ok
+test_uninterrupted_training_matches_frozen_original_all_five_roles (__main__.ExecutionTests.test_uninterrupted_training_matches_frozen_original_all_five_roles) ... SMAP__graph__17 epoch 1 STOP 0.669706 seconds 0.8
+SMAP__graph__17 epoch 2 STOP 0.506217 seconds 0.8
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.54, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.76, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.77, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.79, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.669706 FIT_loss 0.732737 seconds 0.8
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.55, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.77, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.78, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.81, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.506217 FIT_loss 0.66248 seconds 0.8
+SMAP__removed__17 epoch 1 STOP 0.66982 seconds 0.5
+SMAP__removed__17 epoch 2 STOP 0.502699 seconds 0.5
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.34, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.48, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.5, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.53, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 1 STOP 0.66982 FIT_loss 0.733321 seconds 0.5
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.42, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.57, "epoch": 2, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.58, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.62, "epoch": 2, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 2 STOP 0.502699 FIT_loss 0.660002 seconds 0.6
+SMAP__fusion__17 epoch 1 STOP 0.64767 seconds 1.0
+SMAP__fusion__17 epoch 2 STOP 0.480687 seconds 0.9
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.64, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.9, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.91, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.94, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 1 STOP 0.64767 FIT_loss 0.727853 seconds 0.9
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.65, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.9, "epoch": 2, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.91, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.94, "epoch": 2, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 2 STOP 0.480687 FIT_loss 0.639698 seconds 0.9
+SMAP__gdn__17 epoch 1 STOP 1.06267 seconds 0.1
+SMAP__gdn__17 epoch 2 STOP 1.086469 seconds 0.1
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.01, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.09, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.1, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.11, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 1.06267 FIT_loss 1.131955 seconds 0.1
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.0, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.05, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.1, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.1, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.11, "epoch": 2, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 2 STOP 1.086469 FIT_loss 1.062802 seconds 0.1
+SMAP__catch__17 epoch 1 STOP 0.976261 seconds 0.3
+SMAP__catch__17 epoch 2 STOP 0.959366 seconds 0.3
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.19, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.19, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.25, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 0.976261 FIT_loss 15.129683 seconds 0.3
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.02, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.18, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.19, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.24, "epoch": 2, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 2 STOP 0.959366 FIT_loss 14.310492 seconds 0.3
+ok
+test_vectorised_batch_bytes_all_roles_and_native_dimensions (__main__.ExecutionTests.test_vectorised_batch_bytes_all_roles_and_native_dimensions) ... ok
+test_verified_seal_marker_repair_never_precedes_verification (__main__.ExecutionTests.test_verified_seal_marker_repair_never_precedes_verification) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 42.758s
+
+OK

@@ -1,0 +1,28 @@
+{
+  "seed": 17,
+  "fit_fraction": 0.6,
+  "validation_end_fraction": 0.8,
+  "epochs": 40,
+  "patience": 6,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "primary_smoothing_span": 10,
+  "primary_calibration_quantile": 0.995,
+  "common_test_start": 250,
+  "common_test_tail_excluded": 10,
+  "label_policy": "unique channels; union overlapping duplicate P-2 intervals; exclude unlabelled T-10",
+  "selection": "lowest median per-channel chronological validation MSE, separately per mission, graph configurations only",
+  "graph_candidates": [
+    {"name": "gcn_l32_h16", "kind": "gcn", "lookback": 32, "hidden": 16, "graph": "star"},
+    {"name": "gcn_l64_h16", "kind": "gcn", "lookback": 64, "hidden": 16, "graph": "star"},
+    {"name": "gcn_l128_h16", "kind": "gcn", "lookback": 128, "hidden": 16, "graph": "star"},
+    {"name": "gcn_l64_h32", "kind": "gcn", "lookback": 64, "hidden": 32, "graph": "star"},
+    {"name": "gcn_l64_top4", "kind": "gcn", "lookback": 64, "hidden": 16, "graph": "top4"}
+  ],
+  "controls": [
+    {"name": "no_edges_l64", "kind": "gcn", "lookback": 64, "hidden": 16, "graph": "none"},
+    {"name": "mlp_l64", "kind": "mlp", "lookback": 64, "hidden": 32, "graph": "star"},
+    {"name": "lstm_l64", "kind": "lstm", "lookback": 64, "hidden": 32, "graph": "star"}
+  ]
+}

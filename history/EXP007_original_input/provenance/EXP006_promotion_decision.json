@@ -1,0 +1,16 @@
+{
+  "MSL": {
+    "comparison_backend": "GPU-native matched execution",
+    "decision": "retain_exp002_architecture",
+    "not_anomaly_detection_evidence": true,
+    "selected_candidate": "exp002_reference",
+    "validation_mse": 0.2022992893630384
+  },
+  "SMAP": {
+    "comparison_backend": "GPU-native matched execution",
+    "decision": "promote_gpu_exp006",
+    "not_anomaly_detection_evidence": true,
+    "selected_candidate": "g09_rf31_base_lr1e3",
+    "validation_mse": 0.10244988904443127
+  }
+}

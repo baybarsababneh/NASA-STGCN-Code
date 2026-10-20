@@ -1,0 +1,8 @@
+{
+  "export_sha256": "be2548a1a7ceff11228358317ff5ae4010e6d15d1817f07e1a5fbf2ef55e2d97",
+  "replay_archives_verified": 534,
+  "unique_jobs": 534,
+  "nominal_rows_recomputed": 288,
+  "all_pass": true,
+  "limitation": "Verified stored prediction bytes, parent identities and recorded exact-replay assertions; no independent GPU checkpoint inference in this audit."
+}

@@ -1,0 +1,38 @@
+{
+  "TRAIN_channels": 81,
+  "cuda_repeatability": "exact",
+  "model_checks": [
+    {
+      "identity_causality_removal_reload": true,
+      "mode": "fixed",
+      "rf": 7
+    },
+    {
+      "identity_causality_removal_reload": true,
+      "mode": "static",
+      "rf": 7
+    },
+    {
+      "identity_causality_removal_reload": true,
+      "mode": "dynamic",
+      "rf": 7
+    },
+    {
+      "identity_causality_removal_reload": true,
+      "mode": "fixed",
+      "rf": 31
+    },
+    {
+      "identity_causality_removal_reload": true,
+      "mode": "static",
+      "rf": 31
+    },
+    {
+      "identity_causality_removal_reload": true,
+      "mode": "dynamic",
+      "rf": 31
+    }
+  ],
+  "preprocessing_matches_completed_EXP006": true,
+  "status": "PASS"
+}

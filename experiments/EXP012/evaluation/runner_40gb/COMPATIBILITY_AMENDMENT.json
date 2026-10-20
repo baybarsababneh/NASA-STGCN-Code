@@ -1,0 +1,22 @@
+{
+  "NASA_TEST_opened_during_validation": false,
+  "NASA_labels_opened_during_validation": false,
+  "all_other_environment_fields": "exactly equal to original EXP012 RUN_FREEZE",
+  "authorization": "PENDING until valid COMPATIBILITY_PASS.json on matching actual 40GB environment",
+  "changed_runtime_fields": [
+    "gpu",
+    "gpu_bytes"
+  ],
+  "local_real_GPU_validation": "UNAVAILABLE_NO_CUDA_DEVICE",
+  "parent_bundle_sha256": "31211604e069247aff113355af2b2ff6f1392f2bc9146e7dee94a0f409014d65",
+  "parent_notebook_sha256": "d31aafdab89f43ddc44686c35fcd9bcad053499bff8651179907acb6f9f3a7a8",
+  "parent_version": "EXP012_RETROSPECTIVE_EVALUATION_V1",
+  "prediction_comparison": "exact dtype,shape,contiguous bytes; zero tolerance",
+  "science_changed": false,
+  "scope": "all 972 checkpoint states; all 1053 nominal streams; both validation and calibration; persistence once",
+  "target_runtime_fields": {
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_bytes": 42405855232
+  },
+  "version": "EXP012_RETROSPECTIVE_EVALUATION_V1_A10040GB_AMENDMENT_1"
+}

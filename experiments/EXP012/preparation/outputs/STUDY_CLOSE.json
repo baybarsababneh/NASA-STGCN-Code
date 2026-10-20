@@ -1,0 +1,13 @@
+{
+  "NASA_TEST_accessed": false,
+  "TEST_evaluation_authorized": false,
+  "anomaly_labels_accessed": false,
+  "detector_selected_by_performance": false,
+  "model_units": 972,
+  "new_GCN_fits": 0,
+  "new_LSTM_fits": 243,
+  "nominal_diagnostic_rows": 4212,
+  "qualification_units": 1053,
+  "status": "COMPLETE_PREPARED_AWAITING_REVIEW",
+  "thresholds_locked": true
+}

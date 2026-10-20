@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the software and upstream benchmark when using this code."
+type: software
+title: "NASA SMAP/MSL Anomaly Detection Code: EXP001–EXP015"
+authors:
+  - family-names: Ababneh
+    given-names: Baybars
+abstract: "Code, configurations and recorded results for spacecraft telemetry anomaly detection."

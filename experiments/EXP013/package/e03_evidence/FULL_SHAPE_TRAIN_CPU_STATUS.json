@@ -1,0 +1,12 @@
+{
+  "status": "NOT_COMPLETED",
+  "exit_code": 137,
+  "signal": "SIGKILL",
+  "cause": "not established",
+  "attempted_role": "MSL graph",
+  "attempted_batch_size": 256,
+  "numeric_comparison_completed": false,
+  "actual_GPU_validation": false,
+  "scientific_fits": 0,
+  "remaining_full_batches": "actual A100 hardware action; no reduced-batch scientific substitution"
+}

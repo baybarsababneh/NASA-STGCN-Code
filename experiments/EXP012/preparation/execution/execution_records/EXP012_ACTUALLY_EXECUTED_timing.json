@@ -1,0 +1,56 @@
+{
+  "original_notebook": "experiments/EXP012/preparation/execution/EXP012_ACTUALLY_EXECUTED.ipynb",
+  "original_sha256": "76a20b90eacd30ccdfd47588fe7748131d1e3e2d73a03c0ed4ca95eaecee0a1c",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": 1,
+      "source_sha256": "78222416f159ec5f1dd2c8b39d81bb78f0ba444ee5244fa9e8034faf741285cc",
+      "timing_metadata": {
+        "executionInfo": {
+          "status": "ok",
+          "timestamp": 1791199147331,
+          "elapsed": 1034558
+        }
+      },
+      "original_outputs_sha256": "e0825a7e86118b36a1cf8d7b9daeec05ceca958221d69aac65751f6365eb6838",
+      "original_output_items": 3
+    },
+    {
+      "cell_index": 3,
+      "execution_count": 2,
+      "source_sha256": "c601836c09aa42f9ef94f1ee61a8a541344e80cdfb5d4b0c012eeb2f7725d180",
+      "timing_metadata": {
+        "executionInfo": {
+          "status": "ok",
+          "timestamp": 1791199439579,
+          "elapsed": 176638
+        }
+      },
+      "original_outputs_sha256": "3c95ce5e8225fb6e9edd68964d6147290c17edfe7f5fe75e86a97dee05255a00",
+      "original_output_items": 1
+    },
+    {
+      "cell_index": 5,
+      "execution_count": 3,
+      "source_sha256": "1feae6d054435ae1e3f8cbfad0cd5517fc9beed1551ad8980822a72a28690f81",
+      "timing_metadata": {
+        "executionInfo": {
+          "status": "ok",
+          "timestamp": 1791200997329,
+          "elapsed": 1557744
+        }
+      },
+      "original_outputs_sha256": "4f0fe65730437727e77be9ce7b83a1af6d38ed4b1fcf18806a31c66b582aa2f5",
+      "original_output_items": 1
+    },
+    {
+      "cell_index": 7,
+      "execution_count": null,
+      "source_sha256": "a1f164f93b79334ba8ad9b751b5dbcd11683b3ce0541997cb6fe4c426caab5ba",
+      "timing_metadata": {},
+      "original_outputs_sha256": "e2b122437ff091c5aaaabb3226d9d409b6ed779f2b213d0ef96312287ad6af35",
+      "original_output_items": 1
+    }
+  ]
+}

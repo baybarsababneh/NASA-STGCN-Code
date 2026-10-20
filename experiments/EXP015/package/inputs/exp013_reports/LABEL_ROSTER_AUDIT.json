@@ -1,0 +1,13 @@
+{
+  "duplicates": [
+    {
+      "channel": "P-2",
+      "ignored_row": 51,
+      "kept_row": 17
+    }
+  ],
+  "entities": 81,
+  "inclusive_to_half_open": true,
+  "original_events": 104,
+  "rows": 82
+}

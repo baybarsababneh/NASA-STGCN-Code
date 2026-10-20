@@ -1,0 +1,21 @@
+{
+  "CSV_rows": 82,
+  "T10_has_no_label_row_and_is_not_added": true,
+  "duplicates": [
+    {
+      "channel": "P-2",
+      "ignored_csv_row": 51,
+      "ignored_row": {
+        "anomaly_sequences": "[[5300, 6420]]",
+        "chan_id": "P-2",
+        "class": "[point]",
+        "num_values": "8209",
+        "spacecraft": "SMAP"
+      },
+      "kept_csv_row": 17
+    }
+  ],
+  "first_P2_policy": true,
+  "original_events": 104,
+  "unique_channels": 81
+}

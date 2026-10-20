@@ -1,0 +1,1670 @@
+[
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf13_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf63_h16",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_rf127_h16",
+      "kind": "tcn_gcn",
+      "lookback": 128,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_rf255_h16",
+      "kind": "tcn_gcn",
+      "lookback": 250,
+      "hidden": 16,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ]
+]

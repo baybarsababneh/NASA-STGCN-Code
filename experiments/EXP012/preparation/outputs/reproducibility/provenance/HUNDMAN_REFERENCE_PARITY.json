@@ -1,0 +1,49 @@
+{
+  "reference_source_sha256": "eb27e3dbc524a5252301e21835fb063ec7e1794eb4b252184c1a8a48a047b4aa",
+  "reference_execution_amendment": "cast np.delete row indices to int; scientific logic unchanged",
+  "fixtures_synthetic": true,
+  "cases": [
+    {
+      "case": 0,
+      "samples": 1400,
+      "flagged": 476,
+      "windows": 1,
+      "parity": "exact masks; threshold atol/rtol1e-12"
+    },
+    {
+      "case": 1,
+      "samples": 2100,
+      "flagged": 504,
+      "windows": 1,
+      "parity": "exact masks; threshold atol/rtol1e-12"
+    },
+    {
+      "case": 2,
+      "samples": 2800,
+      "flagged": 504,
+      "windows": 11,
+      "parity": "exact masks; threshold atol/rtol1e-12"
+    },
+    {
+      "case": 3,
+      "samples": 3500,
+      "flagged": 481,
+      "windows": 21,
+      "parity": "exact masks; threshold atol/rtol1e-12"
+    },
+    {
+      "case": 4,
+      "samples": 4200,
+      "flagged": 459,
+      "windows": 31,
+      "parity": "exact masks; threshold atol/rtol1e-12"
+    },
+    {
+      "case": 5,
+      "samples": 4900,
+      "flagged": 505,
+      "windows": 41,
+      "parity": "exact masks; threshold atol/rtol1e-12"
+    }
+  ]
+}

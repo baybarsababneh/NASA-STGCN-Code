@@ -1,0 +1,14 @@
+{
+  "SMAP_rf255_h16": {
+    "completed": 3,
+    "missing_channels": [
+      "E-1",
+      "E-12",
+      "P-1"
+    ],
+    "best_possible_score": -0.6208703252967256,
+    "best_complete_alternative": "SMAP_rf7_h64",
+    "alternative_score": -0.8111639045213944,
+    "reason": "Cannot win even with maximally favorable remaining clipped scores; unfinished fits interrupted"
+  }
+}

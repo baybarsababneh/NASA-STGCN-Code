@@ -1,0 +1,46 @@
+{
+  "original_notebook": "experiments/EXP015/notebooks/EXP015_EXP013_GCN_HUNDMAN_SUPPLEMENT_V1_Run_All.ipynb",
+  "original_sha256": "783de500ef5dfd0ec5ade3f42774b06813e178f11801977af8334830a8f2cc15",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": null,
+      "source_sha256": "a753f8c88a14bedcbbdd9e4bdf2ae1e14a1a267a667d8644ec5cbff40111a4f4",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 2,
+      "execution_count": null,
+      "source_sha256": "4431f9708394b193da102557f5e24249f0737e637463917d1918482fce7c9a04",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 3,
+      "execution_count": null,
+      "source_sha256": "adf2a10805c3baba43c6438b2bc3ee0c0cd352ea8f2a369e7cf051837482abbe",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 4,
+      "execution_count": null,
+      "source_sha256": "39b565eeb5bfb041836bbc9b5add373ea682066e5b0f51d5d518e91dbf4630fd",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 5,
+      "execution_count": null,
+      "source_sha256": "95e6de2116964423b3de4608b24338bfd2e818d4e4712e30baffa50d1f26262a",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    }
+  ]
+}

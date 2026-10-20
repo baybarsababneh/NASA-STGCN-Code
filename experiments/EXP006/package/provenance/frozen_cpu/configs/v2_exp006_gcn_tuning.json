@@ -1,0 +1,111 @@
+{
+  "experiment_id": "v2_exp006_gcn_tuned",
+  "description": "TRAIN-only independent tuning of EXP002's fixed-edge TCN-GCN. Graph support and aggregation remain unchanged; only bounded temporal capacity and learning rate are tuned.",
+  "methodology_authority": "Astra post-locked-evaluation plan, ChatGPT - NASA Research Project (2).pdf",
+  "dataset": {
+    "missions": ["MSL", "SMAP"],
+    "unique_labelled_channels": 81,
+    "exclude_unlabelled": ["T-10"],
+    "fit_fraction": 0.60,
+    "validation_end_fraction": 0.80,
+    "calibration_fraction": 0.20,
+    "nasa_test_allowed_for_selection": false,
+    "anomaly_labels_allowed_for_selection": false
+  },
+  "fixed_graph_contract": {
+    "support": "identical to EXP002",
+    "MSL": "fit-only top4 command sources using lags [1,2,4,8,16]",
+    "SMAP": "all fit-varying commands in fixed star support",
+    "direction": "command_to_telemetry",
+    "graph_layers": 1,
+    "graph_weights": "existing fixed equal normalisation",
+    "prediction_head": "persistence plus learned residual",
+    "dropout": 0,
+    "message_width": "tied to temporal hidden width"
+  },
+  "screening": {
+    "channels": {
+      "MSL": ["C-1", "P-10", "M-7", "P-14", "T-13", "D-16"],
+      "SMAP": ["P-3", "A-8", "G-6", "E-1", "G-4", "A-5"]
+    },
+    "selection_basis": "exact EXP005 mechanically selected roster; frozen before EXP006 results",
+    "seeds": [17, 29],
+    "configs_per_mission": 12,
+    "select_top_per_mission": 2,
+    "ranking": "arithmetic mean validation MSE over six screening channels and two seeds; exact tie -> fewer mean parameters -> candidate_id"
+  },
+  "robustness": {
+    "seeds": [17, 29],
+    "folds": {
+      "R1": {"fit_end_fraction": 0.40, "early_stop_end_fraction": 0.50, "assessment_end_fraction": 0.60},
+      "R2": {"fit_end_fraction": 0.50, "early_stop_end_fraction": 0.60, "assessment_end_fraction": 0.70}
+    },
+    "roles_per_mission": ["top2_gcn_candidates", "exp002_reference", "exp005_selected_reference"],
+    "command_support": "recomputed from each fold fit block; identical resulting incoming command sources used for GCN and direct-fusion reference",
+    "assessment_use": "robustness only; never early stopping"
+  },
+  "confirmation": {
+    "channels": "all 81 study channels",
+    "seeds": [17, 29, 43],
+    "configs_per_mission": 2,
+    "expected_max_fits": 486
+  },
+  "training_common": {
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "max_epochs": 80,
+    "patience": 6,
+    "min_delta": 1e-7,
+    "gradient_clip_norm": 1.0
+  },
+  "promotion": {
+    "minimum_mission_mean_improvement_pct_vs_exp002": 2.0,
+    "require_lower_mission_mean_mse_each_seed_vs_exp002": true,
+    "require_nonnegative_mean_relative_improvement_across_R1_R2_vs_exp002": true,
+    "if_none_pass": "retain historical EXP002 for that mission; do not open replacement search",
+    "selection_among_passing": "lowest full-channel mean validation MSE"
+  },
+  "references": {
+    "exp002": {
+      "candidate_id": "exp002_reference",
+      "lookback": 64,
+      "kernel_size": 3,
+      "dilations": [1, 2],
+      "hidden_by_mission": {"MSL": 32, "SMAP": 64},
+      "learning_rate": 0.001
+    },
+    "exp005_selected_by_mission": {
+      "MSL": {
+        "candidate_id": "c03_rf7_large_lr1e3",
+        "lookback": 64,
+        "kernel_size": 3,
+        "dilations": [1, 2],
+        "hidden_by_mission": {"MSL": 64, "SMAP": 128},
+        "learning_rate": 0.001
+      },
+      "SMAP": {
+        "candidate_id": "c11_rf31_large_lr1e3",
+        "lookback": 64,
+        "kernel_size": 3,
+        "dilations": [1, 2, 4, 8],
+        "hidden_by_mission": {"MSL": 64, "SMAP": 128},
+        "learning_rate": 0.001
+      }
+    }
+  },
+  "candidates": [
+    {"candidate_id": "g01_rf7_base_lr1e3",  "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.001},
+    {"candidate_id": "g02_rf7_base_lr3e4",  "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.0003},
+    {"candidate_id": "g03_rf7_large_lr1e3", "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.001},
+    {"candidate_id": "g04_rf7_large_lr3e4", "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.0003},
+    {"candidate_id": "g05_rf15_base_lr1e3",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.001},
+    {"candidate_id": "g06_rf15_base_lr3e4",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.0003},
+    {"candidate_id": "g07_rf15_large_lr1e3", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.001},
+    {"candidate_id": "g08_rf15_large_lr3e4", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.0003},
+    {"candidate_id": "g09_rf31_base_lr1e3",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.001},
+    {"candidate_id": "g10_rf31_base_lr3e4",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.0003},
+    {"candidate_id": "g11_rf31_large_lr1e3", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.001},
+    {"candidate_id": "g12_rf31_large_lr3e4", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.0003}
+  ]
+}

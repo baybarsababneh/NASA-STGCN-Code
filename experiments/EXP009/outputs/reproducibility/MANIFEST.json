@@ -1,0 +1,17 @@
+{
+  "AUDIT_AND_ADDENDUM.md": "8f916016be944459ada613ae6a26f481b3f38d9e3ea3d3e7ea9db8ac804c6215",
+  "EXP008_INPUT_AUDIT.json": "de43eecb9fcdb53cba7486cc61536ad54358737beb3b00151f8c5d15e0735d48",
+  "PREPARATION_CHECKS.json": "3607c261e858620d13d84675477d12b481acbb392d7f13c6517e2cd6113f99d0",
+  "PROTOCOL.md": "2f3dcbe80ab0a5e7ff6e71283a498a55accf67988fdf154fc044bb3aa08f25db",
+  "START_HERE.md": "b31b529ba7366ce21d348ebef1404a87dd73e770b3a69c45756aff907dfd686e",
+  "config.json": "45eb71030fc5e055b4ca6fd237a9876e8a594ddf222ef6df02a2ba7376abb2a0",
+  "data/EXP008_results.zip": "be2548a1a7ceff11228358317ff5ae4010e6d15d1817f07e1a5fbf2ef55e2d97",
+  "requirements.txt": "6979eeaed30ec7f45ff725f33240136e49c396fdf8a5ef12964fb2960c8a5d1e",
+  "src/detector_metrics_v2.py": "e1d23317abfbe33d37fa7ca1928ccbaf144ee2cc762e945455d5577d2c812040",
+  "src/detectors.py": "ce9ea94ce64f8917d727b92d802631e8d99c35e6d54d04b9b444bab70aa0bb38",
+  "src/run_exp009.py": "5b673aa73c515b27eaea475766099ff542cf895acf71c2c405b3e3729c8bc0be",
+  "src/test_exp008.py": "7d7583ad516f853dadec03afe13271c3379e624559bf075a93fd0eef4137b940",
+  "src/test_exp009.py": "f5697680153e58574d9ffd8b4896840e94007394ed9d481ac5b0a72ff7f2e183",
+  "src/test_workflow.py": "84792f060a8e12691e1b9954370b26a5509600cbd2e96765dad2162a58757efc",
+  "src/verify_results.py": "1a1c214ccfaf5809a30b2ee0cf7e78e9c5a70984e41309beb84e13755f3b02d6"
+}

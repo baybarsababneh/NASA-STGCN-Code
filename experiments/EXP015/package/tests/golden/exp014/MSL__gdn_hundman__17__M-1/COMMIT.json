@@ -1,0 +1,18 @@
+{
+  "files": {
+    "adaptive_windows.json": "ce20946fb1dbf50bb77a09e290372ff6ec446fb1f110712d3ab317f96c47c687",
+    "record.json": "0be5e627278d6cca1187768e04cc6be0c76b1710d3625efb89e218056bc051a6",
+    "scores.npz": "cb55cc970c06d55d2b609ac8398f097bf9c4af2428794468de9e4df70fd4effd"
+  },
+  "identity": {
+    "TEST_array_sha256": "58e16675dc0bada099130d02bd29279ea20c764bf3415bb5adefd626ef94dd56",
+    "channel": "M-1",
+    "checkpoint_sha256": "32ed9cb7d217bd198544856120b49c657b23141e4d6fb8cbc77da8dea57dda4d",
+    "detector": "HUNDMAN_ADAPT_V1",
+    "mission": "MSL",
+    "run_hash": "7ca28e0199c40b958c2ad7c0dc77065a8734e1a1c328e1fb98563dc9a9a54cca",
+    "seed": 17,
+    "state_sha256": "3526655e151b2e97ab1708394c8cd728521a9258639c1cda3444ca7c80d9b80b",
+    "target_start": 250
+  }
+}

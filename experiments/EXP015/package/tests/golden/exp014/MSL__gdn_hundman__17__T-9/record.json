@@ -1,0 +1,46 @@
+{
+  "adaptive_status": "OUTPUT_COMPLETE",
+  "annotation_CSV_parsed": false,
+  "channel": "T-9",
+  "fixture": false,
+  "identity": {
+    "TEST_array_sha256": "4746b631cc292906c2cbc3ede7d472268f2c799bca41e13f2b0253bf016617b4",
+    "channel": "T-9",
+    "checkpoint_sha256": "32ed9cb7d217bd198544856120b49c657b23141e4d6fb8cbc77da8dea57dda4d",
+    "detector": "HUNDMAN_ADAPT_V1",
+    "mission": "MSL",
+    "run_hash": "7ca28e0199c40b958c2ad7c0dc77065a8734e1a1c328e1fb98563dc9a9a54cca",
+    "seed": 17,
+    "state_sha256": "3526655e151b2e97ab1708394c8cd728521a9258639c1cda3444ca7c80d9b80b",
+    "target_start": 250
+  },
+  "job_id": "MSL__gdn_hundman__17__T-9",
+  "memory": {
+    "GPU_validation": true,
+    "allocated_bytes": 33741312,
+    "device": "cuda",
+    "free_bytes": 41718054912,
+    "peak_allocated_bytes": 89390592,
+    "peak_reserved_bytes": 121634816,
+    "process_peak_RSS_bytes": 1496379392,
+    "reserved_bytes": 121634816,
+    "total_bytes": 42405855232
+  },
+  "mission": "MSL",
+  "native_batch_boundaries": "start5, batch32; last remainder retained",
+  "native_replay": {
+    "frozen_native_score_replay": "BITWISE_PASS",
+    "max_abs_native_difference": 0.0,
+    "native_flags_issue_replay": "BITWISE_PASS",
+    "reference_sha256": "bf32e3d12fc51b1db9b47a59e2df376d35bbb2a63403d91fcc07fbf48e2e2614"
+  },
+  "new_detector_start": 250,
+  "original_TEST_rows": 1096,
+  "seconds": 0.2023991549999664,
+  "seed": 17,
+  "startup_averaging_lookahead": 500,
+  "status": "FINITE_SCORES",
+  "target_end_exclusive": 1096,
+  "target_start": 250,
+  "target_units": "released NASA telemetry units; both frozen scaling stages inverted"
+}

@@ -1,0 +1,46 @@
+{
+  "original_notebook": "experiments/EXP014/notebooks/EXP014_LITERATURE_COMPARISON_V1_Run_All.ipynb",
+  "original_sha256": "708220b7f7032e6e69484013c010dbc926f6f795d27f124f5d21daebd6f183ae",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": null,
+      "source_sha256": "5f73a7f58e6564e0c5423ec027130dc9592bdd8fd6def9b902259bad64cac4f8",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 2,
+      "execution_count": null,
+      "source_sha256": "2937d1bb00d8956c31faa10146f5ecd6ed8a05f7fde55acc31cf107dc1c3bc91",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 3,
+      "execution_count": null,
+      "source_sha256": "21c2d4f7cf6ca75d618f0490de712e8549cf5ace780f2f201c12ca48419ad892",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 4,
+      "execution_count": null,
+      "source_sha256": "0927a8d8f898481c78ac53009f8ce993e3bfcfb54747be368795809bba9b9b70",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 5,
+      "execution_count": null,
+      "source_sha256": "70559aab5477edf777c24c0f6c9e17220f2d9d71b194fbc049353ff17acc62ea",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    }
+  ]
+}

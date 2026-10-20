@@ -1,0 +1,4376 @@
+[
+  {
+    "archive": "fits/canonical/4439d8ad813668b5be767a21.zip",
+    "channel": "A-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "59583ed433df656a19f6db8f1e5fb081f2190f4179448322d672799f2915833f"
+  },
+  {
+    "archive": "fits/canonical/02f8d1534de48e44dbdcf342.zip",
+    "channel": "A-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "b304b606d2e9e013c1ac1e321d2408a190447e05322ada7ead8e3f676d2f952f"
+  },
+  {
+    "archive": "fits/canonical/349f0cd49bfc0cb6c790ca80.zip",
+    "channel": "A-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "200bf80373060ea5e1f7e6c7f264c5054a400a95b0851ed92a36110611de7e93"
+  },
+  {
+    "archive": "fits/canonical/b8727d339fea0f52ff559dd2.zip",
+    "channel": "A-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "613c6ad4db311e171174964cd6e2f866bedf232f7e34dd7c2d8c6d432721bc7c"
+  },
+  {
+    "archive": "fits/canonical/38c5f455594866ff4c15515d.zip",
+    "channel": "A-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "adbcec097869c79860358181958aa55f8407b10b3df8e950b580807aac153178"
+  },
+  {
+    "archive": "fits/canonical/0e14a814c44c1e2f339b2cc5.zip",
+    "channel": "A-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "52aac061e1402aec3704b3c867128188878ab2e3839f4377aaedce6b043e1686"
+  },
+  {
+    "archive": "fits/canonical/6095d0304544912bd7a6c0e3.zip",
+    "channel": "A-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "ba91119940c8eddda46496309370349927ca191213cbcd46b6d5677fd242cb8f"
+  },
+  {
+    "archive": "fits/canonical/a171209e077b14c617eb6325.zip",
+    "channel": "A-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "b2ebebc270c87ccc4d89df164249550e659d91511f1abdc964272de39ff33cbd"
+  },
+  {
+    "archive": "fits/canonical/a314b3e521c26fa81142008c.zip",
+    "channel": "A-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "4f9118b292c19ee594dea9c7702d0515c6d62b4e95e373a34dd996b98d10c5a5"
+  },
+  {
+    "archive": "fits/canonical/dcf7db3594b08e31260f2cda.zip",
+    "channel": "A-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "55814e12598577e5a7a72e9ff9ad6616baeb8b9b3b4e26bacfa6553a1c5eea62"
+  },
+  {
+    "archive": "fits/canonical/44dcf7062a1f806d61350830.zip",
+    "channel": "A-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "2dcfb3f206b69d68ca2fcdb6dbff505b130437a56af0b29eb73f733914a137b0"
+  },
+  {
+    "archive": "fits/canonical/9dcd3cb452802ced62ec1b71.zip",
+    "channel": "A-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "e7f99ab88da669e414dcbc72c3230ff9258fe1255c045862bae3bc37f83fca62"
+  },
+  {
+    "archive": "fits/canonical/0aea11483f8dbb7833fe9cf7.zip",
+    "channel": "A-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "af909e0fc98465130a6734a2cc5e9dc8ecbf5308919c9c81b2e693639c648e39"
+  },
+  {
+    "archive": "fits/canonical/0fd32fa90097e1217964d96c.zip",
+    "channel": "A-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "da513a0ecd05b70f8f03bb8ed4e66e304ad79b4b9b5cf58c9fb784d334f16f1c"
+  },
+  {
+    "archive": "fits/canonical/db7e8c19e5c375138ddacef0.zip",
+    "channel": "A-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "0991ef6d89d12cda17f63bbc5d0ad667a092a26b9dd851c82746a9608fd51f9e"
+  },
+  {
+    "archive": "fits/canonical/00e9b2013e6df483fe225288.zip",
+    "channel": "A-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "0cd18f53e9c8b652863839da73a98f3872251fb479401b8a31f20c9124c7f879"
+  },
+  {
+    "archive": "fits/canonical/85477d35a6dcb1d239225e78.zip",
+    "channel": "A-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "3c5adae19dcf9e0bb066ce3619f3dd240e7fcb36ede0e1c9c113ba37ac14be6b"
+  },
+  {
+    "archive": "fits/canonical/9152d276f4b3f897a8cf3626.zip",
+    "channel": "A-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "0fe68629f42c318fb4e2137db20b0faead6faadaef31eb93db79c3e42f41905f"
+  },
+  {
+    "archive": "fits/canonical/7dcf37000a5afbcce6a9644b.zip",
+    "channel": "A-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "edec851b62cbacfba13a206df9937d939f18d9db6260e0e1f00649acd3b79cd5"
+  },
+  {
+    "archive": "fits/canonical/dbc63e378975f1f05956bb8b.zip",
+    "channel": "A-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "00c495aa37fa724824606f83c34a0b3b46f63326ddce0ca233d08086f11bfccb"
+  },
+  {
+    "archive": "fits/canonical/9a05c0839ef9afa6f4ddcaa9.zip",
+    "channel": "A-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "e17226258aee20a11f983fa3d2ae2eb44e2b7c8eaf74e8554e6c0e1974224952"
+  },
+  {
+    "archive": "fits/canonical/8050650be33107fa5a6f2ec1.zip",
+    "channel": "A-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "a3d412d483678f07ff1e7759faa468669794db588f2115478a90aec5939249d6"
+  },
+  {
+    "archive": "fits/canonical/f20a682eb0502bf692dfe73b.zip",
+    "channel": "A-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "5f5e0f16b96d9d3c87da5bfb5368f97c734a71ed4c1ef6431bc171064fd1fa2a"
+  },
+  {
+    "archive": "fits/canonical/ff8d11dfe4fda6841ec8e1f1.zip",
+    "channel": "A-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "96f8cb7d4eea40c1084d5a05a44ed2838dc438c8ff4956ab8db561df0372f915"
+  },
+  {
+    "archive": "fits/canonical/e8f89f6d6b575b8bdeb84a7c.zip",
+    "channel": "A-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "0c72c11698f660dff04b47d2a5f72a77e9e64f4dd3a6407df61912d30b67a010"
+  },
+  {
+    "archive": "fits/canonical/bbeb80522527310060a2c688.zip",
+    "channel": "A-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "7dcdf9d93b5fa3660842e6e8e1a9c3fb5d319639f5f6b8ce47aef3f2baecc38f"
+  },
+  {
+    "archive": "fits/canonical/f017d1d2414dedbccf6bc40d.zip",
+    "channel": "A-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "3617f16676ae8953935f1306d7ab354966057b009f4b21e38bad1f318f324244"
+  },
+  {
+    "archive": "fits/canonical/2cc18c5a99163177cbdf6f5b.zip",
+    "channel": "B-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "1d4e7811cd8289c828945079d28d087cf067aad05310436ad9259e7b0a834c78"
+  },
+  {
+    "archive": "fits/canonical/00e0910b4785de42e03472d2.zip",
+    "channel": "B-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "f4f74490698b63d5974691ded1a62886f41bb756169bb3d5e85ca1a39f749d18"
+  },
+  {
+    "archive": "fits/canonical/4cdcceb62bbec108713394e3.zip",
+    "channel": "B-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "90759367683d38e6a8f8dbc0fa1ddcfb3b92615dacc22ba3f234753dc8b0ca39"
+  },
+  {
+    "archive": "fits/canonical/74fa7c304ea937ba84c7e3d9.zip",
+    "channel": "C-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "8aed3a6b5ec7995c52e51a27a06598825fd781a0f5938f355f2ff2294009490c"
+  },
+  {
+    "archive": "fits/canonical/2743d388285a42e2e9ce4179.zip",
+    "channel": "C-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "fbd3c330ae2fb6521af6b9bb9bbcf21738c6c9a6bed17c7bd6b390f81e9e77c1"
+  },
+  {
+    "archive": "fits/canonical/3a629fff3aa46438f4d8d664.zip",
+    "channel": "C-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "5f636f36460979da13e5072b53f24de7041712992ad854811eb5e1cf4950d86a"
+  },
+  {
+    "archive": "fits/canonical/c3240f5cb680a840a09a8477.zip",
+    "channel": "C-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "984a993dcb632afeffd1012e14ea8afa089ca8e6e8bf784c3dbe7def99493f19"
+  },
+  {
+    "archive": "fits/canonical/d615060f6eb6fca3a1b3be31.zip",
+    "channel": "C-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "7e5c97138d8e5e78cf67818e84ae54625772fff4c4af6c2e148d473aee4bb095"
+  },
+  {
+    "archive": "fits/canonical/1f402bf4c4536a8527d46346.zip",
+    "channel": "C-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "165c74215113f3c320c6c5a9040e09f5968c0b0a4869a474871b727a49d12887"
+  },
+  {
+    "archive": "fits/canonical/cebe3fd624c51d1fbc372163.zip",
+    "channel": "D-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "4ac6491bab5d69902e6394157cff256201253537a1e599234e8e3ac75abbc936"
+  },
+  {
+    "archive": "fits/canonical/7f9025a7d8a998a3f33f8af1.zip",
+    "channel": "D-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "dd84a0aa163c77271cad8366cefe397dbe6569eaf0672e494f9a50724056f613"
+  },
+  {
+    "archive": "fits/canonical/0773c648208d96d37409faa6.zip",
+    "channel": "D-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "9b1822321df21df7abcfeff43ac8cd8f8d320d262f6e37249252521afc3f1c5a"
+  },
+  {
+    "archive": "fits/canonical/ab5cba0f2afd88c73beeb8e1.zip",
+    "channel": "D-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "cf34a80904dae7802959513593edee2aa91d1ee54692052c5614f9bdbdea0dea"
+  },
+  {
+    "archive": "fits/canonical/acec2fc39692dab41e5187ea.zip",
+    "channel": "D-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "3e1715fe2997af1bc5f001592668420596a8250706a85316d65556f9bbe79a5f"
+  },
+  {
+    "archive": "fits/canonical/3c55514046105fe3d1adc0dd.zip",
+    "channel": "D-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "09e214efcf63d03ff9ff79b8827992facb17ef5e58d7093810d0dcf7b5a4f99c"
+  },
+  {
+    "archive": "fits/canonical/5b6cf78b86762395da374db5.zip",
+    "channel": "D-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "ad0514764e2615f0dfc21596636ebb4c5cd23483bd766615610a8f88afc01071"
+  },
+  {
+    "archive": "fits/canonical/d3cd463ea75d46bfaed3930a.zip",
+    "channel": "D-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "742bfccb51bb64105559cfe1bffc3ac50a5b42a0ae84bc425a7353fdc8e30fce"
+  },
+  {
+    "archive": "fits/canonical/a111f4ad89d88afd84fb6a5d.zip",
+    "channel": "D-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "5aa34b467f2a2e1fd8ce4c578236aea41f3df979b047c6b86992dc0ef97aaa51"
+  },
+  {
+    "archive": "fits/canonical/42047f0ba229886f8f024cd0.zip",
+    "channel": "D-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "c1f649cc3842971ef664cef3da74e8ab805f4eca4027c40b1b7dc587fa654999"
+  },
+  {
+    "archive": "fits/canonical/142fc909d1acbbfcf4f68501.zip",
+    "channel": "D-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "0c890f1c3fe739cbde023a54b2b83afdd09fc6e319a61e621f0757e67a15f438"
+  },
+  {
+    "archive": "fits/canonical/f598568740ff2a9c83d38bef.zip",
+    "channel": "D-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "70794d8dfba8e681607e0c67dd8c014e5117a09589bbb97f868e5068a85c7d25"
+  },
+  {
+    "archive": "fits/canonical/4276c3c712b86f52ce2e809f.zip",
+    "channel": "D-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "e88630d00718f48e995a66e448ef434f8d4978e431f7ca6adfa7af1df0939012"
+  },
+  {
+    "archive": "fits/canonical/f089e50640966a2cc4b51733.zip",
+    "channel": "D-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "2b9a82144817476e4db88d05c32db89018833e3a9d2e160f98d0319de3ae5bd7"
+  },
+  {
+    "archive": "fits/canonical/36de02ce88a364406ba1535c.zip",
+    "channel": "D-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "d6602e2e83c75cf5fbb1b60136d2da658c1d59dc6d440f31a7e6ca448d41efaf"
+  },
+  {
+    "archive": "fits/canonical/f986f2f5c734404ead1b3e4d.zip",
+    "channel": "D-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "0194165d7cc42267ee84641f731793c89411f37088b9f9b2b5e868b8a1f74dc5"
+  },
+  {
+    "archive": "fits/canonical/97dd5814def70b5840368e9b.zip",
+    "channel": "D-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "36cba647b369d55b7c2970a23d8468bc6676cefbfab3a9d251ea4be9e64e7270"
+  },
+  {
+    "archive": "fits/canonical/cf4f13a1af9400e64bebece5.zip",
+    "channel": "D-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "ddec2bc7e76a20aca9afe28f2d7be8ea7c074821a2a7330c6cffaf20c4c5f4c8"
+  },
+  {
+    "archive": "fits/canonical/c5111879e0beb0edab6a9ecd.zip",
+    "channel": "D-16",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "315f9c1693bec2bb8b763b0d3340b5abfee706d336f50957c564d12d8bf33f0e"
+  },
+  {
+    "archive": "fits/canonical/bdc47c7a08a6616928efcb1a.zip",
+    "channel": "D-16",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "07642ba176fadbff1c8a4796f97997436c10bb7b2ace9ff97dbafc925c77df35"
+  },
+  {
+    "archive": "fits/canonical/c6a7ae48d18c780e0aa747c6.zip",
+    "channel": "D-16",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "83b0deff7a1820ca70a98597c131e355fe0b02ddc9916bd1f90734d41eb8d53d"
+  },
+  {
+    "archive": "fits/canonical/64d7290e0cfd48d8f03c8411.zip",
+    "channel": "D-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "6932abab076a34393bb606448ef1de496b47a66a28896f378f96b9f80d49f4d5"
+  },
+  {
+    "archive": "fits/canonical/046c8e21158033025732345d.zip",
+    "channel": "D-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "012880870ddd760071c8333a8b880dd889e8e5107af077f4b3a6b4c91fe2548f"
+  },
+  {
+    "archive": "fits/canonical/11607a15a2e65b67ac2b0b26.zip",
+    "channel": "D-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "0c7686478a4d2f9b777a62171fe41a2d8903bd76caf41281d113957a81e4e848"
+  },
+  {
+    "archive": "fits/canonical/a83ef1e0629939cf6d991d24.zip",
+    "channel": "D-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "d861543c82a73d840b89624a0d85028e2425bdb199f936c85e71df41b8e0412c"
+  },
+  {
+    "archive": "fits/canonical/417cc5cb555e046fff01f36f.zip",
+    "channel": "D-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "2a44c25e92715b19b0e82be8422401fbe04e75eb54d990c5738a9cf821649765"
+  },
+  {
+    "archive": "fits/canonical/496c5208ed6b0b0d6fb4d10e.zip",
+    "channel": "D-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "0513747a30c7ab8276cf1bf38f0dc2ebf1952320d2c44ddfbf164ad5332af382"
+  },
+  {
+    "archive": "fits/canonical/d49106b0b0ea5ca1bed521b2.zip",
+    "channel": "D-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "71517d072f953a71da7f1b9fe600d7649a7cf62d33bbae98df8d501e98255208"
+  },
+  {
+    "archive": "fits/canonical/f63544e261918af0f564bfd1.zip",
+    "channel": "D-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "cd94e0d5a44ea9fc8d941ecb4cea90a7ac3c0aa1c804ff9ed5b6cde1bd4612e9"
+  },
+  {
+    "archive": "fits/canonical/44c722281c2633776acbe1d9.zip",
+    "channel": "D-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "bbab546f7b19d5a869e002eb01304d540fa2cf01ba756e2105fc678536fd837f"
+  },
+  {
+    "archive": "fits/canonical/a426203a1c7029d2526eddc8.zip",
+    "channel": "D-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "83a1b3dc05c4f276bb18458e7fce48ebb7cec16c9a0a666c6f6a627f49d4d679"
+  },
+  {
+    "archive": "fits/canonical/6868c6fc7db90dc8ad2e159a.zip",
+    "channel": "D-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "ed92caf2e8f78acc3c8d87494d11df7ee6b3f1f67185cdee9ea890793509561a"
+  },
+  {
+    "archive": "fits/canonical/8986c564e159f65150610c77.zip",
+    "channel": "D-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "0a6bda3fc31199288e4a19f21d121cf9194ecca7530b6a45608caadff6210d5f"
+  },
+  {
+    "archive": "fits/canonical/06e14b67ecb545aad1bb8cb9.zip",
+    "channel": "D-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "313e04bfb302d61ac2ce5a72cc1f34f931716bf4f9537d95db33c5323700bd26"
+  },
+  {
+    "archive": "fits/canonical/a00fc0abdf32e534bc77f34d.zip",
+    "channel": "D-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "13ef18a7df89074b837c5b7cb66fc414223d89f4c58ffb41235208c2611b58cf"
+  },
+  {
+    "archive": "fits/canonical/ad560fe1c9a33ac866f46090.zip",
+    "channel": "D-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "8887c8e200cd132ee742da0c77425b2571fe7baa70e80dfcc8724de137494c84"
+  },
+  {
+    "archive": "fits/canonical/490d46bddfe48a2c42ebf614.zip",
+    "channel": "D-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "5c6a26547c4495068c6cffc485e964e1c2e5d7e48afffffab3e48fc9d6b7682f"
+  },
+  {
+    "archive": "fits/canonical/bef555d7c8b996b7938ccbde.zip",
+    "channel": "D-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "8facf22c15e942b9e348b07fab1814070eb8b533e4ffd397b00e42deb83dc57a"
+  },
+  {
+    "archive": "fits/canonical/b7b263d842f36e642fda5f94.zip",
+    "channel": "D-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "6d5b107c866705e27b44d66a56534a493371f2c1e562a0d1a2d7fb1f7eb9aca8"
+  },
+  {
+    "archive": "fits/canonical/5c23c557d80c4b6028ecf090.zip",
+    "channel": "D-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "975453245b8b848433c37e6ef47b3d41cc1e29a6ba3dac20cfd5f6705ec894ac"
+  },
+  {
+    "archive": "fits/canonical/d709447b9052e78eaeb63429.zip",
+    "channel": "D-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "cca111d563c719ff3822fbb8b4329d12dddc2ec5c4c8dfa80b4b8aae749a6117"
+  },
+  {
+    "archive": "fits/canonical/388ccfbc0c038abd8fb8086f.zip",
+    "channel": "D-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "1c675eedc675b7772c99173631e223e5438afd82ea712e62eefe9f1ac62f6c4e"
+  },
+  {
+    "archive": "fits/canonical/364d6079c294030f19ad2070.zip",
+    "channel": "D-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "564dbddbcd810f71120691f2f5b7913eba64e21b2018c50b0d537f3e1fca9fd7"
+  },
+  {
+    "archive": "fits/canonical/928cfd3085bd620c6d2969c4.zip",
+    "channel": "D-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "7f9ef1335b7bf568ccbb6f0100fcc8281528a04e2e2775441af76811ff8ef5a6"
+  },
+  {
+    "archive": "fits/canonical/c6aca71a6de7b0c33efbf8d0.zip",
+    "channel": "D-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "8384c6815082484cee9d4eb463d8da6856949e07edda02aa9d6e1f97167ee717"
+  },
+  {
+    "archive": "fits/canonical/3065c50f6194a2cf3110e4f6.zip",
+    "channel": "E-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "9b5742d4e2b208932b7c5d68a46ed99ee5e6c1c039b46eef152c38fd63bc8d80"
+  },
+  {
+    "archive": "fits/canonical/39f6fd5aed18e0163127123d.zip",
+    "channel": "E-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "82ac21b1461b185b4f094076c882db2160ac08778098a1293c3201ae435b5e2d"
+  },
+  {
+    "archive": "fits/canonical/9d0f99bec86e32db24327708.zip",
+    "channel": "E-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "11b45b9a222bf1665e9c9cf7df993ca3ee3b8b3b29ca769f592c0974b7bb99ad"
+  },
+  {
+    "archive": "fits/canonical/0732e45678207bf4a5ec8e9c.zip",
+    "channel": "E-10",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "e5589ed9bcf0f983168c9c1475e1e459b7f89aad6ced0d9d5238be6837f072bf"
+  },
+  {
+    "archive": "fits/canonical/f06ef8f51598cdb982999bb6.zip",
+    "channel": "E-10",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "fc90f25c8704fad612e1b170d9302fc912653a762a1ef4a753e3be1791a4062d"
+  },
+  {
+    "archive": "fits/canonical/5f43e42fd5a7cb0922c6a35c.zip",
+    "channel": "E-10",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "9098c195aedc34fd1525d771643d4166d30a6e6c06b3884c65d6495a9bbf76a5"
+  },
+  {
+    "archive": "fits/canonical/f7cc7f0d514081e37b209f3c.zip",
+    "channel": "E-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "d40573868ee5dd4fa6b0c59e982df4ebfaa892bb4cdbc06c35c669dadbd44bd2"
+  },
+  {
+    "archive": "fits/canonical/de60fd81b8d4dc13bfbc4146.zip",
+    "channel": "E-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "ecd43677891578cf6f543ce2f84249a7943e0b0beb1365f7bc205ba87faae1f9"
+  },
+  {
+    "archive": "fits/canonical/6853b84feb275a4e24f8da1c.zip",
+    "channel": "E-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "8bef3b936c5905dab2e3c3d3964dfcb88fef1dbb010dadaa46c5a1b1ea046cfb"
+  },
+  {
+    "archive": "fits/canonical/00f1c59008d1266440d74673.zip",
+    "channel": "E-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "4c161a716913c6896c0cb15d597c2a1bc0fd0effbb528e7ff094cae6e880610a"
+  },
+  {
+    "archive": "fits/canonical/e3330eaf8a2bd80aee9d8bf4.zip",
+    "channel": "E-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "b7f801ea2c7a664f5adb5d3eac5c3b73b8690c2727829cadfaa4c21084a11ce5"
+  },
+  {
+    "archive": "fits/canonical/40090b494633c6a516824094.zip",
+    "channel": "E-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "e883ebc8f92a4c568f6884ccea59670a6e14fe85c4911f1959718b3e840f4e8d"
+  },
+  {
+    "archive": "fits/canonical/71b2cac1b730b1834c91a922.zip",
+    "channel": "E-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "e25f4fb047bd9c597736e157de99a08685a69a0f2d582569ca5d5fecf70f9333"
+  },
+  {
+    "archive": "fits/canonical/e8df27a79f074c62eab69062.zip",
+    "channel": "E-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "2c938d048db88613eeb312bc84f7f0c541034b7852446e6d01cf8ef269831544"
+  },
+  {
+    "archive": "fits/canonical/336ad64604194e1e916086e1.zip",
+    "channel": "E-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "f78dbdb4e648f2c2ab5a8937572a7c9716cf5dbdab238c81d829982a9a54d016"
+  },
+  {
+    "archive": "fits/canonical/9407ac8be4fd12640ab50ce4.zip",
+    "channel": "E-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "426ce34d78a359c1e195636916109cb6eb62992098955811fa80f1ee7bd78e6b"
+  },
+  {
+    "archive": "fits/canonical/a56577c52abc66d32f9af366.zip",
+    "channel": "E-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "7084df21b68086cc33e03d51656a2a1ad31826b93f0614f99dac254d3d8b0a02"
+  },
+  {
+    "archive": "fits/canonical/1ef4133206d010080a0fc3c2.zip",
+    "channel": "E-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "543e298e35422737365b24de606937d76480e04cc50a6d3a4678f1478f8b2897"
+  },
+  {
+    "archive": "fits/canonical/dc8f8c6b41adaa1d084ee64d.zip",
+    "channel": "E-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "63a09dc861652e67c46412a9fa60ff96f6241bfbb4a69f9014f49257136b4fd7"
+  },
+  {
+    "archive": "fits/canonical/86e5a603758766a8756330b9.zip",
+    "channel": "E-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "195531c12d642d5b75ac09d029565ea7c5a9fb8e58b302025fd15bb4aba2f4dc"
+  },
+  {
+    "archive": "fits/canonical/57212428691cff96bcb7584b.zip",
+    "channel": "E-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "a7573e868158eebbd8cea7f968b9eeb9eb7e9836161f8272c913d5755fc26eb5"
+  },
+  {
+    "archive": "fits/canonical/c4402cbc5b58734bf66e565c.zip",
+    "channel": "E-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "d1075a26818ede106f40086c0612396294936e7c1cb65edd7dcd606169e30778"
+  },
+  {
+    "archive": "fits/canonical/37a7f412c1ded942786a8cce.zip",
+    "channel": "E-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "320234abc7042668d8094d03d078c987dc8764c5d69b9eebc422fec54881e1fa"
+  },
+  {
+    "archive": "fits/canonical/01a22eb4a3291ff88658f114.zip",
+    "channel": "E-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "13270ecd3e63b9fe3bd0f5147db9cbe4da7b9af1097ef07f2b19280f91482382"
+  },
+  {
+    "archive": "fits/canonical/2805dd8ed90400700356df89.zip",
+    "channel": "E-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "dac15c4b0742f2f3fbde390db19ebb06a003236fb49912285352b41662950c3e"
+  },
+  {
+    "archive": "fits/canonical/c62c0e515812dc766a4284c9.zip",
+    "channel": "E-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "202f4947d8e968f50df4f1808cbd5235816ece3f92f1022f82cee22a573088fe"
+  },
+  {
+    "archive": "fits/canonical/809de6419c589cb92e77b931.zip",
+    "channel": "E-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "57927390ae2913537673b8b81bf4e7adac3e5b678bb661a97670ce7b6637a97d"
+  },
+  {
+    "archive": "fits/canonical/f34c73f6737228efd02ecadb.zip",
+    "channel": "E-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "be81e44e011977ae6d1bbb6879b651085a66682696640a447ed00329ebb090bb"
+  },
+  {
+    "archive": "fits/canonical/14d8284b07ccc5b5543e8e21.zip",
+    "channel": "E-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "a9282b6e1512f6397d077d0dc50434f4fbb4964e4838e8e74fb67b4ceb56436f"
+  },
+  {
+    "archive": "fits/canonical/10c7777b5e4d23fad99588b4.zip",
+    "channel": "E-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "2a42add4d00a98b853284bbcf3c38df37a195012994267f3bdddd53e996640c7"
+  },
+  {
+    "archive": "fits/canonical/8a6984c313b36216cb690fc6.zip",
+    "channel": "E-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "368c1cfbb65e7485b6ead959968cd21717e84f74320aea371d798b709924a8b4"
+  },
+  {
+    "archive": "fits/canonical/d6f70a04da8876df55519af8.zip",
+    "channel": "E-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "10c3187693476b47aa2fd78615754cf46bc4a8c303271982960f1722a6322928"
+  },
+  {
+    "archive": "fits/canonical/8c09c0390489356376325dad.zip",
+    "channel": "E-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "9406eace656a241bb1830e5e9181f7688f284ce681494de6dd94fa48025ff0ec"
+  },
+  {
+    "archive": "fits/canonical/801c6fd6d889fd9407263300.zip",
+    "channel": "E-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "9feeca44771f415b9c033929aae16e7b9ad9af2d3839e82c56e2ab552eda2788"
+  },
+  {
+    "archive": "fits/canonical/e997198f5e98876913a6c45b.zip",
+    "channel": "E-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "82e1ba79f9a88ec4f1f9b3630cf4d2d0ec59bf746f6b45d14c55f139d6b35863"
+  },
+  {
+    "archive": "fits/canonical/8a553ceaabce1a51cfa969fe.zip",
+    "channel": "E-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "ef0343d6a4667bd338cf0e0ba4c046d5111594d84b91af466cf1d9a058dd6629"
+  },
+  {
+    "archive": "fits/canonical/a90605a5d0a7c668e2ff652e.zip",
+    "channel": "E-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "967d96259eac8310ba74a38e8cee744172250fdf7077c52837fd4ff47f48235a"
+  },
+  {
+    "archive": "fits/canonical/07011c046ac3df2ff3fa710e.zip",
+    "channel": "E-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "3d22a17c651ecda735d9b75055540cf87f9d172d01475049e71c8d9dbd14ac5c"
+  },
+  {
+    "archive": "fits/canonical/b1f1625dc584e9d530a6b5c3.zip",
+    "channel": "E-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "843a171b26dd76cdfde0ffc80611278eb79b60f528c3c9c4abfb33155bf7da1c"
+  },
+  {
+    "archive": "fits/canonical/acf06f1951b82e245120ffcb.zip",
+    "channel": "F-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "ba5693d575ca9052bfe743edc43aab777c732fa567054a858918c56e64e2ff5d"
+  },
+  {
+    "archive": "fits/canonical/0a8583b403b88a9c84e25920.zip",
+    "channel": "F-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "260029edd3aa99294162dc60f3d03f2fac858f9d7d70309bff6a310e26e5d858"
+  },
+  {
+    "archive": "fits/canonical/d5f2cce271c8b862d76f27be.zip",
+    "channel": "F-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "fd9152f00171ce6d9f3cb24980c2f1dbc91a3a8086fe271cd63a4835d4da0537"
+  },
+  {
+    "archive": "fits/canonical/b4801e4ea87307c734510c3b.zip",
+    "channel": "F-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "cb5c11206107397d9cc1df4b298b1dd42d2081812ae32d7ed1da3e609b748419"
+  },
+  {
+    "archive": "fits/canonical/71a3c31834577424ce497ce9.zip",
+    "channel": "F-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "55c5bf570453c228d5cdb662779a34bcf9582a55a2ba868ae52fb1920649669e"
+  },
+  {
+    "archive": "fits/canonical/2d73d18e7585f286d3e2c06a.zip",
+    "channel": "F-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "ac6f5fc50dfaa6d58bff95e1dea64f6dd786d6046b01d195a7ea006a69999c75"
+  },
+  {
+    "archive": "fits/canonical/e5995ea62bb49ff8a7220a9e.zip",
+    "channel": "F-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "e28cd70252f093e1c72a66ca4dbb6f2355224747d1a9f98d8668815e5d8598c9"
+  },
+  {
+    "archive": "fits/canonical/e64dfd4c2324c7f3a1878ea3.zip",
+    "channel": "F-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "649ae1118b3243b3b54ee8cd79e716e75398b694336123165635dbdc8131eca7"
+  },
+  {
+    "archive": "fits/canonical/e334d9ddbad16b5125238bc6.zip",
+    "channel": "F-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "c9ebaee2e1c9c333020df4374f5457308906516b9b83a6063114bc227bf42361"
+  },
+  {
+    "archive": "fits/canonical/f33682e4f62db5b276678a6d.zip",
+    "channel": "F-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "7b19b32fcc1edbdd4146dd174f1c4b186691f8f8f82780a9dcd0e83eb5fc8f4c"
+  },
+  {
+    "archive": "fits/canonical/b73fa24d73640de0fa8015da.zip",
+    "channel": "F-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "4b1953e3172b5b895ad752cfbfe8b9978945f814edb419c190a95b035a68b624"
+  },
+  {
+    "archive": "fits/canonical/8dacf594bc70115b5467e7fa.zip",
+    "channel": "F-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "b2be9eda3d78d6dae39ab022a28ae1dbc5206a678f400d3fa40ae6172ed9395a"
+  },
+  {
+    "archive": "fits/canonical/371ed08fa2a0fbcf7b00bc72.zip",
+    "channel": "F-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "41d7771212ed591ed98e2b5571dcd9a7be0e5b8b69bbb0ea5420bd624282d0bb"
+  },
+  {
+    "archive": "fits/canonical/6735c745ed151da30e8125cf.zip",
+    "channel": "F-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "65f49dc8c18807a0a8c8523d226bc5437d0858ded3664fb45b0b25a6bc742291"
+  },
+  {
+    "archive": "fits/canonical/5eb95cb4b0a5aa7da1bd6594.zip",
+    "channel": "F-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "8652de6a18024cdc821bcf8aa0edc39e6b2445660f24a1457485527b31947ff4"
+  },
+  {
+    "archive": "fits/canonical/5a7eb2c238a8fee3d24ce41f.zip",
+    "channel": "F-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "8e788a910ecd6a0504a68fcd7a54624eb985458b9a891b48de591919c3e68bcd"
+  },
+  {
+    "archive": "fits/canonical/b72a535e888d32f681137beb.zip",
+    "channel": "F-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "60df9df5d6e59b6f696b89eb061a4c2b000f46330534825f38a2ef0931639dd4"
+  },
+  {
+    "archive": "fits/canonical/b5a7b8f2acc153cf2f21750e.zip",
+    "channel": "F-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "63c13f7b74eeef5f735a86d9ea0756db5c975b054025fb68b432ef003dcc4cac"
+  },
+  {
+    "archive": "fits/canonical/26189d00a8001e5b16564145.zip",
+    "channel": "F-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "b56a83e7cbde3110c167a8a98e73f76624354bf9ef46e69dd9ab44361cfd328d"
+  },
+  {
+    "archive": "fits/canonical/be33f006c4f57b469419cf8d.zip",
+    "channel": "F-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "a535d560804b1727f3c008809e1d525f75b416e6fb5280aab7abeff5a96659b0"
+  },
+  {
+    "archive": "fits/canonical/f267e5061f81915acf1b4847.zip",
+    "channel": "F-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "f3f330c3e5cbf5824015d5093f4173ee78f320afb61696af0dcacbccc19fc9a2"
+  },
+  {
+    "archive": "fits/canonical/f4177fab0c0efe2ebc9c534a.zip",
+    "channel": "G-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "de0035e96bc8d71d6d8cfd59b21f3deff6f68af5f36ded3f570a81629cdff227"
+  },
+  {
+    "archive": "fits/canonical/9384054d77931e965e87a063.zip",
+    "channel": "G-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "0fd612bdc1ac8e6598c159fa29b6e5101e0767ace37ca1e96bfa6c614d1d584d"
+  },
+  {
+    "archive": "fits/canonical/12c4d8962fbc32ec4fc4282b.zip",
+    "channel": "G-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "b5cabe743db9aca93b6a34ae99f14c395c510647c988e31ccaee29f69fc7e29d"
+  },
+  {
+    "archive": "fits/canonical/46d8e9a79c0ad565dc2c1333.zip",
+    "channel": "G-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "e60be0f9239dd06fa04f75fae5460a244d07a17aff362692d1aa0e9e536de7f6"
+  },
+  {
+    "archive": "fits/canonical/85007f1c269148f4fd3e1421.zip",
+    "channel": "G-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "92e2007d7377f49e265138dd463ad0adebf2e7352aa34ddfa671f15ef8e32610"
+  },
+  {
+    "archive": "fits/canonical/c74d29f9070299acbc8a24aa.zip",
+    "channel": "G-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "68d726791e2c10000e6909981daa6be199d8eb326f2cb58f4f2ae28742954c12"
+  },
+  {
+    "archive": "fits/canonical/110e8dc1e34531d13914bb86.zip",
+    "channel": "G-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "d05f0d19a98e4f39acd0c3cc8ab4f7b0f1590f35dad61689cc3f2a953ca79be1"
+  },
+  {
+    "archive": "fits/canonical/fcfa5dd1dfffac22b95b156f.zip",
+    "channel": "G-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "cf07bbfb03544a2618c9ef33009855906a7bc059c4fe745ff137684a961f8c3c"
+  },
+  {
+    "archive": "fits/canonical/154509d703313df22fbcd588.zip",
+    "channel": "G-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "33ffffd7fa23f21883313ea48b37571d3cfa115cf02dd08411008c420f5265f6"
+  },
+  {
+    "archive": "fits/canonical/0b403b44144c5ee70b36a52e.zip",
+    "channel": "G-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "f6327c711bdac7a6502942b62a3b20f52c76006bb5097cab9d32516fdbdfdb4f"
+  },
+  {
+    "archive": "fits/canonical/61401320f828090017925f47.zip",
+    "channel": "G-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "01117ddbde2739cadf60691798c8e070607bbbbfd0276fa075fc56fd50dcef18"
+  },
+  {
+    "archive": "fits/canonical/99ca8cb221b1ba4f2e85399e.zip",
+    "channel": "G-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "cfaf4af5f1aebb8029d00c877dbf9bf5cb53738389e5c2c28ec56c04f14e8f2f"
+  },
+  {
+    "archive": "fits/canonical/408b8025e0cc2aa867f8574d.zip",
+    "channel": "G-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "521694541975a3e2be3bddfe1c9883157ee9c4fff2d624038726adaab85355ff"
+  },
+  {
+    "archive": "fits/canonical/aedc49ea9bd6505baf6686e9.zip",
+    "channel": "G-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "4cb9046abd9a84c7d6754b27d09f32b64fb65c5a072328faacb4d93c7c47895f"
+  },
+  {
+    "archive": "fits/canonical/0dba7087b93447ca7d247318.zip",
+    "channel": "G-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "1422a1dcedad9f69f8225fb695e73cd8d3193d0a5219b425c1cff75ffc8c1a53"
+  },
+  {
+    "archive": "fits/canonical/7cd49d56f98949102730bd74.zip",
+    "channel": "G-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "4e75496c34989748529405b42e40fdd9ff66d4b1aeed73b02ecdc437b0fe77e0"
+  },
+  {
+    "archive": "fits/canonical/0c9c29d146a1c3f016e2180e.zip",
+    "channel": "G-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "27d2be5330a2215ef937e7a89bd93a6dc280985d793a25c02765429835e34847"
+  },
+  {
+    "archive": "fits/canonical/3c88a049b7f2edf306e413e0.zip",
+    "channel": "G-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "81b55fabecd7c66d0215d8e5f943b131c24577a0eda67f7f7d3abc74b062b39d"
+  },
+  {
+    "archive": "fits/canonical/30a8dc165407a438395f9fe4.zip",
+    "channel": "M-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "ff8091e5eecfa5ba7de177a280fc37defe63c5eedb0902bb882944adb968f2e0"
+  },
+  {
+    "archive": "fits/canonical/6742ea328f8a84dc0a4f35d2.zip",
+    "channel": "M-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "b813c3003bba0be06935b03e4ec4f8ae78cf8e0608ecc62553d00a8d3bd8c718"
+  },
+  {
+    "archive": "fits/canonical/5db55bd08cdf400dbea4ad61.zip",
+    "channel": "M-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "371c910676d523f756efa5d4fee91a5ec3da47992278ca7438aa77102c5a5c1b"
+  },
+  {
+    "archive": "fits/canonical/7cf62112f085c0ed0cf16245.zip",
+    "channel": "M-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "488721f16eaba9a6b65cb78cd36ffb46a8acc4f41e6bf487d2beb1d01805295c"
+  },
+  {
+    "archive": "fits/canonical/6bbd330b95992d6a2d18b9d2.zip",
+    "channel": "M-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "b8925b6b9fab5bf4a2ab96710c729be2fed421db916fa31731bd22f1c45675a4"
+  },
+  {
+    "archive": "fits/canonical/77797b71aa930fcfa43c2017.zip",
+    "channel": "M-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "571615bfa0302907c684814095b386dba78be22c5d8053ea670a024dfd9ad066"
+  },
+  {
+    "archive": "fits/canonical/ffd55998c63460bf3aad6909.zip",
+    "channel": "M-3",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "1a1411d297f74bec61130db14e1ca255b3b7788baf8d4f952d0f6bde9153c44a"
+  },
+  {
+    "archive": "fits/canonical/02d40867f583ee22e0dfca8e.zip",
+    "channel": "M-3",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "d38836b63b104cc0512971adeca8a0d9e7b1aec16ba73dc446aa32aa9ba8fbdb"
+  },
+  {
+    "archive": "fits/canonical/423df11c4200f70cc3b7f149.zip",
+    "channel": "M-3",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "951347a0f80212408fb55268da55ed19326c2035a040d837bea297fadd621134"
+  },
+  {
+    "archive": "fits/canonical/932573d2cdd8132892996909.zip",
+    "channel": "M-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "25591186df55cfcea6fce0f6864a854ab99e806a5c334aca5265e3f7862ef838"
+  },
+  {
+    "archive": "fits/canonical/ca24ff6b1463ac05cc16570b.zip",
+    "channel": "M-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "ee3675faed2ced722f997fb4b2d038f5f1d0fe8a3862ce6a044cfbfccf2f4a68"
+  },
+  {
+    "archive": "fits/canonical/c80773f47be48fa4990ece62.zip",
+    "channel": "M-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "762118460f42445aa4169e9519194e6c2434691753023d616440ae36d0d03303"
+  },
+  {
+    "archive": "fits/canonical/3ff21cbbb3bfe9b442bfa306.zip",
+    "channel": "M-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "51e4d3db5c85813f2444b49d7169922c85d8bfe4616a7df14bf1bef5779989ba"
+  },
+  {
+    "archive": "fits/canonical/c96ea41b3d94bfd76cb98720.zip",
+    "channel": "M-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "04196363a28b50ea80cbc67704e208068f56e28a28ec50a06abbf3a69855ed0a"
+  },
+  {
+    "archive": "fits/canonical/4c8901bfad90611aa6840d15.zip",
+    "channel": "M-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "210a06c87856208c8e9f10b3adfd5934353ba18f262848bc56aeae386b68e113"
+  },
+  {
+    "archive": "fits/canonical/69c5daed11f32600d2076bde.zip",
+    "channel": "M-6",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "da463fd083c4f23bdf95261b0173858690f9fef0f41f709b296db44556b92e2e"
+  },
+  {
+    "archive": "fits/canonical/3049d67af82b82e6193f7b19.zip",
+    "channel": "M-6",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "da00e20449b1dd14a14ec19c0f4b9ca1971c69a960668f5a53a43b188ffe775a"
+  },
+  {
+    "archive": "fits/canonical/e408536f21ddb005451b0c68.zip",
+    "channel": "M-6",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "565d877c5fccd1e9fadaeec608f45fc99086ca15b2c86a62809ab2009f3fc5cc"
+  },
+  {
+    "archive": "fits/canonical/ca7bed5c6b36adc87084e4de.zip",
+    "channel": "M-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "844acc595f42830bbce0ddaea8b47aa69dbd3fd362dab335e00b11f8aec8e9b5"
+  },
+  {
+    "archive": "fits/canonical/1f4b5de44d13caf52349fc37.zip",
+    "channel": "M-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "19a60c7b3c4cd0e0caf3630781479dc68a1f1d1caf4315c5d03698b128a5456f"
+  },
+  {
+    "archive": "fits/canonical/33589e07dfb84b76fe340f45.zip",
+    "channel": "M-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "e17e9b270b7d3dc61a298a500c0bd6243ead7d310d1740c7ec14bdf52ee31435"
+  },
+  {
+    "archive": "fits/canonical/d92de999d311734e9f0fc395.zip",
+    "channel": "P-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "d3997de7be54eb1c8b008dc5473dbf0b2cd91f27f92aca8904dfac0e644dd25f"
+  },
+  {
+    "archive": "fits/canonical/1a1a5c35fe019cb1375a8f18.zip",
+    "channel": "P-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "a5ce32532885177817ddb1dd03529522bc437845189be4e4d237174f6d72bf95"
+  },
+  {
+    "archive": "fits/canonical/90ad25702f26ab39b2cc3275.zip",
+    "channel": "P-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "227cded84055153d811d7d6f9d5cb3116962a4ac3b9d60ecfdf3aee40f167afc"
+  },
+  {
+    "archive": "fits/canonical/920061871edd7075169970ab.zip",
+    "channel": "P-10",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "13cd45fa1e064397bb5eb602275bab08df132ca745f6a8c6283253a8f65c87f0"
+  },
+  {
+    "archive": "fits/canonical/f5192123e0aec309ca67f4e9.zip",
+    "channel": "P-10",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "c9c619022730ece4b4c3e0183090fbef3ff18d37edb7124554e582aad4bbecaf"
+  },
+  {
+    "archive": "fits/canonical/427e1f67258a4952ad75af55.zip",
+    "channel": "P-10",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "53ecdcf7959926577d9d8d9d7a7b833cf5aa4fd9f013a188e5b758eefdeba250"
+  },
+  {
+    "archive": "fits/canonical/e1dadc0932afb9ec8b41cb09.zip",
+    "channel": "P-11",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "4ab2c50221b83b03b5051f51eb5f5502634afbfaa76743d2b19aba163f67a445"
+  },
+  {
+    "archive": "fits/canonical/b613b6da67b7c158d8db0347.zip",
+    "channel": "P-11",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "dde5083b60ba81628c1ec247f5a9aa22a9403da1e387b647c3de68113baaf292"
+  },
+  {
+    "archive": "fits/canonical/86a1722cd83e2dee6f5674ce.zip",
+    "channel": "P-11",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "68c61f1c676b8cc5a325e18b2f7a3a179a5998ec2ea1e4a846a6c7922e81b156"
+  },
+  {
+    "archive": "fits/canonical/cd3d8a1063e3b8ec0d35fae1.zip",
+    "channel": "P-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "cbfe5bd50c76e477c8b7323846956283845424b036c8a09f258c0dae3e001f46"
+  },
+  {
+    "archive": "fits/canonical/e25f279623c25c49260f71c6.zip",
+    "channel": "P-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "74632d268441e63f77f941b4139ee7b7aa0c8a0ac134b8d9ed7bfab2ed2c6515"
+  },
+  {
+    "archive": "fits/canonical/fe4ef17ea705c1d637c0912e.zip",
+    "channel": "P-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "6069c95b654643d63fb4eaec477c5bcc44e78484464117119a8a9b3b0072a55b"
+  },
+  {
+    "archive": "fits/canonical/27eeef8047adb1e4cfcdbc54.zip",
+    "channel": "P-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "9d4eeafe804c6fd7440522172914d7e088277f1802a2eaf65d2e11f403f0eb21"
+  },
+  {
+    "archive": "fits/canonical/c457ab49d7d410636d88ef27.zip",
+    "channel": "P-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "ea7467fb788345e20b916c4b91d73e2856ce4e20cb93a11265ac998eca2f3ad6"
+  },
+  {
+    "archive": "fits/canonical/ecfe5e8b9f4955b3d8924789.zip",
+    "channel": "P-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "a2803b69dd0e4ec32d046c7693b0e68fa34388ea95a1ef23c515869c94686b8b"
+  },
+  {
+    "archive": "fits/canonical/057201c196e5936dcf16cdbd.zip",
+    "channel": "P-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "03beababd72e974995f886dec4a144c2a43f1d9a05643a4bfe697a62ef0995fe"
+  },
+  {
+    "archive": "fits/canonical/ebc5c13a6f14a964585f1372.zip",
+    "channel": "P-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "2a78830a99227d6e21cdc9702a0010a44238691482f2608e40e9278ff7dc5ca5"
+  },
+  {
+    "archive": "fits/canonical/64733a7a4c4c75014a8f557f.zip",
+    "channel": "P-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "f6eb7cbec1c7dfadc169458830817737fdb203a5bb8c887d24480fdd692ef9ea"
+  },
+  {
+    "archive": "fits/canonical/5e678aa696b546062f276596.zip",
+    "channel": "P-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "32deefea238ef530cf2661adcda8d4c94718abe6ed99081e850682f20b25e594"
+  },
+  {
+    "archive": "fits/canonical/d968399ebabed38bfbae0883.zip",
+    "channel": "P-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "470cdef615e88dd311ebc3c6930dfa468edd721823645ab9e9743bc17cd23aba"
+  },
+  {
+    "archive": "fits/canonical/e83b04ff8d9f716785561000.zip",
+    "channel": "P-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "ce748410766cccf74420fc4c5fe36d3a41f199209d2334b3e566ec92e7f6dd32"
+  },
+  {
+    "archive": "fits/canonical/b87553267b403855a91426f8.zip",
+    "channel": "P-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "f49850c3df8703df8b1e851f3a58b64fbb2325318de6a7499d69148a2d6aea2f"
+  },
+  {
+    "archive": "fits/canonical/9360488e3dc3c3803078ead7.zip",
+    "channel": "P-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "752759affee7eb20df2fe649c0493947edeb942abec15f62d493287eb942d954"
+  },
+  {
+    "archive": "fits/canonical/07c0eff7720ae95920e421ec.zip",
+    "channel": "P-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "c6fbabc1f3b4b48843fa4f3b17e4b3782c6e2af02007f45211a9abd76fe38609"
+  },
+  {
+    "archive": "fits/canonical/db203d73561388c63993112e.zip",
+    "channel": "P-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "9f31e120981e8e0554d8b89cac269dc39d45074db2c5c78ef1082aba32e46c41"
+  },
+  {
+    "archive": "fits/canonical/cf627b2769d8b08a07c85fce.zip",
+    "channel": "P-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "eb80a264361370e39ccb3430eb7f96cc21e9e0df0d0c9ad20fa981ce86ce840c"
+  },
+  {
+    "archive": "fits/canonical/d1878a19a86e5c123fcafde8.zip",
+    "channel": "P-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "82078e0b874df3a964fc44af6202bfb8ae39634a7a67d00c21e97a1041f0f099"
+  },
+  {
+    "archive": "fits/canonical/6ffec7cd397d17b23880d3dd.zip",
+    "channel": "R-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "42eec967c61151b802b08ca2f228516fd2be25c870af1cfc9094c0a056b20425"
+  },
+  {
+    "archive": "fits/canonical/15432481e04f0144eb598a0d.zip",
+    "channel": "R-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "0987e9e25d1dd377a088cbe40e67bfe7efa36b8082134d13ceb38a474cc9efc3"
+  },
+  {
+    "archive": "fits/canonical/4d0194eee3a139102bad3870.zip",
+    "channel": "R-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "6ee2f2d2bb4030e21a84eafde16deaf35b55396bb3d91ef51b75059348cbe47c"
+  },
+  {
+    "archive": "fits/canonical/27f78abf0fd716355880e261.zip",
+    "channel": "S-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "70d1e88def4f61cfcf4f9823a5a3ff87c16e4c0e3b1825fc473f17e5467c419e"
+  },
+  {
+    "archive": "fits/canonical/e90abf8c8b2be9c6176084a8.zip",
+    "channel": "S-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "99111a52d5901fb7a4e4fa2af254f564c5ddf2ba83858aeec23f9fb59d8ab17d"
+  },
+  {
+    "archive": "fits/canonical/ecfd1f6af31f3e4e47e9ef8b.zip",
+    "channel": "S-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "355fac132fa667aed53f2300ff0b852673d1492f56ee65d2f4016fcd7f9ffd33"
+  },
+  {
+    "archive": "fits/canonical/143390fa1612af8d40fdf03a.zip",
+    "channel": "S-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "a7a942cdeda3c5f7d8f14139c7e59908af3b8f252753b76afa061802f78e13c0"
+  },
+  {
+    "archive": "fits/canonical/e27f5e9603cacf7c74106bfc.zip",
+    "channel": "S-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "3a5ca3ed6e464e5acecfefcbd9d3b5507a734541665070832c277aa4172ccc25"
+  },
+  {
+    "archive": "fits/canonical/e28d6b6ca4b2715ea1dec11b.zip",
+    "channel": "S-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "3c0bde485173966ce321faf3f4a1d8b515a119308361904300bb1d19b33e4438"
+  },
+  {
+    "archive": "fits/canonical/87f69c7f22dcccc0af936134.zip",
+    "channel": "T-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "4b01431ee84e28cb4a3ae92b3b2a04c2ab63bab6ce30961b1e6e66cffb7ade92"
+  },
+  {
+    "archive": "fits/canonical/7200219596740b21bea83a1d.zip",
+    "channel": "T-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "391b6ccbabf35a0c169bc38836dd4856e009a62d9885e35282526324f45dc920"
+  },
+  {
+    "archive": "fits/canonical/9ce9c858d1fcd3129312a9ce.zip",
+    "channel": "T-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "467ee95717af7e8fed5e9472885ede90542126fad7ce22afa5db055b7d740863"
+  },
+  {
+    "archive": "fits/canonical/84508658c6e4d1bc1b2aada0.zip",
+    "channel": "T-12",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "3da541bb787dd3e6954bf77136d0d387fa554cab99fb409b750dcc96e0022a6e"
+  },
+  {
+    "archive": "fits/canonical/4fb7516da316225a3538feac.zip",
+    "channel": "T-12",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "91d0cde09c8a883eccd76ecd041b526fa2213575b45152bf2b0fac56de124606"
+  },
+  {
+    "archive": "fits/canonical/ca8b6d941bdd0bd287cefc54.zip",
+    "channel": "T-12",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "b409ab616d93723ae7ddc02179c0b7ba6e5a34f28fbbae77d867000c681103c7"
+  },
+  {
+    "archive": "fits/canonical/2e4a2eec12215477fc5dbf7c.zip",
+    "channel": "T-13",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "0c112b80b9ab5d93e507c9dbdbe12c2ef64946a5358b06a1d5e3d74e28eb8eba"
+  },
+  {
+    "archive": "fits/canonical/4020d254b7fa7ab2af6f3485.zip",
+    "channel": "T-13",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "245526229f0b04127493b5d92a331720f588741cc25f12119839af027d586629"
+  },
+  {
+    "archive": "fits/canonical/072d31a3cd18d7fca5fbae32.zip",
+    "channel": "T-13",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "86339f9675c418652b4718566c9bd2b041d9debf2674b9cd581aaf1462dcf31f"
+  },
+  {
+    "archive": "fits/canonical/ebffc24b4d317ebe6d1b3030.zip",
+    "channel": "T-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "d97a62f9bee4c339962e0404a3c3edc55238c84e168f50c0c3809af2c04a211b"
+  },
+  {
+    "archive": "fits/canonical/fdecff81bc85785d2ab3fc16.zip",
+    "channel": "T-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "6d487be7fb998aefb4d2db1fa8b98b54d6e95f77b4dd14b0da841d096123f31c"
+  },
+  {
+    "archive": "fits/canonical/a17fc884cea54635f5d8a694.zip",
+    "channel": "T-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "4d9c4d11e3f924b911b8fcecb54d0ab5ecb9aae11954636bbac92a4b39c66bac"
+  },
+  {
+    "archive": "fits/canonical/a7d7faafef755995d3e7aef8.zip",
+    "channel": "T-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "6701c03393937bff801f89fc79fededaa6bc6520049571b21b21e7dd06b89915"
+  },
+  {
+    "archive": "fits/canonical/88fbb9eb0f1c0cfdada5205c.zip",
+    "channel": "T-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "f3981ba2bfa0883af002c52c172ad3e0c76dc91961d082ab3b2c9ed1605e1004"
+  },
+  {
+    "archive": "fits/canonical/20262951d5e1cf9542503fe9.zip",
+    "channel": "T-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "f1cc4d0c4fc56800365e3978f2b67a864282bd13b0cdb4ea02a0194ea27d0a5e"
+  },
+  {
+    "archive": "fits/canonical/8de1030729108a8562a7eac6.zip",
+    "channel": "T-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "ba5441cca8cf05a8384f804bef1cc7ced6a394546250a529739319d3f1338bb8"
+  },
+  {
+    "archive": "fits/canonical/890f39b6d61ea3da839af4f5.zip",
+    "channel": "T-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "35106211db2da20e1b5afb7a48a623e1e11d562518beffbe7e484e1c60ed037f"
+  },
+  {
+    "archive": "fits/canonical/adcbdda28dee7dd23349d51e.zip",
+    "channel": "T-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "536a94bd493ae80dab5d9685654382a1b897f9afe8f352880528c6e429374cb4"
+  },
+  {
+    "archive": "fits/canonical/6566c3a88e4e04d7dbefb54a.zip",
+    "channel": "T-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "3fdfc58a3b55d62317b7a8383b43bd1d9a5783e97b1ab8bef1989e8969d4a200"
+  },
+  {
+    "archive": "fits/canonical/f71a17dfb59aaa145ba6fa99.zip",
+    "channel": "T-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "14afb1ed9309f103af6a2c5cd03b4096c76724a738840ad76033f43c794e43fb"
+  },
+  {
+    "archive": "fits/canonical/89168d41e6c43b0bf6f8828f.zip",
+    "channel": "T-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "5dff3aa2d82ef6f0936da9dff713fa38bb28a42da593ab199b884d539db12bfd"
+  },
+  {
+    "archive": "fits/canonical/cbedf35713b58a267fbe7a54.zip",
+    "channel": "T-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "069687e2afedfa2c5d79d970e94d6a1e91588bd6c3ca5bc6e907bf6841926240"
+  },
+  {
+    "archive": "fits/canonical/e26f6978c474de11b118edcc.zip",
+    "channel": "T-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "e114a52ede6e38f123e47fad763f510451ee08e2c59bb7ac3e9fdd4933008b7c"
+  },
+  {
+    "archive": "fits/canonical/e2acf8173a9ff98985c01452.zip",
+    "channel": "T-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "2852082f19407a62dcd2606a079b4717a0b4aa994815b3e2e7c69203051e5a68"
+  },
+  {
+    "archive": "fits/canonical/40378d2ce9c17db77d2189ad.zip",
+    "channel": "T-9",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 17,
+    "sha256": "2fdf42101d34cdbbc23b39f7d6ed129bdd94f076e173ae3d3fecb4f3d6989aa2"
+  },
+  {
+    "archive": "fits/canonical/83aeac2acd93a15c60fa2884.zip",
+    "channel": "T-9",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 29,
+    "sha256": "9696bf0e925ed9f38c7e2b7c68999024ecfffb1c9154e91223fadb67b8e15325"
+  },
+  {
+    "archive": "fits/canonical/2e0dd70966fbd18c9d0c8020.zip",
+    "channel": "T-9",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "final_gcn",
+    "seed": 43,
+    "sha256": "97d52f2a72f681eb4d7a5e50e54eec0d6e2c19c17833d535d02f42d45050be92"
+  },
+  {
+    "archive": "fits/ablation/18d290ed04e8856c8f504e2d.zip",
+    "channel": "A-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "0c97d4183660766c8c1c0c0c7f138f4ab9b40fa94a2b3d5adffac83b28ff4dac"
+  },
+  {
+    "archive": "fits/ablation/ab31bd9dab3758778822ff42.zip",
+    "channel": "A-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "e7a58c8a75c5f6822e5573b4038171cd10f967cedc40f9ff4e524338dcd60068"
+  },
+  {
+    "archive": "fits/ablation/6b8cccc9a4c765ed95466e38.zip",
+    "channel": "A-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "150f198c1b681bb146fc41ba076b9eadb2fc9938125fdf0fd6b0a40441579ccf"
+  },
+  {
+    "archive": "fits/ablation/5ded20949e4c1bdac426aa01.zip",
+    "channel": "A-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "aa551c97732ce38fe8af7dcbb35bcef1313a037b1d31ccc2494d14fdb44903aa"
+  },
+  {
+    "archive": "fits/ablation/2366394369c589a2aeca3960.zip",
+    "channel": "A-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d5d99531157f4711a1e255919e26ec12c502af09926d2cc0a145876ecbb56f74"
+  },
+  {
+    "archive": "fits/ablation/cd8307e80e05f87f2faabe2c.zip",
+    "channel": "A-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "a8c4e1a380700e778377844285edbd85739ceca948f0a5305a4c812835b9dd56"
+  },
+  {
+    "archive": "fits/ablation/3f979be40213cd9a03a5db3a.zip",
+    "channel": "A-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "8bce3041eca8f5997b00d40cadfbcb32f6265e7c5e9308cdede8367ce7e2f025"
+  },
+  {
+    "archive": "fits/ablation/aa5dc923893a16e20ab20021.zip",
+    "channel": "A-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d9f4b64687470cd0bf63f02e0a94d3de27b44cb7e9821957434a9d5a26125ee0"
+  },
+  {
+    "archive": "fits/ablation/ae1cd240f19fcf24c46429f3.zip",
+    "channel": "A-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "e4b207fc8478edbdf793278b5f65c12e1c783ad9887bdb2e8e3911c8ecef6bda"
+  },
+  {
+    "archive": "fits/ablation/b4150b2381ab8347fb1ebcb4.zip",
+    "channel": "A-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "4a2cc581f5538c0e5f49d60fa3cf97cee0b8a6f9a2bf10061efd903cec8ca47d"
+  },
+  {
+    "archive": "fits/ablation/5fa69946f0c7541341528112.zip",
+    "channel": "A-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "edb4bc1a39c49b2d2c445bb084a959c4754c19ce8c090d135ddb9ad1875c1d3a"
+  },
+  {
+    "archive": "fits/ablation/7c6dcea2ecf07ae97971dac2.zip",
+    "channel": "A-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "eed7b6413510f9cf11558ad7d627499cdf1f335d85701ca76f9a0fdf898acac0"
+  },
+  {
+    "archive": "fits/ablation/c9d6fb8b6e3518a1f7262264.zip",
+    "channel": "A-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "172abacbf94f8522e7644c38ad6a9faeddb6c9fb75c673873fc09d67e162df30"
+  },
+  {
+    "archive": "fits/ablation/9e43bf51442e4fd024cb5f53.zip",
+    "channel": "A-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "bc4616cc60c488a0cae37a1b3496bb9e64ddca21dd9888a7c45e61ac5f5164d3"
+  },
+  {
+    "archive": "fits/ablation/443a416d2760a058d587191e.zip",
+    "channel": "A-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "6d8785916c6b879adcc608e2b13ebe9b1ec6997a1679202031dc7770c16e644c"
+  },
+  {
+    "archive": "fits/ablation/9c203f25f23416cac3b59cec.zip",
+    "channel": "A-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "c7b7ed4a3543e414ccbcf6b6a78e3905d056d62dc1b27463b0c09adf99bca5c3"
+  },
+  {
+    "archive": "fits/ablation/2aa71bb06e3670a347c46962.zip",
+    "channel": "A-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "63b1f53b7d25e61204e8ab92eab14f48057772cc0001ad0f6ee4e2df365b0feb"
+  },
+  {
+    "archive": "fits/ablation/dcf8302b945005f01236e080.zip",
+    "channel": "A-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "0c1a780e629c7a27337c60692208b733c2d401829795da0dd76e1d7ac131368b"
+  },
+  {
+    "archive": "fits/ablation/61e48f671e9f64f3087fd9c8.zip",
+    "channel": "A-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "47b7d4356c403f795d1e32a9e8214c6a972267f2587e9e6dd929553e2fe3f3c3"
+  },
+  {
+    "archive": "fits/ablation/6a4307529d8ac8d31c6ae904.zip",
+    "channel": "A-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "06d1dfbe6bee28cad6e244736f01b5de45ccb347dab324e5570c2000f2b653e6"
+  },
+  {
+    "archive": "fits/ablation/b9a36f6a244e1be274e774d8.zip",
+    "channel": "A-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "f2ed3469ca3799744415165e2884faa42fa35f7b0f47de807cb156f8ca660001"
+  },
+  {
+    "archive": "fits/ablation/d4bca441d13af6e2d037b280.zip",
+    "channel": "A-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "6c98cd7a9efc466f5aa6c0b45f64b62d4a7a28c320d501155f1a4c4561072537"
+  },
+  {
+    "archive": "fits/ablation/442523c25eccf7bb88136ee9.zip",
+    "channel": "A-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "1946ff72e16b04503704c3b5ffbee766569a963e4a4120413778d3fbc0a1d9d7"
+  },
+  {
+    "archive": "fits/ablation/e1cf44628bdd78468cc9dd3e.zip",
+    "channel": "A-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "04b696f3cf6cc7e3348a468df6d0d0d25544800e7fb09f5544968137a433570b"
+  },
+  {
+    "archive": "fits/ablation/16b7dd8153e00c7bc228fd8e.zip",
+    "channel": "A-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "529206a56e8a33e35cf2ba3fe660ba2ce714a95c035ff269075e602f3f16815d"
+  },
+  {
+    "archive": "fits/ablation/7150b2f7f0485120fb9d3bc3.zip",
+    "channel": "A-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "89590f1629e9ec41a4cff0140f7c045d2fb016ab28002824e2b7f5d70a5b09bf"
+  },
+  {
+    "archive": "fits/ablation/a0b3092901c5dbadd4363eba.zip",
+    "channel": "A-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "0d0edcea2b4623f1e3c23e99c98826ea4588274a7f9f750d289c1be8a17cccb3"
+  },
+  {
+    "archive": "fits/ablation/13d524a462967972a2dcf1dc.zip",
+    "channel": "B-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "3b623385a2982ab195c6e60e77b92aa61e0c7c9cdabbe3d5afb4ffc18548b9d4"
+  },
+  {
+    "archive": "fits/ablation/81b530a8f53be30e65860509.zip",
+    "channel": "B-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d86623ac61c7fc15d45ab3f6a686f40a0a9a7880a1e7929ff8c636d8814e63ed"
+  },
+  {
+    "archive": "fits/ablation/b00f353ee0a0c937fbca0e96.zip",
+    "channel": "B-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "7c3e410bf3bd12553b27901e9d21274d311cb599e3569c4f350b7428d59c2e70"
+  },
+  {
+    "archive": "fits/ablation/a231c7ec89d4f35f128eccb5.zip",
+    "channel": "C-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "13d76f9d3446c963aa99fb2436dee9eabaa68c889fa9691731afb7f73b8a456c"
+  },
+  {
+    "archive": "fits/ablation/d6e99deacb3271b848bb3855.zip",
+    "channel": "C-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "61661568de07869c42c4e77cc0c75d463bfbdf9c5a7d23a4ede7a9865aa7df85"
+  },
+  {
+    "archive": "fits/ablation/d7955ddb983910ff2adcccad.zip",
+    "channel": "C-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "bd4148f3c8f468fc9621c0bbde1bdb1002980e574b72570b669c77c10dee0520"
+  },
+  {
+    "archive": "fits/ablation/5664c9055301c21c2d527f6a.zip",
+    "channel": "C-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "ef932527fd7e1920772c8020e5bd3b5e5238ba9b9c472a259c748ef1e779957e"
+  },
+  {
+    "archive": "fits/ablation/3191fd6e1c406181e6a07332.zip",
+    "channel": "C-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "42cd16008dbf87a110a7b3fb5452cb4a18fcb926a072d959c460378720adda61"
+  },
+  {
+    "archive": "fits/ablation/74c6f2a4e05e2716f059bc01.zip",
+    "channel": "C-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "7ee7661a60f64e4b53dc9f3818f78634c2e569070ad2c1693843aaab6f3819e3"
+  },
+  {
+    "archive": "fits/ablation/c6d511219e136e130b52dd0e.zip",
+    "channel": "D-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "cfa31b50508c81879688183e42703898e17ed739b2a9d50ce86170a0610e4c52"
+  },
+  {
+    "archive": "fits/ablation/029eaf9735a38c50b7f9e28a.zip",
+    "channel": "D-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d808d52d1f1ab4b7d5a743e22914d92b105b94883f1823875f7eab71ace79179"
+  },
+  {
+    "archive": "fits/ablation/76e3476148bf33bc5164a1d6.zip",
+    "channel": "D-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "9766e72b2ed460b310cf89e8e279a7d4a312f8042f588efb1f6d53289f0391b1"
+  },
+  {
+    "archive": "fits/ablation/f6878339f0e7e96ca0cf2aaa.zip",
+    "channel": "D-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "e025cae81f8ed0e54093093248988bffb48ad4ed78eb487e958ae3577768e4a7"
+  },
+  {
+    "archive": "fits/ablation/d50a3aac3887fe929e97cc1b.zip",
+    "channel": "D-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "9c476ea0114cb9eacd8ae61e4d64541dc258d044a51ae5ff4f405ecea4e9e91e"
+  },
+  {
+    "archive": "fits/ablation/4bd07a08b1c218ed6535bff4.zip",
+    "channel": "D-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "1fdadfcfbfd7a1827d0ec9904418d0d610d8acca4dc3b93ee607a3f335d8c2d7"
+  },
+  {
+    "archive": "fits/ablation/e66d5f78c1306208af9930f5.zip",
+    "channel": "D-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "93f1580e9a4e7834723a3066f1b458bc1dedb6b0681f89e1389250f34f7115f0"
+  },
+  {
+    "archive": "fits/ablation/2aed134f0a660c5112d1731f.zip",
+    "channel": "D-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "3ec65263a059c7cf9125cfa2f61bec2307ac8a6875287222a8fae6c92dddce0b"
+  },
+  {
+    "archive": "fits/ablation/0f0d30f92febf15bca31ffb0.zip",
+    "channel": "D-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "c8de7b6b11004d55f15dcc6f10ea1e4d0b5e97a2c14b9fa869eb81bb7af13fd7"
+  },
+  {
+    "archive": "fits/ablation/09063f41964e7a10a19c98c1.zip",
+    "channel": "D-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "3bd9239b98f07bd77a92184132360fd1bdbc0e447f60af3e3b820aca4e15850a"
+  },
+  {
+    "archive": "fits/ablation/af4d83181c35fb13dae105f5.zip",
+    "channel": "D-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "96d46ecb808d8171e2b1166ef43ebdaad31566facf45e4a3c1a0fdff432acbae"
+  },
+  {
+    "archive": "fits/ablation/4039148624b084641ac6821f.zip",
+    "channel": "D-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "8bb9b04618cb8aaf64ec268c200f8e3c0bac921946c64774910cd87facc0fe8a"
+  },
+  {
+    "archive": "fits/ablation/9f74e6f78ea480719367b5c2.zip",
+    "channel": "D-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "874fbe70c8c8ddc9a57850d3f42fef86ab9412052d39ff3ebf05f711a08b0603"
+  },
+  {
+    "archive": "fits/ablation/eed5e4949a23cf8a9d3b159b.zip",
+    "channel": "D-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "ef64ce2397f0991d98b7b541c0a36c31b749ecf2236f598f1e179fdf38a145ba"
+  },
+  {
+    "archive": "fits/ablation/da46cd7fb4e2c45e98b2bf28.zip",
+    "channel": "D-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "3eb8c1cb8503c55e990f6b0f9b8414847ded16c80ebd82a128b79b81b9b608e4"
+  },
+  {
+    "archive": "fits/ablation/274fabef953543f98356ce51.zip",
+    "channel": "D-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "a3deb5baff825822e21e95c4467f31ccb9dd5ef7044a8423f7e4f8d46ff88e9f"
+  },
+  {
+    "archive": "fits/ablation/5ce5bb0d5db9c390b5fd4c02.zip",
+    "channel": "D-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "1955dc1160de9e00de6c4376e30b6f33265418b2ec3e9a65c9a26174f212e53b"
+  },
+  {
+    "archive": "fits/ablation/8502cc531aa43c7c483e01a4.zip",
+    "channel": "D-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "07cfc44948c89dbcf80fa30c566bdb607d3de1e6a172eaeedc6b9ed2529b2de4"
+  },
+  {
+    "archive": "fits/ablation/1f47a75a6e312f6e684bda47.zip",
+    "channel": "D-16",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "d4c5fa8453a35519df3b8bdec3f041671a245ea273018bad20885ee0e9cef5fb"
+  },
+  {
+    "archive": "fits/ablation/493568044e4d4844122c2992.zip",
+    "channel": "D-16",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "ba781ab065ed004cd586bc21ed3362c9f75bb04f9a3b9b321959b92b7fbccd9a"
+  },
+  {
+    "archive": "fits/ablation/75935516c36d4ae017e2cfd9.zip",
+    "channel": "D-16",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "210ff2d3f218874862abdf7f84b369633fb6ec5d186d515c8eb0e0acb7d825c5"
+  },
+  {
+    "archive": "fits/ablation/99bf4e4c458e03042ac98a5a.zip",
+    "channel": "D-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "e747e2b9f05873614aa56b8ee6a0278d39e83254de7e7ac94874a10869b67e15"
+  },
+  {
+    "archive": "fits/ablation/f742004eaa226073d3ea3ae2.zip",
+    "channel": "D-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d449f23b496596b5a33dc18b59a604b8f8e7af362a4f20a86fd081a8ca7f5889"
+  },
+  {
+    "archive": "fits/ablation/b7e55588ddf614a80cce9a26.zip",
+    "channel": "D-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "9872fcbefca9caa557fe17fbce44d01eed32390f294d8d95207ba4d38d8ee297"
+  },
+  {
+    "archive": "fits/ablation/a5ff6e0b900ed6d63310c790.zip",
+    "channel": "D-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "f7ceb0332920fd11968fb5002203a164f10a6713ffaa27c667bbddcd1c5bea04"
+  },
+  {
+    "archive": "fits/ablation/13db1f16342417ed92ba60ce.zip",
+    "channel": "D-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "7bf5a3040a41759944f46f1ac400d80636018b30bdc5e91f2364d2b6957856ce"
+  },
+  {
+    "archive": "fits/ablation/88ede4177010ddfb327e539f.zip",
+    "channel": "D-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "3a2824a95411d09c6733e106f341519f3de74600162b1e9cd97fa33ef2c3b105"
+  },
+  {
+    "archive": "fits/ablation/72dd0cf2480a0f9f32bbd9d8.zip",
+    "channel": "D-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "ffaaaf92548fe95456883ea29c1c093736f4ca074bd1c0d2eb8a1ac54df04be3"
+  },
+  {
+    "archive": "fits/ablation/aba84a8bf87972ec79e4622f.zip",
+    "channel": "D-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "5bdb0dc210e171c76e494d9c7ede78913727a8f1bf50b7abf3a787134bae085c"
+  },
+  {
+    "archive": "fits/ablation/ac57e3a82e4d97e5bb7a7191.zip",
+    "channel": "D-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "833f9d1e7bbf220b297824d7e3a76229bdbd4b0156469850c1a59b09463e3a8f"
+  },
+  {
+    "archive": "fits/ablation/9ea1b230f9695384bd86a9e3.zip",
+    "channel": "D-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "92aef30744bf2d4d3c4f5ae79bd9bf852d35b51ce0dbff7cfee7d479a7d8c91b"
+  },
+  {
+    "archive": "fits/ablation/03732d7d859872fd9e78d970.zip",
+    "channel": "D-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "f014b2fffbab525926c1d7d9ffd418d1f2db9fb6dfc239ac3aac52ef0e5b2160"
+  },
+  {
+    "archive": "fits/ablation/c004fd41d8d0d6b9a115db7a.zip",
+    "channel": "D-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "6190d8044be193443e94b13d82b4f338c89d3085f7c5f0c17391e9e0f30d874e"
+  },
+  {
+    "archive": "fits/ablation/5f20226dfdd70314d4c19f93.zip",
+    "channel": "D-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "5f85b5c903eedc7466e76e080b90d81f24f1e186f6e2781445d2cc59fc980263"
+  },
+  {
+    "archive": "fits/ablation/5f7dd638d9a8f7f9b548f2ef.zip",
+    "channel": "D-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "ddf0638dc6a66087544eb268650da1c94709eecf188e9b0d4f16a216d603d315"
+  },
+  {
+    "archive": "fits/ablation/dbdf38fcefcf08b8fe1adbc2.zip",
+    "channel": "D-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "a19ff83e1c0a2b1892eb9e8cfa5e80aa05d43e425dd1cc0e8a5bcc39e6752932"
+  },
+  {
+    "archive": "fits/ablation/051392f00e82cc44bbc28871.zip",
+    "channel": "D-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "052fe401cc420dc22166d510bd96ddf44ad8265dfba9e19fdfd5ac2d038dbc3d"
+  },
+  {
+    "archive": "fits/ablation/edc7afe515e9ae96a20c7857.zip",
+    "channel": "D-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "a793f49b8f90ac3d03a924b6182fb84764273c49dd0d54fb6b3232e790f9d8a1"
+  },
+  {
+    "archive": "fits/ablation/b4acee767e6e21b59091d0e5.zip",
+    "channel": "D-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "7bb3972d0ef6a89e50cecf4f6b1fb4ae4d6a4413d610a737102afd1d9cbc2aa1"
+  },
+  {
+    "archive": "fits/ablation/e8ed454612b79a9f0cd6a88e.zip",
+    "channel": "D-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "4300a3075783f297745c3e4270b9d1b0b764228a03740f83b4bc73c850ea1d5a"
+  },
+  {
+    "archive": "fits/ablation/82647b92b970a9a079df640f.zip",
+    "channel": "D-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "304952f1c063bc9f891b6990bb1165a62ae04716d9de7acfe7429cd7dca4c04b"
+  },
+  {
+    "archive": "fits/ablation/90a7dfb2abe1a439079c7e77.zip",
+    "channel": "D-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "8ef215d48b0e66ba2c1f0637113ee72ab284f024672ee67c142feb133a8f7b58"
+  },
+  {
+    "archive": "fits/ablation/e5c959a4f058805b306c0472.zip",
+    "channel": "D-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "01d725e489e7bd21fd697bc1633aa79bffc41ec81f32cfa0d2d3e257594e7ce4"
+  },
+  {
+    "archive": "fits/ablation/19da2bffb92bb38c52e7b881.zip",
+    "channel": "D-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "51e02547a5da216d5e958a6c3bb47ae75bfc40bd7b4e499992dc2d623ffa2c06"
+  },
+  {
+    "archive": "fits/ablation/d05422ea8b4a6641d78ededd.zip",
+    "channel": "D-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "5b79933515e1efaaa376ef8e2ca48e5e918ecd6ffa7b5c9d103d0ceb0e7743e3"
+  },
+  {
+    "archive": "fits/ablation/c901b85c2eb2da90767661e5.zip",
+    "channel": "E-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "2e38bf26b984382df421d859cc74e5bdeda7ecd9b37112b5bf7dafdefa331578"
+  },
+  {
+    "archive": "fits/ablation/61d51dfd6af6b8dae99a6e17.zip",
+    "channel": "E-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "23495804666dcbf6bdcdca4725f7c457a615af41e212f337a858982adf902722"
+  },
+  {
+    "archive": "fits/ablation/0e0d6be18a2d10a319a3b685.zip",
+    "channel": "E-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "7e2e5a464573a48eb28ad5da6015171163ce79f731ed0192d93e0e3b637e8879"
+  },
+  {
+    "archive": "fits/ablation/4d83728a3732dd7d989a4734.zip",
+    "channel": "E-10",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "a2db62e88183e03800796868ff248c137291e6333220d83de28987a26be9138a"
+  },
+  {
+    "archive": "fits/ablation/9ee154d1b9dc21c0cd275421.zip",
+    "channel": "E-10",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "828396a7b5ccca60d3f4d7f5719420024ef2c8ed4386773edcbf5855b9f147ce"
+  },
+  {
+    "archive": "fits/ablation/2799c470c5a941d53476e55d.zip",
+    "channel": "E-10",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "8e2be261a7c1a870306490b297d54c42106fdea496d13d1f20c74bf3fc3832e2"
+  },
+  {
+    "archive": "fits/ablation/a707b3d44ae06591bf3e4003.zip",
+    "channel": "E-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "0982d2945be062de31cb252e5560deedabd99aeb51c533e64141caa5bc2e0d86"
+  },
+  {
+    "archive": "fits/ablation/35d518eaa437a8a895c1e520.zip",
+    "channel": "E-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "724ea183620558f33f517fe9e1a3f8ad5fe89902f8aa4ef9f55c3e5c32d41342"
+  },
+  {
+    "archive": "fits/ablation/f5b9b187847e31e3336efd8f.zip",
+    "channel": "E-11",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "5a63adc9e9d116cd8bf22495ffafb5d7a8303c01897cf50e2aeb2f4cfaae0b6c"
+  },
+  {
+    "archive": "fits/ablation/48ed2fab9d5083be0bb7e309.zip",
+    "channel": "E-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "9ca3e7d19e1ec621259f05928df8700d3d0d17df0172bc059231efeb77f84850"
+  },
+  {
+    "archive": "fits/ablation/c847f15479b076ff2108ef8c.zip",
+    "channel": "E-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "bd32d6c3f01956356882c36e9cf25b912c23c80dd96347622beaf3064a52bd5f"
+  },
+  {
+    "archive": "fits/ablation/df8c969fb7ac703878f9070f.zip",
+    "channel": "E-12",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "98077d862d2f1c88e758455447bb78d8db89b55f4382428b0a79345c70d92882"
+  },
+  {
+    "archive": "fits/ablation/53c3d842b3b97ed13b475f88.zip",
+    "channel": "E-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "119634efcc3e52e7be6d5193312a2b517f0a75a6345f2337bd6129f4ee14afce"
+  },
+  {
+    "archive": "fits/ablation/a3844e1de45251ba69bbf451.zip",
+    "channel": "E-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "97ab1331ac42c5bd57f1b87b236432bf5e55fc0082933c6e40ab7b2ff03a0ea1"
+  },
+  {
+    "archive": "fits/ablation/90329c3e38d8ee8088d011b3.zip",
+    "channel": "E-13",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "4ac8b03f28d743c9bd309ccd76c2a507ff3a1bee557b8bc57908adcfc49cc080"
+  },
+  {
+    "archive": "fits/ablation/51180f801e19c3501cf6ef17.zip",
+    "channel": "E-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "b029058de499f589258321f48a6ad2c7dfabe95e1993202e28486b59caba4a02"
+  },
+  {
+    "archive": "fits/ablation/c78f268381b2500dddcca6df.zip",
+    "channel": "E-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "e42cbed1bd1873eaba85ccf5e823d772401d01f2dd344844053669f98d0a7e78"
+  },
+  {
+    "archive": "fits/ablation/f1f8a9ebe5e40e696359fd96.zip",
+    "channel": "E-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "424614eae1c60c4ef07f1388d27f7b04f16a0f5aaf59b8a89d5371cdf9dbdad3"
+  },
+  {
+    "archive": "fits/ablation/1d26ee23d2882fe1ac615aa8.zip",
+    "channel": "E-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "72f73675787e14399690f4cd62426213f12c37778ce95e89a97df0615862cb50"
+  },
+  {
+    "archive": "fits/ablation/d0ff36650b876c12505f98c8.zip",
+    "channel": "E-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "ba0bcc496829b0c915405bf2dd29438a7b62688545f54373146c399d32c26900"
+  },
+  {
+    "archive": "fits/ablation/6fbf4d8ae246649fa3d9186b.zip",
+    "channel": "E-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "cc0da15f824f75a978f351c6baa0dcd70c10b8e40e786b38238045be205ea322"
+  },
+  {
+    "archive": "fits/ablation/7235c37d66b9f49e63f51db2.zip",
+    "channel": "E-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "33ccf8af289ad9d9e3efc39af18765c29a80b1d0b2ed6db047a71af5e743539f"
+  },
+  {
+    "archive": "fits/ablation/64f36e0ac24ebe5a945ad457.zip",
+    "channel": "E-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "641baf24326fd4ba8a427bc635d95699781ee6d7d389cbcb1e35b5d8d7584ea2"
+  },
+  {
+    "archive": "fits/ablation/3784c6bb8e578c32951059d5.zip",
+    "channel": "E-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "781d3dd5d79126911fb4228d72a19d1e29049a55eb72caf1e16576a8f77bf790"
+  },
+  {
+    "archive": "fits/ablation/f9df5439563ed048d1fd3eff.zip",
+    "channel": "E-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "78ef3800995760918bce3c35b4fc6ed52e4886fcb5d3583540ef0d12635b7e8e"
+  },
+  {
+    "archive": "fits/ablation/21907857d33c675f6a7ccc00.zip",
+    "channel": "E-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d0f38eaaba3007c33dd57bf0fc20c263b5000c9a682ee2c4b6cf617952d09c21"
+  },
+  {
+    "archive": "fits/ablation/e534a214d071fe5850582d56.zip",
+    "channel": "E-5",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "9267069923006e9c44c65f25f6d717c69d6ddab64596cc362be2021d16c3762d"
+  },
+  {
+    "archive": "fits/ablation/e7c04e2187c5c76d0902d11f.zip",
+    "channel": "E-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "f30228321c3dfc8c89bc5c490a5229af84c20355f2cfbc8a0c815286a4914bcd"
+  },
+  {
+    "archive": "fits/ablation/a8e861bbac79cf36376e1847.zip",
+    "channel": "E-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "c6ba79f216a3ac867c2223b1aa9c43710d60c2b13baa7609d732e1eb0ef20619"
+  },
+  {
+    "archive": "fits/ablation/d7c3161e1144cb1d834cbbe5.zip",
+    "channel": "E-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "6ed554e9929d2d82446eb666dae22ee7d1d11d6fecc11818bfd0e5fc6b1715a7"
+  },
+  {
+    "archive": "fits/ablation/d94f16694c7a83be186d442e.zip",
+    "channel": "E-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "f62053fc8d5bf4ff94693d37117e2268ff81f5c6b2700ff0bba4cf28e8c832c9"
+  },
+  {
+    "archive": "fits/ablation/1490bbe520e3cf70aeb9170a.zip",
+    "channel": "E-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "1ec3c0e52d7ac066c32aed5d8cd2e44ed0111ddb08b4ad7d537f1e7f063e6891"
+  },
+  {
+    "archive": "fits/ablation/6dd095e4599d4646ff724793.zip",
+    "channel": "E-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "f184d46150b1efd3b14cdff31e9922856a5ae343e56816e048a4b4d5a0c63f10"
+  },
+  {
+    "archive": "fits/ablation/7d066fd6464fb7c820df0f9d.zip",
+    "channel": "E-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "d1c84b080d98214601a3cbae7925ac2d449193df37c268e96b27bfbbe832059e"
+  },
+  {
+    "archive": "fits/ablation/0c9743579f59746cf30e1a01.zip",
+    "channel": "E-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "3548a8dde7ad93fcec29215f0496bd4991c7c1d6bfe116293f5f0deb52a8947b"
+  },
+  {
+    "archive": "fits/ablation/f76888db23c4c25346a4bca1.zip",
+    "channel": "E-8",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "ee06d999c3a126f70839c13b648fd6614f172f6bda08cd51b57565da902f51ea"
+  },
+  {
+    "archive": "fits/ablation/e16c82bd5d9f65b610c25aa5.zip",
+    "channel": "E-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "f88fe02044dc74acb12fbd21e20c313892e74d7f3f1821630e1f06c6be10200c"
+  },
+  {
+    "archive": "fits/ablation/1c028965d19669247160007f.zip",
+    "channel": "E-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "12fb6fc22c17f7239d1084e1b9d5b08ac3ac6267d30fd2d9dbdfbb7cda082c13"
+  },
+  {
+    "archive": "fits/ablation/c02ba2c2e77ce0b6af410db5.zip",
+    "channel": "E-9",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "42fc91c404c5dd3f262973e0a1729c8e9498420bb9e312d6140605562a396152"
+  },
+  {
+    "archive": "fits/ablation/ff67c73c7e9e2a74db157132.zip",
+    "channel": "F-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "04c94349f9bbac6813fb5354020d06f2d2f983490f8c360a1c832ea91b1586ff"
+  },
+  {
+    "archive": "fits/ablation/715e44aeaf8fa28d387475ac.zip",
+    "channel": "F-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "bab5a6a73a2f2776547894479f11cce978514fcc485c43e83001b85ee8c773be"
+  },
+  {
+    "archive": "fits/ablation/889e552751e076c5cc629cbf.zip",
+    "channel": "F-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "e8681c990d9e703632f9c0bfdc393f670d5cfd8cc8e9808a60677bb4df37bc46"
+  },
+  {
+    "archive": "fits/ablation/d9e1d4f3b77f18ed2276eedb.zip",
+    "channel": "F-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "c11d8dc48ebdedc91ab9355a98fef7a2b445f8399c552880423e3547672dd9ff"
+  },
+  {
+    "archive": "fits/ablation/0852e715349c49a99b02707d.zip",
+    "channel": "F-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "7c8d3732a2ac0405c48fe10d1cc15402a96a28a0417c9f22271d1aff0dcb649a"
+  },
+  {
+    "archive": "fits/ablation/af0b259bf3b9f62dff2c3033.zip",
+    "channel": "F-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "8b20769d565bade341158f1e5bdfe88d3f8af7c1e1253899c1ead57ac9da754f"
+  },
+  {
+    "archive": "fits/ablation/53dc8a90de8ba2e0be504ff5.zip",
+    "channel": "F-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "46de7557126405d6978c79a75ec2e0a5110beeba0b9a46e3579a39d2aa52a19e"
+  },
+  {
+    "archive": "fits/ablation/0c3c02fdf3374019ce4f845c.zip",
+    "channel": "F-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "cad4ada33553671afc65d8d0943becc73c5a3b88f3d36a5966996c0fa97b7ed9"
+  },
+  {
+    "archive": "fits/ablation/0074af64ac778b9400d3d410.zip",
+    "channel": "F-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "a238894808bb263b4c2a6e75aee74c5842f1a663401bea6326f08fcf6f84c89f"
+  },
+  {
+    "archive": "fits/ablation/a65f76586808db68f707afa6.zip",
+    "channel": "F-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "4b4fa15aa88a4a96c8a4100b1474dd1a7ad93ff69c83f571a6e661242ed53ae9"
+  },
+  {
+    "archive": "fits/ablation/ffbfa533aa3a3eed260bd90a.zip",
+    "channel": "F-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "01b970e8fe1131237ff035ef4d143bafc0b4ecfa434208842cb807ca0a6995ef"
+  },
+  {
+    "archive": "fits/ablation/f761ce9e4f56c083ad08ea75.zip",
+    "channel": "F-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "f532dfe99563760f2316791208f5d6e23c9e47784834b50c72d83b15213fd105"
+  },
+  {
+    "archive": "fits/ablation/37e63a6bc01b7468c96c8592.zip",
+    "channel": "F-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "47f925e5ba4ca34d0ee1680252df169280d8a1e8a2edef62bf42debbe8aba18d"
+  },
+  {
+    "archive": "fits/ablation/9b2f60fe52aa40aaf59855b7.zip",
+    "channel": "F-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "9d66968893495f5d2224d58d20a8fa261023692373e42fd9447a5d3dae96ae3b"
+  },
+  {
+    "archive": "fits/ablation/a4c8f430d039cc5baacb7585.zip",
+    "channel": "F-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "119ad2cc2be36a8aec01bc1a58c1f1d51dfc740cd9e7678f6ae15e9a6817d214"
+  },
+  {
+    "archive": "fits/ablation/a3895f1599adb987d5af3dfe.zip",
+    "channel": "F-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "b022cdfa77830a14b8dc52cee4713f8918147ad9685b61dc79f31445130b9e69"
+  },
+  {
+    "archive": "fits/ablation/cbfefdcf1bc22ad7f33af602.zip",
+    "channel": "F-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "effb53f4c60a8a056148e18b833f7d4703ab35eefc450c0840ddbca3e600e9b2"
+  },
+  {
+    "archive": "fits/ablation/4eef0ba22753743b43577988.zip",
+    "channel": "F-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "f9ded7aacc38bed24c59172ef25eefa6539c18dc37a087c71024fa79b515e769"
+  },
+  {
+    "archive": "fits/ablation/b7c868e9e3c548a315fc20b1.zip",
+    "channel": "F-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "3992566ae7a63a439f16f8a365718e2e22ee5bfe17d913b10ac15ba0a9d76bfb"
+  },
+  {
+    "archive": "fits/ablation/e20ae12124c896c1c95e82db.zip",
+    "channel": "F-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "4730ea475490b2d1d95ccc45c946c79fef11630a5cf0fb369b0e744d3a6cf2a3"
+  },
+  {
+    "archive": "fits/ablation/ea3d5bffcd5aaa54a581ca2c.zip",
+    "channel": "F-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "ce6b9456893f83c50a712ea4b3584d48680a1db4f5499337c6c568290a1c6142"
+  },
+  {
+    "archive": "fits/ablation/8c39968f5f2160c7e9f67e94.zip",
+    "channel": "G-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "5eb1d4d2a50c509b1845b7e064828e42af7f2b9da59747d87dce0db3f37ec35c"
+  },
+  {
+    "archive": "fits/ablation/55b491d457235e8a15f8c00f.zip",
+    "channel": "G-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d4c3b0ab5a29ffee0b6ce01f17d5b21488fb37465f43493e94dd69d5ccf0158b"
+  },
+  {
+    "archive": "fits/ablation/41c6e204a23aa2ce290438ae.zip",
+    "channel": "G-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "71e9a52fafe784e39858d9e98050f55cc54a60b293aeb4ce3ea70180579e4093"
+  },
+  {
+    "archive": "fits/ablation/1b7d0f16b8934d256fda054d.zip",
+    "channel": "G-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "d16c6f1dbe41f08b68c178d62e664de457972e6830fc3350acdd2dd28f995105"
+  },
+  {
+    "archive": "fits/ablation/65b908638af160cb9663cb9b.zip",
+    "channel": "G-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "fd15bd0b25f6a12bf6ba0e6070cdb4b1e3bd1a29240acc61826999c28cc9322b"
+  },
+  {
+    "archive": "fits/ablation/5015cbe94f3b19d6feb5424a.zip",
+    "channel": "G-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "4b3ccec1a0c0373046b63dd2692377fa7c78a35de96058b44ebe66f7675cd223"
+  },
+  {
+    "archive": "fits/ablation/7b6c40ad01c490c8a20012a3.zip",
+    "channel": "G-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "cfe496cce3569309dcd5525388b10257826e9a07df3302737ade5fafb8cbba07"
+  },
+  {
+    "archive": "fits/ablation/33c2d310d6d167eb39e3438f.zip",
+    "channel": "G-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "4f97021d1585fc9384f4df41697ddb99a9e11ff49c1ecc64a99494dd3f3a022d"
+  },
+  {
+    "archive": "fits/ablation/fd10b190cd578e975b1ce6a3.zip",
+    "channel": "G-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "b5898f4d6766d1eba186f1bd3e03d187c17d463a3f5bd118f8522a5aa3112a19"
+  },
+  {
+    "archive": "fits/ablation/66c6838477d7b2e7d8bac8c0.zip",
+    "channel": "G-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "e041dc494066ebd6f9955e43e54abd8c7524fcc6d020c69db05ff6d4b7b8bbf7"
+  },
+  {
+    "archive": "fits/ablation/3be071099013fd3b53bb2929.zip",
+    "channel": "G-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "4f8b3d0eb62ff0f294b15cb32804211b867a92f2903a49742a828533749a2e7e"
+  },
+  {
+    "archive": "fits/ablation/d9fd9ba37a210fa5caf2d22c.zip",
+    "channel": "G-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "dd0dd6bb6ee7875116b2139b2b3f916e0bec2967d99891acd8be68289f0178c9"
+  },
+  {
+    "archive": "fits/ablation/350143a1bea3801b3b00ca0f.zip",
+    "channel": "G-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "e4e90984b4dd375a1eac8a722e8cddd1e9f378d5e88433507c03f7564293de4f"
+  },
+  {
+    "archive": "fits/ablation/fca9ba2ddd57d0752eaa1675.zip",
+    "channel": "G-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "e7bbc562131ba3ae0b21a922439fe3a6e888449d878fc093bc25009e04836795"
+  },
+  {
+    "archive": "fits/ablation/47d60d7c6ff81b9304ab0bfb.zip",
+    "channel": "G-6",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "de94ba982f50170a22098224323f30fbfc373347e404eb2c45dc7a365e3b99e5"
+  },
+  {
+    "archive": "fits/ablation/c1356b88e57d826ec5e5dba9.zip",
+    "channel": "G-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "2c72f374c3a905a8b23bf8125a369ad69f5c48467c6bf300ee2858f8cd658036"
+  },
+  {
+    "archive": "fits/ablation/34d6f8b7568c123ab88f3a82.zip",
+    "channel": "G-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "3b0efa15460059bc51a670bc002fd0bfc6a89845216241abcb86874295cbf2ac"
+  },
+  {
+    "archive": "fits/ablation/f4b6cf720cb02bc210270131.zip",
+    "channel": "G-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "63b59e775bd6e52d7dcc60ec72163fa06fc087d5fea1edf6be47b48ca58286cd"
+  },
+  {
+    "archive": "fits/ablation/92ff3945ca7d771cafc1d8b7.zip",
+    "channel": "M-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "14b256f1d84401bab019fcc628c8431e0d6f25a1e15a7780fd44b3cfc6b4cdb1"
+  },
+  {
+    "archive": "fits/ablation/962746ad5736779cb31c9dc5.zip",
+    "channel": "M-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "e6aa565d7d7846d125cf0d3af65fcd9a3be08ddf4b3d4d4e187d6f3c6280739a"
+  },
+  {
+    "archive": "fits/ablation/ffe365dc21f81688711a2d5e.zip",
+    "channel": "M-1",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "0eda1ea56ed47aa18547e49559acf965f1c1dfe8df0f4c448879aa1952043402"
+  },
+  {
+    "archive": "fits/ablation/414097cc0d701036b7b220a3.zip",
+    "channel": "M-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "a93864f4c82afba26c04c49cb4485f338a5133578dcd78cc6705134f0b7089ed"
+  },
+  {
+    "archive": "fits/ablation/00ecaf77e3d07b0c4033bc16.zip",
+    "channel": "M-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "7e3f85952b1fe7fee95ffd45ce87e1757e786435da44ae1d31ebe1d3a562977a"
+  },
+  {
+    "archive": "fits/ablation/92171ec089e0ef2e0e03c0ef.zip",
+    "channel": "M-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "488c62c413fa460301db6f65d2a95271232735bd6efe077250f6473191e9cbc7"
+  },
+  {
+    "archive": "fits/ablation/13678be376638e783b1ce695.zip",
+    "channel": "M-3",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "5fdb9bf782fd2516285d5261d2a63f3132a43371d88e53f4dc50b400d0f26c49"
+  },
+  {
+    "archive": "fits/ablation/91c302993b1ad261aab13deb.zip",
+    "channel": "M-3",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "de4156676b4aeddc37934aa647d84465a4346ac9fb815f6f70e38c0642510467"
+  },
+  {
+    "archive": "fits/ablation/4736c149b31546a297ab267b.zip",
+    "channel": "M-3",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "668c7c97c52b985a4daaa6e0b06951e241545fd1f8535be3ea3d20a84f78c46d"
+  },
+  {
+    "archive": "fits/ablation/0ff6074dd4e8f1288c77ac5a.zip",
+    "channel": "M-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "93b90b818a23c1966c781423f4026def3c9a80dff77a02b2ac039daeaaece02a"
+  },
+  {
+    "archive": "fits/ablation/f361188341f5ba824a163893.zip",
+    "channel": "M-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "462187534d61b798ff09874f97693d5986d10282be9d0b0f6ad74e22a11e2494"
+  },
+  {
+    "archive": "fits/ablation/8d404083061d7f122a63054a.zip",
+    "channel": "M-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "311a4fb3c9335098cae9d30dd510450c4bf03897904ed05788b18d6517b627dc"
+  },
+  {
+    "archive": "fits/ablation/d1c70136ff74db27c06a5e5c.zip",
+    "channel": "M-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "f8d82510c987d3e217ad93c648298e8444201398f001345be87c5c2271bde6c5"
+  },
+  {
+    "archive": "fits/ablation/fe67e79ed5a9bd5f89c5eb1c.zip",
+    "channel": "M-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "f131cc84be308771f8cec0fc591f12e5aacf3df63647e55103afee9a06b5dca9"
+  },
+  {
+    "archive": "fits/ablation/eb76eae2fee545e8be82f8fa.zip",
+    "channel": "M-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "8fcc5195f3ef9731e1f257f192cdcf2143d2a90a2b6384e7745d6dd4b3581b75"
+  },
+  {
+    "archive": "fits/ablation/cfba2a271cf0d7acd553e6af.zip",
+    "channel": "M-6",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "3d6ce146f1ecda7e68fc24a559d5491158bb3c5ed357b57ece0fe851124d5d9e"
+  },
+  {
+    "archive": "fits/ablation/81c6c4e4705ea9febf4d843b.zip",
+    "channel": "M-6",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "bc7de7a786986f0eaf1609d4d1b0c3cb35c1cf672ec9c56a1482a4930c1049fb"
+  },
+  {
+    "archive": "fits/ablation/0040660d6c1332ac2790b104.zip",
+    "channel": "M-6",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "c09db9f1407dc8e3ef6ace30569547a736ca48784a85b1dfdc0b97cdd0f2c543"
+  },
+  {
+    "archive": "fits/ablation/5b90cc6d9a6adee3ba586e73.zip",
+    "channel": "M-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "e16aefa019e65d79eb98b0820aa857f6b4eae679555b16318d8a4b43b4257634"
+  },
+  {
+    "archive": "fits/ablation/86084feba6036f4da3138fca.zip",
+    "channel": "M-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "33760a69e204b3ed2ca413ac7d543c86f7d2297ff4f5867100ca87e8581b348c"
+  },
+  {
+    "archive": "fits/ablation/7f4427122bb808c56a3f97fb.zip",
+    "channel": "M-7",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "49e0fc9893d0271562859ce1c8309916d2abfd0aec8c0dfd05ce61d4b89a9836"
+  },
+  {
+    "archive": "fits/ablation/aaee3c4796cace6296ee1f0a.zip",
+    "channel": "P-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "80879bfed49a06b4c68f97301516f5c1371a35747a760d0d0d243bb8a0d92d8e"
+  },
+  {
+    "archive": "fits/ablation/89e31d735db4ccce54c5fc4c.zip",
+    "channel": "P-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "49e7d5a69cf1490e6e1390cb684d4168d7bf9a68ea2b96ae18f682aa3e9be82a"
+  },
+  {
+    "archive": "fits/ablation/669c02c510f40baea31d2338.zip",
+    "channel": "P-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "9e96b4869c32dc2797b42c37d011662b5f9adc306115b211848decd2dec1efe9"
+  },
+  {
+    "archive": "fits/ablation/90fa8491dbc6dc7909a30725.zip",
+    "channel": "P-10",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "c2ea2815adab86c61de645a1d859a04225b6d9402c2fa42813471a05479c7cbf"
+  },
+  {
+    "archive": "fits/ablation/e10e24312d374a9fbd6b868c.zip",
+    "channel": "P-10",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "50533457d3ca99b89bfe1171e0b6f0810cba691f063918b962e1a7233a59810e"
+  },
+  {
+    "archive": "fits/ablation/51b229492c43cd19e2291cc7.zip",
+    "channel": "P-10",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "1f41d7ff580232d5d8db6f1789ef0e990a2cebc1022387d19eddfc05fdbf2ab3"
+  },
+  {
+    "archive": "fits/ablation/56b59323f1d03af2a734608d.zip",
+    "channel": "P-11",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "40d4729a23e0c3f199c61669a4bd311a3c76910bcd245c45fa796a76871d70b4"
+  },
+  {
+    "archive": "fits/ablation/480b6246649b1a49107d6544.zip",
+    "channel": "P-11",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "02510669d010cfcb782d82e01e5ede03e8ef3bb86ba5314d7a65b5f8822b341b"
+  },
+  {
+    "archive": "fits/ablation/e00006c68df6e2891bcea378.zip",
+    "channel": "P-11",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "41b0b1196589f2074fc6faa88d920a7d98b5eecb87c116105fd7c3b957944356"
+  },
+  {
+    "archive": "fits/ablation/06ebd4a854a425a7e7db81c4.zip",
+    "channel": "P-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "7316dde2e2f5dc359a084d1692b73c676580f94cbc0f743a8ca273ba1cdbdd42"
+  },
+  {
+    "archive": "fits/ablation/26d367a2ea4473b87ec9e7c2.zip",
+    "channel": "P-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "0ce401afa12e74e54d5f5c637bb965e9fe193b5b7e481368b5e61849be4ee876"
+  },
+  {
+    "archive": "fits/ablation/41ea07ac2728ed890bd4f889.zip",
+    "channel": "P-14",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "70745d2fb2e0746d22bdf6e4f93a31864be15d1cdbd2b4313e680d945f415db3"
+  },
+  {
+    "archive": "fits/ablation/8682563023531b0e04af18c4.zip",
+    "channel": "P-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "3e27e7c75abb26dda2eb441497cdc5a11824217da944bfdb34501c1a1f7c8bb4"
+  },
+  {
+    "archive": "fits/ablation/9354f02395d26779ecac542a.zip",
+    "channel": "P-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "35769a60843477c23a5259e2a71fd5c2105e69277d4c65604d3b146d509aa613"
+  },
+  {
+    "archive": "fits/ablation/9a0e7fe7286ed941595d9c51.zip",
+    "channel": "P-15",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "d3b9d8b5a0e76528eafa56c03fe64d6e1bf20955cf46eae7d4452af8a56363ff"
+  },
+  {
+    "archive": "fits/ablation/c13e87da16f38aa75241b9d1.zip",
+    "channel": "P-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "81c19e274b431169923c3613ff0d5281f3c7079d8ded79a98d39e70917cedddf"
+  },
+  {
+    "archive": "fits/ablation/f606b4ef50392a64ff6eff45.zip",
+    "channel": "P-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "71f8a8f0d452e5587d7637cd882cb861fdd355f422d046540ce6892c4909d82c"
+  },
+  {
+    "archive": "fits/ablation/90edd081db3d15f7e70ce9a9.zip",
+    "channel": "P-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "6041669f3f9d8b5ea70d891acadc20f9bb1873a5726956525e6afb9da72b336c"
+  },
+  {
+    "archive": "fits/ablation/80434e253c85b8d98d972a4d.zip",
+    "channel": "P-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "69fb1745f88b9441607dec97ce328d3a20182e029542ecd6bebe5006e5ae4cec"
+  },
+  {
+    "archive": "fits/ablation/bc0758cd84afdd56bc431be9.zip",
+    "channel": "P-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "92163f6cca20ce12464abf21001bf0c61537e488ccc3441e105a19651123fa08"
+  },
+  {
+    "archive": "fits/ablation/005c84e398cc785e19060bb3.zip",
+    "channel": "P-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "e8c3a93779cefccebdc2e9c00ff7ef5f9d95f003bd1a34ad0c493efb79d9e1d1"
+  },
+  {
+    "archive": "fits/ablation/c006bc4ecce6319f848a1934.zip",
+    "channel": "P-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "b2d85e07f3142943495c8e79c0a4b299f4df74b6bb0586d63aeaf3075ac4b737"
+  },
+  {
+    "archive": "fits/ablation/3662edd623a15ca7290adcbc.zip",
+    "channel": "P-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "b33cb58289b08241bcf6c961bd593f235940ee15ae6a8322ba12e814bf83a3df"
+  },
+  {
+    "archive": "fits/ablation/7d207cede8c27f66ccc5bd65.zip",
+    "channel": "P-4",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "3c4cdc2f2ba43ad60396648d2a4c34d6a2c32d2c3d10134dcc44866dee8736df"
+  },
+  {
+    "archive": "fits/ablation/4c6c0acbb05f79704d224142.zip",
+    "channel": "P-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "958d8925fdb7996be0c854aee198db934ff6a915ab2d8443ddf11e64e7c9a6d3"
+  },
+  {
+    "archive": "fits/ablation/907ad0cd2b894b82e0248a40.zip",
+    "channel": "P-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "b4ef7beb61e9f9f6eb03867280102baded4c56d48538ebd4066fff4de5acbc31"
+  },
+  {
+    "archive": "fits/ablation/887c94b2ffd6a124bcc7ab38.zip",
+    "channel": "P-7",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "3240a2d4355c556ef7cb947299f4097f8857172ec8b9bf42d2fa357127d5de97"
+  },
+  {
+    "archive": "fits/ablation/db212a88e33ad3bf75f581c1.zip",
+    "channel": "R-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "d8663d571f6378e060ca6c141934cb5dbfbaaf1093355b5006459ae560fc089a"
+  },
+  {
+    "archive": "fits/ablation/1ad4e38708460f64da405737.zip",
+    "channel": "R-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "0679e17316fe0a4b07515dd730639e07d07b96595bdcfef624cb53f33b3c5b93"
+  },
+  {
+    "archive": "fits/ablation/4dc131e828f901e2261429db.zip",
+    "channel": "R-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "702227b0cfa546492b16ef09e81faa831ac1b8a20cf4eac4cad8e9e1fc0db0d8"
+  },
+  {
+    "archive": "fits/ablation/577ee4777337c3a2b69e3a2a.zip",
+    "channel": "S-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "7774a67478f33fad4600ce8c0ab0d40e3bd501ea465d7cecc852c9629b605850"
+  },
+  {
+    "archive": "fits/ablation/4ec5dca4a98aeeb36b23aa02.zip",
+    "channel": "S-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d80e532773cb71169b4765cba4da4c190bb20056a6c438e329803cd390a68d1a"
+  },
+  {
+    "archive": "fits/ablation/57b982a1fe15afc337466718.zip",
+    "channel": "S-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "f94f0f2a9358ef548dd6e04a90c8c70bd8b7e40a8eb4cc6324d9c358917a5e84"
+  },
+  {
+    "archive": "fits/ablation/15669ca6fa8b957fe004cc98.zip",
+    "channel": "S-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "d3f6f5459247d519dfdcf393cbe905c4dfcab18eb764375becdb025df2138e06"
+  },
+  {
+    "archive": "fits/ablation/b3f63f088237450a9a1b1ac8.zip",
+    "channel": "S-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "d97644d6f27f6ae016699ce5244977910a60d1b177bffb6cf4dce8fc199b865b"
+  },
+  {
+    "archive": "fits/ablation/d4369a158454ce47dc74e914.zip",
+    "channel": "S-2",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "1d07faeedb18a698995f8a574af246a69869969f860111bce5b99d4c08318c2a"
+  },
+  {
+    "archive": "fits/ablation/5bcee43f8e5228f29348cc94.zip",
+    "channel": "T-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "1f68ee274bf1dbacd27b0408c49b25a49e645c2dbcab00f8f372814c62f9b8f7"
+  },
+  {
+    "archive": "fits/ablation/a4dc37255c1de3ec6fb5646f.zip",
+    "channel": "T-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "e2fef5057376dcfd94b948071ae5c99c26d473baa240b83d33cdc6b938906700"
+  },
+  {
+    "archive": "fits/ablation/bda9391f0edbfe1273d792f1.zip",
+    "channel": "T-1",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "51e9b30c830853806cec9c9abb06ec7deec23daee05070246ff494e1a2429b88"
+  },
+  {
+    "archive": "fits/ablation/0feb6c485c0eb9c492720654.zip",
+    "channel": "T-12",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "f36e8bfc26b989f6deabe1a843deff77c7676110bcfb0e4566b0bbf895a32065"
+  },
+  {
+    "archive": "fits/ablation/742a6ad87f44c9c8138da5d0.zip",
+    "channel": "T-12",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "a5e21bef8bfacd5de1d053cfd8f6fac1e030c4d326f0bfa9deb06d4c88dfe9d0"
+  },
+  {
+    "archive": "fits/ablation/83077ffefa7e9595980f7b53.zip",
+    "channel": "T-12",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "3c52e282479eec0567b1a401c2ec1521e83b91abe7092ec56eab1efe07844644"
+  },
+  {
+    "archive": "fits/ablation/f6ff7b39196874c3f5152617.zip",
+    "channel": "T-13",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "cb8eb0ad62f8b1ae51cac23416e38053a8335f223fb57365c21d135bb17d4cae"
+  },
+  {
+    "archive": "fits/ablation/d54469a01ceaa6b2d4826c6e.zip",
+    "channel": "T-13",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "8645b8f1698985005f96ac3917b359afe6054afd921603f4bd99775a6860d5a8"
+  },
+  {
+    "archive": "fits/ablation/ce680165a7b4ed1c5bb60fa7.zip",
+    "channel": "T-13",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "3e380ad2e0d93543f7c503916307f2ef5cc3a31393b21f955021a00c72d9a2f7"
+  },
+  {
+    "archive": "fits/ablation/8f4784949416a97bf1ae04f8.zip",
+    "channel": "T-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "eb04545760314b4d9785f330cd55f1a5ff1aeb3a195cce9aec55856cb96ef31e"
+  },
+  {
+    "archive": "fits/ablation/553d2f394b701b852d0c2414.zip",
+    "channel": "T-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "37888dd0d6d2348cea830d83567f290bb3e0fcfc74af412bf049283e5ae30cd8"
+  },
+  {
+    "archive": "fits/ablation/e706f072db22f4bdc57be7e6.zip",
+    "channel": "T-2",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "1d8d471ca5501d9400eb1af1801c4a509213a6d8b83056d903eb8edaf2bca662"
+  },
+  {
+    "archive": "fits/ablation/a8d55c820b6f4e9bc34d9123.zip",
+    "channel": "T-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "102686e5a853923f5a8e2eb2d412c118b4297db91a6a17b42e3d175761b24361"
+  },
+  {
+    "archive": "fits/ablation/559dc39a0470085effe19562.zip",
+    "channel": "T-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "e442042dce845c1f9c8050f62e7ee6cf4f7d26b81abe64c596f9b000b7dae9a3"
+  },
+  {
+    "archive": "fits/ablation/f32342a1f7049809c802c3c6.zip",
+    "channel": "T-3",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "121a6fb79d991e0d3dc5d248fac57d456bcc908173edb6ba2491ebdaec8fbd1e"
+  },
+  {
+    "archive": "fits/ablation/1333a2b7edb223ea319994e1.zip",
+    "channel": "T-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "05dac4c9548367951b7070043c49aec646280bb0ac31269eb21334201604d146"
+  },
+  {
+    "archive": "fits/ablation/0c8175fb8a46cc364652dcac.zip",
+    "channel": "T-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "0148e198c7cd2fc41738f4427abc9353660a7cf7879e6f667c26cae65ef44f66"
+  },
+  {
+    "archive": "fits/ablation/15f85bd561c7d0e27abce84a.zip",
+    "channel": "T-4",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "7d407c6b4a3e6afb14aae4cb1ef2c4a7cac2950b8185b1b7ac57e4250ec0818d"
+  },
+  {
+    "archive": "fits/ablation/0cc18abd4e08b81650de554f.zip",
+    "channel": "T-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "9f472104b02ae1ff580b0ba07501954aa1afabeaf40059f6d0e708f3fee00404"
+  },
+  {
+    "archive": "fits/ablation/1d7dcbdf947db7109aa8fff0.zip",
+    "channel": "T-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "1934e7ec6b0dca6ce9eacd1ccf807124811757a66c7357402e5ce202c089cd4b"
+  },
+  {
+    "archive": "fits/ablation/b3dc0f6c7dca321306cc26be.zip",
+    "channel": "T-5",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "37a5286c3151126b5adb01c7e26b27670ab1c70afb074f8ac9738c7d0c35eb83"
+  },
+  {
+    "archive": "fits/ablation/383bcad6f684e0cc16ada89f.zip",
+    "channel": "T-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "3838499b4d368c880831a628b1d29211023eb2ef494ad731ac9c5d811b383a31"
+  },
+  {
+    "archive": "fits/ablation/f225491b1c20cc7dc9670605.zip",
+    "channel": "T-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "4de62b19542f923cc752fa52657d30bb7de1ff829623450eb974ade271b9a362"
+  },
+  {
+    "archive": "fits/ablation/f9f99c70fb32a7616e134ed9.zip",
+    "channel": "T-8",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "1f478739e09d49535e4edcce046ffb6e371bd778805a513bcb928871d798296f"
+  },
+  {
+    "archive": "fits/ablation/96ef89436b063f07c41eef85.zip",
+    "channel": "T-9",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 17,
+    "sha256": "92aae8ce410b0d5de431ba2b4b26c196a739ebc4ef76c6cb37276688cbc465a3"
+  },
+  {
+    "archive": "fits/ablation/ce841d6c58f097ade6eb650a.zip",
+    "channel": "T-9",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 29,
+    "sha256": "12076225f2e84ef115b3845e3182c794533fb6663caac2ff8e242549f8cdd6f9"
+  },
+  {
+    "archive": "fits/ablation/7012ab52fddb80dd0264a18e.zip",
+    "channel": "T-9",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "role": "message_removed",
+    "seed": 43,
+    "sha256": "5e73dabb6ecaaa4ee1c9edb2286fca48484e3153ab6e8970bca8ccbbba668bd1"
+  }
+]

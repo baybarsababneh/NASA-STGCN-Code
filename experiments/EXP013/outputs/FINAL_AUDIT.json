@@ -1,0 +1,16 @@
+{
+  "EXP012_fits_or_replay": 0,
+  "NASA_annotation_CSV_parsed_only_after_score_seal": true,
+  "actual_score_units": 891,
+  "architecture_design_informed_by_prior_NASA_TEST_results": true,
+  "automated_hyperparameter_selection_from_new_NASA_TEST": false,
+  "expected_score_units": 891,
+  "historical_label_derived_reports_present": true,
+  "physical_label_isolation_claimed": false,
+  "report_seal_sha256": "b31b4c446ebdf822c01057e30d4af38a75f4a00454b7315552695d376d154684",
+  "scientific_claim": "retrospective exploratory NASA; synthetic mechanism confirmation only; no independent SOTA or deployment confirmation",
+  "score_seal_sha256": "b9f76f695947aa0675cf9864da839eae700e74fa4f224e351547ce9548387bc6",
+  "status": "PASS",
+  "study_freeze_sha256": "a8cacfa66a92eafe8c03eb09b18e7b8d063bcb8b7e6edf613ea2dcdf80712fa8",
+  "version": "EXP013_COMMAND_REFERENCE_V1"
+}

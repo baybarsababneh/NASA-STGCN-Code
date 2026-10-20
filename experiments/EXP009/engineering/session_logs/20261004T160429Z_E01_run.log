@@ -1,0 +1,65 @@
+E01 preflight: 936 current committed units verified; 936 pre-amendment units protected.
+100 detector units committed/verified
+200 detector units committed/verified
+300 detector units committed/verified
+400 detector units committed/verified
+500 detector units committed/verified
+600 detector units committed/verified
+700 detector units committed/verified
+800 detector units committed/verified
+900 detector units committed/verified
+1000 detector units committed/verified
+1100 detector units committed/verified
+1200 detector units committed/verified
+1300 detector units committed/verified
+1400 detector units committed/verified
+1500 detector units committed/verified
+1600 detector units committed/verified
+1700 detector units committed/verified
+1800 detector units committed/verified
+1900 detector units committed/verified
+2000 detector units committed/verified
+2100 detector units committed/verified
+2200 detector units committed/verified
+2300 detector units committed/verified
+2400 detector units committed/verified
+2500 detector units committed/verified
+2600 detector units committed/verified
+2700 detector units committed/verified
+2800 detector units committed/verified
+2900 detector units committed/verified
+3000 detector units committed/verified
+3100 detector units committed/verified
+3200 detector units committed/verified
+3300 detector units committed/verified
+3400 detector units committed/verified
+3500 detector units committed/verified
+3600 detector units committed/verified
+3700 detector units committed/verified
+3800 detector units committed/verified
+3900 detector units committed/verified
+4000 detector units committed/verified
+4100 detector units committed/verified
+{
+  "status": "COMPLETE_PROVISIONAL_ONLY",
+  "mission_decisions": {
+    "MSL": "NO_FEASIBLE_CANDIDATE",
+    "SMAP": "NO_FEASIBLE_CANDIDATE"
+  },
+  "units": 4194,
+  "new_model_fits": 0,
+  "NASA_TEST_accessed": false,
+  "anomaly_labels_accessed": false,
+  "final_calibration_accessed": false,
+  "elapsed_seconds": 187.30641952899998,
+  "selection_stream_rows": 2916,
+  "audit_stream_rows": 1278
+}
+{
+  "status": "PASS",
+  "unique_units": 4194,
+  "ranking_recomputed": true,
+  "commit_hashes_verified": true,
+  "scope": "integrity and decision logic; scientific review still required"
+}
+E01 complete: original committed units and scientific freeze preserved.

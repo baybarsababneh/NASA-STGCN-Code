@@ -1,0 +1,6 @@
+# Recovered notebook execution record
+
+Original notebook: experiments/EXP012/notebooks/EXP012_A10040GB_AMENDMENT_1_Colab.ipynb
+Original file SHA-256: fd33735e4a7b4990c4de0dadb5f6e9c61b3a6af0a6f25ab502fce0e28e891e54
+
+Existing text outputs only; no cells executed in recovery. ANSI display escapes removed. Rich binary/HTML output is omitted.

@@ -1,0 +1,750 @@
+========================================================================
+V2 EXP004 PARALLEL CPU RUNNER
+========================================================================
+Channels:          81
+Total expected:    243
+Already complete:  4
+Runs this launch:  239
+Parallel workers:  2
+
+[START] A-2 seed=29
+
+[START] A-2 seed=43
+[DONE]  A-2 seed=29 | epochs=47 | best=41 | val_mse=0.08508491 | train_time=250.4s
+
+[START] A-3 seed=17
+[DONE]  A-2 seed=43 | epochs=59 | best=53 | val_mse=0.08185190 | train_time=312.7s
+
+[START] A-3 seed=29
+[DONE]  A-3 seed=17 | epochs=14 | best=8 | val_mse=0.07056641 | train_time=75.6s
+
+[START] A-3 seed=43
+[DONE]  A-3 seed=29 | epochs=16 | best=10 | val_mse=0.07063703 | train_time=86.4s
+
+[START] A-4 seed=17
+[DONE]  A-3 seed=43 | epochs=16 | best=10 | val_mse=0.07177652 | train_time=85.7s
+
+[START] A-4 seed=29
+[DONE]  A-4 seed=29 | epochs=17 | best=11 | val_mse=0.19639713 | train_time=90.1s
+
+[START] A-4 seed=43
+[DONE]  A-4 seed=17 | epochs=33 | best=27 | val_mse=0.19591718 | train_time=172.3s
+
+[START] A-5 seed=17
+[DONE]  A-5 seed=17 | epochs=35 | best=29 | val_mse=0.08501808 | train_time=26.0s
+
+[START] A-5 seed=29
+[DONE]  A-5 seed=29 | epochs=13 | best=7 | val_mse=0.11815570 | train_time=9.9s
+
+[START] A-5 seed=43
+[DONE]  A-4 seed=43 | epochs=21 | best=15 | val_mse=0.20284937 | train_time=107.3s
+
+[START] A-6 seed=17
+[DONE]  A-6 seed=17 | epochs=20 | best=14 | val_mse=0.07217145 | train_time=14.5s
+
+[START] A-6 seed=29
+[DONE]  A-5 seed=43 | epochs=31 | best=25 | val_mse=0.07699259 | train_time=22.5s
+
+[START] A-6 seed=43
+[DONE]  A-6 seed=29 | epochs=25 | best=19 | val_mse=0.07108764 | train_time=17.9s
+
+[START] A-7 seed=17
+[DONE]  A-6 seed=43 | epochs=25 | best=19 | val_mse=0.06761572 | train_time=17.8s
+
+[START] A-7 seed=29
+[DONE]  A-7 seed=17 | epochs=40 | best=34 | val_mse=0.03670615 | train_time=123.2s
+
+[START] A-7 seed=43
+[DONE]  A-7 seed=29 | epochs=55 | best=49 | val_mse=0.03568071 | train_time=169.4s
+
+[START] A-8 seed=17
+[DONE]  A-8 seed=17 | epochs=15 | best=9 | val_mse=0.00000000 | train_time=11.1s
+
+[START] A-8 seed=29
+[DONE]  A-8 seed=29 | epochs=9 | best=3 | val_mse=0.00000016 | train_time=6.7s
+
+[START] A-8 seed=43
+[DONE]  A-8 seed=43 | epochs=12 | best=6 | val_mse=0.00000000 | train_time=8.9s
+
+[START] A-9 seed=17
+[DONE]  A-9 seed=17 | epochs=13 | best=7 | val_mse=0.00000001 | train_time=9.6s
+
+[START] A-9 seed=29
+[DONE]  A-7 seed=43 | epochs=32 | best=26 | val_mse=0.03327074 | train_time=97.5s
+
+[START] A-9 seed=43
+[DONE]  A-9 seed=29 | epochs=17 | best=11 | val_mse=0.00000000 | train_time=12.4s
+
+[START] B-1 seed=17
+[DONE]  A-9 seed=43 | epochs=13 | best=7 | val_mse=0.00000038 | train_time=9.5s
+
+[START] B-1 seed=29
+[DONE]  B-1 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=23.5s
+
+[START] B-1 seed=43
+[DONE]  B-1 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=23.4s
+
+[START] C-1 seed=17
+[DONE]  B-1 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=23.3s
+
+[START] C-1 seed=29
+[DONE]  C-1 seed=17 | epochs=80 | best=78 | val_mse=0.00046110 | train_time=188.9s
+
+[START] C-1 seed=43
+[DONE]  C-1 seed=29 | epochs=80 | best=78 | val_mse=0.00171505 | train_time=189.3s
+
+[START] C-2 seed=17
+[DONE]  C-2 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=3.3s
+
+[START] C-2 seed=29
+[DONE]  C-2 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=3.3s
+
+[START] C-2 seed=43
+[DONE]  C-2 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=3.2s
+
+[START] D-1 seed=17
+[DONE]  D-1 seed=17 | epochs=26 | best=20 | val_mse=0.21307726 | train_time=142.0s
+
+[START] D-1 seed=29
+[DONE]  C-1 seed=43 | epochs=80 | best=80 | val_mse=0.00092402 | train_time=185.3s
+
+[START] D-1 seed=43
+[DONE]  D-1 seed=29 | epochs=20 | best=14 | val_mse=0.21214137 | train_time=109.8s
+
+[START] D-11 seed=17
+[DONE]  D-1 seed=43 | epochs=22 | best=16 | val_mse=0.21226506 | train_time=120.7s
+
+[START] D-11 seed=29
+[DONE]  D-11 seed=17 | epochs=9 | best=3 | val_mse=0.00182366 | train_time=14.7s
+
+[START] D-11 seed=43
+[DONE]  D-11 seed=29 | epochs=9 | best=3 | val_mse=0.00182682 | train_time=14.6s
+
+[START] D-12 seed=17
+[DONE]  D-12 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=0.2s
+
+[START] D-12 seed=29
+[DONE]  D-12 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=0.2s
+
+[START] D-12 seed=43
+[DONE]  D-11 seed=43 | epochs=10 | best=4 | val_mse=0.00182522 | train_time=15.7s
+
+[START] D-13 seed=17
+[DONE]  D-12 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=0.2s
+
+[START] D-13 seed=29
+[DONE]  D-13 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=1.1s
+
+[START] D-13 seed=43
+[DONE]  D-13 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=1.0s
+
+[START] D-14 seed=17
+[DONE]  D-13 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=1.1s
+
+[START] D-14 seed=29
+[DONE]  D-14 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=32.5s
+
+[START] D-14 seed=43
+[DONE]  D-14 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=32.6s
+
+[START] D-15 seed=17
+[DONE]  D-14 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=32.3s
+
+[START] D-15 seed=29
+[DONE]  D-15 seed=17 | epochs=55 | best=49 | val_mse=0.47440111 | train_time=99.5s
+
+[START] D-15 seed=43
+[DONE]  D-15 seed=29 | epochs=59 | best=53 | val_mse=0.46042560 | train_time=106.8s
+
+[START] D-16 seed=17
+[DONE]  D-16 seed=17 | epochs=7 | best=1 | val_mse=0.00000067 | train_time=10.9s
+
+[START] D-16 seed=29
+[DONE]  D-16 seed=29 | epochs=7 | best=1 | val_mse=0.00000066 | train_time=10.9s
+
+[START] D-16 seed=43
+[DONE]  D-16 seed=43 | epochs=8 | best=2 | val_mse=0.00000144 | train_time=12.5s
+
+[START] D-2 seed=17
+[DONE]  D-15 seed=43 | epochs=64 | best=58 | val_mse=0.47422375 | train_time=114.4s
+
+[START] D-2 seed=29
+[DONE]  D-2 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=40.3s
+
+[START] D-2 seed=43
+[DONE]  D-2 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=40.8s
+
+[START] D-3 seed=17
+[DONE]  D-2 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=40.9s
+
+[START] D-3 seed=29
+[DONE]  D-3 seed=17 | epochs=16 | best=10 | val_mse=0.00005470 | train_time=89.1s
+
+[START] D-3 seed=43
+[DONE]  D-3 seed=29 | epochs=15 | best=9 | val_mse=0.00005462 | train_time=83.5s
+
+[START] D-4 seed=17
+[DONE]  D-3 seed=43 | epochs=9 | best=3 | val_mse=0.00005478 | train_time=49.8s
+
+[START] D-4 seed=29
+[DONE]  D-4 seed=17 | epochs=9 | best=3 | val_mse=0.00239759 | train_time=49.3s
+
+[START] D-4 seed=43
+[DONE]  D-4 seed=29 | epochs=9 | best=3 | val_mse=0.00239836 | train_time=48.8s
+
+[START] D-5 seed=17
+[DONE]  D-4 seed=43 | epochs=15 | best=9 | val_mse=0.00240272 | train_time=81.3s
+
+[START] D-5 seed=29
+[DONE]  D-5 seed=17 | epochs=65 | best=59 | val_mse=0.00863369 | train_time=283.5s
+
+[START] D-5 seed=43
+[DONE]  D-5 seed=29 | epochs=80 | best=80 | val_mse=0.00841552 | train_time=348.3s
+
+[START] D-6 seed=17
+[DONE]  D-6 seed=17 | epochs=36 | best=30 | val_mse=0.00713084 | train_time=160.0s
+
+[START] D-6 seed=29
+[DONE]  D-5 seed=43 | epochs=80 | best=80 | val_mse=0.00840628 | train_time=348.6s
+
+[START] D-6 seed=43
+[DONE]  D-6 seed=29 | epochs=42 | best=36 | val_mse=0.00676729 | train_time=186.0s
+
+[START] D-7 seed=17
+[DONE]  D-7 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=34.9s
+
+[START] D-7 seed=29
+[DONE]  D-7 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=34.9s
+
+[START] D-7 seed=43
+[DONE]  D-7 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=34.8s
+
+[START] D-8 seed=17
+[DONE]  D-6 seed=43 | epochs=51 | best=45 | val_mse=0.00603740 | train_time=225.5s
+
+[START] D-8 seed=29
+[DONE]  D-8 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=27.2s
+
+[START] D-8 seed=43
+[DONE]  D-8 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=27.2s
+
+[START] D-9 seed=17
+[DONE]  D-8 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=27.1s
+
+[START] D-9 seed=29
+[DONE]  D-9 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=26.9s
+
+[START] D-9 seed=43
+[DONE]  D-9 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=26.8s
+
+[START] E-1 seed=17
+[DONE]  D-9 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=26.7s
+
+[START] E-1 seed=29
+[DONE]  E-1 seed=17 | epochs=66 | best=60 | val_mse=0.00418408 | train_time=368.1s
+
+[START] E-1 seed=43
+[DONE]  E-1 seed=29 | epochs=80 | best=80 | val_mse=0.00457616 | train_time=445.4s
+
+[START] E-10 seed=17
+[DONE]  E-1 seed=43 | epochs=68 | best=62 | val_mse=0.00331365 | train_time=383.0s
+
+[START] E-10 seed=29
+[DONE]  E-10 seed=17 | epochs=80 | best=78 | val_mse=0.00745211 | train_time=450.4s
+
+[START] E-10 seed=43
+[DONE]  E-10 seed=29 | epochs=80 | best=78 | val_mse=0.00642179 | train_time=445.0s
+
+[START] E-11 seed=17
+[DONE]  E-10 seed=43 | epochs=80 | best=80 | val_mse=0.00736301 | train_time=444.0s
+
+[START] E-11 seed=29
+[DONE]  E-11 seed=17 | epochs=79 | best=73 | val_mse=0.00915948 | train_time=438.0s
+
+[START] E-11 seed=43
+[DONE]  E-11 seed=29 | epochs=80 | best=78 | val_mse=0.01240441 | train_time=444.9s
+
+[START] E-12 seed=17
+[DONE]  E-11 seed=43 | epochs=76 | best=70 | val_mse=0.01231155 | train_time=424.2s
+
+[START] E-12 seed=29
+[DONE]  E-12 seed=17 | epochs=80 | best=79 | val_mse=0.00346138 | train_time=444.0s
+
+[START] E-12 seed=43
+[DONE]  E-12 seed=29 | epochs=80 | best=77 | val_mse=0.00427461 | train_time=444.7s
+
+[START] E-13 seed=17
+[DONE]  E-12 seed=43 | epochs=80 | best=80 | val_mse=0.00440695 | train_time=444.8s
+
+[START] E-13 seed=29
+[DONE]  E-13 seed=17 | epochs=66 | best=60 | val_mse=0.03587493 | train_time=390.9s
+
+[START] E-13 seed=43
+[DONE]  E-13 seed=43 | epochs=39 | best=33 | val_mse=0.04462401 | train_time=228.4s
+
+[START] E-2 seed=17
+[DONE]  E-13 seed=29 | epochs=74 | best=68 | val_mse=0.02841727 | train_time=437.5s
+
+[START] E-2 seed=29
+[DONE]  E-2 seed=29 | epochs=56 | best=50 | val_mse=0.01594166 | train_time=313.5s
+
+[START] E-2 seed=43
+[DONE]  E-2 seed=17 | epochs=80 | best=79 | val_mse=0.01460503 | train_time=449.5s
+
+[START] E-3 seed=17
+[DONE]  E-3 seed=17 | epochs=20 | best=14 | val_mse=0.00548892 | train_time=113.2s
+
+[START] E-3 seed=29
+[DONE]  E-2 seed=43 | epochs=62 | best=56 | val_mse=0.01558269 | train_time=350.7s
+
+[START] E-3 seed=43
+[DONE]  E-3 seed=29 | epochs=28 | best=22 | val_mse=0.00543044 | train_time=157.5s
+
+[START] E-4 seed=17
+[DONE]  E-3 seed=43 | epochs=25 | best=19 | val_mse=0.00537427 | train_time=142.6s
+
+[START] E-4 seed=29
+[DONE]  E-4 seed=17 | epochs=80 | best=76 | val_mse=0.00285977 | train_time=507.6s
+
+[START] E-4 seed=43
+[DONE]  E-4 seed=29 | epochs=69 | best=63 | val_mse=0.00319457 | train_time=448.4s
+
+[START] E-5 seed=17
+[DONE]  E-4 seed=43 | epochs=70 | best=64 | val_mse=0.00237416 | train_time=463.6s
+
+[START] E-5 seed=29
+[DONE]  E-5 seed=17 | epochs=80 | best=80 | val_mse=0.00353157 | train_time=528.8s
+
+[START] E-5 seed=43
+[DONE]  E-5 seed=29 | epochs=80 | best=76 | val_mse=0.00885227 | train_time=524.9s
+
+[START] E-6 seed=17
+[DONE]  E-5 seed=43 | epochs=80 | best=79 | val_mse=0.00573667 | train_time=524.9s
+
+[START] E-6 seed=29
+[DONE]  E-6 seed=17 | epochs=54 | best=48 | val_mse=0.03142060 | train_time=356.4s
+
+[START] E-6 seed=43
+[DONE]  E-6 seed=29 | epochs=44 | best=38 | val_mse=0.03289893 | train_time=289.9s
+
+[START] E-7 seed=17
+[DONE]  E-6 seed=43 | epochs=54 | best=48 | val_mse=0.03004901 | train_time=356.5s
+
+[START] E-7 seed=29
+[DONE]  E-7 seed=17 | epochs=65 | best=59 | val_mse=0.44212471 | train_time=409.6s
+
+[START] E-7 seed=43
+[DONE]  E-7 seed=29 | epochs=80 | best=80 | val_mse=0.41865777 | train_time=504.5s
+
+[START] E-8 seed=17
+[DONE]  E-7 seed=43 | epochs=80 | best=79 | val_mse=0.43486606 | train_time=504.7s
+
+[START] E-8 seed=29
+[DONE]  E-8 seed=17 | epochs=80 | best=76 | val_mse=0.00563291 | train_time=529.2s
+
+[START] E-8 seed=43
+[DONE]  E-8 seed=29 | epochs=78 | best=72 | val_mse=0.00574959 | train_time=515.6s
+
+[START] E-9 seed=17
+[DONE]  E-9 seed=17 | epochs=56 | best=50 | val_mse=0.01245073 | train_time=368.2s
+
+[START] E-9 seed=29
+[DONE]  E-8 seed=43 | epochs=78 | best=72 | val_mse=0.00577685 | train_time=512.7s
+
+[START] E-9 seed=43
+[DONE]  E-9 seed=29 | epochs=56 | best=50 | val_mse=0.01259535 | train_time=372.9s
+
+[START] F-1 seed=17
+[DONE]  E-9 seed=43 | epochs=49 | best=43 | val_mse=0.01231543 | train_time=326.6s
+
+[START] F-1 seed=29
+[DONE]  F-1 seed=29 | epochs=65 | best=59 | val_mse=0.60251392 | train_time=416.1s
+
+[START] F-1 seed=43
+[DONE]  F-1 seed=17 | epochs=80 | best=80 | val_mse=0.57516445 | train_time=510.1s
+
+[START] F-2 seed=17
+[DONE]  F-2 seed=17 | epochs=13 | best=7 | val_mse=1.07965425 | train_time=67.7s
+
+[START] F-2 seed=29
+[DONE]  F-2 seed=29 | epochs=14 | best=8 | val_mse=1.09810663 | train_time=72.7s
+
+[START] F-2 seed=43
+[DONE]  F-2 seed=43 | epochs=32 | best=26 | val_mse=1.05272896 | train_time=165.1s
+
+[START] F-3 seed=17
+[DONE]  F-3 seed=17 | epochs=7 | best=1 | val_mse=0.00000003 | train_time=47.3s
+
+[START] F-3 seed=29
+[DONE]  F-3 seed=29 | epochs=7 | best=1 | val_mse=0.00000002 | train_time=47.0s
+
+[START] F-3 seed=43
+[DONE]  F-1 seed=43 | epochs=80 | best=78 | val_mse=0.56262363 | train_time=500.8s
+
+[START] F-4 seed=17
+[DONE]  F-3 seed=43 | epochs=7 | best=1 | val_mse=0.00000007 | train_time=46.9s
+
+[START] F-4 seed=29
+[DONE]  F-4 seed=17 | epochs=80 | best=79 | val_mse=0.02042869 | train_time=174.5s
+
+[START] F-4 seed=43
+[DONE]  F-4 seed=29 | epochs=80 | best=79 | val_mse=0.02071194 | train_time=175.2s
+
+[START] F-5 seed=17
+[DONE]  F-4 seed=43 | epochs=80 | best=76 | val_mse=0.02112772 | train_time=177.3s
+
+[START] F-5 seed=29
+[DONE]  F-5 seed=17 | epochs=69 | best=63 | val_mse=0.01139579 | train_time=195.0s
+
+[START] F-5 seed=43
+[DONE]  F-5 seed=29 | epochs=80 | best=79 | val_mse=0.01497764 | train_time=225.6s
+
+[START] F-7 seed=17
+[DONE]  F-5 seed=43 | epochs=66 | best=60 | val_mse=0.01305848 | train_time=186.1s
+
+[START] F-7 seed=29
+[DONE]  F-7 seed=17 | epochs=72 | best=66 | val_mse=0.53589991 | train_time=191.8s
+
+[START] F-7 seed=43
+[DONE]  F-7 seed=29 | epochs=80 | best=78 | val_mse=0.52837625 | train_time=213.9s
+
+[START] F-8 seed=17
+[DONE]  F-7 seed=43 | epochs=69 | best=63 | val_mse=0.52134519 | train_time=185.4s
+
+[START] F-8 seed=29
+[DONE]  F-8 seed=17 | epochs=63 | best=57 | val_mse=0.27908808 | train_time=226.8s
+
+[START] F-8 seed=43
+[DONE]  F-8 seed=29 | epochs=67 | best=61 | val_mse=0.30030501 | train_time=239.6s
+
+[START] G-1 seed=17
+[DONE]  F-8 seed=43 | epochs=67 | best=61 | val_mse=0.28206145 | train_time=238.1s
+
+[START] G-1 seed=29
+[DONE]  G-1 seed=29 | epochs=24 | best=18 | val_mse=0.11522150 | train_time=158.1s
+
+[START] G-1 seed=43
+[DONE]  G-1 seed=17 | epochs=52 | best=46 | val_mse=0.10625672 | train_time=341.4s
+
+[START] G-2 seed=17
+[DONE]  G-2 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=31.0s
+
+[START] G-2 seed=29
+[DONE]  G-2 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=30.3s
+
+[START] G-2 seed=43
+[DONE]  G-1 seed=43 | epochs=35 | best=29 | val_mse=0.10804063 | train_time=211.3s
+
+[START] G-3 seed=17
+[DONE]  G-2 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=29.8s
+
+[START] G-3 seed=29
+[DONE]  G-3 seed=17 | epochs=7 | best=1 | val_mse=0.01523810 | train_time=35.7s
+
+[START] G-3 seed=43
+[DONE]  G-3 seed=29 | epochs=7 | best=1 | val_mse=0.01523810 | train_time=35.8s
+
+[START] G-4 seed=17
+[DONE]  G-3 seed=43 | epochs=7 | best=1 | val_mse=0.01523810 | train_time=35.9s
+
+[START] G-4 seed=29
+[DONE]  G-4 seed=17 | epochs=46 | best=40 | val_mse=0.16936511 | train_time=165.0s
+
+[START] G-4 seed=43
+[DONE]  G-4 seed=29 | epochs=61 | best=55 | val_mse=0.16783902 | train_time=220.4s
+
+[START] G-6 seed=17
+[DONE]  G-6 seed=17 | epochs=7 | best=1 | val_mse=0.00000005 | train_time=28.8s
+
+[START] G-6 seed=29
+[DONE]  G-6 seed=29 | epochs=7 | best=1 | val_mse=0.00000004 | train_time=29.1s
+
+[START] G-6 seed=43
+[DONE]  G-6 seed=43 | epochs=7 | best=1 | val_mse=0.00000003 | train_time=29.0s
+
+[START] G-7 seed=17
+[DONE]  G-7 seed=17 | epochs=23 | best=17 | val_mse=1.17542784 | train_time=6.3s
+
+[START] G-7 seed=29
+[DONE]  G-7 seed=29 | epochs=17 | best=11 | val_mse=1.21995919 | train_time=4.6s
+
+[START] G-7 seed=43
+[DONE]  G-4 seed=43 | epochs=56 | best=50 | val_mse=0.16871543 | train_time=202.7s
+
+[START] M-1 seed=17
+[DONE]  G-7 seed=43 | epochs=15 | best=9 | val_mse=1.15764375 | train_time=3.8s
+
+[START] M-1 seed=29
+[DONE]  M-1 seed=17 | epochs=10 | best=4 | val_mse=0.39608909 | train_time=20.6s
+
+[START] M-1 seed=43
+[DONE]  M-1 seed=29 | epochs=13 | best=7 | val_mse=0.39496804 | train_time=26.9s
+
+[START] M-2 seed=17
+[DONE]  M-1 seed=43 | epochs=14 | best=8 | val_mse=0.39477430 | train_time=29.0s
+
+[START] M-2 seed=29
+[DONE]  M-2 seed=17 | epochs=10 | best=4 | val_mse=0.46947834 | train_time=20.7s
+
+[START] M-2 seed=43
+[DONE]  M-2 seed=29 | epochs=9 | best=3 | val_mse=0.46857738 | train_time=18.8s
+
+[START] M-3 seed=17
+[DONE]  M-2 seed=43 | epochs=9 | best=3 | val_mse=0.46965555 | train_time=18.5s
+
+[START] M-3 seed=29
+[DONE]  M-3 seed=17 | epochs=39 | best=33 | val_mse=0.05059852 | train_time=95.1s
+
+[START] M-3 seed=43
+[DONE]  M-3 seed=29 | epochs=46 | best=40 | val_mse=0.05121260 | train_time=112.1s
+
+[START] M-4 seed=17
+[DONE]  M-4 seed=17 | epochs=11 | best=5 | val_mse=0.10290994 | train_time=27.2s
+
+[START] M-4 seed=29
+[DONE]  M-4 seed=29 | epochs=12 | best=6 | val_mse=0.10184515 | train_time=29.8s
+
+[START] M-4 seed=43
+[DONE]  M-3 seed=43 | epochs=35 | best=29 | val_mse=0.05303304 | train_time=83.7s
+
+[START] M-5 seed=17
+[DONE]  M-4 seed=43 | epochs=15 | best=9 | val_mse=0.10024519 | train_time=36.3s
+
+[START] M-5 seed=29
+[DONE]  M-5 seed=17 | epochs=43 | best=37 | val_mse=0.10295797 | train_time=90.5s
+
+[START] M-5 seed=43
+[DONE]  M-5 seed=29 | epochs=41 | best=35 | val_mse=0.10238154 | train_time=87.8s
+
+[START] M-6 seed=17
+[DONE]  M-6 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=9.6s
+
+[START] M-6 seed=29
+[DONE]  M-6 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=9.7s
+
+[START] M-6 seed=43
+[DONE]  M-6 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=9.6s
+
+[START] M-7 seed=17
+[DONE]  M-7 seed=17 | epochs=11 | best=5 | val_mse=0.00000035 | train_time=18.0s
+
+[START] M-7 seed=29
+[DONE]  M-7 seed=29 | epochs=8 | best=2 | val_mse=0.00000115 | train_time=14.5s
+
+[START] M-7 seed=43
+[DONE]  M-5 seed=43 | epochs=52 | best=46 | val_mse=0.10226379 | train_time=110.0s
+
+[START] P-1 seed=17
+[DONE]  M-7 seed=43 | epochs=8 | best=2 | val_mse=0.00000489 | train_time=12.6s
+
+[START] P-1 seed=29
+[DONE]  P-1 seed=17 | epochs=80 | best=79 | val_mse=0.13860317 | train_time=395.5s
+
+[START] P-1 seed=43
+[DONE]  P-1 seed=29 | epochs=80 | best=79 | val_mse=0.14415113 | train_time=395.3s
+
+[START] P-10 seed=17
+[DONE]  P-10 seed=17 | epochs=26 | best=20 | val_mse=0.97178903 | train_time=124.9s
+
+[START] P-10 seed=29
+[DONE]  P-10 seed=29 | epochs=18 | best=12 | val_mse=0.97016967 | train_time=85.4s
+
+[START] P-10 seed=43
+[DONE]  P-10 seed=43 | epochs=22 | best=16 | val_mse=0.95792230 | train_time=105.6s
+
+[START] P-11 seed=17
+[DONE]  P-1 seed=43 | epochs=75 | best=69 | val_mse=0.14658567 | train_time=368.3s
+
+[START] P-11 seed=29
+[DONE]  P-11 seed=17 | epochs=16 | best=10 | val_mse=0.10245770 | train_time=51.9s
+
+[START] P-11 seed=43
+[DONE]  P-11 seed=29 | epochs=11 | best=5 | val_mse=0.10225631 | train_time=36.5s
+
+[START] P-14 seed=17
+[DONE]  P-11 seed=43 | epochs=12 | best=6 | val_mse=0.10171271 | train_time=39.7s
+
+[START] P-14 seed=29
+[DONE]  P-14 seed=17 | epochs=21 | best=15 | val_mse=1.18626062 | train_time=36.6s
+
+[START] P-14 seed=43
+[DONE]  P-14 seed=29 | epochs=23 | best=17 | val_mse=1.15435127 | train_time=39.4s
+
+[START] P-15 seed=17
+[DONE]  P-14 seed=43 | epochs=15 | best=9 | val_mse=1.16145011 | train_time=25.8s
+
+[START] P-15 seed=29
+[DONE]  P-15 seed=29 | epochs=30 | best=24 | val_mse=0.01958270 | train_time=133.3s
+
+[START] P-15 seed=43
+[DONE]  P-15 seed=17 | epochs=43 | best=37 | val_mse=0.01917117 | train_time=191.8s
+
+[START] P-2 seed=17
+[DONE]  P-15 seed=43 | epochs=36 | best=30 | val_mse=0.01938018 | train_time=159.0s
+
+[START] P-2 seed=29
+[DONE]  P-2 seed=17 | epochs=43 | best=37 | val_mse=0.48523792 | train_time=242.4s
+
+[START] P-2 seed=43
+[DONE]  P-2 seed=29 | epochs=35 | best=29 | val_mse=0.49306762 | train_time=192.6s
+
+[START] P-3 seed=17
+[DONE]  P-2 seed=43 | epochs=30 | best=24 | val_mse=0.49267708 | train_time=162.4s
+
+[START] P-3 seed=29
+[DONE]  P-3 seed=17 | epochs=42 | best=36 | val_mse=0.05329475 | train_time=234.4s
+
+[START] P-3 seed=43
+[DONE]  P-3 seed=29 | epochs=49 | best=43 | val_mse=0.05250910 | train_time=275.9s
+
+[START] P-4 seed=17
+[DONE]  P-4 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=31.9s
+
+[START] P-4 seed=29
+[DONE]  P-4 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=32.2s
+
+[START] P-4 seed=43
+[DONE]  P-3 seed=43 | epochs=41 | best=35 | val_mse=0.05208593 | train_time=229.4s
+
+[START] P-7 seed=17
+[DONE]  P-4 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=32.4s
+
+[START] P-7 seed=29
+[DONE]  P-7 seed=17 | epochs=23 | best=17 | val_mse=0.06434393 | train_time=60.0s
+
+[START] P-7 seed=43
+[DONE]  P-7 seed=29 | epochs=47 | best=41 | val_mse=0.06353369 | train_time=119.7s
+
+[START] R-1 seed=17
+[DONE]  R-1 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=18.1s
+
+[START] R-1 seed=29
+[DONE]  P-7 seed=43 | epochs=39 | best=33 | val_mse=0.06320409 | train_time=98.0s
+
+[START] R-1 seed=43
+[DONE]  R-1 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=17.6s
+
+[START] S-1 seed=17
+[DONE]  R-1 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=17.6s
+
+[START] S-1 seed=29
+[DONE]  S-1 seed=29 | epochs=47 | best=41 | val_mse=0.65985145 | train_time=257.7s
+
+[START] S-1 seed=43
+[DONE]  S-1 seed=17 | epochs=59 | best=53 | val_mse=0.65616901 | train_time=323.0s
+
+[START] S-2 seed=17
+[DONE]  S-2 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=4.9s
+
+[START] S-2 seed=29
+[DONE]  S-2 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=5.0s
+
+[START] S-2 seed=43
+[DONE]  S-2 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=4.8s
+
+[START] T-1 seed=17
+[DONE]  T-1 seed=17 | epochs=31 | best=25 | val_mse=0.00273137 | train_time=29.1s
+
+[START] T-1 seed=29
+[DONE]  T-1 seed=29 | epochs=23 | best=17 | val_mse=0.00499820 | train_time=21.8s
+
+[START] T-1 seed=43
+[DONE]  T-1 seed=43 | epochs=30 | best=24 | val_mse=0.00312090 | train_time=28.1s
+
+[START] T-12 seed=17
+[DONE]  T-12 seed=17 | epochs=7 | best=1 | val_mse=0.00000499 | train_time=5.6s
+
+[START] T-12 seed=29
+[DONE]  T-12 seed=29 | epochs=7 | best=1 | val_mse=0.00000011 | train_time=5.6s
+
+[START] T-12 seed=43
+[DONE]  T-12 seed=43 | epochs=14 | best=8 | val_mse=0.00000026 | train_time=11.1s
+
+[START] T-13 seed=17
+[DONE]  T-13 seed=17 | epochs=10 | best=4 | val_mse=0.00000001 | train_time=7.9s
+
+[START] T-13 seed=29
+[DONE]  T-13 seed=29 | epochs=11 | best=5 | val_mse=0.00000000 | train_time=8.7s
+
+[START] T-13 seed=43
+[DONE]  T-13 seed=43 | epochs=9 | best=3 | val_mse=0.00000004 | train_time=7.1s
+
+[START] T-2 seed=17
+[DONE]  S-1 seed=43 | epochs=44 | best=38 | val_mse=0.67095447 | train_time=236.0s
+
+[START] T-2 seed=29
+[DONE]  T-2 seed=17 | epochs=64 | best=58 | val_mse=0.00280542 | train_time=274.3s
+
+[START] T-2 seed=43
+[DONE]  T-2 seed=29 | epochs=80 | best=80 | val_mse=0.00276513 | train_time=342.5s
+
+[START] T-3 seed=17
+[DONE]  T-2 seed=43 | epochs=30 | best=24 | val_mse=0.00375933 | train_time=134.5s
+
+[START] T-3 seed=29
+[DONE]  T-3 seed=17 | epochs=79 | best=73 | val_mse=0.00671926 | train_time=325.9s
+
+[START] T-3 seed=43
+[DONE]  T-3 seed=29 | epochs=72 | best=66 | val_mse=0.00706076 | train_time=293.9s
+
+[START] T-4 seed=17
+[DONE]  T-4 seed=17 | epochs=80 | best=76 | val_mse=0.17157533 | train_time=150.7s
+
+[START] T-4 seed=29
+[DONE]  T-3 seed=43 | epochs=76 | best=70 | val_mse=0.00709904 | train_time=289.5s
+
+[START] T-4 seed=43
+[DONE]  T-4 seed=29 | epochs=80 | best=78 | val_mse=0.17948753 | train_time=147.9s
+
+[START] T-5 seed=17
+[DONE]  T-5 seed=17 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=13.0s
+
+[START] T-5 seed=29
+[DONE]  T-5 seed=29 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=13.9s
+
+[START] T-5 seed=43
+[DONE]  T-5 seed=43 | epochs=7 | best=1 | val_mse=0.00000000 | train_time=13.2s
+
+[START] T-8 seed=17
+[DONE]  T-8 seed=17 | epochs=40 | best=34 | val_mse=0.34542695 | train_time=18.1s
+
+[START] T-8 seed=29
+[DONE]  T-8 seed=29 | epochs=45 | best=39 | val_mse=0.34342012 | train_time=20.4s
+
+[START] T-8 seed=43
+[DONE]  T-8 seed=43 | epochs=36 | best=30 | val_mse=0.34671488 | train_time=16.2s
+
+[START] T-9 seed=17
+[DONE]  T-4 seed=43 | epochs=80 | best=76 | val_mse=0.17026734 | train_time=145.4s
+
+[START] T-9 seed=29
+[DONE]  T-9 seed=17 | epochs=80 | best=79 | val_mse=0.20269775 | train_time=16.9s
+
+[START] T-9 seed=43
+[DONE]  T-9 seed=29 | epochs=76 | best=70 | val_mse=0.19486438 | train_time=16.2s
+[DONE]  T-9 seed=43 | epochs=59 | best=53 | val_mse=0.24470901 | train_time=9.5s
+
+======================================================================
+V2 EXP004 SUMMARY
+======================================================================
+Completed runs: 243 / 243
+
+Mission summary:
+mission  channels  runs  validation_mse_mean  validation_mse_median  persistence_mse_mean  macro_mse_reduction_pct  best_epoch_mean  epochs_ran_mean  elapsed_seconds_total
+    MSL        27    81             0.201081               0.051213              0.382020                47.363687        28.061728        33.469136            6007.707995
+   SMAP        54   162             0.109586               0.006914              0.250003                56.166113        31.123457        36.450617           29723.531167
+
+Saved:
+  all_runs.csv
+  mission_seed_summary.csv
+  mission_summary.csv
+
+========================================================================
+PARALLEL RUN REPORT
+========================================================================
+New runs completed: 239
+Failures:           0
+Wall time:          18003.23 s
+Summed fit time:    35336.27 s
+Parallel efficiency: 1.96x vs running those fits serially
+========================================================================

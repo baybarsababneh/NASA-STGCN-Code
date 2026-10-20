@@ -1,0 +1,60 @@
+[
+  {
+    "features": 55,
+    "role": "fusion",
+    "seed": 43,
+    "update": 2,
+    "pass": false,
+    "bitwise_equal": false,
+    "Adam_FP64_equation_errors": [
+      1.1872685501401747e-07,
+      1.1868064797582178e-07
+    ],
+    "comparisons": {
+      "outputs": {
+        "pass": true,
+        "bitwise_equal": false,
+        "max_absolute_error": 2.2724270820617676e-07,
+        "max_relative_L2_error": 7.065034446756622e-07,
+        "failures": []
+      },
+      "injection": {
+        "pass": true,
+        "bitwise_equal": true,
+        "max_absolute_error": 0.0,
+        "max_relative_L2_error": 0.0,
+        "failures": []
+      },
+      "gradients": {
+        "pass": true,
+        "bitwise_equal": false,
+        "max_absolute_error": 5.9371814131736755e-08,
+        "max_relative_L2_error": 2.6811158840667844e-06,
+        "failures": []
+      },
+      "parameters": {
+        "pass": true,
+        "bitwise_equal": false,
+        "max_absolute_error": 2.72924080491066e-06,
+        "max_relative_L2_error": 1.4096472729031103e-06,
+        "failures": []
+      },
+      "adam": {
+        "pass": false,
+        "bitwise_equal": false,
+        "max_absolute_error": 5.90443960390985e-09,
+        "max_relative_L2_error": 1.8545396130923529e-06,
+        "failures": [
+          "root.state.16.exp_avg"
+        ]
+      },
+      "rng": {
+        "pass": true,
+        "bitwise_equal": true,
+        "max_absolute_error": 0.0,
+        "max_relative_L2_error": 0.0,
+        "failures": []
+      }
+    }
+  }
+]

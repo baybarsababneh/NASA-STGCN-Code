@@ -1,0 +1,13 @@
+{
+  "amendment": "EXP009_DETECTOR_V1_E01",
+  "files": {
+    "AMENDMENT.md": "62fc37086daf91ab216856180ecf394cdb5b821fedb769fe5ba8d0fb16ced13a",
+    "START_HERE.md": "091150d5c32d63bddfa04215a9201abe532e093ee9448022c6ec934ab53b198d",
+    "VERIFICATION.json": "85d7454f92795a2d6e646ac24bcbca8b9d40951d280407b6508cc0625387c113",
+    "json_e01.py": "14d9c0e6aac0b631437bcf9ded12485b4ae318d4163e80ce8901e3da476e381c",
+    "resume_e01.py": "d81056e5447b9fce5ca854bdd3ab6abe8e0c13f0e95397d1885ad126808a7ee4",
+    "test_e01.py": "5d8f6eb07dfa30005e1822ab265e634182fa2ac80e3bf154c8ebac721883b32e"
+  },
+  "parent_bundle_sha256": "8d8501ff5fcea75f7fcbc850784a3b30b42951488faaadee5de4349ade3976ec",
+  "parent_manifest_file_sha256": "db99d8d31f4724b9084c60f80a8efbe2e4123ed53630681180713fa882f40553"
+}

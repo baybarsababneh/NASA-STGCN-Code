@@ -1,0 +1,90 @@
+test_archive_paths_and_duplicate_entries (test_engineering.EngineeringTests.test_archive_paths_and_duplicate_entries) ... /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/zipfile/__init__.py:1625: UserWarning: Duplicate name: 'same'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+ok
+test_atomic_units_stale_identity_corruption_and_staging (test_engineering.EngineeringTests.test_atomic_units_stale_identity_corruption_and_staging) ... ok
+test_backup_verified_fallback_and_environment_mismatch (test_engineering.EngineeringTests.test_backup_verified_fallback_and_environment_mismatch) ... BACKUP VERIFIED 01791648863864853828_b9453dbb40cb4429a518d54068f5ff30 seconds 0.0 first
+BACKUP VERIFIED 01791648863866227872_67e8f2cd844441d19b4347176c8def7b seconds 0.0 second
+REJECTED BACKUP 01791648863866227872_67e8f2cd844441d19b4347176c8def7b SHA256 differs: /tmp/tmp3e_86_h5/drive/objects/796c59954166c1ad2f5b87d1bd47538af48d3687d2faa216d42bb92e396400ae
+RESTORED VERIFIED 01791648863864853828_b9453dbb40cb4429a518d54068f5ff30
+REJECTED BACKUP 01791648863866227872_67e8f2cd844441d19b4347176c8def7b SHA256 differs: /tmp/tmp3e_86_h5/drive/objects/796c59954166c1ad2f5b87d1bd47538af48d3687d2faa216d42bb92e396400ae
+ok
+test_complete_fixture_interruption_recovery_and_export (test_engineering.EngineeringTests.test_complete_fixture_interruption_recovery_and_export) ... /workspace/scratch/b601914ec2ba/exp014/bundle/vendor/gdn/models/GDN.py:161: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matrices or `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:3725.)
+  gated_i = torch.arange(0, node_num).T.unsqueeze(1).repeat(1, topk_num).flatten().to(device).unsqueeze(0)
+RUNTIME {"AMP": false, "GPU": null, "GPU_total_bytes": null, "TF32": false, "cuda": null, "cudnn": null, "deterministic": true, "device": "cpu", "einops": "0.8.1", "fixture": true, "matplotlib": "3.10.1", "numpy": "2.1.3", "optional_PyG_extensions": {"pyg-lib": null, "torch-cluster": null, "torch-scatter": null, "torch-sparse": null, "torch-spline-conv": null}, "pandas": "2.2.3", "python": "3.12.14", "scipy": "1.15.2", "sklearn": "1.6.1", "threads": 1, "torch": "2.6.0+cpu", "torch_geometric": "2.6.1"}
+BACKUP VERIFIED 01791648868095864717_0fdc7688c0064253ae042504e66feeca seconds 0.0 startup
+BACKUP VERIFIED 01791648868398523616_1fdb105b4f2e47ccac377181550d5c4b seconds 0.01 full_shape_MSL
+BACKUP VERIFIED 01791648868614266260_a52b4ab977fe4e62bb1018da05259ad5 seconds 0.01 periodic
+BACKUP VERIFIED 01791648868827227621_b532e114f0674e91ab3619ef18a39bee seconds 0.01 periodic
+COMPLETE 1/4 MSL__gdn_hundman__17__F-MSL-0 · 0.56s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648869299237484_eb16b03bf53f45cc8e7299e355f32f27 seconds 0.11 simulated_interrupt
+BACKUP VERIFIED 01791648869330020356_bb6edb72d2ad4703b4c81a9042ccc058 seconds 0.01 failure_preserved
+RUNTIME {"AMP": false, "GPU": null, "GPU_total_bytes": null, "TF32": false, "cuda": null, "cudnn": null, "deterministic": true, "device": "cpu", "einops": "0.8.1", "fixture": true, "matplotlib": "3.10.1", "numpy": "2.1.3", "optional_PyG_extensions": {"pyg-lib": null, "torch-cluster": null, "torch-scatter": null, "torch-sparse": null, "torch-spline-conv": null}, "pandas": "2.2.3", "python": "3.12.14", "scipy": "1.15.2", "sklearn": "1.6.1", "threads": 1, "torch": "2.6.0+cpu", "torch_geometric": "2.6.1"}
+RESTORED VERIFIED 01791648869330020356_bb6edb72d2ad4703b4c81a9042ccc058
+BACKUP VERIFIED 01791648869373252119_81b3afcddf4f4222b236afd5124f950a seconds 0.0 startup
+BACKUP VERIFIED 01791648869889052834_94f7a95afccb4c308ac749835c4757a1 seconds 0.01 full_shape_MSL
+REUSE 1/4 MSL__gdn_hundman__17__F-MSL-0
+BACKUP VERIFIED 01791648870099530066_edec6716048845b6b0959234c43b876b seconds 0.01 periodic
+BACKUP VERIFIED 01791648870317256238_2f272cf5cb844ff28ff72251e92dcd8f seconds 0.01 periodic
+COMPLETE 2/4 MSL__gdn_hundman__17__F-MSL-1 · 0.53s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648870714828438_e0450c2ecb6e4c07b050841829bdf724 seconds 0.01 mission_complete_MSL
+BACKUP VERIFIED 01791648870885678687_5687931d13434d08b7179f25c3aa0329 seconds 0.01 full_shape_SMAP
+BACKUP VERIFIED 01791648871105636040_bd820fac511648e2bdce278930d687b4 seconds 0.01 periodic_completed_units
+COMPLETE 3/4 SMAP__gdn_hundman__17__F-SMAP-0 · 0.21s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648871337594254_27cac211cf584e94bd56bca8097419c0 seconds 0.02 periodic
+COMPLETE 4/4 SMAP__gdn_hundman__17__P-2 · 0.20s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648871996948910_d9997e1ad99648dba409c097e11e4b22 seconds 0.02 mission_complete_SMAP
+BACKUP VERIFIED 01791648872011591699_566fac0c99a846a2a69cebd31e82db0a seconds 0.01 score_seal
+BACKUP VERIFIED 01791648873424975812_69cf5f8e8bc0439a9808267da3accbf3 seconds 0.02 final_reports_and_audit
+COMPLETE CPU_SYNTHETIC_FIXTURE_COMPLETE 
+Results: /tmp/tmpv0lelf5y/drive/exports/EXP014_FINAL_RESULTS_5517de182c7600fe.zip 
+Original EXP012/EXP013 outputs unchanged.
+RUNTIME {"AMP": false, "GPU": null, "GPU_total_bytes": null, "TF32": false, "cuda": null, "cudnn": null, "deterministic": true, "device": "cpu", "einops": "0.8.1", "fixture": true, "matplotlib": "3.10.1", "numpy": "2.1.3", "optional_PyG_extensions": {"pyg-lib": null, "torch-cluster": null, "torch-scatter": null, "torch-sparse": null, "torch-spline-conv": null}, "pandas": "2.2.3", "python": "3.12.14", "scipy": "1.15.2", "sklearn": "1.6.1", "threads": 1, "torch": "2.6.0+cpu", "torch_geometric": "2.6.1"}
+BACKUP VERIFIED 01791648873516985264_e201a1c94bb1497781792fde11a70849 seconds 0.02 startup
+BACKUP VERIFIED 01791648873555115413_a8c602ad0ff74e45bc4c3ca385b6fdb5 seconds 0.01 final_reports_and_audit
+COMPLETE CPU_SYNTHETIC_FIXTURE_COMPLETE 
+Results: /tmp/tmpv0lelf5y/drive/exports/EXP014_FINAL_RESULTS_0052db97413f63f5.zip 
+Original EXP012/EXP013 outputs unchanged.
+RUNTIME {"AMP": false, "GPU": null, "GPU_total_bytes": null, "TF32": false, "cuda": null, "cudnn": null, "deterministic": true, "device": "cpu", "einops": "0.8.1", "fixture": true, "matplotlib": "3.10.1", "numpy": "2.1.3", "optional_PyG_extensions": {"pyg-lib": null, "torch-cluster": null, "torch-scatter": null, "torch-sparse": null, "torch-spline-conv": null}, "pandas": "2.2.3", "python": "3.12.14", "scipy": "1.15.2", "sklearn": "1.6.1", "threads": 1, "torch": "2.6.0+cpu", "torch_geometric": "2.6.1"}
+BACKUP VERIFIED 01791648873614734524_30deba242af949ae852a4c4ee7598b22 seconds 0.0 startup
+BACKUP VERIFIED 01791648873942535371_58060c5e1aca4641835a54a726878b0f seconds 0.0 full_shape_MSL
+BACKUP VERIFIED 01791648874150417260_4a4ef02d8f86463ebbc583f7cdb9c8ff seconds 0.01 periodic
+BACKUP VERIFIED 01791648874370022235_87c9de655cda4172af4751ac1dcff08a seconds 0.01 periodic
+COMPLETE 1/4 MSL__gdn_hundman__17__F-MSL-0 · 0.54s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648874680517910_63c477ee6a4e4aa19c1d3008571f15fd seconds 0.01 periodic
+BACKUP VERIFIED 01791648874901343320_309bdd5b8f1245549630abca3faf14c8 seconds 0.01 periodic
+BACKUP VERIFIED 01791648875115105262_2967fb4ae62045a484dbe664368db618 seconds 0.01 periodic
+COMPLETE 2/4 MSL__gdn_hundman__17__F-MSL-1 · 0.57s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648875593671279_0b726f310db24a1aa12ebf28aef46d5e seconds 0.01 mission_complete_MSL
+BACKUP VERIFIED 01791648875816935195_37d8c00b3247497fa04b39f62c74ab5d seconds 0.01 full_shape_SMAP
+BACKUP VERIFIED 01791648876027695608_1c4747956aee46a2ae5e5bc593d0e60f seconds 0.01 periodic
+COMPLETE 3/4 SMAP__gdn_hundman__17__F-SMAP-0 · 0.25s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648876266972219_2ad0297ca24c4ba9bca246c019c4aba9 seconds 0.01 periodic
+COMPLETE 4/4 SMAP__gdn_hundman__17__P-2 · 0.18s · measured mean unit ETA 0.0 min (channel lengths differ; excludes setup/backup/evaluation)
+BACKUP VERIFIED 01791648876644219041_dc81177add7a43aeaaf04054be0162f8 seconds 0.01 mission_complete_SMAP
+BACKUP VERIFIED 01791648876657656768_a00a5ea4267840b792e070981049c630 seconds 0.01 score_seal
+BACKUP VERIFIED 01791648877423699569_53a10354937e4a42a0e9f7d682a1ee9c seconds 0.01 final_reports_and_audit
+COMPLETE CPU_SYNTHETIC_FIXTURE_COMPLETE 
+Results: /tmp/tmpv0lelf5y/clean_drive/exports/EXP014_FINAL_RESULTS_7a40bc04030e6be4.zip 
+Original EXP012/EXP013 outputs unchanged.
+RUNTIME {"AMP": false, "GPU": null, "GPU_total_bytes": null, "TF32": false, "cuda": null, "cudnn": null, "deterministic": true, "device": "cpu", "einops": "0.8.1", "fixture": true, "matplotlib": "3.10.1", "numpy": "2.1.3", "optional_PyG_extensions": {"pyg-lib": null, "torch-cluster": null, "torch-scatter": null, "torch-sparse": null, "torch-spline-conv": null}, "pandas": "2.2.3", "python": "3.12.14", "scipy": "1.15.2", "sklearn": "1.6.1", "threads": 1, "torch": "2.6.0+cpu", "torch_geometric": "2.6.1"}
+BACKUP VERIFIED 01791648877496154876_53bb0686033e4f8f84e0c1c27d4b4758 seconds 0.02 startup
+BACKUP VERIFIED 01791648877519059121_e9f0c200be354d48a6d6baf6778f3543 seconds 0.02 failure_preserved
+ok
+test_label_parse_and_open_guards (test_engineering.EngineeringTests.test_label_parse_and_open_guards) ... ok
+test_aggregation_grouped_seeds_and_unequal_initialisations (test_science.ScientificTests.test_aggregation_grouped_seeds_and_unequal_initialisations) ... ok
+test_all_frozen_EXP012_counts_and_mission_aggregation (test_science.ScientificTests.test_all_frozen_EXP012_counts_and_mission_aggregation) ... ok
+test_causal_forecast_alignment_and_future_invariance (test_science.ScientificTests.test_causal_forecast_alignment_and_future_invariance) ... ok
+test_event_count_timing_and_no_point_adjustment (test_science.ScientificTests.test_event_count_timing_and_no_point_adjustment) ... ok
+test_frozen_detector_and_evaluator_bytes (test_science.ScientificTests.test_frozen_detector_and_evaluator_bytes) ... ok
+test_full_native_shapes_exact_checkpoint_and_rng (test_science.ScientificTests.test_full_native_shapes_exact_checkpoint_and_rng) ... ok
+test_native_GDN_forward_gradient_equations_both_missions (test_science.ScientificTests.test_native_GDN_forward_gradient_equations_both_missions) ... ok
+test_native_smoothing_precedes_common_support_crop (test_science.ScientificTests.test_native_smoothing_precedes_common_support_crop) ... ok
+test_production_cannot_accept_CPU_validation (test_science.ScientificTests.test_production_cannot_accept_CPU_validation) ... ok
+test_pruning_buffers_ties_and_short_support (test_science.ScientificTests.test_pruning_buffers_ties_and_short_support) ... ok
+test_residual_double_inverse_with_FP32_intermediate (test_science.ScientificTests.test_residual_double_inverse_with_FP32_intermediate) ... ok
+test_saved_frozen_EXP012_detector_regression (test_science.ScientificTests.test_saved_frozen_EXP012_detector_regression) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 17.574s
+
+OK

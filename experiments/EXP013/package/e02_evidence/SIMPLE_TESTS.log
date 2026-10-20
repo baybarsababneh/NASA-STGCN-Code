@@ -1,0 +1,184 @@
+test_80GB_40GB_mismatch_rejected_without_identity_rewrite (__main__.SimpleTests.test_80GB_40GB_mismatch_rejected_without_identity_rewrite) ... BACKUP VERIFIED 01791557774038604214_5f54579fc70f470c8dc54c42422a6c37 seconds 0.0 80GB
+ok
+test_complete_VM_reset_exact_resume_and_completed_reuse (__main__.SimpleTests.test_complete_VM_reset_exact_resume_and_completed_reuse) ... {"UTC": "2026-10-09T14:56:14Z", "deadline_seconds": 180, "job": "MSL__graph__17", "operation": "model_initialisation", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "job": "MSL__graph__17", "operation": "model_initialisation", "process_peak_RSS_GiB": 0.402, "seconds": 0.0032, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "deadline_seconds": 180, "job": "MSL__graph__17", "operation": "model_transfer", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "job": "MSL__graph__17", "operation": "model_transfer", "process_peak_RSS_GiB": 0.402, "seconds": 0.0006, "state": "END"}
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"UTC": "2026-10-09T14:56:14Z", "deadline_seconds": 600, "operation": "checkpoint_serialisation", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "operation": "checkpoint_serialisation", "process_peak_RSS_GiB": 0.404, "seconds": 0.0022, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "deadline_seconds": 900, "operation": "durable_backup", "reason": "epoch_start:MSL__graph__17", "state": "START"}
+BACKUP VERIFIED 01791557774054439771_7eaaf09a42fe468d96c92f1f33c55da3 seconds 0.0 epoch_start:MSL__graph__17
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "operation": "durable_backup", "process_peak_RSS_GiB": 0.404, "reason": "epoch_start:MSL__graph__17", "seconds": 0.0028, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "data_preparation", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "data_preparation", "process_peak_RSS_GiB": 0.404, "seconds": 0.0003, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "input_transfer", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "input_transfer", "process_peak_RSS_GiB": 0.404, "seconds": 0.0003, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "clean_forward", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "clean_forward", "process_peak_RSS_GiB": 0.43, "seconds": 0.0129, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "synthetic_injection", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "synthetic_injection", "process_peak_RSS_GiB": 0.43, "seconds": 0.001, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "injected_forward", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "injected_forward", "process_peak_RSS_GiB": 0.439, "seconds": 0.008, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "loss_scalar_synchronisation", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "loss_scalar_synchronisation", "process_peak_RSS_GiB": 0.439, "seconds": 0.0003, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "backward", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "backward", "process_peak_RSS_GiB": 0.454, "seconds": 0.0675, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "deadline_seconds": 180, "operation": "optimizer_step", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 1, "operation": "optimizer_step", "process_peak_RSS_GiB": 0.455, "seconds": 0.002, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 1, "batch_seconds": 0.09545289600100659, "batches": 28, "completed_fits": 0, "data_seconds": 0.0005311160002747783, "elapsed_epoch_seconds": 0.1, "epoch": 1, "epoch_cap": 2, "force": false, "job": "MSL__graph__17", "phase": "FIT", "planned_fits": 22, "remaining_FIT_seconds_estimate": 2.6, "verified_backup_age_seconds": 0.1}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "data_preparation", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "data_preparation", "process_peak_RSS_GiB": 0.455, "seconds": 0.0004, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "input_transfer", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "input_transfer", "process_peak_RSS_GiB": 0.455, "seconds": 0.0004, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "clean_forward", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "clean_forward", "process_peak_RSS_GiB": 0.455, "seconds": 0.0062, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "synthetic_injection", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "synthetic_injection", "process_peak_RSS_GiB": 0.455, "seconds": 0.0009, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "injected_forward", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "injected_forward", "process_peak_RSS_GiB": 0.457, "seconds": 0.0072, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "loss_scalar_synchronisation", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "loss_scalar_synchronisation", "process_peak_RSS_GiB": 0.457, "seconds": 0.0004, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "backward", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "backward", "process_peak_RSS_GiB": 0.459, "seconds": 0.0237, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "batch": 2, "deadline_seconds": 180, "operation": "optimizer_step", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "batch": 2, "operation": "optimizer_step", "process_peak_RSS_GiB": 0.459, "seconds": 0.0016, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "deadline_seconds": 600, "operation": "checkpoint_serialisation", "state": "START"}
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "operation": "checkpoint_serialisation", "process_peak_RSS_GiB": 0.459, "seconds": 0.0051, "state": "END"}
+{"UTC": "2026-10-09T14:56:14Z", "deadline_seconds": 900, "operation": "durable_backup", "reason": "fixture_pause", "state": "START"}
+BACKUP VERIFIED 01791557774205580295_5395c46f85f245f8a93d6ef6eeaa7954 seconds 0.0 fixture_pause
+{"GPU_completion_synchronised": false, "UTC": "2026-10-09T14:56:14Z", "operation": "durable_backup", "process_peak_RSS_GiB": 0.459, "reason": "fixture_pause", "seconds": 0.0038, "state": "END"}
+RESTORED VERIFIED 01791557774205580295_5395c46f85f245f8a93d6ef6eeaa7954
+EXACT RESUME MSL__graph__17 epoch 1 phase fit next_batch 3
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.74, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.03, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.04, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.08, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 1 STOP 0.671121 FIT_loss 0.734688 seconds 1.1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.65, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.9, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.92, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.94, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 2 STOP 0.52575 FIT_loss 0.664642 seconds 0.9
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.05, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.7, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.01, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.03, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.07, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 1 STOP 0.671121 FIT_loss 0.734688 seconds 1.1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.72, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.97, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.98, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.01, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 2 STOP 0.52575 FIT_loss 0.664642 seconds 1.0
+REUSE MSL__graph__17 COMPLETE
+ok
+test_corrupt_latest_rejected_older_verified_generation_restored (__main__.SimpleTests.test_corrupt_latest_rejected_older_verified_generation_restored) ... BACKUP VERIFIED 01791557778232023914_ca7501beb2514b82981b54b0647f4fd5 seconds 0.0 first
+BACKUP VERIFIED 01791557778233319288_3079bc3d01b24ae39130ddc152225b16 seconds 0.0 second
+REJECTED BACKUP 01791557778233319288_3079bc3d01b24ae39130ddc152225b16 SHA256 differs: /tmp/tmph967nbdu/drive/objects/fbddd9cb323e4849bad1ac0b512e35fab508b3c4581e7bee6967b8ceff9c812e
+RESTORED VERIFIED 01791557778232023914_ca7501beb2514b82981b54b0647f4fd5
+ok
+test_failed_seal_blocks_even_label_lookup_in_runner (__main__.SimpleTests.test_failed_seal_blocks_even_label_lookup_in_runner) ... ok
+test_full_batch_probe_exact_resume_all_five_roles (__main__.SimpleTests.test_full_batch_probe_exact_resume_all_five_roles) ... /workspace/scratch/b601914ec2ba/exp013_e02/official_test_work/official/gdn/models/GDN.py:161: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matrices or `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:3725.)
+  gated_i = torch.arange(0, node_num).T.unsqueeze(1).repeat(1, topk_num).flatten().to(device).unsqueeze(0)
+ok
+test_hardware_failure_cannot_grant_gate (__main__.SimpleTests.test_hardware_failure_cannot_grant_gate) ... FULL-BATCH CHECK MSL catch batch 128 parameters 210881152
+ok
+test_incremental_checkpoint_reuse_two_generations (__main__.SimpleTests.test_incremental_checkpoint_reuse_two_generations) ... BACKUP VERIFIED 01791557779223738128_3513c8d96dd246279ca807a0d2f22678 seconds 0.0 first
+BACKUP VERIFIED 01791557779225368995_ac5edd29d12542a385911b131002234c seconds 0.0 second
+BACKUP VERIFIED 01791557779226763277_f1403e0ddeec41959adc6c75a7046237 seconds 0.0 third
+RESTORED VERIFIED 01791557779226763277_f1403e0ddeec41959adc6c75a7046237
+ok
+test_interrupted_upload_keeps_previous_commit (__main__.SimpleTests.test_interrupted_upload_keeps_previous_commit) ... BACKUP VERIFIED 01791557779230559222_1f9b40e8e19a4f9592f750688a354c3a seconds 0.0 first
+RESTORED VERIFIED 01791557779230559222_1f9b40e8e19a4f9592f750688a354c3a
+ok
+test_nested_deadlines_and_foreign_pid_ignored (__main__.SimpleTests.test_nested_deadlines_and_foreign_pid_ignored) ... ok
+test_operation_watchdog_terminates_blocked_worker (__main__.SimpleTests.test_operation_watchdog_terminates_blocked_worker) ... forward start
+Operation deadline exceeded: forward (0.1 seconds). Stop; inspect the last operation and verified backup. No gate is granted.
+ok
+test_partial_hardware_gate_and_changed_batch_rejected (__main__.SimpleTests.test_partial_hardware_gate_and_changed_batch_rejected) ... ok
+test_real_path_smoke_completes_epoch_replays_and_retains_next_batch (__main__.SimpleTests.test_real_path_smoke_completes_epoch_replays_and_retains_next_batch) ... FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.05, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.71, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.02, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.04, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.07, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 1 STOP 0.671121 FIT_loss 0.734688 seconds 1.1
+EXACT RESUME MSL__graph__17 epoch 1 phase epoch_done next_batch 29
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+EXACT RESUME MSL__graph__17 epoch 1 phase epoch_done next_batch 29
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+REUSE VERIFIED REAL-EPOCH SMOKE
+EXACT RESUME MSL__graph__17 epoch 2 phase fit next_batch 2
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.66, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.95, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.96, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.0, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 2 STOP 0.52575 FIT_loss 0.664642 seconds 1.0
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.65, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.91, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.92, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.98, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 1 STOP 0.671121 FIT_loss 0.734688 seconds 1.0
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.73, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.01, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.03, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.06, "epoch": 2, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 2 STOP 0.52575 FIT_loss 0.664642 seconds 1.1
+ok
+test_scientific_factory_schedule_and_sources_unchanged (__main__.SimpleTests.test_scientific_factory_schedule_and_sources_unchanged) ... ok
+test_smoke_adopts_saved_complete_epoch_without_repeating_epoch (__main__.SimpleTests.test_smoke_adopts_saved_complete_epoch_without_repeating_epoch) ... FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.71, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.95, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.97, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.0, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 1 STOP 0.671121 FIT_loss 0.734688 seconds 1.0
+EXACT RESUME MSL__graph__17 epoch 1 phase epoch_done next_batch 29
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+EXACT RESUME MSL__graph__17 epoch 1 phase epoch_done next_batch 29
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+ok
+test_smoke_replay_interruption_reuses_full_epoch (__main__.SimpleTests.test_smoke_replay_interruption_reuses_full_epoch) ... FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.68, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.0, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.01, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.04, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 1 STOP 0.671121 FIT_loss 0.734688 seconds 1.0
+EXACT RESUME MSL__graph__17 epoch 1 phase epoch_done next_batch 29
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+EXACT RESUME MSL__graph__17 epoch 1 phase epoch_done next_batch 29
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+EXACT RESUME MSL__graph__17 epoch 1 phase epoch_done next_batch 29
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 2, "job": "MSL__graph__17", "phase": "FIT"}
+ok
+test_source_identity_mismatch_and_partial_commit_rejected (__main__.SimpleTests.test_source_identity_mismatch_and_partial_commit_rejected) ... BACKUP VERIFIED 01791557786910308593_a65fa86e219646be92a48c14712a8314 seconds 0.0 first
+REJECTED BACKUP 01791557786910308593_a65fa86e219646be92a48c14712a8314 Backup source identity differs
+RESTORED VERIFIED 01791557786910308593_a65fa86e219646be92a48c14712a8314
+ok
+test_stage_order_and_persistent_commits (__main__.SimpleTests.test_stage_order_and_persistent_commits) ... SCORE SEAL VERIFIED. Supply the historical annotation CSV only now.
+ok
+test_launcher_timeout_and_SIGKILL_no_gate (__main__.SimpleTests.test_launcher_timeout_and_SIGKILL_no_gate) ... started
+Bounded invocation exceeded 0.2 seconds. Stop; inspect the last operation and verified backup. No gate is granted.
+ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 15.704s
+
+OK

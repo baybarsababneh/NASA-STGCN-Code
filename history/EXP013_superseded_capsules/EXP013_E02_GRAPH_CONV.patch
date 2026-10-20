@@ -1,0 +1,43 @@
+--- a/src/architectures.py
++++ b/src/architectures.py
+@@ -3,18 +3,36 @@
+ from torch import nn
+ import torch.nn.functional as F
+ 
++def dilated_conv1d_fp32(z,c):
++    """The frozen valid Conv1d, expressed as lagged windows and one GEMM.
++
++    z is already left-padded by NodeEncoder. Windows are flattened in
++    (input channel, kernel tap) order, exactly matching Conv1d.weight.
++    No weights, activations, precision flags, RNG draws or sequence positions
++    change. FP32 reduction order can differ from the native convolution.
++    """
++    d=c.dilation[0];K=c.kernel_size[0]
++    if c.groups!=1 or c.stride!=(1,) or c.padding!=(0,):
++        raise ValueError('This correction is only for the frozen valid stride-1 encoder')
++    windows=z.unfold(2,d*(K-1)+1,1)[...,::d]
++    M,C,T,_=windows.shape
++    columns=windows.permute(0,2,1,3).reshape(M*T,C*K)
++    return F.linear(columns,c.weight.flatten(1),c.bias).reshape(M,T,c.out_channels).transpose(1,2)
++
+ class NodeEncoder(nn.Module):
+-    def __init__(self,h=32):
+-        super().__init__();self.convs=nn.ModuleList([nn.Conv1d(1 if i==0 else h,h,3,dilation=d) for i,d in enumerate([1,2,4,8,16])])
++    def __init__(self,h=32,gemm_dilated=False):
++        super().__init__();self.gemm_dilated=gemm_dilated;self.convs=nn.ModuleList([nn.Conv1d(1 if i==0 else h,h,3,dilation=d) for i,d in enumerate([1,2,4,8,16])])
+     def forward(self,x):
+         B,N,T=x.shape;z=x.reshape(B*N,1,T)
+-        for c in self.convs: z=F.silu(c(F.pad(z,(2*c.dilation[0],0))))
++        for c in self.convs:
++            padded=F.pad(z,(2*c.dilation[0],0))
++            z=F.silu(dilated_conv1d_fp32(padded,c) if self.gemm_dilated and c.dilation!=(1,) else c(padded))
+         return z[:,:,-1].reshape(B,N,-1)
+ 
+ class CommandReferenceGCN(nn.Module):
+     def __init__(self,n_features,n_entities,role='graph',h=32):
+         super().__init__();self.role=role;self.n_features=n_features
+-        self.encoder=NodeEncoder(h);self.entity=nn.Embedding(n_entities,8);self.command=nn.Embedding(n_features-1,h)
++        self.encoder=NodeEncoder(h,gemm_dilated=role=='graph');self.entity=nn.Embedding(n_entities,8);self.command=nn.Embedding(n_features-1,h)
+         self.register_buffer('active_commands',torch.ones(n_entities,n_features-1,dtype=torch.bool))
+         self.query=nn.Linear(8,h);self.key=nn.Linear(h,h,bias=False);self.message=nn.Linear(h,h,bias=False)
+         self.null=nn.Parameter(torch.zeros(h));self.fusion=nn.Linear((n_features-1)*h,h) if role=='fusion' else None

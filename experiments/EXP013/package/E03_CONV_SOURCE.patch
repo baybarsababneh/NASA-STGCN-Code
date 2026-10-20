@@ -1,0 +1,295 @@
+--- E02/src/architectures.py
++++ E03/src/architectures.py
+@@ -3,18 +3,36 @@
+ from torch import nn
+ import torch.nn.functional as F
+ 
++def dilated_conv1d_fp32(z,c):
++    """The frozen valid Conv1d, expressed as lagged windows and one GEMM.
++
++    z is already left-padded by NodeEncoder. Windows are flattened in
++    (input channel, kernel tap) order, exactly matching Conv1d.weight.
++    No weights, activations, precision flags, RNG draws or sequence positions
++    change. FP32 reduction order can differ from the native convolution.
++    """
++    d=c.dilation[0];K=c.kernel_size[0]
++    if c.groups!=1 or c.stride!=(1,) or c.padding!=(0,):
++        raise ValueError('This correction is only for the frozen valid stride-1 encoder')
++    windows=z.unfold(2,d*(K-1)+1,1)[...,::d]
++    M,C,T,_=windows.shape
++    columns=windows.permute(0,2,1,3).reshape(M*T,C*K)
++    return F.linear(columns,c.weight.flatten(1),c.bias).reshape(M,T,c.out_channels).transpose(1,2)
++
+ class NodeEncoder(nn.Module):
+-    def __init__(self,h=32):
+-        super().__init__();self.convs=nn.ModuleList([nn.Conv1d(1 if i==0 else h,h,3,dilation=d) for i,d in enumerate([1,2,4,8,16])])
++    def __init__(self,h=32,gemm_dilated=False):
++        super().__init__();self.gemm_dilated=gemm_dilated;self.convs=nn.ModuleList([nn.Conv1d(1 if i==0 else h,h,3,dilation=d) for i,d in enumerate([1,2,4,8,16])])
+     def forward(self,x):
+         B,N,T=x.shape;z=x.reshape(B*N,1,T)
+-        for c in self.convs: z=F.silu(c(F.pad(z,(2*c.dilation[0],0))))
++        for c in self.convs:
++            padded=F.pad(z,(2*c.dilation[0],0))
++            z=F.silu(dilated_conv1d_fp32(padded,c) if self.gemm_dilated and c.dilation!=(1,) else c(padded))
+         return z[:,:,-1].reshape(B,N,-1)
+ 
+ class CommandReferenceGCN(nn.Module):
+     def __init__(self,n_features,n_entities,role='graph',h=32):
+         super().__init__();self.role=role;self.n_features=n_features
+-        self.encoder=NodeEncoder(h);self.entity=nn.Embedding(n_entities,8);self.command=nn.Embedding(n_features-1,h)
++        self.encoder=NodeEncoder(h,gemm_dilated=True);self.entity=nn.Embedding(n_entities,8);self.command=nn.Embedding(n_features-1,h)
+         self.register_buffer('active_commands',torch.ones(n_entities,n_features-1,dtype=torch.bool))
+         self.query=nn.Linear(8,h);self.key=nn.Linear(h,h,bias=False);self.message=nn.Linear(h,h,bias=False)
+         self.null=nn.Parameter(torch.zeros(h));self.fusion=nn.Linear((n_features-1)*h,h) if role=='fusion' else None
+--- E02/src/simple_backup.py
++++ E03/src/simple_backup.py
+@@ -7,7 +7,7 @@
+ from pathlib import Path
+ from core import sha, read, write, blob, atomic, checked, safe_extract
+ 
+-VERSION = 'EXP013_COMMAND_REFERENCE_V1_E02_SIMPLE'
++VERSION = 'EXP013_COMMAND_REFERENCE_V1_E03_CONV'
+ 
+ class Backup:
+     def __init__(self, work, destination, cache, identity):
+--- E02/src/simple_gate.py
++++ E03/src/simple_gate.py
+@@ -164,7 +164,7 @@
+             raise FloatingPointError('Full-batch gradient is nonfinite')
+         with runtime.operation('probe_optimizer_step',mission=mission,role=role): optimizer.step()
+         return value
+-    scratch=work.parent/'E02_probe_scratch'; scratch.mkdir(exist_ok=True)
++    scratch=work.parent/'E03_probe_scratch'; scratch.mkdir(exist_ok=True)
+     paths0=[scratch/('resume_'+mission+'_'+role+'.pt'),scratch/('expected_'+mission+'_'+role+'.pt')]
+     try:
+         model.train(); start=time.monotonic(); update(); warm=time.monotonic()-start
+@@ -257,6 +257,12 @@
+         gc.collect()
+         if device=='cuda': torch.cuda.empty_cache()
+         print('FULL-BATCH CHECK',mission,role,'batch',row['batch_size'],'parameters',row['parameters'],flush=True)
++        numerical=None
++        if role in train.NEW_ROLES:
++            from convolution_regression import validate_role
++            with runtime.operation('native_corrected_full_batch_regression',mission=mission,role=role,deadline=600):
++                numerical=validate_role(raw,meta,paths,mission,role,device)
++            print('NATIVE/CORRECTED FP32 + EXACT RNG/ADAM REPLAY PASS',mission,role,flush=True)
+         if mission=='MSL' and role=='graph':
+             smoke_record=core.read(work/'SMOKE_GATE.json')
+             if device=='cuda' and smoke_record['measured_peak_GPU_reserved_bytes']>torch.cuda.get_device_properties(0).total_memory*.95:
+@@ -270,6 +276,7 @@
+             with runtime.operation('full_batch_check',mission=mission,role=role,deadline=600):
+                 r=probe(work,raw,meta,paths,mission,role,device)
+             r['epoch_cap_training_seconds_projection']=(r['steady_update_seconds']*row['FIT_batches']+r['validation_batch_seconds']*row['STOP_batches'])*row['epoch_cap']
++        if numerical is not None:r['convolution_regression']=numerical
+         r['identity']=identity
+         core.write(path,r); records.append(r); runtime.checkpoint(work,'hardware_'+mission+'_'+role,force=True)
+     with runtime.operation('official_GDN_equation_parity',deadline=180): equations=gdn_equations(paths,device)
+@@ -293,6 +300,10 @@
+         batch=256 if r['role'] in train.NEW_ROLES else 32 if r['role']=='gdn' else 128
+         if r['identity']!=identity or r['status']!='PASS' or r['batch_size']!=batch or not r['checkpoint_replay_exact']:
+             raise RuntimeError('Full-batch scientific settings or resume check differ')
++        if r['role'] in train.NEW_ROLES:
++            numerical=r.get('convolution_regression',{})
++            if numerical.get('status')!='PASS' or numerical.get('batch_size')!=256 or not numerical.get('corrected_replay_bitwise_equal') or identity['environment']['device']=='cuda' and not numerical.get('actual_GPU'):
++                raise RuntimeError('Corrected-role numerical and exact replay regression required')
+     for n,h in g['evidence'].items():core.checked(work/n,h)
+     core.checked(work/'SMOKE_GATE.json',g['real_first_epoch_verified'])
+     if identity['environment']['device']=='cuda' and not g['full_GPU_validation']:
+--- E02/src/simple_run.py
++++ E03/src/simple_run.py
+@@ -91,6 +91,9 @@
+             identity=pipeline.verify_run(self.work,self.device)
+         else:
+             with self.operation('TRAIN_only_stage',deadline=300): _,_,identity=pipeline.initial(self.work,self.device)
++        core.freeze(self.work/'EXECUTION_AMENDMENT.json',{
++            'amendment':VERSION,'package_manifest_sha256':self.identity['package_manifest_sha256'],
++            'native_convolution_checkpoint_continuation_authorised':False})
+         # Cache official archives locally without relying on runtime network.
+         for name,pin in upstream.PINS.items():
+             src=core.ROOT/'inputs'/('pinned_'+name+'.zip'); core.checked(src,pin['sha256'])
+@@ -162,7 +165,7 @@
+                 pipeline.evaluate(self.work,labels);pipeline.audit(self.work)
+                 self.backup('final_report_and_audit',force=True)
+                 # Keep an easy-to-download final archive, once, after the final audit.
+-                final=self.cache/'EXP013_E02_final_results.zip';pipeline.snapshot(self.work,final)
++                final=self.cache/'EXP013_E03_final_results.zip';pipeline.snapshot(self.work,final)
+                 destination=self.drive/'FINAL_RESULTS.zip'
+                 pending=self.drive/'FINAL_RESULTS.zip.partial'
+                 shutil.copyfile(final,pending);core.checked(pending,core.sha(final));os.replace(pending,destination)
+--- /dev/null
++++ E03/src/convolution_regression.py
+@@ -0,0 +1,174 @@
++"""Fixed, disclosed FP32 equivalence tolerances; exact RNG/replay checks."""
++import copy
++import importlib.util
++from pathlib import Path
++import torch
++import torch.nn.functional as F
++
++# These are gates, never adjusted by the benchmark to make a candidate pass.
++TOLERANCES = {
++    'outputs': (2e-6, 2e-5),
++    'gradients': (2e-7, 2e-4),
++    # Adam's epsilon makes near-zero gradients sensitive to FP32 reduction
++    # order. E03 discloses a 5e-6 parameter gate (0.5% of lr=.001), together
++    # with the unchanged output/gradient gates and a separate
++    # independent FP64 check of every Adam update below. This is not bitwise
++    # equivalence and never authorises native-checkpoint continuation.
++    'parameters': (5e-6, 2e-5),
++    # First-moment rounding induced by the gradient absolute gate is
++    # (1-beta1)*2e-7 = 2e-8. Counters remain exact; relative gate unchanged.
++    'adam': (2e-8, 2e-4),
++    'exact': (0., 0.),
++}
++
++def module(path, name):
++    spec=importlib.util.spec_from_file_location(name,Path(path))
++    value=importlib.util.module_from_spec(spec);spec.loader.exec_module(value)
++    return value
++
++def cpu_copy(value):
++    if isinstance(value,torch.Tensor): return value.detach().cpu().clone()
++    if isinstance(value,dict): return {k:cpu_copy(v) for k,v in value.items()}
++    if isinstance(value,list): return [cpu_copy(v) for v in value]
++    if isinstance(value,tuple): return tuple(cpu_copy(v) for v in value)
++    return copy.deepcopy(value)
++
++def compare(a,b,kind='exact'):
++    atol,rtol=TOLERANCES[kind]
++    report={'pass':True,'bitwise_equal':True,'atol':atol,'rtol':rtol,
++            'max_absolute_error':0.,'max_relative_L2_error':0.,'failures':[],
++            'tensor_errors':{}}
++    def walk(x,y,name):
++        if isinstance(x,torch.Tensor):
++            if not isinstance(y,torch.Tensor) or x.shape!=y.shape or x.dtype!=y.dtype:
++                report['pass']=False;report['bitwise_equal']=False;report['failures'].append(name+': tensor metadata');return
++            exact=torch.equal(x,y);report['bitwise_equal'] &= exact
++            if x.is_floating_point():
++                xf=x.double();yf=y.double();delta=(xf-yf).abs()
++                absolute=float(delta.max()) if x.numel() else 0.
++                relative=float(torch.linalg.vector_norm(xf-yf)/torch.linalg.vector_norm(xf).clamp_min(1e-12))
++                finite=bool(torch.isfinite(x).all() and torch.isfinite(y).all())
++                passed=finite and torch.allclose(x,y,atol=atol,rtol=rtol)
++                # Adam counters must be exact even under an FP32 moment gate.
++                if name.endswith('.step'):passed=exact
++                report['max_absolute_error']=max(report['max_absolute_error'],absolute)
++                report['max_relative_L2_error']=max(report['max_relative_L2_error'],relative)
++                report['tensor_errors'][name]={'absolute':absolute,'relative_L2':relative,'bitwise_equal':exact}
++            else: passed=exact
++            if not passed:report['pass']=False;report['failures'].append(name)
++        elif isinstance(x,dict):
++            if not isinstance(y,dict) or x.keys()!=y.keys():
++                report['pass']=False;report['bitwise_equal']=False;report['failures'].append(name+': keys');return
++            for k in x:walk(x[k],y[k],name+'.'+str(k))
++        elif isinstance(x,(list,tuple)):
++            if type(x)!=type(y) or len(x)!=len(y):
++                report['pass']=False;report['bitwise_equal']=False;report['failures'].append(name+': sequence');return
++            for i,(xx,yy) in enumerate(zip(x,y)):walk(xx,yy,name+'.'+str(i))
++        elif type(x)!=type(y) or x!=y:
++            report['pass']=False;report['bitwise_equal']=False;report['failures'].append(name+': value')
++    walk(a,b,'root')
++    return report
++
++def step(model,optimizer,item,inject_batch,rng,measure=None):
++    """Verbatim frozen FIT equation/order, including the finite scalar gate."""
++    import contextlib,math
++    def span(name):return measure.section(name) if measure else contextlib.nullcontext()
++    x,e,y=item;model.train();optimizer.zero_grad(set_to_none=True)
++    with span('clean_forward'): ref,l=model(x,e)
++    with span('synthetic_injection'):inj,truth=inject_batch(x)
++    with span('injected_forward'):injected_ref,li=model(inj,e)
++    with span('loss'):
++        loss=F.huber_loss(ref,y)+.5*(F.binary_cross_entropy_with_logits(l,torch.zeros_like(l))+F.binary_cross_entropy_with_logits(li,truth))
++        value=float(loss.detach())
++        if not math.isfinite(value):raise FloatingPointError('Nonfinite frozen FIT objective')
++    with span('backward'):loss.backward()
++    gradients=cpu_copy({n:p.grad for n,p in model.named_parameters()})
++    before=cpu_copy(dict(model.named_parameters()))
++    with span('optimizer'):optimizer.step()
++    # Check the optimiser equation independently in double precision; the
++    # actual training and optimiser remain FP32 and are never replaced.
++    adam_math_error=0.
++    for group in optimizer.param_groups:
++        if group['weight_decay'] or group.get('amsgrad') or group.get('maximize'):
++            raise RuntimeError('Regression expects the frozen ordinary Adam')
++        beta1,beta2=group['betas']
++        names={id(p):n for n,p in model.named_parameters()}
++        for p in group['params']:
++            if p.grad is None:continue
++            state=optimizer.state[p];count=int(state['step'])
++            m=state['exp_avg'].detach().cpu().double()/(1-beta1**count)
++            v=state['exp_avg_sq'].detach().cpu().double()/(1-beta2**count)
++            expected=before[names[id(p)]].double()-group['lr']*m/(v.sqrt()+group['eps'])
++            actual=p.detach().cpu().double()
++            torch.testing.assert_close(actual,expected,atol=3e-8,rtol=3e-7)
++            adam_math_error=max(adam_math_error,float((actual-expected).abs().max()))
++    return {'outputs':cpu_copy((ref,l,injected_ref,li,loss)), 'injection':cpu_copy((inj,truth)),
++            'gradients':gradients, 'parameters':cpu_copy(model.state_dict()),
++            'adam':cpu_copy(optimizer.state_dict()), 'rng':cpu_copy(rng()),
++            'independent_Adam_FP64_equation_max_absolute_error':adam_math_error}
++
++def compare_step(a,b,exact=False):
++    kinds={'outputs':'outputs','injection':'exact','gradients':'gradients',
++           'parameters':'parameters','adam':'adam','rng':'exact'}
++    reports={k:compare(a[k],b[k],'exact' if exact else kind) for k,kind in kinds.items()}
++    return {'pass':all(v['pass'] for v in reports.values()),
++            'bitwise_equal':all(v['bitwise_equal'] for v in reports.values()),'comparisons':reports}
++
++def validate_role(raw,meta,paths,mission,role,device):
++    """Two full frozen-batch updates versus native; two exact candidate replays.
++
++    Private discarded models only. No labels, TEST, selection or checkpoints
++    from an earlier run are used. Existing hardware gate owns persistence.
++    """
++    import gc,time,numpy as np
++    import core,data,train
++    from execution_data import gather
++    native=module(core.ROOT/'frozen_originals/architectures.py','e03_native_reference')
++    core.checked(core.ROOT/'frozen_originals/architectures.py',
++        'de8c5697f92edb0f1bc35e875bcd29a0f9b0fe1dd02d2f3225dc86057b4e54e4')
++    channels=sorted(ch for ch in meta if meta[ch]['mission']==mission)
++    nf=meta[channels[0]]['columns'];saved=cpu_copy(core.rng())
++    try:
++        core.seeds(17)
++        candidate,cfg=train.model_for(role,mission,channels,nf,paths,device)
++        init_rng=cpu_copy(core.rng());initial=cpu_copy(candidate.state_dict());del candidate
++        core.seeds(17);control=native.CommandReferenceGCN(nf,len(channels),role)
++        if not compare(initial,control.state_dict())['pass'] or not compare(init_rng,core.rng())['pass']:
++            raise RuntimeError('Convolution correction changed initial weights or RNG')
++        del control
++        active=np.stack([np.ptp(raw[ch][:meta[ch]['fit_end'],1:],axis=0)>0 for ch in channels])
++        initial['active_commands']=torch.from_numpy(active)
++        ds=data.Windows(raw,meta,channels,role,'fit',cfg['balanced_FIT_windows_cap_per_channel'])
++        ix=np.linspace(0,len(ds)-1,cfg['batch_size']).astype(int).tolist()
++        item=tuple(t.to(device) for t in gather(ds,ix));start=cpu_copy(core.rng())
++        def trajectory(is_native):
++            model=native.CommandReferenceGCN(nf,len(channels),role) if is_native else train.model_for(role,mission,channels,nf,paths,device)[0]
++            model.load_state_dict(initial,strict=True);model.to(device)
++            op=torch.optim.Adam(model.parameters(),lr=cfg['lr'],foreach=False,fused=False)
++            core.restore_rng(start);trace=[];times=[]
++            for update in range(2):
++                print('CONV REGRESSION',mission,role,'native' if is_native else 'corrected','update',update+1,flush=True)
++                if device=='cuda':torch.cuda.synchronize()
++                began=time.monotonic();trace.append(step(model,op,item,data.inject_batch,core.rng))
++                if device=='cuda':torch.cuda.synchronize()
++                times.append(time.monotonic()-began)
++                print('CONV REGRESSION UPDATE COMPLETE',round(times[-1],4),'seconds including numerical checks',flush=True)
++            del model,op;gc.collect()
++            if device=='cuda':torch.cuda.empty_cache()
++            return trace,times
++        control,old_seconds=trajectory(True);corrected,new_seconds=trajectory(False)
++        numeric=[compare_step(a,b) for a,b in zip(control,corrected)]
++        if not all(r['pass'] for r in numeric):
++            raise RuntimeError('Full-batch native/corrected FP32 regression failed: '+str(numeric))
++        replay,_=trajectory(False)
++        deterministic=[compare_step(a,b,exact=True) for a,b in zip(corrected,replay)]
++        if not all(r['pass'] for r in deterministic):raise RuntimeError('Corrected full-batch RNG/Adam replay is not exact')
++        return {'status':'PASS','mission':mission,'role':role,'batch_size':cfg['batch_size'],
++            'actual_GPU':device=='cuda','updates':2,'tolerances':TOLERANCES,
++            'native_vs_corrected':numeric,'corrected_replay_bitwise_equal':True,
++            'Adam_FP64_equation_errors':[[a['independent_Adam_FP64_equation_max_absolute_error'],b['independent_Adam_FP64_equation_max_absolute_error']] for a,b in zip(control,corrected)],
++            'native_regression_inclusive_step_seconds':old_seconds,
++            'corrected_regression_inclusive_step_seconds':new_seconds,
++            'timings_include_snapshots_and_checks_not_training_throughput':True,
++            'NASA_TEST_float_arrays_opened':False,'NASA_labels_opened':False}
++    finally:core.restore_rng(saved)

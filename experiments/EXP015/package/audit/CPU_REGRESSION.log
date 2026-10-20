@@ -1,0 +1,192 @@
+test_annotation_access_gate (test_exp015.EngineeringTests.test_annotation_access_gate) ... ok
+test_atomic_commit_stale_corrupt_and_uncommitted_rejection (test_exp015.EngineeringTests.test_atomic_commit_stale_corrupt_and_uncommitted_rejection) ... ok
+test_checkpoint_hash_wrapper_and_tampering (test_exp015.EngineeringTests.test_checkpoint_hash_wrapper_and_tampering) ... ok
+test_inherited_interactive_backend_is_overridden_in_worker (test_exp015.EngineeringTests.test_inherited_interactive_backend_is_overridden_in_worker) ... ok
+test_miniature_interruption_restore_and_uninterrupted_equivalence (test_exp015.EngineeringTests.test_miniature_interruption_restore_and_uninterrupted_equivalence) ... BACKUP VERIFIED 01791688808348712293_76f947d5869e444fad37e0f146fa8770 seconds 0.01 startup
+BACKUP VERIFIED 01791688811711087250_a421027ca04943399a99d06c69e1c611 seconds 0.01 full_shape_MSL__graph__17
+FULL-SHAPE PASS MSL__graph__17 seconds 1.559 peak bytes None actual GPU False
+COMPLETE 1/18 MSL__graph_residual_hundman__17__C-1 · inference 3.39s, detector 0.00s · measured remaining inference 1.0 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688815233742653_9788c4c7eb344aeb99eb69e69aadb3ef seconds 0.01 simulated_interrupt
+BACKUP VERIFIED 01791688815243120390_91f679b11a8b4f1f8e3adb9459bd7ec7 seconds 0.01 failure_preserved
+RESTORED VERIFIED 01791688815243120390_91f679b11a8b4f1f8e3adb9459bd7ec7
+BACKUP VERIFIED 01791688815302212553_cc493ec86d9d4c4d8fe7a403b0aa92b0 seconds 0.01 startup
+REUSE 1/18 MSL__graph_residual_hundman__17__C-1
+BACKUP VERIFIED 01791688815312579965_e8d2fe74175a41d69975e07720cbaeb3 seconds 0.01 job_complete_MSL__graph__17
+BACKUP VERIFIED 01791688818636025181_332b6f9a6cfb4275a8f03a55c57787d2 seconds 0.01 full_shape_MSL__graph__29
+FULL-SHAPE PASS MSL__graph__29 seconds 1.607 peak bytes None actual GPU False
+COMPLETE 2/18 MSL__graph_residual_hundman__29__C-1 · inference 3.26s, detector 0.00s · measured remaining inference 0.9 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688822078263406_0a5dfac1c2fb4e7bb4b279685b98caf9 seconds 0.01 job_complete_MSL__graph__29
+BACKUP VERIFIED 01791688825339373732_bc615d96cbc14da9b2cf69ccbe743629 seconds 0.01 full_shape_MSL__graph__43
+FULL-SHAPE PASS MSL__graph__43 seconds 1.555 peak bytes None actual GPU False
+COMPLETE 3/18 MSL__graph_residual_hundman__43__C-1 · inference 3.29s, detector 0.00s · measured remaining inference 0.8 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688828834145841_d544c5ce15d848f090a8329eb45e8615 seconds 0.01 job_complete_MSL__graph__43
+BACKUP VERIFIED 01791688832299691713_f4de19e8cc83416ba4a47622d3d890f5 seconds 0.01 full_shape_MSL__removed__17
+FULL-SHAPE PASS MSL__removed__17 seconds 1.697 peak bytes None actual GPU False
+COMPLETE 4/18 MSL__removed_residual_hundman__17__C-1 · inference 3.34s, detector 0.00s · measured remaining inference 0.8 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688835826591476_0b9f52d79b684cc1a06b59358e72cbc2 seconds 0.01 job_complete_MSL__removed__17
+BACKUP VERIFIED 01791688839121298143_e00344a5d31d46f996efc5bd4f7748a8 seconds 0.01 full_shape_MSL__removed__29
+FULL-SHAPE PASS MSL__removed__29 seconds 1.586 peak bytes None actual GPU False
+COMPLETE 5/18 MSL__removed_residual_hundman__29__C-1 · inference 3.39s, detector 0.00s · measured remaining inference 0.7 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688842706077458_a51c054ecd444c04ac35edfc330a67b3 seconds 0.01 job_complete_MSL__removed__29
+BACKUP VERIFIED 01791688846029518155_edb4bc82c7544ad0a946fcdae0fedebc seconds 0.01 full_shape_MSL__removed__43
+FULL-SHAPE PASS MSL__removed__43 seconds 1.61 peak bytes None actual GPU False
+COMPLETE 6/18 MSL__removed_residual_hundman__43__C-1 · inference 3.46s, detector 0.00s · measured remaining inference 0.7 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688849677861759_ad27598b4def4a38ac4162d8b175fb58 seconds 0.01 job_complete_MSL__removed__43
+BACKUP VERIFIED 01791688852940323797_22e5f73744c240539ebe261a4828b441 seconds 0.01 full_shape_MSL__fusion__17
+FULL-SHAPE PASS MSL__fusion__17 seconds 1.585 peak bytes None actual GPU False
+COMPLETE 7/18 MSL__fusion_residual_hundman__17__C-1 · inference 3.26s, detector 0.00s · measured remaining inference 0.6 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688856383484165_a713726661dd417696418dba1e1b567d seconds 0.01 job_complete_MSL__fusion__17
+BACKUP VERIFIED 01791688859681540745_7803d0353f57437ea874d6f52c4c8992 seconds 0.01 full_shape_MSL__fusion__29
+FULL-SHAPE PASS MSL__fusion__29 seconds 1.588 peak bytes None actual GPU False
+COMPLETE 8/18 MSL__fusion_residual_hundman__29__C-1 · inference 3.39s, detector 0.00s · measured remaining inference 0.6 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688863258216037_036120f78d7d411995d23b2ef2fd070c seconds 0.01 job_complete_MSL__fusion__29
+BACKUP VERIFIED 01791688866729724094_9541469b61e34288b712844db278466d seconds 0.01 full_shape_MSL__fusion__43
+FULL-SHAPE PASS MSL__fusion__43 seconds 1.707 peak bytes None actual GPU False
+COMPLETE 9/18 MSL__fusion_residual_hundman__43__C-1 · inference 3.34s, detector 0.00s · measured remaining inference 0.5 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688870269835433_2400b8bf09da4bf98f097deecdf46f1a seconds 0.02 job_complete_MSL__fusion__43
+BACKUP VERIFIED 01791688871837051390_42f9853e2d934062a71620b20a08d158 seconds 0.01 full_shape_SMAP__graph__17
+FULL-SHAPE PASS SMAP__graph__17 seconds 0.727 peak bytes None actual GPU False
+COMPLETE 10/18 SMAP__graph_residual_hundman__17__A-1 · inference 1.49s, detector 0.00s · measured remaining inference 0.4 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688873556533834_facca6bd11b44ac48f66701af46bcccc seconds 0.02 job_complete_SMAP__graph__17
+BACKUP VERIFIED 01791688875141112825_0ebfc4542eb74673b76ab96d6e2511e4 seconds 0.01 full_shape_SMAP__graph__29
+FULL-SHAPE PASS SMAP__graph__29 seconds 0.734 peak bytes None actual GPU False
+COMPLETE 11/18 SMAP__graph_residual_hundman__29__A-1 · inference 1.51s, detector 0.00s · measured remaining inference 0.3 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688876850474175_f89f8d4f861b4a5b8df20775356ceda8 seconds 0.02 job_complete_SMAP__graph__29
+BACKUP VERIFIED 01791688878417945139_7e8a5b3d740a4ca1937262909e696732 seconds 0.02 full_shape_SMAP__graph__43
+FULL-SHAPE PASS SMAP__graph__43 seconds 0.723 peak bytes None actual GPU False
+COMPLETE 12/18 SMAP__graph_residual_hundman__43__A-1 · inference 1.53s, detector 0.00s · measured remaining inference 0.3 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688880163163341_965b3b148cd04b48bc1e4dbce1266f5d seconds 0.02 job_complete_SMAP__graph__43
+BACKUP VERIFIED 01791688881796282918_1cde0fe0a6714f28aa846600b067e4a8 seconds 0.02 full_shape_SMAP__removed__17
+FULL-SHAPE PASS SMAP__removed__17 seconds 0.758 peak bytes None actual GPU False
+COMPLETE 13/18 SMAP__removed_residual_hundman__17__A-1 · inference 1.56s, detector 0.00s · measured remaining inference 0.2 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688883584322621_dc33e616205a4bbd921c61886cb66336 seconds 0.02 job_complete_SMAP__removed__17
+BACKUP VERIFIED 01791688885213657074_97222801837b46a1a7df5dba0e24e468 seconds 0.02 full_shape_SMAP__removed__29
+FULL-SHAPE PASS SMAP__removed__29 seconds 0.735 peak bytes None actual GPU False
+COMPLETE 14/18 SMAP__removed_residual_hundman__29__A-1 · inference 1.51s, detector 0.00s · measured remaining inference 0.2 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688886921585740_1e16170edcb04f89813fd2b29fcf5a86 seconds 0.02 job_complete_SMAP__removed__29
+BACKUP VERIFIED 01791688888514338603_696c6c3a15564a7ba87571450d2caf45 seconds 0.02 full_shape_SMAP__removed__43
+FULL-SHAPE PASS SMAP__removed__43 seconds 0.741 peak bytes None actual GPU False
+COMPLETE 15/18 SMAP__removed_residual_hundman__43__A-1 · inference 1.54s, detector 0.00s · measured remaining inference 0.1 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688890248044154_62a0d18120614e59a59f44872d03d5e7 seconds 0.02 job_complete_SMAP__removed__43
+BACKUP VERIFIED 01791688891918190961_3d51ae929c264489906fdbe8e889bc5f seconds 0.02 full_shape_SMAP__fusion__17
+FULL-SHAPE PASS SMAP__fusion__17 seconds 0.725 peak bytes None actual GPU False
+COMPLETE 16/18 SMAP__fusion_residual_hundman__17__A-1 · inference 1.56s, detector 0.00s · measured remaining inference 0.1 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688893699427466_f100843e5ee44a848f9a8a215b9edcd2 seconds 0.02 job_complete_SMAP__fusion__17
+BACKUP VERIFIED 01791688895341616784_ab4018873c8849bc85a292372365db72 seconds 0.02 full_shape_SMAP__fusion__29
+FULL-SHAPE PASS SMAP__fusion__29 seconds 0.76 peak bytes None actual GPU False
+COMPLETE 17/18 SMAP__fusion_residual_hundman__29__A-1 · inference 1.54s, detector 0.00s · measured remaining inference 0.0 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688897093200193_1eaf4b840c4744638812f651d9c0e916 seconds 0.02 job_complete_SMAP__fusion__29
+BACKUP VERIFIED 01791688898720609759_f7f147cbd9c24a9081490d0d726d591e seconds 0.02 full_shape_SMAP__fusion__43
+FULL-SHAPE PASS SMAP__fusion__43 seconds 0.796 peak bytes None actual GPU False
+COMPLETE 18/18 SMAP__fusion_residual_hundman__43__A-1 · inference 1.52s, detector 0.00s · measured remaining inference 0.0 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688900453896500_56a2d81a46834db798811a1dfb2e29bb seconds 0.02 job_complete_SMAP__fusion__43
+BACKUP VERIFIED 01791688900487925002_cc380436f2c3451aa478b5dca8cee2f4 seconds 0.02 score_seal
+BACKUP VERIFIED 01791688902289547506_a5955923e66c4bfdba48aa90ed0f9ab8 seconds 0.04 final_reports_audit
+FINAL EXPORT VERIFIED /tmp/tmpyao40_lq/resumed_drive/exports/EXP015_FINAL_RESULTS_5642f1dfd85a61d7.zip export seconds 0.04 
+Original EXP012/EXP013/EXP014 outputs unchanged.
+BACKUP VERIFIED 01791688902388019397_616a3a2b32e945e28edac62204e1d4b3 seconds 0.01 startup
+BACKUP VERIFIED 01791688905873422675_774628bf2f6c419f813640dbdc88bb04 seconds 0.01 full_shape_MSL__graph__17
+FULL-SHAPE PASS MSL__graph__17 seconds 1.674 peak bytes None actual GPU False
+COMPLETE 1/18 MSL__graph_residual_hundman__17__C-1 · inference 3.35s, detector 0.00s · measured remaining inference 1.0 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688909469103551_e5ad981861e7496d9cd55026a877c509 seconds 0.01 job_complete_MSL__graph__17
+BACKUP VERIFIED 01791688912956571358_d06c9db6482d4789a814dc2130d62d35 seconds 0.01 full_shape_MSL__graph__29
+FULL-SHAPE PASS MSL__graph__29 seconds 1.669 peak bytes None actual GPU False
+COMPLETE 2/18 MSL__graph_residual_hundman__29__C-1 · inference 3.49s, detector 0.00s · measured remaining inference 0.9 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688916682064321_35c3d63b40d94482b53a461e45cfb3bf seconds 0.01 job_complete_MSL__graph__29
+BACKUP VERIFIED 01791688920204061374_94c39b3522b640b2823848d0c1ac66b5 seconds 0.01 full_shape_MSL__graph__43
+FULL-SHAPE PASS MSL__graph__43 seconds 1.679 peak bytes None actual GPU False
+COMPLETE 3/18 MSL__graph_residual_hundman__43__C-1 · inference 3.46s, detector 0.00s · measured remaining inference 0.9 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688923899195162_c8f4d254753c45ce8f1a2c0f8358bcd5 seconds 0.01 job_complete_MSL__graph__43
+BACKUP VERIFIED 01791688927378608555_8e3e821da39240948c9d301f22c752b4 seconds 0.01 full_shape_MSL__removed__17
+FULL-SHAPE PASS MSL__removed__17 seconds 1.686 peak bytes None actual GPU False
+COMPLETE 4/18 MSL__removed_residual_hundman__17__C-1 · inference 3.41s, detector 0.00s · measured remaining inference 0.8 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688931081076279_9ef3fe0e8295413aa9ebdae2f238a025 seconds 0.01 job_complete_MSL__removed__17
+BACKUP VERIFIED 01791688934553271168_cd8e512f98c94674a5dabbd934b7f4d2 seconds 0.01 full_shape_MSL__removed__29
+FULL-SHAPE PASS MSL__removed__29 seconds 1.655 peak bytes None actual GPU False
+COMPLETE 5/18 MSL__removed_residual_hundman__29__C-1 · inference 3.45s, detector 0.00s · measured remaining inference 0.7 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688938254618215_a5d5162389664bae90803a2ec7127417 seconds 0.01 job_complete_MSL__removed__29
+BACKUP VERIFIED 01791688941679871006_c7c95e54ed9f4afe839c81ba9dd9f973 seconds 0.01 full_shape_MSL__removed__43
+FULL-SHAPE PASS MSL__removed__43 seconds 1.652 peak bytes None actual GPU False
+COMPLETE 6/18 MSL__removed_residual_hundman__43__C-1 · inference 3.39s, detector 0.00s · measured remaining inference 0.7 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688945340763478_4ea7dc751b9f4ca6a981ddf8a6c033f2 seconds 0.01 job_complete_MSL__removed__43
+BACKUP VERIFIED 01791688948866794333_705fe0247300444f8009daddcb5394b0 seconds 0.01 full_shape_MSL__fusion__17
+FULL-SHAPE PASS MSL__fusion__17 seconds 1.683 peak bytes None actual GPU False
+COMPLETE 7/18 MSL__fusion_residual_hundman__17__C-1 · inference 3.43s, detector 0.00s · measured remaining inference 0.6 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688952521398462_8af8f362846b4947a62c4b9caf3fa508 seconds 0.01 job_complete_MSL__fusion__17
+BACKUP VERIFIED 01791688956067229753_a0b946c3eb5544cf94c6f976007f167b seconds 0.01 full_shape_MSL__fusion__29
+FULL-SHAPE PASS MSL__fusion__29 seconds 1.69 peak bytes None actual GPU False
+COMPLETE 8/18 MSL__fusion_residual_hundman__29__C-1 · inference 3.49s, detector 0.00s · measured remaining inference 0.6 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688959790316067_3a4e7a7e40ba40138d543bc4d1642480 seconds 0.02 job_complete_MSL__fusion__29
+BACKUP VERIFIED 01791688963385152762_ed9b40b1c8674d1b8adcc3df8970bfa4 seconds 0.01 full_shape_MSL__fusion__43
+FULL-SHAPE PASS MSL__fusion__43 seconds 1.736 peak bytes None actual GPU False
+COMPLETE 9/18 MSL__fusion_residual_hundman__43__C-1 · inference 3.39s, detector 0.00s · measured remaining inference 0.5 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688967003814252_6a5bec9a4d424ef9925c46793b61c803 seconds 0.01 job_complete_MSL__fusion__43
+BACKUP VERIFIED 01791688968586547762_d401a436ca4448a78d2b630ea2b965ac seconds 0.01 full_shape_SMAP__graph__17
+FULL-SHAPE PASS SMAP__graph__17 seconds 0.73 peak bytes None actual GPU False
+COMPLETE 10/18 SMAP__graph_residual_hundman__17__A-1 · inference 1.50s, detector 0.00s · measured remaining inference 0.4 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688970306286819_b76164137b1044a4ad098e05391a2827 seconds 0.02 job_complete_SMAP__graph__17
+BACKUP VERIFIED 01791688971921815274_a97adbbfeb154417af73789254d61f8b seconds 0.02 full_shape_SMAP__graph__29
+FULL-SHAPE PASS SMAP__graph__29 seconds 0.726 peak bytes None actual GPU False
+COMPLETE 11/18 SMAP__graph_residual_hundman__29__A-1 · inference 1.53s, detector 0.00s · measured remaining inference 0.4 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688973688898176_120b2e5e8e554ff0b863ddedea081703 seconds 0.02 job_complete_SMAP__graph__29
+BACKUP VERIFIED 01791688975328735013_2f202bb0ea3349dfa3c504b967e5f685 seconds 0.02 full_shape_SMAP__graph__43
+FULL-SHAPE PASS SMAP__graph__43 seconds 0.728 peak bytes None actual GPU False
+COMPLETE 12/18 SMAP__graph_residual_hundman__43__A-1 · inference 1.53s, detector 0.00s · measured remaining inference 0.3 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688977088482104_a2c84eaf8a354221b0a3301105804bcd seconds 0.02 job_complete_SMAP__graph__43
+BACKUP VERIFIED 01791688978691980232_4e8aa3da04ce41da9523566c2ab3c73b seconds 0.02 full_shape_SMAP__removed__17
+FULL-SHAPE PASS SMAP__removed__17 seconds 0.738 peak bytes None actual GPU False
+COMPLETE 13/18 SMAP__removed_residual_hundman__17__A-1 · inference 1.50s, detector 0.00s · measured remaining inference 0.2 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688980432355042_56a1fc0a808f4925a75db7e8298cdc94 seconds 0.02 job_complete_SMAP__removed__17
+BACKUP VERIFIED 01791688982136992339_b6af39cee44b4a11969f901bc4ff99a2 seconds 0.02 full_shape_SMAP__removed__29
+FULL-SHAPE PASS SMAP__removed__29 seconds 0.783 peak bytes None actual GPU False
+COMPLETE 14/18 SMAP__removed_residual_hundman__29__A-1 · inference 1.60s, detector 0.00s · measured remaining inference 0.2 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688984056990265_12b04426a037404a9d8dfe826fa2df39 seconds 0.02 job_complete_SMAP__removed__29
+BACKUP VERIFIED 01791688985763712759_da841df1b30d485590ae3c4be0cc1358 seconds 0.02 full_shape_SMAP__removed__43
+FULL-SHAPE PASS SMAP__removed__43 seconds 0.817 peak bytes None actual GPU False
+COMPLETE 15/18 SMAP__removed_residual_hundman__43__A-1 · inference 1.52s, detector 0.00s · measured remaining inference 0.1 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688987527974472_6f0db9bab44243d3b585b1d84f0512b7 seconds 0.02 job_complete_SMAP__removed__43
+BACKUP VERIFIED 01791688989169175338_172107b1a18248efa9bea25b9e8582bd seconds 0.02 full_shape_SMAP__fusion__17
+FULL-SHAPE PASS SMAP__fusion__17 seconds 0.752 peak bytes None actual GPU False
+COMPLETE 16/18 SMAP__fusion_residual_hundman__17__A-1 · inference 1.54s, detector 0.00s · measured remaining inference 0.1 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688990948745374_c9582d37d3b74ed999af8b2f411a168f seconds 0.02 job_complete_SMAP__fusion__17
+BACKUP VERIFIED 01791688992596177625_0ff7e60112e540c7957919f32c2643b3 seconds 0.02 full_shape_SMAP__fusion__29
+FULL-SHAPE PASS SMAP__fusion__29 seconds 0.755 peak bytes None actual GPU False
+COMPLETE 17/18 SMAP__fusion_residual_hundman__29__A-1 · inference 1.61s, detector 0.00s · measured remaining inference 0.0 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688994458391575_ec3532911e7645d8bc551a19d8855237 seconds 0.02 job_complete_SMAP__fusion__29
+BACKUP VERIFIED 01791688996094160338_68fbef5332874bf5b7988fbba93f7b73 seconds 0.02 full_shape_SMAP__fusion__43
+FULL-SHAPE PASS SMAP__fusion__43 seconds 0.746 peak bytes None actual GPU False
+COMPLETE 18/18 SMAP__fusion_residual_hundman__43__A-1 · inference 1.56s, detector 0.00s · measured remaining inference 0.0 min, detector 0.0 min; excludes backup/scoring/export; mission and role workloads differ
+BACKUP VERIFIED 01791688997877232234_9bc61602169840289a2cf4b930c75cc1 seconds 0.02 job_complete_SMAP__fusion__43
+BACKUP VERIFIED 01791688997907052373_f90838908f4f4c3388deb4841563ad05 seconds 0.02 score_seal
+BACKUP VERIFIED 01791688999284158474_4fc5d6d646364f01aeb0bfaa2e95e807 seconds 0.03 final_reports_audit
+FINAL EXPORT VERIFIED /tmp/tmpyao40_lq/clean_drive/exports/EXP015_FINAL_RESULTS_d2e8ec3e0f886c8a.zip export seconds 0.04 
+Original EXP012/EXP013/EXP014 outputs unchanged.
+BACKUP VERIFIED 01791688999438210022_9940f4273fbb479bbc884adb5e565c80 seconds 0.04 startup
+BACKUP VERIFIED 01791688999548008778_aacd816500fc4aaa8cb84085149d6bc4 seconds 0.03 final_reports_audit
+FINAL EXPORT VERIFIED /tmp/tmpyao40_lq/resumed_drive/exports/EXP015_FINAL_RESULTS_ed8349414a2ae201.zip export seconds 0.04 
+Original EXP012/EXP013/EXP014 outputs unchanged.
+ok
+test_missing_originals_are_exactly_enumerated_without_substitution (test_exp015.EngineeringTests.test_missing_originals_are_exactly_enumerated_without_substitution) ... ok
+test_two_generation_backup_corrupt_fallback_and_runtime_identity (test_exp015.EngineeringTests.test_two_generation_backup_corrupt_fallback_and_runtime_identity) ... BACKUP VERIFIED 01791688999654941849_3ac56fbc77a44b56b37208b134b2a914 seconds 0.0 first
+BACKUP VERIFIED 01791688999656481786_ae9962c44a0f411cbe3ea4b2e854d432 seconds 0.0 second
+REJECTED BACKUP 01791688999656481786_ae9962c44a0f411cbe3ea4b2e854d432 SHA256 differs: /tmp/tmp5p814c7o/drive/objects/428b1206f4009807b5769e57368f225669a6951fcecf5d32366f3ca110acb4ab
+RESTORED VERIFIED 01791688999654941849_3ac56fbc77a44b56b37208b134b2a914
+REJECTED BACKUP 01791688999656481786_ae9962c44a0f411cbe3ea4b2e854d432 SHA256 differs: /tmp/tmp5p814c7o/drive/objects/428b1206f4009807b5769e57368f225669a6951fcecf5d32366f3ca110acb4ab
+ok
+test_unsafe_duplicate_and_traversal_archives (test_exp015.EngineeringTests.test_unsafe_duplicate_and_traversal_archives) ... /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/zipfile/__init__.py:1625: UserWarning: Duplicate name: 'a'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+ok
+test_actual_full_native_CPU_shapes_and_restoration (test_exp015.ScientificTests.test_actual_full_native_CPU_shapes_and_restoration) ... ok
+test_eight_established_detector_regressions (test_exp015.ScientificTests.test_eight_established_detector_regressions) ... ok
+test_exact_frozen_sources_and_input_roster (test_exp015.ScientificTests.test_exact_frozen_sources_and_input_roster) ... ok
+test_grouped_seed_bootstrap_uses_one_GDN_seed (test_exp015.ScientificTests.test_grouped_seed_bootstrap_uses_one_GDN_seed) ... ok
+test_independent_event_point_and_late_issue_oracle (test_exp015.ScientificTests.test_independent_event_point_and_late_issue_oracle) ... ok
+test_inverse_scale_original_target_precision (test_exp015.ScientificTests.test_inverse_scale_original_target_precision) ... ok
+test_native_history_before_common_crop_is_preserved (test_exp015.ScientificTests.test_native_history_before_common_crop_is_preserved) ... ok
+test_reference_causality_telemetry_invariance_and_removal (test_exp015.ScientificTests.test_reference_causality_telemetry_invariance_and_removal) ... ok
+test_short_zero_floor_and_tail_detector_semantics (test_exp015.ScientificTests.test_short_zero_floor_and_tail_detector_semantics) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 243.650s
+
+OK

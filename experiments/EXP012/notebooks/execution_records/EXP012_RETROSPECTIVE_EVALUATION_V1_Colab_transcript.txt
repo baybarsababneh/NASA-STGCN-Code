@@ -1,0 +1,6 @@
+# Recovered notebook execution record
+
+Original notebook: experiments/EXP012/notebooks/EXP012_RETROSPECTIVE_EVALUATION_V1_Colab.ipynb
+Original file SHA-256: d31aafdab89f43ddc44686c35fcd9bcad053499bff8651179907acb6f9f3a7a8
+
+Existing text outputs only; no cells executed in recovery. ANSI display escapes removed. Rich binary/HTML output is omitted.

@@ -1,0 +1,13 @@
+{
+  "analysis_id": "LSTM_RELEASE_BENCHMARK_AUDIT_V1",
+  "protocol_sha256": "bba27b7a892d5a09640ee22bc4c0ea9336ca40de2ab5a1d9283877867393e6c9",
+  "source_verification_sha256": "0e10fa3e3002f5933ccebd9e0f4a220287207a9d4c89014514f3975df83dc780",
+  "new_training_fits": 0,
+  "common_detector_streams": 567,
+  "native_detector_streams": 81,
+  "original_support_count_regressions": 486,
+  "native_saved_intervals_exact": 81,
+  "native_interval_mismatches": [],
+  "label_tuning": false,
+  "historical_results_modified": false
+}

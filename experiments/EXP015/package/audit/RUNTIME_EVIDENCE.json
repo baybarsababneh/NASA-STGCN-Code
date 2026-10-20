@@ -1,0 +1,16 @@
+{
+  "CPU_installer_probe_seconds": 57.983023414999934,
+  "CPU_regression_seconds": 243.66434312499996,
+  "GPU_runtime_estimate_available": false,
+  "NASA_detector_targets": 4403745,
+  "NASA_native_inference_targets": 4539339,
+  "NASA_new_streams": 729,
+  "individual_detector_CPU_seconds_range": [
+    0.0019174589999693126,
+    0.1784434369999417
+  ],
+  "reason": "No A100 or original EXP013 checkpoint archive in development; do not extrapolate CPU model throughput to GPU. Live ETA uses actual completed batches and units.",
+  "saved_detector_samples": 39780,
+  "saved_detector_seconds": 0.5669662230002359,
+  "saved_detector_streams": 8
+}

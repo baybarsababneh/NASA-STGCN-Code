@@ -1,0 +1,168 @@
+--- frozen_cpu/v2_train_exp006.py
++++ src/gpu_train.py
+@@ -1,3 +1,4 @@
++"""Versioned GPU-native derivative; see provenance/trainer.diff."""
+ import json
+ import random
+ import time
+@@ -22,6 +23,7 @@
+     random.seed(int(seed))
+     np.random.seed(int(seed))
+     torch.manual_seed(int(seed))
++    torch.cuda.manual_seed_all(int(seed))
+ 
+ 
+ def make_loader(x, y, batch_size, shuffle, seed):
+@@ -80,13 +82,15 @@
+     common,
+     smoke_epochs=None,
+ ):
+-    device = torch.device("cpu")
++    device = torch.device("cuda")
+     model = model.to(device)
+     criterion = nn.MSELoss()
+     optimizer = torch.optim.AdamW(
+         model.parameters(),
+         lr=float(learning_rate),
+         weight_decay=float(common["weight_decay"]),
++        foreach=False,
++        fused=False,
+     )
+ 
+     fit_loader = make_loader(
+@@ -108,6 +112,8 @@
+     best_state = None
+     stale = 0
+     epochs_ran = 0
++    history = []
++    torch.cuda.synchronize()
+     start = time.perf_counter()
+ 
+     for epoch in range(1, max_epochs + 1):
+@@ -119,6 +125,8 @@
+             optimizer.zero_grad()
+             pred = model(x_batch)
+             loss = criterion(pred, y_batch)
++            if not torch.isfinite(loss):
++                raise RuntimeError("Non-finite training loss")
+             loss.backward()
+             torch.nn.utils.clip_grad_norm_(
+                 model.parameters(), max_norm=clip_norm
+@@ -128,6 +136,11 @@
+         stop_mse = evaluate_mse(
+             model, stop_loader, criterion, device
+         )
++        if not np.isfinite(stop_mse):
++            raise RuntimeError("Non-finite early-stopping MSE")
++        history.append({"epoch": epoch, "early_stop_mse": stop_mse})
++        if epoch == 1 or epoch % 10 == 0:
++            print(f"  epoch={epoch} stop_mse={stop_mse:.9g}", flush=True)
+         if stop_mse < best_mse - min_delta:
+             best_mse = stop_mse
+             best_epoch = epoch
+@@ -139,6 +152,7 @@
+         if smoke_epochs is None and stale >= patience:
+             break
+ 
++    torch.cuda.synchronize()
+     elapsed = time.perf_counter() - start
+     if best_state is None:
+         raise RuntimeError("Training completed without a valid checkpoint")
+@@ -146,11 +160,12 @@
+     final_stop_mse = evaluate_mse(
+         model, stop_loader, criterion, device
+     )
++    model.exp006_history = history
+     return model, final_stop_mse, best_epoch, epochs_ran, elapsed
+ 
+ 
+ def _verify_initial_persistence(model, x_probe):
+-    device = torch.device("cpu")
++    device = torch.device("cuda")
+     model = model.to(device)
+     with torch.no_grad():
+         probe = torch.from_numpy(x_probe.astype(np.float32)).to(device)
+@@ -160,7 +175,7 @@
+             raise RuntimeError("Initial output is not exact persistence")
+ 
+ 
+-def train_standard(channel, seed, base_config, candidate, smoke_epochs=None):
++def train_standard(channel, seed, base_config, candidate, smoke_epochs=None, role="gcn_candidate"):
+     """60/20/20 TRAIN-only screening or confirmation fit."""
+     set_seed(seed)
+     dataset_cfg = base_config["dataset"]
+@@ -187,14 +202,18 @@
+     x_val = subset_features(data.x_val, graph.feature_indices)
+     hidden = int(candidate["hidden_by_mission"][data.mission])
+ 
+-    model = TCNGCNFixedTuned(
++    if role not in {"gcn_candidate", "exp002_reference"}:
++        raise ValueError(role)
++    model_class = TCNGCNFixedTuned if role == "gcn_candidate" else HistoricalEXP002GCN
++    model = model_class(
+         num_nodes=graph.num_nodes,
+         hidden_size=hidden,
+         adjacency=graph.adjacency,
+         kernel_size=kernel_size,
+         dilations=dilations,
+     )
+-    if model.receptive_field > lookback:
++    rf = 1 + (kernel_size - 1) * sum(dilations)
++    if rf > lookback:
+         raise ValueError("Receptive field exceeds lookback")
+     _verify_initial_persistence(model, x_fit[: min(8, len(x_fit))])
+ 
+@@ -224,6 +243,11 @@
+     result = {
+         "experiment_id": base_config["experiment_id"],
+         "candidate_id": candidate["candidate_id"],
++        "role": role,
++        "target_mean": float(data.target_mean),
++        "target_scale": float(data.target_scale),
++        "fit_end": int(data.fit_end),
++        "stop_end": int(data.val_end),
+         "channel": channel,
+         "mission": data.mission,
+         "seed": int(seed),
+@@ -241,7 +265,7 @@
+         "lookback": lookback,
+         "kernel_size": kernel_size,
+         "dilations": json.dumps(list(dilations)),
+-        "receptive_field": int(model.receptive_field),
++        "receptive_field": int(rf),
+         "hidden_size": hidden,
+         "learning_rate": float(candidate["learning_rate"]),
+         "weight_decay": float(common["weight_decay"]),
+@@ -311,6 +335,8 @@
+         "stop_end": stop_end,
+         "assess_end": assess_end,
+         "num_values": n,
++        "target_mean": mean,
++        "target_scale": scale,
+     }
+ 
+ 
+@@ -425,7 +451,7 @@
+         x_assess, arrays["y_assess"], common["batch_size"], False, seed
+     )
+     assessment_mse = evaluate_mse(
+-        model, assess_loader, criterion, torch.device("cpu")
++        model, assess_loader, criterion, torch.device("cuda")
+     )
+     persistence_mse = float(
+         np.mean((arrays["p_assess"] - arrays["y_assess"]) ** 2)
+@@ -434,7 +460,13 @@
+     candidate_id = (
+         candidate["candidate_id"] if role == "gcn_candidate" else role
+     )
+-    return {
++    return model, {
++        "target_mean": arrays["target_mean"],
++        "target_scale": arrays["target_scale"],
++        "fit_end": arrays["fit_end"],
++        "stop_end": arrays["stop_end"],
++        "assess_end": arrays["assess_end"],
++        "graph_feature_indices": json.dumps(graph.feature_indices.tolist()),
+         "experiment_id": base_config["experiment_id"],
+         "role": role,
+         "candidate_id": candidate_id,

@@ -1,0 +1,9 @@
+{
+  "source_archive_files_unchanged": true,
+  "archive_members_checked": 412,
+  "aggregate_counts_and_metrics_recomputed": true,
+  "model_fits": 1053,
+  "prediction_files": 810,
+  "per_channel_metric_rows": 3402,
+  "all_checkpoint_artifacts_present": true
+}

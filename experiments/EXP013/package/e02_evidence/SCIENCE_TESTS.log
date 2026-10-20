@@ -1,0 +1,56 @@
+test_bank_quarantine_and_duration_receipts (__main__.ScienceTests.test_bank_quarantine_and_duration_receipts) ... ok
+test_checkpoint_is_transactional_and_safe (__main__.ScienceTests.test_checkpoint_is_transactional_and_safe) ... ok
+test_commands_are_never_corrupted (__main__.ScienceTests.test_commands_are_never_corrupted) ... ok
+test_constant_FIT_commands_use_finite_null_message (__main__.ScienceTests.test_constant_FIT_commands_use_finite_null_message) ... ok
+test_current_command_is_not_used (__main__.ScienceTests.test_current_command_is_not_used) ... ok
+test_empty_support_undefined_AP (__main__.ScienceTests.test_empty_support_undefined_AP) ... ok
+test_ewma_prefix_is_causal (__main__.ScienceTests.test_ewma_prefix_is_causal) ... ok
+test_false_alarm_penalty_and_true_issue_time (__main__.ScienceTests.test_false_alarm_penalty_and_true_issue_time) ... ok
+test_fit_stop_boundaries (__main__.ScienceTests.test_fit_stop_boundaries) ... ok
+test_future_does_not_change_scores (__main__.ScienceTests.test_future_does_not_change_scores) ... ok
+test_gdn_uses_frozen_train_stats (__main__.ScienceTests.test_gdn_uses_frozen_train_stats) ... ok
+test_graph_and_removed_initial_states_match (__main__.ScienceTests.test_graph_and_removed_initial_states_match) ... ok
+test_labels_are_not_opened_when_seal_fails (__main__.ScienceTests.test_labels_are_not_opened_when_seal_fails) ... ok
+test_new_model_epoch_resume_is_exact (__main__.ScienceTests.test_new_model_epoch_resume_is_exact) ... FIT START SMAP__graph__17 FIT_windows 304 FIT_batches 10 STOP_windows 64 STOP_batches 2 batch_size 32 epoch_cap 2
+{"batch": 1, "batches": 10, "elapsed_seconds": 0.11, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 10, "batches": 10, "elapsed_seconds": 0.65, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 2, "elapsed_seconds": 0.67, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 2, "batches": 2, "elapsed_seconds": 0.69, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.732973 FIT_loss 1.095492 seconds 0.7
+{"batch": 1, "batches": 10, "elapsed_seconds": 0.08, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 10, "batches": 10, "elapsed_seconds": 0.57, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 2, "elapsed_seconds": 0.6, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 2, "batches": 2, "elapsed_seconds": 0.62, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.725638 FIT_loss 1.084889 seconds 0.6
+FIT START SMAP__graph__17 FIT_windows 304 FIT_batches 10 STOP_windows 64 STOP_batches 2 batch_size 32 epoch_cap 2
+{"batch": 1, "batches": 10, "elapsed_seconds": 0.06, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 10, "batches": 10, "elapsed_seconds": 0.52, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 2, "elapsed_seconds": 0.54, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 2, "batches": 2, "elapsed_seconds": 0.56, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.732973 FIT_loss 1.095492 seconds 0.6
+EXACT RESUME SMAP__graph__17 epoch 1 phase epoch_done next_batch 11
+FIT START SMAP__graph__17 FIT_windows 304 FIT_batches 10 STOP_windows 64 STOP_batches 2 batch_size 32 epoch_cap 2
+{"batch": 1, "batches": 10, "elapsed_seconds": 0.07, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 10, "batches": 10, "elapsed_seconds": 0.53, "epoch": 2, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 2, "elapsed_seconds": 0.54, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 2, "batches": 2, "elapsed_seconds": 0.56, "epoch": 2, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 2 STOP 0.725638 FIT_loss 1.084889 seconds 0.6
+REUSE SMAP__graph__17 COMPLETE
+ok
+test_no_cross_entity_windows (__main__.ScienceTests.test_no_cross_entity_windows) ... ok
+test_paired_point_bootstrap_uses_pooled_confusion_counts (__main__.ScienceTests.test_paired_point_bootstrap_uses_pooled_confusion_counts) ... ok
+test_payload_tampering_is_rejected (__main__.ScienceTests.test_payload_tampering_is_rejected) ... ok
+test_reference_ignores_all_telemetry (__main__.ScienceTests.test_reference_ignores_all_telemetry) ... ok
+test_removal_cuts_every_command_path (__main__.ScienceTests.test_removal_cuts_every_command_path) ... ok
+test_snapshot_restore_verifies_bytes (__main__.ScienceTests.test_snapshot_restore_verifies_bytes) ... ok
+test_strict_tied_quantile (__main__.ScienceTests.test_strict_tied_quantile) ... ok
+test_tied_AP_and_no_positive_support (__main__.ScienceTests.test_tied_AP_and_no_positive_support) ... ok
+test_unchanged_stuck_is_invalid (__main__.ScienceTests.test_unchanged_stuck_is_invalid) ... ok
+test_zip_traversal_is_rejected (__main__.ScienceTests.test_zip_traversal_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 4.455s
+
+OK
+Snapshot: /tmp/tmphhbmceee/snap.zip 375 bytes
+Snapshot bytes verified and restored

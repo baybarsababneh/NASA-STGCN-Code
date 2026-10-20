@@ -1,0 +1,78 @@
+{
+  "experiment_id": "v2_exp003_tcn_no_graph",
+  "description": "Primary matched no-edge control for EXP002. The retained fit-only nodes, shared causal TCN, node-specific affine terms, self transformation, message transformation, readout, persistence residual, training settings and CPU backend are retained. The only intended model change is replacement of the fixed adjacency by an all-zero adjacency.",
+  "dataset": {
+    "missions": [
+      "SMAP",
+      "MSL"
+    ],
+    "unique_labelled_channels": 81,
+    "exclude_unlabelled": [
+      "T-10"
+    ],
+    "duplicate_label_policy": "one unique channel per chan_id",
+    "fit_fraction": 0.6,
+    "validation_end_fraction": 0.8,
+    "calibration_fraction": 0.2,
+    "test_access_during_development": false
+  },
+  "model": {
+    "type": "tcn_no_graph_matched",
+    "lookback": 64,
+    "kernel_size": 3,
+    "dilations": [
+      1,
+      2
+    ],
+    "hidden_by_mission": {
+      "MSL": 32,
+      "SMAP": 64
+    },
+    "graph_by_mission": {
+      "SMAP": {
+        "mode": "star",
+        "description": "All varying command-context nodes connect to the telemetry target with equal fixed weights."
+      },
+      "MSL": {
+        "mode": "top4",
+        "description": "Four command-context nodes selected using fit-only lagged association with telemetry target changes.",
+        "selection_lags": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "max_command_nodes": 4
+      }
+    },
+    "graph_weights": "all_zero",
+    "graph_direction": "disabled",
+    "graph_layers": 1,
+    "residual_prediction": "persistence",
+    "matched_reference_experiment": "v2_exp002_tcn_gcn_fixed",
+    "graph_ablation": {
+      "feature_selection": "Identical to EXP002: telemetry plus command-context columns varying in the fitting block.",
+      "reference_graph": "EXP002 graph construction is still performed using fit data only so retained nodes and reference support remain identical.",
+      "message_passing": "Disabled by replacing adjacency with an all-zero matrix of identical shape."
+    }
+  },
+  "training": {
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "max_epochs": 80,
+    "patience": 6,
+    "min_delta": 1e-07,
+    "gradient_clip_norm": 1.0,
+    "device": "cpu"
+  },
+  "selection_metric": "validation_mse",
+  "notes": "TRAIN-only matched graph-effect control for EXP002. NASA TEST arrays and anomaly labels are not used. CPU is intentionally retained to match EXP002. The only intended model change is zero graph adjacency."
+}

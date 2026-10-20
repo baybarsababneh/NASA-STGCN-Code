@@ -1,0 +1,154 @@
+[
+  {
+    "metric": "corrected_event_f0_5",
+    "difference": -0.07407821833718986,
+    "CI95": [
+      -0.20720750182649347,
+      0.022830871943736588
+    ],
+    "CI98_75": [
+      -0.25213227537793925,
+      0.05152846850317695
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "MSL",
+    "contrast": "gcn_minus_released_lstm",
+    "pipeline": "common"
+  },
+  {
+    "metric": "point_f1",
+    "difference": -0.0886192971492053,
+    "CI95": [
+      -0.18757910712015907,
+      -0.004711002777807127
+    ],
+    "CI98_75": [
+      -0.21747603932482498,
+      0.015563029563686227
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "MSL",
+    "contrast": "gcn_minus_released_lstm",
+    "pipeline": "common"
+  },
+  {
+    "metric": "corrected_event_f0_5",
+    "difference": -0.1363168637340184,
+    "CI95": [
+      -0.25451764721044856,
+      -0.05275776511150206
+    ],
+    "CI98_75": [
+      -0.30075299571430275,
+      -0.03749355721398345
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "MSL",
+    "contrast": "lstm_minus_released_lstm",
+    "pipeline": "common"
+  },
+  {
+    "metric": "point_f1",
+    "difference": -0.07072843496800707,
+    "CI95": [
+      -0.13894322662088887,
+      -0.008214011210623888
+    ],
+    "CI98_75": [
+      -0.15951507282373065,
+      0.005400975330610885
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "MSL",
+    "contrast": "lstm_minus_released_lstm",
+    "pipeline": "common"
+  },
+  {
+    "metric": "corrected_event_f0_5",
+    "difference": -0.11488653402203863,
+    "CI95": [
+      -0.20466453099572923,
+      -0.027613853554027876
+    ],
+    "CI98_75": [
+      -0.22927179430215888,
+      -0.0013289822263004142
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "SMAP",
+    "contrast": "gcn_minus_released_lstm",
+    "pipeline": "common"
+  },
+  {
+    "metric": "point_f1",
+    "difference": -0.15376048644544948,
+    "CI95": [
+      -0.20178432007820368,
+      -0.10530126898533514
+    ],
+    "CI98_75": [
+      -0.21559325394134243,
+      -0.09399164488664231
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "SMAP",
+    "contrast": "gcn_minus_released_lstm",
+    "pipeline": "common"
+  },
+  {
+    "metric": "corrected_event_f0_5",
+    "difference": -0.019396859373407294,
+    "CI95": [
+      -0.1068836040290306,
+      0.06795220658122446
+    ],
+    "CI98_75": [
+      -0.12832370144276523,
+      0.09067405015052901
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "SMAP",
+    "contrast": "lstm_minus_released_lstm",
+    "pipeline": "common"
+  },
+  {
+    "metric": "point_f1",
+    "difference": -0.006833343695388239,
+    "CI95": [
+      -0.04393031302098699,
+      0.024312574840661915
+    ],
+    "CI98_75": [
+      -0.05461580051616218,
+      0.032263723905646365
+    ],
+    "undefined_replicates": 0,
+    "repetitions": 10000,
+    "seed": 20261016,
+    "condition": "saved fits and channels; shared-incident dependence unresolved",
+    "mission": "SMAP",
+    "contrast": "lstm_minus_released_lstm",
+    "pipeline": "common"
+  }
+]

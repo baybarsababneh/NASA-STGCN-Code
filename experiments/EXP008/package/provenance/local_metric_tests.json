@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "metric_version": "EXP008_METRICS_V2_1",
+  "checks": [
+    "AP ties and permutation invariant",
+    "AP constant, perfect, no-positive conventions",
+    "Higher quantile order statistics and causal EWMA",
+    "Strict exceedance, constant scores and boundary run counting",
+    "Event overlap, occupancy correction and explicit undefined cases",
+    "200 tied-score fixtures match scikit-learn"
+  ],
+  "NASA_data_used": false
+}

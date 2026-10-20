@@ -1,0 +1,47 @@
+[
+  {
+    "file": "07-Emails-with-Dr-NASA-research team-1-.txt",
+    "bytes": 1092,
+    "sha256": "70a7f88b24bca6a9824e086fb3e3e1508ee8c6e1bb031f1f0226d9e67651e2a0"
+  },
+  {
+    "file": "02-labeled_anomalies.csv",
+    "bytes": 3956,
+    "sha256": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539"
+  },
+  {
+    "file": "05-lstmcode.ipynb",
+    "bytes": 189002,
+    "sha256": "10dec43db7a12fddbffa05a0fa7d42e0e92ea540c03a0475498f5bd82ae206f8"
+  },
+  {
+    "file": "04-smap-msl-let-s-get-started.ipynb",
+    "bytes": 21531,
+    "sha256": "a14ff6475ac49b3c7d89ce72ad284acf3920ec18cca784b5427c03780d083e53"
+  },
+  {
+    "file": "06-nasa-anomaly-unsupervised.ipynb",
+    "bytes": 345282,
+    "sha256": "95a7888a98205953fec2c494b2702f5101e5b13741948fe394b97dfd800d70d9"
+  },
+  {
+    "file": ".codex-upload-34514d0fd41942f391e8468f8ea16d4d",
+    "bytes": 46137344,
+    "sha256": "d5db863eda33a362443fa0b2c0752a2d0755514df86332969dd3116310c857de"
+  },
+  {
+    "file": ".codex-upload-1d60f3f967e64268b61e1eeb1ee07041",
+    "bytes": 1966080,
+    "sha256": "8ee5e9faf6564f6f7bda383682c5d61026b2a2cb4e9218074d03002bdbd370e2"
+  },
+  {
+    "file": "01-1802.04431v3.pdf",
+    "bytes": 3410870,
+    "sha256": "bd5e2eb0706d2278eec1874dd32700fbd0d929e9c7208ed33c28ae5ace305836"
+  },
+  {
+    "file": "03-archive.zip",
+    "bytes": 86004011,
+    "sha256": "6084d3ee3906381f2c98aa3773b6b2d77c82413503faa78f962196582e873733"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "analysis_id": "LSTM_RELEASE_BENCHMARK_AUDIT_V1",
+  "kind": "New retrospective frozen-artifact analysis; separate from EXP001--EXP015",
+  "frozen_before_new_metric_calculation": true,
+  "not_an_independent_holdout": true,
+  "training": "None; no checkpoint modification, refitting, or threshold tuning",
+  "roles": ["released_lstm_single_fit", "EXP012_gcn_seeds_17_29_43", "EXP012_controlled_lstm_seeds_17_29_43"],
+  "input_contract": "Require byte-identical NASA archive/TRAIN/TEST bindings, verified score-export commits, released-model metadata, deterministic first/middle/last sampled weight replay, and cached EWMA replay for all 81 frozen evaluation channels",
+  "source_verification_exception": "T-10 has no label and is absent from the pre-existing 81-channel roster. Its separate source-verification failures must be reported; never silently promote it to an evaluated channel.",
+  "common_support": "Raw target indices 250 <= t < raw_TEST_length-10; reconstruct from source shaping and ten-output Dense metadata, never optimise offsets using labels",
+  "label_policy": "Unchanged EXP012: 81 unique channels, first P-2 record, exclude T-10, inclusive CSV [a,b] -> half-open [a,b+1)",
+  "primary_analysis": "Apply byte-identical HUNDMAN_ADAPT_V1 from the frozen EXP012 input bundle to released telemetry-scale scalar predictions and each frozen project stream on identical common support. Recompute all three roles after cropping, because final-batch boundaries can alter decisions.",
+  "primary_metric": "Existing report-defined corrected event F0.5, explicitly a study-specific endpoint, not the published Hundman F0.5",
+  "secondary_endpoints": ["Unpenalised event-overlap F0.5", "strict point precision/recall/F1/F0.5 without point adjustment", "nominal occupancy and starts per 1000 nominal samples", "within-event issued-flag rate and late/missed notifications", "within-channel raw and EWMA average precision (macro across channels, no pooled cross-scale AP)"],
+  "additional_pipeline_analysis": "Run the pinned current official telemanom v2 ErrorWindow detector on released LSTM predictions. Preserve its C-2 startup exception and original ten-target telemetry guards. Disclose historical label-informed exception, batching and guard lookahead. The one required execution-only fix casts np.delete row indices to integer; no statistical changes allowed. Preserve and report any nonmatching native archive replay rather than relabelling it an exact paper reproduction.",
+  "native_issue_time": "Earliest newly flagged batch-availability time, charging the ten-target guard its nine extra future observations and up to 500 startup errors. This is audit instrumentation, not an author-provided original notification record.",
+  "historical_receipts": "Independently audit both initial 2018 and current official result CSVs against their own label-coordinate systems. Re-score their saved alarm intervals using the current frozen 81-channel labels only after explicit coordinate conversion. Preserve published numbers separately; never claim a paper-score reproduction solely because models are official.",
+  "frozen_regression": "On full EXP012 support, recalculate count/strict-point/timeliness summaries from stored flags and verify against saved EXP012 channel CSVs before interpreting common-support results",
+  "uncertainty": "10000 paired-channel bootstrap resamples, RNG seed 20261016. Keep all three project seeds grouped within each sampled channel; release remains one fixed-fit stream, never cloned as three independent fits. Report descriptive 95% and 98.75% intervals for gcn-release and controlled-release on two missions. Fits, preprocessing, detector, and shared-incident dependence remain conditional and unresolved.",
+  "sensitivity": "Report C-2-excluded aggregation for native and common-detector comparisons; report first/second P-2 label-record sensitivity without choosing the better result. No alternative offset, threshold, smoothing parameter, or model selection from NASA labels.",
+  "claim_boundary": "Released-reference competitiveness is a descriptive end-to-end benchmark under unequal training exposure/input access and one released fit; it is not architecture superiority, operational validation, or statistical noninferiority. A faithful newly trained reproduction would be a separately authorised and versioned new experiment, not repair of historical outputs."
+}

@@ -1,0 +1,30 @@
+test_complete_orchestration_interruption_and_export (__main__.Engineering.test_complete_orchestration_interruption_and_export) ... ok
+test_data_and_graph_golden_records (__main__.Engineering.test_data_and_graph_golden_records) ... ok
+test_frozen_source_functions (__main__.Engineering.test_frozen_source_functions) ... ok
+test_gate_rules_and_no_post_ablation_selection (__main__.Engineering.test_gate_rules_and_no_post_ablation_selection) ... ok
+test_model_identity_rf_gradients_and_removal (__main__.Engineering.test_model_identity_rf_gradients_and_removal) ... ok
+test_resume_identity_and_corruption (__main__.Engineering.test_resume_identity_and_corruption) ... ok
+test_training_roles_and_ablation (__main__.Engineering.test_training_roles_and_ablation) ...   epoch=1 stop_mse=2.03326082
+  epoch=1 stop_mse=1.21380401
+  epoch=1 stop_mse=1.21381283
+  epoch=1 stop_mse=2.03326082
+  epoch=1 stop_mse=1.21380401
+  epoch=1 stop_mse=1.21381283
+  epoch=1 stop_mse=2.03326082
+  epoch=1 stop_mse=1.21380401
+  epoch=1 stop_mse=1.21381283
+  epoch=1 stop_mse=1.98367023
+  epoch=1 stop_mse=2.40946221
+  epoch=1 stop_mse=2.40946341
+  epoch=1 stop_mse=1.98367023
+  epoch=1 stop_mse=2.40946221
+  epoch=1 stop_mse=2.40946341
+  epoch=1 stop_mse=1.98367023
+  epoch=1 stop_mse=2.40946221
+  epoch=1 stop_mse=2.40946341
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 12.092s
+
+OK

@@ -1,0 +1,802 @@
+[
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": 0.033776366676236624,
+        "percentile_CI95": [
+          0.0,
+          0.08136934326898271
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": 0.006501950585175553,
+        "percentile_CI95": [
+          0.00022613714054606188,
+          0.016449319222241337
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": -0.014130325581490577,
+        "percentile_CI95": [
+          -0.05281152871153074,
+          0.02490099103037361
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_removed_residual",
+    "control": "removed_residual",
+    "difference": -0.03463106399813609,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.09544011952610834,
+      0.01504939166345615
+    ],
+    "repetitions": 10000,
+    "scope": "graph_pathway",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -0.0337763666762366,
+        "percentile_CI95": [
+          -0.09782840997822621,
+          0.006048539351227424
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.007509612191016604,
+        "percentile_CI95": [
+          -0.021036240814717614,
+          0.001264808014811673
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.022122291080679368,
+        "percentile_CI95": [
+          0.00035932362852419275,
+          0.05043589188250569
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_fusion_residual",
+    "control": "fusion_residual",
+    "difference": 0.052724290859013534,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.006144225629909197,
+      0.12463884128595194
+    ],
+    "repetitions": 10000,
+    "scope": "graph_pathway",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -20.384037289108814,
+        "percentile_CI95": [
+          -38.08995347070577,
+          -7.9364987460545375
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.1843739268966837,
+        "percentile_CI95": [
+          -0.3398783406301895,
+          -0.04799738883266503
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.15706084670857545,
+        "percentile_CI95": [
+          -0.04054782037063293,
+          0.3246612390824494
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_graph_native",
+    "control": "graph_native",
+    "difference": 0.7315363490257426,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      0.5763767337784286,
+      0.8354487650802146
+    ],
+    "repetitions": 10000,
+    "scope": "pipeline_change",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "removed_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -17.755110082808393,
+        "percentile_CI95": [
+          -38.3467850367592,
+          -5.586334347117611
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.1781759636115943,
+        "percentile_CI95": [
+          -0.2936786009475808,
+          -0.06962508144799993
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.1543489186183674,
+        "percentile_CI95": [
+          -0.04557299925773485,
+          0.32698778831814235
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "removed_residual_minus_removed_native",
+    "control": "removed_native",
+    "difference": 0.7593721354420362,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      0.5956759477671009,
+      0.8518151250361886
+    ],
+    "repetitions": 10000,
+    "scope": "pipeline_change",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "fusion_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -15.8861511267233,
+        "percentile_CI95": [
+          -23.91909039474043,
+          -9.012293242337464
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.18439081508002184,
+        "percentile_CI95": [
+          -0.35449768398393405,
+          -0.040408210575200096
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.1294038234626387,
+        "percentile_CI95": [
+          -0.09515195863912083,
+          0.31166426151591375
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "fusion_residual_minus_fusion_native",
+    "control": "fusion_native",
+    "difference": 0.6730709432780221,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      0.5124029574902333,
+      0.7957808450435563
+    ],
+    "repetitions": 10000,
+    "scope": "pipeline_change",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": 0.03940576112227606,
+        "percentile_CI95": [
+          -0.02902493712114947,
+          0.10931456910028693
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": 0.011168718580942247,
+        "percentile_CI95": [
+          -0.0014143406811288472,
+          0.025986906051593688
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.021311683546411553,
+        "percentile_CI95": [
+          -0.05601224288495943,
+          0.10635172401651574
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_exp012_gcn",
+    "control": "exp012_gcn",
+    "difference": -0.01140891370101671,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.09580810295003586,
+      0.07360052025060708
+    ],
+    "repetitions": 10000,
+    "scope": "historical_context",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -0.022517577784157777,
+        "percentile_CI95": [
+          -0.08896295140688242,
+          0.0405763059248731
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.004790614673579559,
+        "percentile_CI95": [
+          -0.023959488990890787,
+          0.015650191447627065
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.0034846694678922208,
+        "percentile_CI95": [
+          -0.08166104764467744,
+          0.0833356503075207
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_exp012_lstm",
+    "control": "exp012_lstm",
+    "difference": 0.05082934264671435,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.05231505009016996,
+      0.15856737609312052
+    ],
+    "repetitions": 10000,
+    "scope": "historical_context",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -0.01688818333811834,
+        "percentile_CI95": [
+          -0.0770843109668129,
+          0.030586455692062732
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.0004503515556831539,
+        "percentile_CI95": [
+          -0.011017646186592359,
+          0.009216690366375154
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.005939038815145348,
+        "percentile_CI95": [
+          -0.0649650181573905,
+          0.09931745691875246
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_exp014_gdn",
+    "control": "exp014_gdn",
+    "difference": 0.010923758243059911,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "MSL",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.07242478175387936,
+      0.11904433568598646
+    ],
+    "repetitions": 10000,
+    "scope": "historical_context",
+    "seed_counts": [
+      3,
+      1
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": 0.02183382277486054,
+        "percentile_CI95": [
+          0.003595754918521823,
+          0.0421865103015376
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": 0.004471384955768312,
+        "percentile_CI95": [
+          0.0011537752446016982,
+          0.008292012656985488
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.006788129518931818,
+        "percentile_CI95": [
+          -0.02923682713650341,
+          0.046430542100362474
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_removed_residual",
+    "control": "removed_residual",
+    "difference": -0.0504378585279045,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.09602784570149826,
+      -0.002942505956664931
+    ],
+    "repetitions": 10000,
+    "scope": "graph_pathway",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": 0.007277940924953513,
+        "percentile_CI95": [
+          -0.0026818811573842815,
+          0.0183722840701055
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": 0.002567293661277349,
+        "percentile_CI95": [
+          4.021700535580481e-05,
+          0.005473221284746672
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.011287289397696243,
+        "percentile_CI95": [
+          -0.007342174919733191,
+          0.03791251816029142
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_fusion_residual",
+    "control": "fusion_residual",
+    "difference": -0.022605513968723234,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.05618196475990695,
+      0.012763873911781288
+    ],
+    "repetitions": 10000,
+    "scope": "graph_pathway",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -6.83216704330011,
+        "percentile_CI95": [
+          -9.246708104626133,
+          -4.743086523723167
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.1287786159539743,
+        "percentile_CI95": [
+          -0.20992272708029464,
+          -0.060455440830405535
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": -0.09451539738389436,
+        "percentile_CI95": [
+          -0.25081962884429176,
+          0.08195053441962057
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_graph_native",
+    "control": "graph_native",
+    "difference": 0.7056965754696618,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      0.6258867408470545,
+      0.7866208070129878
+    ],
+    "repetitions": 10000,
+    "scope": "pipeline_change",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "removed_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -4.545983850249088,
+        "percentile_CI95": [
+          -7.094281182413347,
+          -2.611659824104415
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.11410355782142113,
+        "percentile_CI95": [
+          -0.19493569158547072,
+          -0.04878643340782898
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": -0.06766829625252158,
+        "percentile_CI95": [
+          -0.23928647609065665,
+          0.11541888772500575
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "removed_residual_minus_removed_native",
+    "control": "removed_native",
+    "difference": 0.7468622755638948,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      0.6624514012788368,
+      0.821503603196703
+    ],
+    "repetitions": 10000,
+    "scope": "pipeline_change",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "fusion_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": -7.4535212497680154,
+        "percentile_CI95": [
+          -10.954330837310087,
+          -4.758686054492598
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.11720941911114506,
+        "percentile_CI95": [
+          -0.1951031211494756,
+          -0.05314624899366345
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": -0.07244672040035743,
+        "percentile_CI95": [
+          -0.23102231322894745,
+          0.10062681556026017
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "fusion_residual_minus_fusion_native",
+    "control": "fusion_native",
+    "difference": 0.7311562258507186,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      0.6489833173717874,
+      0.8063281280017371
+    ],
+    "repetitions": 10000,
+    "scope": "pipeline_change",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": 0.01364613923428784,
+        "percentile_CI95": [
+          -0.01407944464600969,
+          0.04374934853734393
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": 0.00318318941205154,
+        "percentile_CI95": [
+          -0.0032314104414941504,
+          0.010209063079428085
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": 0.1276287903407304,
+        "percentile_CI95": [
+          0.05270496608451919,
+          0.19471282031634368
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_exp012_gcn",
+    "control": "exp012_gcn",
+    "difference": 0.017784656939248022,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.08549132804967935,
+      0.12583572212305763
+    ],
+    "repetitions": 10000,
+    "scope": "historical_context",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": 0.007277940924953513,
+        "percentile_CI95": [
+          -0.015544146981912785,
+          0.03069949135927188
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": -0.0012499863538607686,
+        "percentile_CI95": [
+          -0.008106533849681748,
+          0.005087509543475431
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": -0.01948604493203332,
+        "percentile_CI95": [
+          -0.053539314591226315,
+          0.007516877509805186
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_exp012_lstm",
+    "control": "exp012_lstm",
+    "difference": -0.07733225638632901,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.1508125616223344,
+      0.002632712376212581
+    ],
+    "repetitions": 10000,
+    "scope": "historical_context",
+    "seed_counts": [
+      3,
+      3
+    ],
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "architecture_only": false,
+    "arm": "graph_residual",
+    "auxiliary_count_metrics": {
+      "alarm_starts_per_1000_nominal": {
+        "difference": 0.01910459492800297,
+        "percentile_CI95": [
+          0.0018548925352250489,
+          0.03680023783283623
+        ],
+        "undefined_replicates": 0
+      },
+      "nominal_occupancy": {
+        "difference": 0.0027355960451668996,
+        "percentile_CI95": [
+          -0.0009102925867531426,
+          0.006770460654607008
+        ],
+        "undefined_replicates": 0
+      },
+      "point_f1": {
+        "difference": -0.001375273297401669,
+        "percentile_CI95": [
+          -0.04939610539199022,
+          0.04546407536752015
+        ],
+        "undefined_replicates": 0
+      }
+    },
+    "bootstrap_seed": 20261005,
+    "contrast": "graph_residual_minus_exp014_gdn",
+    "control": "exp014_gdn",
+    "difference": -0.06015738747248067,
+    "interpretation": "conditional on frozen fits; grouped seeds, paired channels; shared-model dependence and refitting uncertainty not resolved",
+    "mission": "SMAP",
+    "multiplicity": "exploratory descriptive 95%; no multiplicity adjustment",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.13324702172413547,
+      0.009700440495807355
+    ],
+    "repetitions": 10000,
+    "scope": "historical_context",
+    "seed_counts": [
+      3,
+      1
+    ],
+    "undefined_replicates": 0
+  }
+]

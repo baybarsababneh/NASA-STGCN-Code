@@ -1,0 +1,15 @@
+{
+  "adaptive_windows_recomputed": 2080,
+  "committed_units": 2106,
+  "decision": "PREPARED_AWAITING_REVIEW_NO_TEST_AUTHORIZATION",
+  "detector_diagnostic_rows_recomputed": 4212,
+  "frozen_GCN_checkpoints_byte_and_state_verified": 486,
+  "historical_TCN_checkpoints_byte_and_state_verified": 243,
+  "model_units": 972,
+  "new_LSTM_fits": 243,
+  "no_NASA_TEST_or_labels": true,
+  "persistence_validation_units": 81,
+  "qualification_units": 1053,
+  "requires_original_input_bundle": true,
+  "status": "PASS"
+}

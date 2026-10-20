@@ -1,0 +1,94 @@
+[
+  {
+    "experiment": "EXP014",
+    "job": "MSL__gdn_hundman__17__T-9",
+    "length_selection": "mission minimum, median, maximum TEST length",
+    "seal_sha256": "649d2eadc38a2aa6c3ec75394053d2e837c05e5e679c69e5c9b0089c05322aae",
+    "source_files": {
+      "COMMIT.json": "3acdfca6c34c4253d774baeed50a52afb6c2858abff0f17467b6716eb4b5af12",
+      "adaptive_windows.json": "5b8c931e13e910ae912dad377db48f4e14185b1163f37e5b009d0792dfbaed0b",
+      "record.json": "5be433ea3e88855d7015c8b913f902aa0a62cb3b7b162e86a1c958eae211e550",
+      "scores.npz": "5701a2378ae9b501d1cd4cdf14deed0a28b6edbe715079dc47a15373b49d975a"
+    }
+  },
+  {
+    "experiment": "EXP014",
+    "job": "MSL__gdn_hundman__17__M-1",
+    "length_selection": "mission minimum, median, maximum TEST length",
+    "seal_sha256": "649d2eadc38a2aa6c3ec75394053d2e837c05e5e679c69e5c9b0089c05322aae",
+    "source_files": {
+      "COMMIT.json": "34a7ce979665e69b2716c45cc002b40cbc7ea646a6b3c5e68d4a4b828b9bc04e",
+      "adaptive_windows.json": "ce20946fb1dbf50bb77a09e290372ff6ec446fb1f110712d3ab317f96c47c687",
+      "record.json": "0be5e627278d6cca1187768e04cc6be0c76b1710d3625efb89e218056bc051a6",
+      "scores.npz": "cb55cc970c06d55d2b609ac8398f097bf9c4af2428794468de9e4df70fd4effd"
+    }
+  },
+  {
+    "experiment": "EXP014",
+    "job": "MSL__gdn_hundman__17__P-14",
+    "length_selection": "mission minimum, median, maximum TEST length",
+    "seal_sha256": "649d2eadc38a2aa6c3ec75394053d2e837c05e5e679c69e5c9b0089c05322aae",
+    "source_files": {
+      "COMMIT.json": "e264201a5db90811676a972222583c123a8f6aa79e87d5f68e0adfb0d83bcf57",
+      "adaptive_windows.json": "66614d38335cfca0ef4b3f7a0a779a862d184b275b415e0d7f089b94cfd8a268",
+      "record.json": "e88914d199ee4ba7aaa7ab3607e61858ff9b40ac2ad8f67d9b331db2faffc5fa",
+      "scores.npz": "3d893868baeba37bb5f8a1a28c02ed0ca1826e914c592ff7da9f04ebd94029c8"
+    }
+  },
+  {
+    "experiment": "EXP014",
+    "job": "SMAP__gdn_hundman__17__A-6",
+    "length_selection": "mission minimum, median, maximum TEST length",
+    "seal_sha256": "649d2eadc38a2aa6c3ec75394053d2e837c05e5e679c69e5c9b0089c05322aae",
+    "source_files": {
+      "COMMIT.json": "9215a88c8cee9f978ea79beb7a9c53d794c679366d4f6063e2a276ad6feb9ab9",
+      "adaptive_windows.json": "c5d62ea0446f982b8c2a9ce3ee09989c4eeb085d067a67f05d8240220b10f1dd",
+      "record.json": "3894096678762bc2d5f99a1ae3a4087d5cb872913aaf8afa370b4ebef1d512af",
+      "scores.npz": "ecafb3c9ada96e22c552dee8d6f7700f169abdc912bf84dd6ae3bc3a849dcaae"
+    }
+  },
+  {
+    "experiment": "EXP014",
+    "job": "SMAP__gdn_hundman__17__E-7",
+    "length_selection": "mission minimum, median, maximum TEST length",
+    "seal_sha256": "649d2eadc38a2aa6c3ec75394053d2e837c05e5e679c69e5c9b0089c05322aae",
+    "source_files": {
+      "COMMIT.json": "269bfd4d48cd49a2b9b0c86aec06f3024a8f2c8329134c2ef3b84f1216da80ca",
+      "adaptive_windows.json": "858da90b489fd101a2ff42c0b3ac42b460c8d1aa709205b64a9360d703ba22f6",
+      "record.json": "4c8910ee767d6d43f0274c401f7c53c95766098b5a1db5199ee979d304a44f99",
+      "scores.npz": "ecd5618c71f4015fc1eed54c6f045a7814c211064c98cd9bff50732772196a6c"
+    }
+  },
+  {
+    "experiment": "EXP014",
+    "job": "SMAP__gdn_hundman__17__G-6",
+    "length_selection": "mission minimum, median, maximum TEST length",
+    "seal_sha256": "649d2eadc38a2aa6c3ec75394053d2e837c05e5e679c69e5c9b0089c05322aae",
+    "source_files": {
+      "COMMIT.json": "57e5c7a93caef950be4b2b76161a03b3124846964ce9913bd4a8e5c4ff82aa31",
+      "adaptive_windows.json": "382b36d3e4f8d669d55b56711db5e06433d4e63a240d4b68cc09f3df0f051641",
+      "record.json": "018bb6a6fd5f18cd8b887016c39fb46ce6fb25b56d86503183b46f3a9e4ce146",
+      "scores.npz": "edb1f55dac498cd81f794f115baa034831659bd028df90006a4cdf6b8261e478"
+    }
+  },
+  {
+    "experiment": "EXP012",
+    "job": "gcn__A-1__17",
+    "source_files": {
+      "COMMIT.json": "ab85a2f4c25b3bafba8afbe76b6249e5fd8ea5e897913c9381e0bcb5d29a7935",
+      "adaptive_windows.json": "20746975832d7dd3a066d367c95a56f5fe963d95a42df5fe0a46f15d5ce5bbb0",
+      "record.json": "9202669d49a071809baf7e92e97b0e10a4fdf4c45afb7f485f06d6eb7a2d008b",
+      "scores.npz": "95f6a03e83fe4d305227f7b7c175da98f6d63ab3be96573a4a877de903b8306a"
+    }
+  },
+  {
+    "experiment": "EXP012",
+    "job": "lstm__C-1__17",
+    "source_files": {
+      "COMMIT.json": "fec1c79940c258c52ea446c1496122835baa58012386e6c5568e0a9d0ebde49a",
+      "adaptive_windows.json": "561a631320f0046cc5b68657d1f09814062adb03fccee7e492125126014da5e2",
+      "record.json": "7fe586eebfe8b699165d69e3118294fdcd6eecbd05d50e7065233a59483e52e2",
+      "scores.npz": "bd5b23d65e43fe593a9ee5d48d8a6cc23cf69817b62f19d7a7d31823aa54b288"
+    }
+  }
+]

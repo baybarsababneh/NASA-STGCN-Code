@@ -1,0 +1,16 @@
+{
+  "files": {
+    "EVALUATION_BINDING.json": "66e7f02e9a9baedbb21925c2795d40d869fc1fa263989492510650a771b3f94c",
+    "EXP012_FINAL_READINESS_AUDIT.md": "0a95b05aa840fe22c9dfbb7beb591ec9e2ac412e9b93debbd4f9f00526fc057c",
+    "FINAL_PREPARATION_AUDIT.json": "fd9408879434bd7be1a5b73e538fbf5c23907593fc56f14c5ec84e60f09f2f8c",
+    "PROTOCOL.md": "ede3eefea2d11d8fe16fb24ccf4ae5abf6ad1d4fd1305472bff7528afd129cc6",
+    "SYNTHETIC_TEST_LOG.txt": "6037a8b4b8c60bcb1ceecb4dad3608fc7d5ba52757670b9f8542ebd346b9a0f1",
+    "requirements-labels.txt": "922bda33668b532b1f38c3212a5f3cf7f0618296eaa35ef1388793e0c3cd5845",
+    "src/common.py": "3d7253af4550219d48e9945328dcd6cb18c1bddd9801d0cbf8d94de62fcd3014",
+    "src/evaluate_labels.py": "cf79dc8c1712f936e0d49d52543274d283bf32ee09223d6465f807918eb8b8b2",
+    "src/export_scores.py": "ce49d86a0311864ea8713b329376108072583e5e9e07619542cf6df97dfdb290",
+    "src/metrics.py": "d8de4c09a197a9647109369ac77082b0588c8b2ad2f1b940bd479bc47cdbceef",
+    "tests/test_runner.py": "f2de0a487705ad5dda9e9dff22d7f5d04ed58f57ed475c053983443504997aa6"
+  },
+  "version": "EXP012_RETROSPECTIVE_EVALUATION_V1"
+}

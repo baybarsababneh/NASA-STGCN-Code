@@ -1,0 +1,15 @@
+{
+  "NASA_TEST_accessed": false,
+  "anomaly_labels_accessed": false,
+  "audit_stream_rows": 1278,
+  "elapsed_seconds": 187.30641952899998,
+  "final_calibration_accessed": false,
+  "mission_decisions": {
+    "MSL": "NO_FEASIBLE_CANDIDATE",
+    "SMAP": "NO_FEASIBLE_CANDIDATE"
+  },
+  "new_model_fits": 0,
+  "selection_stream_rows": 2916,
+  "status": "COMPLETE_PROVISIONAL_ONLY",
+  "units": 4194
+}

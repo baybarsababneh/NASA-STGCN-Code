@@ -1,0 +1,117 @@
+{
+  "actual_A100_execution": false,
+  "environment": {
+    "AMP": false,
+    "GPU": null,
+    "GPU_total_bytes": null,
+    "MPLBACKEND": "Agg",
+    "TF32": false,
+    "cuda": null,
+    "cudnn": null,
+    "deterministic": true,
+    "device": "cpu",
+    "fixture": true,
+    "matmul_precision": "highest",
+    "matplotlib": "3.10.1",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "scipy": "1.15.2",
+    "sklearn": "1.6.1",
+    "threads": 1,
+    "torch": "2.6.0+cpu",
+    "torch_build": "PyTorch built with:\n  - GCC 9.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.5.3 (Git Hash 66f0cb9eb66affd2da3bf5f8d897376f04aae6af)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=2236df1770800ffea5697b11b0bb0d910b2e59e1, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.6.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, \n"
+  },
+  "errors": 6,
+  "failures": 1,
+  "fictional_model_initialisation_is_training": false,
+  "full_native_CPU_shapes": [
+    [
+      256,
+      65,
+      55
+    ],
+    [
+      256,
+      65,
+      25
+    ]
+  ],
+  "miniature_experiment": {},
+  "new_NASA_scientific_results": false,
+  "numerical_measurements": [
+    {
+      "GPU_validation": false,
+      "entities": 27,
+      "kind": "full_native_shape_synthetic_CPU",
+      "real_checkpoint": false,
+      "seconds_first_forward": 1.6250666280000132,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "GPU_validation": false,
+      "entities": 54,
+      "kind": "full_native_shape_synthetic_CPU",
+      "real_checkpoint": false,
+      "seconds_first_forward": 0.7349766610000188,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "bitwise": true,
+      "experiment": "EXP012",
+      "job": "gcn__A-1__17",
+      "kind": "frozen_detector_regression_CPU",
+      "samples": 8390,
+      "seconds": 0.10740224700020917
+    },
+    {
+      "bitwise": true,
+      "experiment": "EXP012",
+      "job": "lstm__C-1__17",
+      "kind": "frozen_detector_regression_CPU",
+      "samples": 2014,
+      "seconds": 0.00212336000004143
+    }
+  ],
+  "real_EXP013_checkpoint_replay": false,
+  "saved_frozen_detector_regression_streams": 8,
+  "seconds": 149.122553037,
+  "skipped": 0,
+  "source_sha256": {
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/backup.py": "1bed9f8c2e29063eb629da026375cf3df17fe39e6a96f12a03e47054a7813850",
+    "src/checkpoint.py": "623305c48d93fd8a08ff443bef40b6f586002823f1db0bb99f3a7a2ec0dcbc45",
+    "src/export.py": "1dfbfaacb3bfb9d3cdc1f85473cc92bcf404c282f48c037c53ee56bf6514a7f1",
+    "src/inference.py": "574181fc15e4bdfaf4d87c2876ac56c4f6cdd2cba69bef93b0a80bbfed824e4e",
+    "src/inputs.py": "82d921082260b750a8c61ba4821cc4634ec5bd25a6db763595dd8851c4cc81ad",
+    "src/integrity.py": "b6072a96fb4bcd568a20214a5b53a673ec5ee41f58f0f55db7a212e456ebfbf8",
+    "src/report.py": "d0fae201346b7384e4a97c2f723662ad8844dcc5d65dc3aad0fe400c484f7b67",
+    "src/report_common.py": "711a7f20013c6c87c3d553fc93d5a9749d788368018d57fff11b45986faf656a",
+    "src/run.py": "5fa5443925108ec985b6f115316de684282d0cd61155b1d6ac13de34258394dd",
+    "tests/fixture.py": "25b9ee176867a3563976240092f361985a07fbf95f21f4232b73613cf844db21",
+    "tests/run_tests.py": "b70062710bbdb3064afc2e1926a7ded7f27815f99baf7b0a4f4cf634c11d414a",
+    "tests/test_exp015.py": "904b9f34d9d56eb02a3e6637d5c9c74a1fda31f5ebe2c6c2b96816485576e4cd",
+    "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/exp013/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/exp013/architectures.py": "b7304dd14d467bdcd36a57dd0dc13e771b2766355e043eda36bc602f12e40856",
+    "vendor/frozen/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/frozen/hundman_detector.py": "5b238ae7226a60e092b4d0a0954ca276733f3f9a27c0766d98282512dc692714",
+    "vendor/frozen/metrics.py": "d8de4c09a197a9647109369ac77082b0588c8b2ad2f1b940bd479bc47cdbceef"
+  },
+  "status": "FAIL",
+  "tests_run": 17,
+  "unexecuted_production_requirements": [
+    "18 real EXP013 checkpoint loads/state matches",
+    "729 real native score/flag/issue bitwise replays",
+    "real A100 40/80 GB full-shape memory/restoration/throughput",
+    "729 new NASA residual/Hundman streams and post-seal evaluation"
+  ]
+}

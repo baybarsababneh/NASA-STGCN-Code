@@ -1,0 +1,20 @@
+{
+  "NASA_native_score_failures": [],
+  "OmniAnomaly": "Legacy official environment unsupported in this modern single-notebook panel; CATCH selected instead",
+  "STGLR": "No source implementation located; faithful reproduction unsupported",
+  "confirmation_failures": [],
+  "controlled_adaptations_not_leaderboard_reproductions": true,
+  "pre_freeze_exclusions": [],
+  "source_pins": {
+    "catch": {
+      "commit": "3647c69be5eb56649b072596cf89098e689e20c3",
+      "repository": "decisionintelligence/CATCH",
+      "sha256": "d464a528bd312ec747dc2ad45c5ee7d5313f0d542eb778478f0fa443392be4c5"
+    },
+    "gdn": {
+      "commit": "9853899da860682669a134e4af315d036aab4eca",
+      "repository": "d-ailin/GDN",
+      "sha256": "8e4fa40b492f07a2d010fa26776cd2e78f318931dfa2cc63092d8ba10a848e9e"
+    }
+  }
+}

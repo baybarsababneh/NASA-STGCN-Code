@@ -1,0 +1,50 @@
+[
+  {
+    "version": "initial_2018",
+    "mission": "MSL",
+    "CSV_rows": 27,
+    "H": 25,
+    "U": 1,
+    "M": 11,
+    "precision": 0.9615384615384616,
+    "recall": 0.6944444444444444,
+    "standard_F0_5_from_saved_counts": 0.8928571428571428,
+    "duplicate_P-2_retained": true
+  },
+  {
+    "version": "initial_2018",
+    "mission": "SMAP",
+    "CSV_rows": 55,
+    "H": 59,
+    "U": 10,
+    "M": 10,
+    "precision": 0.855072463768116,
+    "recall": 0.855072463768116,
+    "standard_F0_5_from_saved_counts": 0.855072463768116,
+    "duplicate_P-2_retained": true
+  },
+  {
+    "version": "current_v2",
+    "mission": "MSL",
+    "CSV_rows": 27,
+    "H": 25,
+    "U": 1,
+    "M": 11,
+    "precision": 0.9615384615384616,
+    "recall": 0.6944444444444444,
+    "standard_F0_5_from_saved_counts": 0.8928571428571428,
+    "duplicate_P-2_retained": true
+  },
+  {
+    "version": "current_v2",
+    "mission": "SMAP",
+    "CSV_rows": 55,
+    "H": 62,
+    "U": 12,
+    "M": 7,
+    "precision": 0.8378378378378378,
+    "recall": 0.8985507246376812,
+    "standard_F0_5_from_saved_counts": 0.8493150684931507,
+    "duplicate_P-2_retained": true
+  }
+]

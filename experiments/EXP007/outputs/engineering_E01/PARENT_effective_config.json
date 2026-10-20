@@ -1,0 +1,128 @@
+{
+  "baseline_by_mission": {
+    "MSL": {
+      "candidate_id": "exp002_reference",
+      "dilations": [
+        1,
+        2
+      ],
+      "hidden_by_mission": {
+        "MSL": 32,
+        "SMAP": 64
+      },
+      "kernel_size": 3,
+      "learning_rate": 0.001,
+      "lookback": 64
+    },
+    "SMAP": {
+      "candidate_id": "g09_rf31_base_lr1e3",
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "hidden_by_mission": {
+        "MSL": 32,
+        "SMAP": 64
+      },
+      "kernel_size": 3,
+      "learning_rate": 0.001,
+      "lookback": 64
+    }
+  },
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 1007,
+  "canonical_seeds": [
+    17,
+    29,
+    43
+  ],
+  "dataset": {
+    "anomaly_labels_allowed_for_selection": false,
+    "calibration_fraction": 0.2,
+    "exclude_unlabelled": [
+      "T-10"
+    ],
+    "fit_fraction": 0.6,
+    "missions": [
+      "MSL",
+      "SMAP"
+    ],
+    "nasa_test_allowed_for_selection": false,
+    "unique_labelled_channels": 81,
+    "validation_end_fraction": 0.8
+  },
+  "experiment_id": "EXP007_GPU_V1",
+  "fit_budget": {
+    "ablation": 243,
+    "canonical": 729,
+    "robust": 144,
+    "total": 1116
+  },
+  "folds": {
+    "R1": {
+      "assessment_end_fraction": 0.6,
+      "early_stop_end_fraction": 0.5,
+      "fit_end_fraction": 0.4
+    },
+    "R2": {
+      "assessment_end_fraction": 0.7,
+      "early_stop_end_fraction": 0.6,
+      "fit_end_fraction": 0.5
+    }
+  },
+  "gate": {
+    "eligible_candidate": "dynamic",
+    "formula": "2*sigmoid(w^T concat(z_telemetry, A_z_telemetry)+b)",
+    "hidden_gate_layers": 0,
+    "initial_b": 0.0,
+    "initial_w": 0.0,
+    "range": [
+      0,
+      2
+    ],
+    "static_role": "mechanism control, not eligible for promotion"
+  },
+  "missions": [
+    "MSL",
+    "SMAP"
+  ],
+  "promotion_minimum_pct": 2.0,
+  "robust_seeds": [
+    17,
+    29
+  ],
+  "roles": [
+    "fixed",
+    "static",
+    "dynamic"
+  ],
+  "screening_channels": {
+    "MSL": [
+      "C-1",
+      "P-10",
+      "M-7",
+      "P-14",
+      "T-13",
+      "D-16"
+    ],
+    "SMAP": [
+      "P-3",
+      "A-8",
+      "G-6",
+      "E-1",
+      "G-4",
+      "A-5"
+    ]
+  },
+  "training_common": {
+    "batch_size": 256,
+    "gradient_clip_norm": 1.0,
+    "max_epochs": 80,
+    "min_delta": 1e-07,
+    "optimizer": "AdamW",
+    "patience": 6,
+    "weight_decay": 0.0001
+  }
+}

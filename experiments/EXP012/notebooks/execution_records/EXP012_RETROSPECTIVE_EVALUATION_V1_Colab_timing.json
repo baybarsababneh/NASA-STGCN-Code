@@ -1,0 +1,46 @@
+{
+  "original_notebook": "experiments/EXP012/notebooks/EXP012_RETROSPECTIVE_EVALUATION_V1_Colab.ipynb",
+  "original_sha256": "d31aafdab89f43ddc44686c35fcd9bcad053499bff8651179907acb6f9f3a7a8",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": null,
+      "source_sha256": "bf1c719790bf2275862527d83f1153fa755a3bffb9d48ffaeb0991d9cd0dca95",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 3,
+      "execution_count": null,
+      "source_sha256": "0db3df8577b0bde40b1f768423f0da83e67ee4368665dee660d1bb9013b3053a",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 5,
+      "execution_count": null,
+      "source_sha256": "8cf12e908a82a6bc3b8a7834892f6c61306a321a54f34e45a2559f4a0d4ac5a3",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 7,
+      "execution_count": null,
+      "source_sha256": "ba01b4a365a72b99b9a6f9070aed486c108460f8cf53b957fa5ca0b1d3d7e963",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 9,
+      "execution_count": null,
+      "source_sha256": "c279f7cfbcac46669f2511c836f70374390dfbf0ac564b64bf18ce84d329db31",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    }
+  ]
+}

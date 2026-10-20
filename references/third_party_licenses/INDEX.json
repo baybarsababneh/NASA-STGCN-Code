@@ -1,0 +1,8 @@
+[
+  {
+    "source_archive": "experiments/EXP013/package/inputs/pinned_gdn.zip",
+    "member": "GDN-9853899da860682669a134e4af315d036aab4eca/LICENSE",
+    "saved_as": "pinned_gdn_LICENSE",
+    "sha256": "ffdad180c52921c5fb96b388ac08a4b5fa9e8eed6fd531969726219877a70b33"
+  }
+]

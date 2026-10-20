@@ -1,0 +1,11 @@
+[
+  {
+    "start": 250,
+    "end_exclusive": 2117,
+    "issue_index": 2125,
+    "epsilon": 0.40222887654706646,
+    "epsilon_inverse": 1.1738230273658634,
+    "z": 2.5,
+    "z_inverse": 12.0
+  }
+]

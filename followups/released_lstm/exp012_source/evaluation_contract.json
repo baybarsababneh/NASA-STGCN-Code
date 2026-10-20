@@ -1,0 +1,51 @@
+{
+  "AP": "AP of raw absolute fit-standardized residual and separately EWMA residual; no claim that either ranks inverted-branch or pruning decisions exactly. No AP across incomparable native channel scales.",
+  "aggregation": "MSL and SMAP separate. Pool H,M,U,FPt,N0 across channels per seed, then average metrics across seeds17,29,43. Persistence once, not three independent observations.",
+  "benchmark_kind": "locked retrospective, historically exposed NASA TEST",
+  "channel_policy": "81 unique channels,27MSL54SMAP; first P-2 CSV row; expected104 original events, preserve duplicate audit",
+  "common_TEST_target_start": 250,
+  "delay": "first actual alarm issue time attributable to event-overlapping flags minus true onset; never buffered flag timestamp. Late post-event notifications reported separately; never silently censored.",
+  "historical_labels_sha256": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539",
+  "label_interval_conversion": "inclusive CSV [a,b] becomes half-open [a,b+1)",
+  "models": [
+    "final_gcn",
+    "final_matched_message_removed",
+    "historical_selected_EXP005_TCN",
+    "controlled_command_aware_LSTM",
+    "persistence"
+  ],
+  "no_positive_AP": "undefined; exclude from AP macro average and report denominator. No alarms with positive truth gives Fbeta0; wholly nominal channels contribute false alarms to pooled event counts.",
+  "no_publication_SOTA_claim": "published result tables separate; controlled baselines not exact original multi-output LSTM reproduction",
+  "point_adjustment": "not primary; if exported, explicitly labelled optimistic legacy diagnostic, never mix with strict metrics",
+  "post_freeze_changes": "any source/scientific change requires new version and documented amendment; no detector replacement based on NASA results",
+  "prerequisites": [
+    "independent preparation audit",
+    "resolve serious reviewer issues",
+    "separately frozen label-blind score-export protocol",
+    "explicitly authorised retrospective evaluation"
+  ],
+  "primary_detector": "HUNDMAN_ADAPT_V1, publication-derived adaptive batch detector; no supervised threshold tuning",
+  "primary_event_scoring": "overlap of retrospective flag intervals; actual issue timing is a separate mandatory operational diagnostic, not claimed realtime scoring",
+  "primary_metric": "corrected event F0.5: H/(H+U)*(1-FPt/N0) as precision; R=H/(H+M); Fbeta with beta=.5",
+  "primary_model_contrast": "final_gcn minus final_matched_message_removed under each detector",
+  "reference_detector": "raw_q99; TRAIN final20% calibration per model/channel/seed, higher,strict greater than",
+  "secondary_metrics": [
+    "Hundman sequence-overlap F0.5",
+    "strict point P/R/F1/F0.5",
+    "tied-score-grouped average precision (step AUPRC)",
+    "H,M,U,FPt,N0",
+    "alarm starts/1000 nominal samples",
+    "nominal flagged occupancy",
+    "event alarm fragmentation",
+    "detection delay and within-event notification rate"
+  ],
+  "secondary_model_contrasts": [
+    "final_gcn minus controlled_LSTM",
+    "final_gcn minus EXP005_TCN",
+    "final_gcn minus persistence"
+  ],
+  "startup": "No label-dependent exception. Targets after250 remain in denominators even if detector suppresses them; report original events fully outside evaluation support separately.",
+  "status": "PREPARATION_ONLY_NO_TEST_EXECUTION_OR_AUTHORIZATION",
+  "uncertainty": "10000 paired channel bootstrap, resample same channels for both models, retain three seeds; bootstrap seed20261005; report seed distribution and shared-context/dependence limitations",
+  "zero_N0": "corrected precision undefined; do not impute success; report excluded count"
+}

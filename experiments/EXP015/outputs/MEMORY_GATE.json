@@ -1,0 +1,545 @@
+{
+  "fixture": false,
+  "records": [
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "e7f15a92b65633d2a2b851931465157ba12ceb1ba8cb75d02a3990de6d533dbd",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3353160808,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__graph__17",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37307904,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774456832,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1279094784,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "graph",
+      "seconds_first_forward": 0.4421650290000798,
+      "seed": 17,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "030d873085688cfe1b24512ae37c6e250885d0f40621d0afa4037b0ec4ef5358",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3353160808,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__graph__29",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37307904,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774456832,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1298624512,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "graph",
+      "seconds_first_forward": 0.013408059000084904,
+      "seed": 29,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "f3335a80b03fd7d284c28b7baaf663325f78cbd51a18174f0432dc35903ae021",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3353160808,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__graph__43",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37307904,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774456832,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1298886656,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "graph",
+      "seconds_first_forward": 0.013375855000049341,
+      "seed": 43,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "36a867ad24bf1211ce678703466bfd5f7859804fac6260e131b8253151045f74",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3353160808,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__removed__17",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37307904,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774456832,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1305440256,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "removed",
+      "seconds_first_forward": 0.013383336000060808,
+      "seed": 17,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "24b76fccfd9e6fc01860993a8fe92451220f32d9f1cf0ada207dfcd8a9be4c25",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3353160808,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__removed__29",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37307904,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774456832,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1306488832,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "removed",
+      "seconds_first_forward": 0.01337527699979546,
+      "seed": 29,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "9de04aa1184bcacf80dcbe369e3fcc71125689288a1d9a7f7c22a070fbd5e526",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3353160808,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__removed__43",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37307904,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774456832,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1307537408,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "removed",
+      "seconds_first_forward": 0.013394951000009314,
+      "seed": 43,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "bd40917e7f4bd10cdbfc9ccf39f88b55e50ced5f26f8ed0f3ac22cefefc67c61",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3354046056,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__fusion__17",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37529600,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774678528,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1312256000,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "fusion",
+      "seconds_first_forward": 0.015604676000293694,
+      "seed": 17,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "67fbced895eb2fb8141291b69936c40e0b8443b75660eb40f1b19f69a8c36bf9",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3354046056,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__fusion__29",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37529600,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774678528,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1323266048,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "fusion",
+      "seconds_first_forward": 0.013440380000247387,
+      "seed": 29,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "e58a00136311e904683745989730f04cc4a8057db04b6750fd5afd99e7b03345",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 3354046056,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "MSL__fusion__43",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 37529600,
+        "device": "cuda",
+        "free_bytes": 40755462144,
+        "peak_allocated_bytes": 774678528,
+        "peak_reserved_bytes": 1084227584,
+        "process_peak_RSS_bytes": 1325363200,
+        "reserved_bytes": 1084227584,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "fusion",
+      "seconds_first_forward": 0.013434382000014011,
+      "seed": 43,
+      "shape": [
+        256,
+        65,
+        55
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "4207e0c841cba06ebe005057dd72ab5a553be1fb94b851b531474d94d6d3355a",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2086992736,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__graph__17",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35308032,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363512320,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1327460352,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "graph",
+      "seconds_first_forward": 0.008100951999949757,
+      "seed": 17,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "931c783c5b17539689c5303e5a0f8b69721b14c524e7f45ff62497dbf3fd087d",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2086992736,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__graph__29",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35308032,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363512320,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1331654656,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "graph",
+      "seconds_first_forward": 0.008099546000266855,
+      "seed": 29,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "ee2dcb518a2c67fc1981665fb82a60b333c59bbf5965ad4747798d69bd4e2535",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2086992736,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__graph__43",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35308032,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363512320,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1332047872,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "graph",
+      "seconds_first_forward": 0.008048256999700243,
+      "seed": 43,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "66bb62739b2634cb3f5cc7e20c2ca13fc598211c9ee7b00331d23b29dd24fe8f",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2086992736,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__removed__17",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35308032,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363512320,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1332310016,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "removed",
+      "seconds_first_forward": 0.008092706000297767,
+      "seed": 17,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "ab6bba534a4a816a59701ce94693e297edf3bed83ec2ceae519c828ea5439a4c",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2086992736,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__removed__29",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35308032,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363512320,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1332572160,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "removed",
+      "seconds_first_forward": 0.008084591999704571,
+      "seed": 29,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "e5e9c62e44cb607f9270466c746d41ade32e4474c30563a01ec31eb89a979a81",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2086992736,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__removed__43",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35308032,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363512320,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1333096448,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "removed",
+      "seconds_first_forward": 0.008079193999947165,
+      "seed": 43,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "9c520e2629c0fbcea5664e4b878704849b838e24741d71e7df89405140a1714c",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2087386464,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__fusion__17",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35406848,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363611136,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1342664704,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "fusion",
+      "seconds_first_forward": 0.008084886000233382,
+      "seed": 17,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "e83ae37a2c047474c7d32e5539dde8a29cee5ca8a5f24e99d395ef788a7a6253",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2087386464,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__fusion__29",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35406848,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363611136,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1342926848,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "fusion",
+      "seconds_first_forward": 0.008050243000070623,
+      "seed": 29,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    },
+    {
+      "architecture_modified": false,
+      "checkpoint_sha256": "466c425f506d3937912439a597b7d1bc133af48a0fad7f01e832e1c997c2ef6c",
+      "cold_batch_only_not_runtime_forecast": true,
+      "conservative_GPU_budget_bytes": 2087386464,
+      "exact_reference_logit_restoration": "PASS",
+      "job_id": "SMAP__fusion__43",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35406848,
+        "device": "cuda",
+        "free_bytes": 41323790336,
+        "peak_allocated_bytes": 363611136,
+        "peak_reserved_bytes": 515899392,
+        "process_peak_RSS_bytes": 1343320064,
+        "reserved_bytes": 515899392,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_supported_full_batch_replay": "BITWISE_PASS",
+      "precision": "FP32",
+      "role": "fusion",
+      "seconds_first_forward": 0.008069885000168142,
+      "seed": 43,
+      "shape": [
+        256,
+        65,
+        25
+      ]
+    }
+  ]
+}

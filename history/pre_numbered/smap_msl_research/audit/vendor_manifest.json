@@ -1,0 +1,34 @@
+[
+  {
+    "file": "vendor/config.yaml",
+    "sha256": "3d2caeda9f8e84f15fadd50d7e77924700a2c611bd255831c75aa9182aae3353"
+  },
+  {
+    "file": "vendor/LICENSE.txt",
+    "sha256": "c07845edc684553474630ec71bb22bbdf44221cbe8df805100fe6ea0ba30691d"
+  },
+  {
+    "file": "vendor/README.md",
+    "sha256": "9dd3f88f882533986f983c0fe65482b73abae819e3e038977675d2b57c97f79e"
+  },
+  {
+    "file": "vendor/telemanom/errors.py",
+    "sha256": "eb27e3dbc524a5252301e21835fb063ec7e1794eb4b252184c1a8a48a047b4aa"
+  },
+  {
+    "file": "vendor/telemanom/helpers.py",
+    "sha256": "c592d4f975144caeb81fa629a0a64b5649b062fad88600efa454f07bcd2190fa"
+  },
+  {
+    "file": "vendor/telemanom/modeling.py",
+    "sha256": "77d1c62a77c7ef6baa451369ee9ba01d4af84fb6f5c51d86a11d1c5d4cccaf4a"
+  },
+  {
+    "file": "vendor/telemanom/detector.py",
+    "sha256": "33af1ad594468b0515c5db72860c62ee90e63daec5efb0e23a52d41aaf586003"
+  },
+  {
+    "file": "vendor/telemanom/channel.py",
+    "sha256": "f43d34ac332117c569e68bdb36f349529362f4f75696bf790656217815d73050"
+  }
+]

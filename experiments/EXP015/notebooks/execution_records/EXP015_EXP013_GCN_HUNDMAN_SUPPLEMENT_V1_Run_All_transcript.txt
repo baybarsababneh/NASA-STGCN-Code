@@ -1,0 +1,6 @@
+# Recovered notebook execution record
+
+Original notebook: experiments/EXP015/notebooks/EXP015_EXP013_GCN_HUNDMAN_SUPPLEMENT_V1_Run_All.ipynb
+Original file SHA-256: 783de500ef5dfd0ec5ade3f42774b06813e178f11801977af8334830a8f2cc15
+
+Existing text outputs only; no cells executed in recovery. ANSI display escapes removed. Rich binary/HTML output is omitted.

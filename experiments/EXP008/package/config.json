@@ -1,0 +1,29 @@
+{
+  "experiment_id": "EXP008_READINESS_V1",
+  "new_fits": 0,
+  "replay_jobs": 534,
+  "canonical_jobs": 486,
+  "earlier_origin_jobs": 48,
+  "batch_size": 256,
+  "lookback": 64,
+  "spans": [
+    1,
+    10
+  ],
+  "quantiles": [
+    0.99,
+    0.995
+  ],
+  "quantile_method": "higher",
+  "strict_exceedance": true,
+  "nominal_rows": 288,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 8008,
+  "require_exact_parent_environment": true,
+  "require_exact_mse_replay": true,
+  "require_exact_repeated_predictions": true,
+  "final_calibration_available": false,
+  "test_or_labels_available": false,
+  "automatic_detector_selection": false,
+  "terminal_status": "COMPLETE_NO_DETECTOR_SELECTED"
+}

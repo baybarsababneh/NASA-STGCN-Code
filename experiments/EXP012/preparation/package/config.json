@@ -1,0 +1,46 @@
+{
+  "calibration_start_requires": "MODEL_FREEZE covering all models",
+  "detector": {
+    "batch_size": 70,
+    "error_buffer": 100,
+    "l_s": 250,
+    "p": 0.13,
+    "smoothing_perc": 0.05,
+    "window_size": 30
+  },
+  "detector_selection": "NONE; retain both prespecified arms",
+  "experiment_id": "EXP012_ANOMALY_BENCHMARK_PREPARATION_V1",
+  "lstm": {
+    "architecture": "two stacked 80-unit LSTMs, dropout .3 after each, linear one-step head",
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "lookback": 64,
+    "max_epochs": 35,
+    "min_delta": 0.0003,
+    "optimizer": "Adam",
+    "patience": 10,
+    "select_epoch_zero": false,
+    "shuffle_fit_windows": true,
+    "weight_decay": 0.0
+  },
+  "new_fit_budget": 243,
+  "nominal_diagnostic_rows": 4212,
+  "qualification_units": 1053,
+  "raw_reference": {
+    "comparison": "strict greater than",
+    "method": "higher",
+    "q": 0.99,
+    "units": "fit-standardized absolute telemetry residual"
+  },
+  "runtime": "A100, deterministic CUDA, no AMP/TF32/compile",
+  "scientific_correction": "Controlled LSTM lookback64: D-12 fit prefix has187 samples, so lookback250 has no training window. No channel-specific substitution.",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "split": {
+    "fit_fraction": 0.6,
+    "validation_end_fraction": 0.8
+  }
+}

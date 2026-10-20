@@ -1,0 +1,5 @@
+# Preserve original bytes in hash-bound scientific capsules on every platform.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary

@@ -1,0 +1,51 @@
+{
+  "schema": "round2_validation_lock_v1",
+  "missions": {
+    "MSL": {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    "SMAP": {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    }
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "fit_fraction": 0.6,
+  "validation_end": 0.8,
+  "training_start": 64,
+  "batch_size": 256,
+  "weight_decay": 0.0001,
+  "patience": 6,
+  "min_delta": 1e-07,
+  "gradient_clip": 1.0,
+  "dropout": 0.0,
+  "selection": "configs/screen_protocol.json; results/seed_selection.csv",
+  "calibration_accessed": false,
+  "test_accessed": false,
+  "seed_policy": "report all three seeds; no best-seed selection; no untested ensemble claim"
+}

@@ -1,0 +1,59 @@
+{
+  "fixture": false,
+  "records": [
+    {
+      "GPU_estimate_is_not_measured_validation": true,
+      "conservative_channel_host_bytes": 6266112,
+      "estimated_GPU_working_set_bytes": 1173616720,
+      "exact_restoration": "PASS",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 35313664,
+        "device": "cuda",
+        "free_bytes": 41724346368,
+        "peak_allocated_bytes": 89035776,
+        "peak_reserved_bytes": 115343360,
+        "process_peak_RSS_bytes": 1481175040,
+        "reserved_bytes": 115343360,
+        "total_bytes": 42405855232
+      },
+      "mission": "MSL",
+      "native_architecture_modified": false,
+      "precision": "FP32",
+      "seconds_first_forward": 0.42921685700002854,
+      "shape": [
+        32,
+        55,
+        5
+      ],
+      "source_checkpoint_sha256": "32ed9cb7d217bd198544856120b49c657b23141e4d6fb8cbc77da8dea57dda4d"
+    },
+    {
+      "GPU_estimate_is_not_measured_validation": true,
+      "conservative_channel_host_bytes": 11473280,
+      "estimated_GPU_working_set_bytes": 1117614160,
+      "exact_restoration": "PASS",
+      "measured_memory": {
+        "GPU_validation": true,
+        "allocated_bytes": 33976320,
+        "device": "cuda",
+        "free_bytes": 41778872320,
+        "peak_allocated_bytes": 58810368,
+        "peak_reserved_bytes": 60817408,
+        "process_peak_RSS_bytes": 1496379392,
+        "reserved_bytes": 60817408,
+        "total_bytes": 42405855232
+      },
+      "mission": "SMAP",
+      "native_architecture_modified": false,
+      "precision": "FP32",
+      "seconds_first_forward": 0.006498608000129025,
+      "shape": [
+        32,
+        25,
+        5
+      ],
+      "source_checkpoint_sha256": "53eac339653dadfeef344c4622606d1050b51a0355ea3f2bf82564fb13c02a29"
+    }
+  ]
+}

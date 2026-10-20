@@ -1,0 +1,4538 @@
+[
+  {
+    "channel": "A-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "A-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "B-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "C-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-11",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-12",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-13",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-14",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-15",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-16",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "D-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-10",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-11",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-12",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-13",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "E-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "F-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "G-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-6",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "M-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-10",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-11",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-14",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-15",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "P-7",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "R-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "S-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-1",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-12",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-13",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-2",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-3",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-4",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-5",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-8",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "gcn",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "gcn",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "gcn",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "lstm",
+    "seed": 17,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "lstm",
+    "seed": 29,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "lstm",
+    "seed": 43,
+    "pipeline": "common",
+    "pass": true
+  },
+  {
+    "channel": "T-9",
+    "role": "released_lstm",
+    "seed": 0,
+    "pipeline": "native_v2",
+    "pass": true
+  }
+]

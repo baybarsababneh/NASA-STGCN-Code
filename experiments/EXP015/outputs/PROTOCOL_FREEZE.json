@@ -1,0 +1,56 @@
+{
+  "alignment": "ref[t] uses commands t64:t-1; current telemetry t is only used by discriminator and observed residual",
+  "annotation_CSV_parsed": false,
+  "common_detector": "byte-preserved EXP012 HUNDMAN_ADAPT_V1",
+  "configuration": {
+    "GPU_support": "A100 40 GB and 80 GB, subject to the same actual full-shape and bitwise native-output gates; exact runtime identity required to resume",
+    "backup_interval_seconds": 180,
+    "bootstrap_interval": 0.95,
+    "bootstrap_repetitions": 10000,
+    "bootstrap_seed": 20261005,
+    "detector": {
+      "batch_size": 70,
+      "error_buffer": 100,
+      "l_s": 250,
+      "p": 0.13,
+      "smoothing_perc": 0.05,
+      "window_size": 30
+    },
+    "discriminator_hybrid": false,
+    "lookback": 64,
+    "maximum_gpu_reserved_fraction": 0.8,
+    "maximum_single_channel_host_bytes": 536870912,
+    "minimum_free_gpu_bytes_before_model": 4294967296,
+    "missions": [
+      "MSL",
+      "SMAP"
+    ],
+    "native_batch_size": 256,
+    "native_gate": "bitwise exact",
+    "new_calibration": false,
+    "new_training": false,
+    "precision": "FP32",
+    "primary_method": "command_reference_residual_HUNDMAN_ADAPT_V1",
+    "residual_units": "released NASA telemetry units after inverse per-entity FIT scale; not unscaled physical telemetry",
+    "roles": [
+      "graph",
+      "removed",
+      "fusion"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "target_start": 250,
+    "version": "EXP015_EXP013_GCN_HUNDMAN_SUPPLEMENT_V1"
+  },
+  "decision_sha256": "b56ad83775dc50ac1e2f875fc17d4d8d777648b97b1678797897ca2de21ed266",
+  "discriminator_hybrid": false,
+  "native_replay": "original 256 batches starting t64; old EWMA before common t250 crop",
+  "new_detector_stream_start": 250,
+  "no_TEST_label_selection": true,
+  "no_new_calibration": true,
+  "no_new_training": true,
+  "residual": "abs(original_TEST[t,0] - (float64(reference[t])*entity_FIT_scale+entity_FIT_mean))"
+}

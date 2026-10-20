@@ -1,0 +1,740 @@
+[
+  {
+    "channel": "A-1",
+    "train_rows": 2880,
+    "test_rows": 8640,
+    "width": 25,
+    "prediction_rows": 8380,
+    "target_start": 250,
+    "target_end_exclusive": 8630
+  },
+  {
+    "channel": "A-2",
+    "train_rows": 2648,
+    "test_rows": 7914,
+    "width": 25,
+    "prediction_rows": 7654,
+    "target_start": 250,
+    "target_end_exclusive": 7904
+  },
+  {
+    "channel": "A-3",
+    "train_rows": 2736,
+    "test_rows": 8205,
+    "width": 25,
+    "prediction_rows": 7945,
+    "target_start": 250,
+    "target_end_exclusive": 8195
+  },
+  {
+    "channel": "A-4",
+    "train_rows": 2690,
+    "test_rows": 8080,
+    "width": 25,
+    "prediction_rows": 7820,
+    "target_start": 250,
+    "target_end_exclusive": 8070
+  },
+  {
+    "channel": "A-5",
+    "train_rows": 705,
+    "test_rows": 4693,
+    "width": 25,
+    "prediction_rows": 4433,
+    "target_start": 250,
+    "target_end_exclusive": 4683
+  },
+  {
+    "channel": "A-6",
+    "train_rows": 682,
+    "test_rows": 4453,
+    "width": 25,
+    "prediction_rows": 4193,
+    "target_start": 250,
+    "target_end_exclusive": 4443
+  },
+  {
+    "channel": "A-7",
+    "train_rows": 2879,
+    "test_rows": 8631,
+    "width": 25,
+    "prediction_rows": 8371,
+    "target_start": 250,
+    "target_end_exclusive": 8621
+  },
+  {
+    "channel": "A-8",
+    "train_rows": 762,
+    "test_rows": 8375,
+    "width": 25,
+    "prediction_rows": 8115,
+    "target_start": 250,
+    "target_end_exclusive": 8365
+  },
+  {
+    "channel": "A-9",
+    "train_rows": 762,
+    "test_rows": 8434,
+    "width": 25,
+    "prediction_rows": 8174,
+    "target_start": 250,
+    "target_end_exclusive": 8424
+  },
+  {
+    "channel": "B-1",
+    "train_rows": 2435,
+    "test_rows": 8044,
+    "width": 25,
+    "prediction_rows": 7784,
+    "target_start": 250,
+    "target_end_exclusive": 8034
+  },
+  {
+    "channel": "C-1",
+    "train_rows": 2158,
+    "test_rows": 2264,
+    "width": 55,
+    "prediction_rows": 2004,
+    "target_start": 250,
+    "target_end_exclusive": 2254
+  },
+  {
+    "channel": "C-2",
+    "train_rows": 764,
+    "test_rows": 2051,
+    "width": 55,
+    "prediction_rows": 1791,
+    "target_start": 250,
+    "target_end_exclusive": 2041
+  },
+  {
+    "channel": "D-1",
+    "train_rows": 2849,
+    "test_rows": 8509,
+    "width": 25,
+    "prediction_rows": 8249,
+    "target_start": 250,
+    "target_end_exclusive": 8499
+  },
+  {
+    "channel": "D-11",
+    "train_rows": 2611,
+    "test_rows": 7431,
+    "width": 25,
+    "prediction_rows": 7171,
+    "target_start": 250,
+    "target_end_exclusive": 7421
+  },
+  {
+    "channel": "D-12",
+    "train_rows": 312,
+    "test_rows": 7918,
+    "width": 25,
+    "prediction_rows": 7658,
+    "target_start": 250,
+    "target_end_exclusive": 7908
+  },
+  {
+    "channel": "D-13",
+    "train_rows": 1490,
+    "test_rows": 7663,
+    "width": 25,
+    "prediction_rows": 7403,
+    "target_start": 250,
+    "target_end_exclusive": 7653
+  },
+  {
+    "channel": "D-14",
+    "train_rows": 3675,
+    "test_rows": 2625,
+    "width": 55,
+    "prediction_rows": 2365,
+    "target_start": 250,
+    "target_end_exclusive": 2615
+  },
+  {
+    "channel": "D-15",
+    "train_rows": 2074,
+    "test_rows": 2158,
+    "width": 55,
+    "prediction_rows": 1898,
+    "target_start": 250,
+    "target_end_exclusive": 2148
+  },
+  {
+    "channel": "D-16",
+    "train_rows": 1451,
+    "test_rows": 2191,
+    "width": 55,
+    "prediction_rows": 1931,
+    "target_start": 250,
+    "target_end_exclusive": 2181
+  },
+  {
+    "channel": "D-2",
+    "train_rows": 2880,
+    "test_rows": 8595,
+    "width": 25,
+    "prediction_rows": 8335,
+    "target_start": 250,
+    "target_end_exclusive": 8585
+  },
+  {
+    "channel": "D-3",
+    "train_rows": 2880,
+    "test_rows": 8640,
+    "width": 25,
+    "prediction_rows": 8380,
+    "target_start": 250,
+    "target_end_exclusive": 8630
+  },
+  {
+    "channel": "D-4",
+    "train_rows": 2833,
+    "test_rows": 8473,
+    "width": 25,
+    "prediction_rows": 8213,
+    "target_start": 250,
+    "target_end_exclusive": 8463
+  },
+  {
+    "channel": "D-5",
+    "train_rows": 2561,
+    "test_rows": 7628,
+    "width": 25,
+    "prediction_rows": 7368,
+    "target_start": 250,
+    "target_end_exclusive": 7618
+  },
+  {
+    "channel": "D-6",
+    "train_rows": 2594,
+    "test_rows": 7884,
+    "width": 25,
+    "prediction_rows": 7624,
+    "target_start": 250,
+    "target_end_exclusive": 7874
+  },
+  {
+    "channel": "D-7",
+    "train_rows": 2583,
+    "test_rows": 7642,
+    "width": 25,
+    "prediction_rows": 7382,
+    "target_start": 250,
+    "target_end_exclusive": 7632
+  },
+  {
+    "channel": "D-8",
+    "train_rows": 2602,
+    "test_rows": 7874,
+    "width": 25,
+    "prediction_rows": 7614,
+    "target_start": 250,
+    "target_end_exclusive": 7864
+  },
+  {
+    "channel": "D-9",
+    "train_rows": 2583,
+    "test_rows": 7406,
+    "width": 25,
+    "prediction_rows": 7146,
+    "target_start": 250,
+    "target_end_exclusive": 7396
+  },
+  {
+    "channel": "E-1",
+    "train_rows": 2880,
+    "test_rows": 8516,
+    "width": 25,
+    "prediction_rows": 8256,
+    "target_start": 250,
+    "target_end_exclusive": 8506
+  },
+  {
+    "channel": "E-10",
+    "train_rows": 2880,
+    "test_rows": 8505,
+    "width": 25,
+    "prediction_rows": 8245,
+    "target_start": 250,
+    "target_end_exclusive": 8495
+  },
+  {
+    "channel": "E-11",
+    "train_rows": 2880,
+    "test_rows": 8514,
+    "width": 25,
+    "prediction_rows": 8254,
+    "target_start": 250,
+    "target_end_exclusive": 8504
+  },
+  {
+    "channel": "E-12",
+    "train_rows": 2880,
+    "test_rows": 8512,
+    "width": 25,
+    "prediction_rows": 8252,
+    "target_start": 250,
+    "target_end_exclusive": 8502
+  },
+  {
+    "channel": "E-13",
+    "train_rows": 2880,
+    "test_rows": 8640,
+    "width": 25,
+    "prediction_rows": 8380,
+    "target_start": 250,
+    "target_end_exclusive": 8630
+  },
+  {
+    "channel": "E-2",
+    "train_rows": 2880,
+    "test_rows": 8532,
+    "width": 25,
+    "prediction_rows": 8272,
+    "target_start": 250,
+    "target_end_exclusive": 8522
+  },
+  {
+    "channel": "E-3",
+    "train_rows": 2880,
+    "test_rows": 8307,
+    "width": 25,
+    "prediction_rows": 8047,
+    "target_start": 250,
+    "target_end_exclusive": 8297
+  },
+  {
+    "channel": "E-4",
+    "train_rows": 2880,
+    "test_rows": 8354,
+    "width": 25,
+    "prediction_rows": 8094,
+    "target_start": 250,
+    "target_end_exclusive": 8344
+  },
+  {
+    "channel": "E-5",
+    "train_rows": 2880,
+    "test_rows": 8294,
+    "width": 25,
+    "prediction_rows": 8034,
+    "target_start": 250,
+    "target_end_exclusive": 8284
+  },
+  {
+    "channel": "E-6",
+    "train_rows": 2880,
+    "test_rows": 8300,
+    "width": 25,
+    "prediction_rows": 8040,
+    "target_start": 250,
+    "target_end_exclusive": 8290
+  },
+  {
+    "channel": "E-7",
+    "train_rows": 2769,
+    "test_rows": 8310,
+    "width": 25,
+    "prediction_rows": 8050,
+    "target_start": 250,
+    "target_end_exclusive": 8300
+  },
+  {
+    "channel": "E-8",
+    "train_rows": 2880,
+    "test_rows": 8532,
+    "width": 25,
+    "prediction_rows": 8272,
+    "target_start": 250,
+    "target_end_exclusive": 8522
+  },
+  {
+    "channel": "E-9",
+    "train_rows": 2880,
+    "test_rows": 8302,
+    "width": 25,
+    "prediction_rows": 8042,
+    "target_start": 250,
+    "target_end_exclusive": 8292
+  },
+  {
+    "channel": "F-1",
+    "train_rows": 2869,
+    "test_rows": 8584,
+    "width": 25,
+    "prediction_rows": 8324,
+    "target_start": 250,
+    "target_end_exclusive": 8574
+  },
+  {
+    "channel": "F-2",
+    "train_rows": 2861,
+    "test_rows": 8626,
+    "width": 25,
+    "prediction_rows": 8366,
+    "target_start": 250,
+    "target_end_exclusive": 8616
+  },
+  {
+    "channel": "F-3",
+    "train_rows": 2880,
+    "test_rows": 8376,
+    "width": 25,
+    "prediction_rows": 8116,
+    "target_start": 250,
+    "target_end_exclusive": 8366
+  },
+  {
+    "channel": "F-4",
+    "train_rows": 2244,
+    "test_rows": 3422,
+    "width": 55,
+    "prediction_rows": 3162,
+    "target_start": 250,
+    "target_end_exclusive": 3412
+  },
+  {
+    "channel": "F-5",
+    "train_rows": 2598,
+    "test_rows": 3922,
+    "width": 55,
+    "prediction_rows": 3662,
+    "target_start": 250,
+    "target_end_exclusive": 3912
+  },
+  {
+    "channel": "F-7",
+    "train_rows": 2511,
+    "test_rows": 5054,
+    "width": 55,
+    "prediction_rows": 4794,
+    "target_start": 250,
+    "target_end_exclusive": 5044
+  },
+  {
+    "channel": "F-8",
+    "train_rows": 3342,
+    "test_rows": 2487,
+    "width": 55,
+    "prediction_rows": 2227,
+    "target_start": 250,
+    "target_end_exclusive": 2477
+  },
+  {
+    "channel": "G-1",
+    "train_rows": 2820,
+    "test_rows": 8469,
+    "width": 25,
+    "prediction_rows": 8209,
+    "target_start": 250,
+    "target_end_exclusive": 8459
+  },
+  {
+    "channel": "G-2",
+    "train_rows": 2478,
+    "test_rows": 7361,
+    "width": 25,
+    "prediction_rows": 7101,
+    "target_start": 250,
+    "target_end_exclusive": 7351
+  },
+  {
+    "channel": "G-3",
+    "train_rows": 2624,
+    "test_rows": 7907,
+    "width": 25,
+    "prediction_rows": 7647,
+    "target_start": 250,
+    "target_end_exclusive": 7897
+  },
+  {
+    "channel": "G-4",
+    "train_rows": 2551,
+    "test_rows": 7632,
+    "width": 25,
+    "prediction_rows": 7372,
+    "target_start": 250,
+    "target_end_exclusive": 7622
+  },
+  {
+    "channel": "G-6",
+    "train_rows": 2881,
+    "test_rows": 8640,
+    "width": 25,
+    "prediction_rows": 8380,
+    "target_start": 250,
+    "target_end_exclusive": 8630
+  },
+  {
+    "channel": "G-7",
+    "train_rows": 2446,
+    "test_rows": 8029,
+    "width": 25,
+    "prediction_rows": 7769,
+    "target_start": 250,
+    "target_end_exclusive": 8019
+  },
+  {
+    "channel": "M-1",
+    "train_rows": 2209,
+    "test_rows": 2277,
+    "width": 55,
+    "prediction_rows": 2017,
+    "target_start": 250,
+    "target_end_exclusive": 2267
+  },
+  {
+    "channel": "M-2",
+    "train_rows": 2208,
+    "test_rows": 2277,
+    "width": 55,
+    "prediction_rows": 2017,
+    "target_start": 250,
+    "target_end_exclusive": 2267
+  },
+  {
+    "channel": "M-3",
+    "train_rows": 2037,
+    "test_rows": 2127,
+    "width": 55,
+    "prediction_rows": 1867,
+    "target_start": 250,
+    "target_end_exclusive": 2117
+  },
+  {
+    "channel": "M-4",
+    "train_rows": 2076,
+    "test_rows": 2038,
+    "width": 55,
+    "prediction_rows": 1778,
+    "target_start": 250,
+    "target_end_exclusive": 2028
+  },
+  {
+    "channel": "M-5",
+    "train_rows": 2032,
+    "test_rows": 2303,
+    "width": 55,
+    "prediction_rows": 2043,
+    "target_start": 250,
+    "target_end_exclusive": 2293
+  },
+  {
+    "channel": "M-6",
+    "train_rows": 1565,
+    "test_rows": 2049,
+    "width": 55,
+    "prediction_rows": 1789,
+    "target_start": 250,
+    "target_end_exclusive": 2039
+  },
+  {
+    "channel": "M-7",
+    "train_rows": 1587,
+    "test_rows": 2156,
+    "width": 55,
+    "prediction_rows": 1896,
+    "target_start": 250,
+    "target_end_exclusive": 2146
+  },
+  {
+    "channel": "P-1",
+    "train_rows": 2872,
+    "test_rows": 8505,
+    "width": 25,
+    "prediction_rows": 8245,
+    "target_start": 250,
+    "target_end_exclusive": 8495
+  },
+  {
+    "channel": "P-10",
+    "train_rows": 4308,
+    "test_rows": 6100,
+    "width": 55,
+    "prediction_rows": 5840,
+    "target_start": 250,
+    "target_end_exclusive": 6090
+  },
+  {
+    "channel": "P-11",
+    "train_rows": 3969,
+    "test_rows": 3535,
+    "width": 55,
+    "prediction_rows": 3275,
+    "target_start": 250,
+    "target_end_exclusive": 3525
+  },
+  {
+    "channel": "P-14",
+    "train_rows": 2880,
+    "test_rows": 6100,
+    "width": 55,
+    "prediction_rows": 5840,
+    "target_start": 250,
+    "target_end_exclusive": 6090
+  },
+  {
+    "channel": "P-15",
+    "train_rows": 3682,
+    "test_rows": 2856,
+    "width": 55,
+    "prediction_rows": 2596,
+    "target_start": 250,
+    "target_end_exclusive": 2846
+  },
+  {
+    "channel": "P-2",
+    "train_rows": 2821,
+    "test_rows": 8209,
+    "width": 25,
+    "prediction_rows": 7949,
+    "target_start": 250,
+    "target_end_exclusive": 8199
+  },
+  {
+    "channel": "P-3",
+    "train_rows": 2855,
+    "test_rows": 8493,
+    "width": 25,
+    "prediction_rows": 8233,
+    "target_start": 250,
+    "target_end_exclusive": 8483
+  },
+  {
+    "channel": "P-4",
+    "train_rows": 2609,
+    "test_rows": 7783,
+    "width": 25,
+    "prediction_rows": 7523,
+    "target_start": 250,
+    "target_end_exclusive": 7773
+  },
+  {
+    "channel": "P-7",
+    "train_rows": 2853,
+    "test_rows": 8071,
+    "width": 25,
+    "prediction_rows": 7811,
+    "target_start": 250,
+    "target_end_exclusive": 8061
+  },
+  {
+    "channel": "R-1",
+    "train_rows": 2874,
+    "test_rows": 7244,
+    "width": 25,
+    "prediction_rows": 6984,
+    "target_start": 250,
+    "target_end_exclusive": 7234
+  },
+  {
+    "channel": "S-1",
+    "train_rows": 2818,
+    "test_rows": 7331,
+    "width": 25,
+    "prediction_rows": 7071,
+    "target_start": 250,
+    "target_end_exclusive": 7321
+  },
+  {
+    "channel": "S-2",
+    "train_rows": 926,
+    "test_rows": 1827,
+    "width": 55,
+    "prediction_rows": 1567,
+    "target_start": 250,
+    "target_end_exclusive": 1817
+  },
+  {
+    "channel": "T-1",
+    "train_rows": 2875,
+    "test_rows": 8612,
+    "width": 25,
+    "prediction_rows": 8352,
+    "target_start": 250,
+    "target_end_exclusive": 8602
+  },
+  {
+    "channel": "T-10",
+    "train_rows": 425,
+    "test_rows": 670,
+    "width": 55,
+    "prediction_rows": 410,
+    "target_start": 250,
+    "target_end_exclusive": 660
+  },
+  {
+    "channel": "T-12",
+    "train_rows": 1145,
+    "test_rows": 2430,
+    "width": 55,
+    "prediction_rows": 2170,
+    "target_start": 250,
+    "target_end_exclusive": 2420
+  },
+  {
+    "channel": "T-13",
+    "train_rows": 1145,
+    "test_rows": 2430,
+    "width": 55,
+    "prediction_rows": 2170,
+    "target_start": 250,
+    "target_end_exclusive": 2420
+  },
+  {
+    "channel": "T-2",
+    "train_rows": 2855,
+    "test_rows": 8625,
+    "width": 25,
+    "prediction_rows": 8365,
+    "target_start": 250,
+    "target_end_exclusive": 8615
+  },
+  {
+    "channel": "T-3",
+    "train_rows": 2876,
+    "test_rows": 8579,
+    "width": 25,
+    "prediction_rows": 8319,
+    "target_start": 250,
+    "target_end_exclusive": 8569
+  },
+  {
+    "channel": "T-4",
+    "train_rows": 2272,
+    "test_rows": 2217,
+    "width": 55,
+    "prediction_rows": 1957,
+    "target_start": 250,
+    "target_end_exclusive": 2207
+  },
+  {
+    "channel": "T-5",
+    "train_rows": 2272,
+    "test_rows": 2218,
+    "width": 55,
+    "prediction_rows": 1958,
+    "target_start": 250,
+    "target_end_exclusive": 2208
+  },
+  {
+    "channel": "T-8",
+    "train_rows": 748,
+    "test_rows": 1519,
+    "width": 55,
+    "prediction_rows": 1259,
+    "target_start": 250,
+    "target_end_exclusive": 1509
+  },
+  {
+    "channel": "T-9",
+    "train_rows": 439,
+    "test_rows": 1096,
+    "width": 55,
+    "prediction_rows": 836,
+    "target_start": 250,
+    "target_end_exclusive": 1086
+  }
+]

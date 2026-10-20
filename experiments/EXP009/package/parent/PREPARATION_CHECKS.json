@@ -1,0 +1,18 @@
+{
+  "numerical_detector_tests": 12,
+  "corrected_metric_test_groups": 5,
+  "synthetic_workflow_units": 4833,
+  "resume_skips_completed_units": true,
+  "corrupt_commit_rejected": true,
+  "actual_parent_replay_archives_preflight_passed": 534,
+  "actual_split_masks_preflight_passed": true,
+  "actual_EXP009_detector_selection_executed": false,
+  "colab_execution_tested": false,
+  "local_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "short_trace_rule": "T-9 and D-12 kept; requested long probes capped and explicitly recorded",
+  "postrun_verifier_synthetic_test_passed": true
+}

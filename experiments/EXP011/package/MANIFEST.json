@@ -1,0 +1,12 @@
+{
+  "ENGINEERING_CHECKS.json": "9b474d6767c75f1d5bb45c0ee9fd56900c416ca4e54ec3c11423ea73750e03b6",
+  "PROTOCOL.md": "33524323c6e8a8a7cc07c1dd9b006d6b05f35a0811767101ac956017897d2067",
+  "REVIEWER_ADDENDUM.md": "aa5c75da63c8d7e98b72efa5bfba294d82a05f8bf77d44690df32c1219a5d9f8",
+  "START_HERE.md": "26bca629660c035ef34c949a4432012381a1b13499cc285f0cca8d17c144d423",
+  "input.json": "81f5cf7deaa96c908dcc60d6a589ad9122a629d05e16ea07a775b2cc673c79a1",
+  "parent_plan.json": "741d7d838ff33496c03b66dd9919df82d2ff88a14569eb1163d187edb6a4adb4",
+  "requirements.txt": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
+  "src/audit_results.py": "28643ea88145f1d84b699f757d6904805cbeac266cccb9e74c8eafab3689500d",
+  "src/pilot.py": "1b805edcb558dc0929d82669e3be5ed7273bcae52780fd67b49130131bded8c7",
+  "src/test_pilot.py": "fb6954f7a0a658f9933ea1d2979d75416e7539a2a62c2824344095326aee145c"
+}

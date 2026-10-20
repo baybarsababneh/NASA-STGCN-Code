@@ -1,0 +1,13 @@
+--- frozen_cpu/v2_data.py
++++ src/v2_data.py
+@@ -5,8 +5,8 @@
+ 
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+-DATA_ROOT = ROOT.parent / "archive" / "data" / "data"
+-TRAIN_DIR = DATA_ROOT / "train"
++DATA_ROOT = ROOT
++TRAIN_DIR = ROOT / "train"
+ 
+ EXCLUDED_CHANNELS = {"T-10"}
+ 

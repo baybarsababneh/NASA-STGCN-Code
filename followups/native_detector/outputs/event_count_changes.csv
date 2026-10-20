@@ -1,0 +1,8 @@
+mission,channel,role,seed,H_delta,M_delta,U_delta,FPt_delta,TP_delta,within_event_notifications_delta
+MSL,C-2,released_lstm,0,1,-1,0,95,101,0
+MSL,C-2,gcn,17,1,-1,0,141,101,0
+MSL,C-2,gcn,29,1,-1,0,141,101,0
+MSL,C-2,gcn,43,1,-1,0,141,101,0
+MSL,C-2,lstm,17,1,-1,0,114,101,0
+MSL,C-2,lstm,29,1,-1,0,114,101,0
+MSL,C-2,lstm,43,1,-1,0,114,101,0

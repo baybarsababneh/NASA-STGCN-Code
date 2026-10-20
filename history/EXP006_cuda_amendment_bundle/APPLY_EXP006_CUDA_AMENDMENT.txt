@@ -1,0 +1,44 @@
+EXP006 CUDA AMENDMENT — APPLY + COLAB TRANSFER
+================================================
+
+This amendment preserves the completed 288-fit CPU screening and its locked shortlist.
+Do NOT rerun screening on CUDA.
+
+A) Apply the amendment on the Mac
+---------------------------------
+From the existing smap_msl_tcn_gcn_v2 project root, unzip the amendment bundle over the project:
+
+    unzip -o /path/to/EXP006_cuda_amendment_bundle.zip -d .
+
+Then verify the amended project while still on CPU:
+
+    python src/v2_run_exp006.py --stage preflight --device cpu
+
+Expected: PRETRAIN PREFLIGHT PASS, parent freeze exp006_pretrain_freeze_v1,
+and device amendment exp006_device_amendment_v1.
+
+B) Build the lean TRAIN-only Colab transfer
+--------------------------------------------
+Still from the project root:
+
+    python prepare_exp006_colab_transfer.py
+
+This creates, in the parent directory:
+
+    EXP006_colab_workspace.zip
+
+The transfer includes the project code/configuration, completed EXP006 screening
+outputs, the historical EXP002 all_runs.csv needed for the promotion rule, and
+NASA TRAIN arrays only. NASA TEST arrays and anomaly labels are excluded.
+
+C) Move to Google Colab
+-----------------------
+1. Upload EXP006_colab_workspace.zip to Google Drive MyDrive.
+2. Open EXP006_Colab_CUDA.ipynb in Google Colab.
+3. Set Runtime -> Change runtime type -> GPU.
+4. Run cells in order through the device verification.
+5. STOP after verification and audit the output before robustness.
+6. After verification passes, run the 192-fit robustness stage.
+7. STOP again for audit before the 486-fit confirmation stage.
+
+CUDA production must use --workers 1. The runner enforces this.

@@ -1,0 +1,258 @@
+[
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_removed",
+    "detector": "hundman_adapt_v1",
+    "difference": 0.053797505235655296,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      0.0008003172715938673,
+      0.11538383266680108
+    ],
+    "primary_model_contrast": true,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_lstm",
+    "detector": "hundman_adapt_v1",
+    "difference": 0.06223825634773106,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.0338110307771374,
+      0.14846007485384594
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_tcn",
+    "detector": "hundman_adapt_v1",
+    "difference": 0.04578674426884244,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.03021688798953608,
+      0.12137716396094314
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_persistence",
+    "detector": "hundman_adapt_v1",
+    "difference": 0.08909507424664864,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.019811793522641848,
+      0.20657358710338064
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_removed",
+    "detector": "raw_q99",
+    "difference": -0.003235688270678258,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.023351191754597718,
+      0.009636952258137172
+    ],
+    "primary_model_contrast": true,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_lstm",
+    "detector": "raw_q99",
+    "difference": 0.001383420497507011,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.019279991428640137,
+      0.03117442544318766
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_tcn",
+    "detector": "raw_q99",
+    "difference": 0.0038095260647185436,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.011510163738646547,
+      0.015630516877906956
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_persistence",
+    "detector": "raw_q99",
+    "difference": 0.032250179928127204,
+    "mission": "MSL",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.01296229720412222,
+      0.05031503094113255
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_removed",
+    "detector": "hundman_adapt_v1",
+    "difference": -0.08068833885796922,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.14383814850226392,
+      -0.026007579821879553
+    ],
+    "primary_model_contrast": true,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_lstm",
+    "detector": "hundman_adapt_v1",
+    "difference": -0.09511691332557703,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.1795086722971513,
+      -0.00631911082801198
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_tcn",
+    "detector": "hundman_adapt_v1",
+    "difference": -0.02011867031017578,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.09240413695035357,
+      0.05178833109305523
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_persistence",
+    "detector": "hundman_adapt_v1",
+    "difference": -0.03943415312508203,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.09877298512875164,
+      0.032090021393453946
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_removed",
+    "detector": "raw_q99",
+    "difference": -0.0041906075319936495,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.01659431256003451,
+      0.0010461059599367261
+    ],
+    "primary_model_contrast": true,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_lstm",
+    "detector": "raw_q99",
+    "difference": 0.001472901487424419,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.0045954067006606855,
+      0.008499703169223464
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_tcn",
+    "detector": "raw_q99",
+    "difference": 0.0031235683136001894,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.0002834822628494914,
+      0.0070448453307083644
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  },
+  {
+    "CI_condition": "finite replicates; report undefined draws and shared-context/dependence limitations",
+    "bootstrap_seed": 20261005,
+    "contrast": "gcn_minus_persistence",
+    "detector": "raw_q99",
+    "difference": 0.0009789615143015913,
+    "mission": "SMAP",
+    "pairing": "same channels; all original seeds grouped; persistence one stream",
+    "percentile_CI95": [
+      -0.019862384100914565,
+      0.009358249146755157
+    ],
+    "primary_model_contrast": false,
+    "repetitions": 10000,
+    "undefined_replicates": 0
+  }
+]

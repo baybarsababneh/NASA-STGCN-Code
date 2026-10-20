@@ -1,0 +1,397 @@
+{
+  "NASA_archive_sha256": "6084d3ee3906381f2c98aa3773b6b2d77c82413503faa78f962196582e873733",
+  "automatic_TEST_execution_authorized": false,
+  "benchmark_freeze_sha256": "099183a93bd2ca91214db2cb5e6e309fd9c66f96b5a970f4f563fed82e6400f9",
+  "calibration_freeze_sha256": "91a4ed38da689d5b09980a680a2b0996ece5060b484b822a5f1cef0b60386fac",
+  "channels": [
+    {
+      "channel": "A-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-2",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-3",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-4",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-5",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-6",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-7",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-8",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "A-9",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "B-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "C-1",
+      "mission": "MSL"
+    },
+    {
+      "channel": "C-2",
+      "mission": "MSL"
+    },
+    {
+      "channel": "D-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-11",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-12",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-13",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-14",
+      "mission": "MSL"
+    },
+    {
+      "channel": "D-15",
+      "mission": "MSL"
+    },
+    {
+      "channel": "D-16",
+      "mission": "MSL"
+    },
+    {
+      "channel": "D-2",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-3",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-4",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-5",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-6",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-7",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-8",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "D-9",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-10",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-11",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-12",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-13",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-2",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-3",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-4",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-5",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-6",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-7",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-8",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "E-9",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "F-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "F-2",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "F-3",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "F-4",
+      "mission": "MSL"
+    },
+    {
+      "channel": "F-5",
+      "mission": "MSL"
+    },
+    {
+      "channel": "F-7",
+      "mission": "MSL"
+    },
+    {
+      "channel": "F-8",
+      "mission": "MSL"
+    },
+    {
+      "channel": "G-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "G-2",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "G-3",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "G-4",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "G-6",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "G-7",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "M-1",
+      "mission": "MSL"
+    },
+    {
+      "channel": "M-2",
+      "mission": "MSL"
+    },
+    {
+      "channel": "M-3",
+      "mission": "MSL"
+    },
+    {
+      "channel": "M-4",
+      "mission": "MSL"
+    },
+    {
+      "channel": "M-5",
+      "mission": "MSL"
+    },
+    {
+      "channel": "M-6",
+      "mission": "MSL"
+    },
+    {
+      "channel": "M-7",
+      "mission": "MSL"
+    },
+    {
+      "channel": "P-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "P-10",
+      "mission": "MSL"
+    },
+    {
+      "channel": "P-11",
+      "mission": "MSL"
+    },
+    {
+      "channel": "P-14",
+      "mission": "MSL"
+    },
+    {
+      "channel": "P-15",
+      "mission": "MSL"
+    },
+    {
+      "channel": "P-2",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "P-3",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "P-4",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "P-7",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "R-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "S-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "S-2",
+      "mission": "MSL"
+    },
+    {
+      "channel": "T-1",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "T-12",
+      "mission": "MSL"
+    },
+    {
+      "channel": "T-13",
+      "mission": "MSL"
+    },
+    {
+      "channel": "T-2",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "T-3",
+      "mission": "SMAP"
+    },
+    {
+      "channel": "T-4",
+      "mission": "MSL"
+    },
+    {
+      "channel": "T-5",
+      "mission": "MSL"
+    },
+    {
+      "channel": "T-8",
+      "mission": "MSL"
+    },
+    {
+      "channel": "T-9",
+      "mission": "MSL"
+    }
+  ],
+  "compatibility_status_at_build": "PENDING_REAL_40GB_NOMINAL_REPLAY",
+  "decision": "AUDITED_PREPARATION_READY_FOR_LOCKED_RETROSPECTIVE_COMPARISON",
+  "evaluation_contract": {
+    "AP": "AP of raw absolute fit-standardized residual and separately EWMA residual; no claim that either ranks inverted-branch or pruning decisions exactly. No AP across incomparable native channel scales.",
+    "aggregation": "MSL and SMAP separate. Pool H,M,U,FPt,N0 across channels per seed, then average metrics across seeds17,29,43. Persistence once, not three independent observations.",
+    "benchmark_kind": "locked retrospective, historically exposed NASA TEST",
+    "channel_policy": "81 unique channels,27MSL54SMAP; first P-2 CSV row; expected104 original events, preserve duplicate audit",
+    "common_TEST_target_start": 250,
+    "delay": "first actual alarm issue time attributable to event-overlapping flags minus true onset; never buffered flag timestamp. Late post-event notifications reported separately; never silently censored.",
+    "historical_labels_sha256": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539",
+    "label_interval_conversion": "inclusive CSV [a,b] becomes half-open [a,b+1)",
+    "models": [
+      "final_gcn",
+      "final_matched_message_removed",
+      "historical_selected_EXP005_TCN",
+      "controlled_command_aware_LSTM",
+      "persistence"
+    ],
+    "no_positive_AP": "undefined; exclude from AP macro average and report denominator. No alarms with positive truth gives Fbeta0; wholly nominal channels contribute false alarms to pooled event counts.",
+    "no_publication_SOTA_claim": "published result tables separate; controlled baselines not exact original multi-output LSTM reproduction",
+    "point_adjustment": "not primary; if exported, explicitly labelled optimistic legacy diagnostic, never mix with strict metrics",
+    "post_freeze_changes": "any source/scientific change requires new version and documented amendment; no detector replacement based on NASA results",
+    "prerequisites": [
+      "independent preparation audit",
+      "resolve serious reviewer issues",
+      "separately frozen label-blind score-export protocol",
+      "explicitly authorised retrospective evaluation"
+    ],
+    "primary_detector": "HUNDMAN_ADAPT_V1, publication-derived adaptive batch detector; no supervised threshold tuning",
+    "primary_event_scoring": "overlap of retrospective flag intervals; actual issue timing is a separate mandatory operational diagnostic, not claimed realtime scoring",
+    "primary_metric": "corrected event F0.5: H/(H+U)*(1-FPt/N0) as precision; R=H/(H+M); Fbeta with beta=.5",
+    "primary_model_contrast": "final_gcn minus final_matched_message_removed under each detector",
+    "reference_detector": "raw_q99; TRAIN final20% calibration per model/channel/seed, higher,strict greater than",
+    "secondary_metrics": [
+      "Hundman sequence-overlap F0.5",
+      "strict point P/R/F1/F0.5",
+      "tied-score-grouped average precision (step AUPRC)",
+      "H,M,U,FPt,N0",
+      "alarm starts/1000 nominal samples",
+      "nominal flagged occupancy",
+      "event alarm fragmentation",
+      "detection delay and within-event notification rate"
+    ],
+    "secondary_model_contrasts": [
+      "final_gcn minus controlled_LSTM",
+      "final_gcn minus EXP005_TCN",
+      "final_gcn minus persistence"
+    ],
+    "startup": "No label-dependent exception. Targets after250 remain in denominators even if detector suppresses them; report original events fully outside evaluation support separately.",
+    "status": "PREPARATION_ONLY_NO_TEST_EXECUTION_OR_AUTHORIZATION",
+    "uncertainty": "10000 paired channel bootstrap, resample same channels for both models, retain three seeds; bootstrap seed20261005; report seed distribution and shared-context/dependence limitations",
+    "zero_N0": "corrected precision undefined; do not impute success; report excluded count"
+  },
+  "execution_provenance_archive_sha256": "6078d268bdf519b35f32151c1eaa2b43ed63528ff92910905ebb319bd17eb9a3",
+  "independent_audit_receipt_sha256": "fd9408879434bd7be1a5b73e538fbf5c23907593fc56f14c5ec84e60f09f2f8c",
+  "input_bundle_archive_sha256": "8e034443158e5862eae83efa695f570294fe4f9a5f89791604e41b1f195e2c84",
+  "label_metrics_environment": {
+    "numpy": "2.1.3",
+    "python": "3.13.15"
+  },
+  "model_freeze_sha256": "9c80cfd71de7a77257d79369bf1017717f6f580ba94a14a2c53766e55f0770ec",
+  "package_manifest_sha256": "f997ef48ca11ec723c0ce6ce975bae433d1b6680f8ab2a665c4d38893772fb9c",
+  "results_archive_sha256": "cf8a0887e5424f1e854a9114297130d5a68e5204991a5169bb7ff628e3e8ae45",
+  "results_manifest_sha256": "822647ef3a052ad4497c750fd1d5558f36f8c9d0baf62e0ea65b8c24fd7223c8",
+  "version": "EXP012_RETROSPECTIVE_EVALUATION_V1_A10040GB_AMENDMENT_1"
+}

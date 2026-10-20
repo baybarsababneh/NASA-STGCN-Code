@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "VM_reset_notebook_retrieves_cached_bundle_without_reupload": true,
+    "all_notebook_code_cells_compile": true,
+    "all_package_python_sources_compile": true,
+    "archive_CRC_roster_and_every_payload_SHA": true,
+    "automatic_recovery_and_mandatory_order_contract": true,
+    "embedded_Drive_bootstrap_matches_package_source": true,
+    "failed_seal_prevents_label_API_lookup_and_upload": true,
+    "local_manifest_bound_to_SHA_pinned_bundle": true,
+    "notebook_first_bundle_setup_verifies_and_caches_release": true,
+    "scientific_dependency_install_cell_byte_identical": true,
+    "successful_label_request_occurs_only_after_verification": true
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,494 @@
+[
+  {
+    "channel": "A-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-5",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-6",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-7",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-8",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "A-9",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "B-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "C-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "C-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-11",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-12",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-13",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-14",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-15",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-16",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-5",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-6",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-7",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-8",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "D-9",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-10",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-11",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-12",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-13",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-5",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-6",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-7",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-8",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "E-9",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "F-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "F-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "F-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "F-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "F-5",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "F-7",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "F-8",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "G-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "G-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "G-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "G-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "G-6",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "G-7",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "M-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "M-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "M-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "M-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "M-5",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "M-6",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "M-7",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-10",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-11",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-14",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-15",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "P-7",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "R-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "S-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "S-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-1",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-10",
+    "max_absolute_error": 0.025994310274280646,
+    "cached_smoothing_replay_pass": false,
+    "in_frozen_evaluation_roster": false
+  },
+  {
+    "channel": "T-12",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-13",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-2",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-3",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-4",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-5",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-8",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  },
+  {
+    "channel": "T-9",
+    "max_absolute_error": 0.0,
+    "cached_smoothing_replay_pass": true,
+    "in_frozen_evaluation_roster": true
+  }
+]

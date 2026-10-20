@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "regression_groups": 5,
+  "old_failure_reproduced": true,
+  "synthetic_pre_amendment_commits": 900,
+  "synthetic_total_units": 4833,
+  "old_commits_recomputed": 0,
+  "old_result_marker_and_freeze_bytes_preserved": true,
+  "repeated_resume_without_recomputation": true,
+  "corruption_rejected": true,
+  "actual_user_drive_results_inspected": false,
+  "hosted_colab_amendment_run": false,
+  "scientific_selection_run": false
+}

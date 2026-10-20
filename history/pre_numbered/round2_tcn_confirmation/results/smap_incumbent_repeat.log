@@ -1,0 +1,8 @@
+1/108 SMAP_rf7_native A-1 s29: mse=0, epoch=1/7, 0.6s
+2/108 SMAP_rf7_native A-3 s29: mse=0.0714399, epoch=13/19, 1.7s
+3/108 SMAP_rf7_native A-4 s29: mse=0.202015, epoch=8/14, 1.2s
+4/108 SMAP_rf7_native A-5 s29: mse=0.11745, epoch=16/22, 0.3s
+5/108 SMAP_rf7_native A-6 s29: mse=0.0589471, epoch=28/34, 0.5s
+6/108 SMAP_rf7_native A-2 s29: mse=0.0843981, epoch=80/80, 5.6s
+7/108 SMAP_rf7_native A-8 s29: mse=2.20752e-10, epoch=8/14, 0.2s
+8/108 SMAP_rf7_native A-9 s29: mse=4.72154e-07, epoch=1/7, 0.1s

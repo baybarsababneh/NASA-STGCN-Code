@@ -1,0 +1,87 @@
+{
+  "MSL": {
+    "incumbent": {
+      "name": "MSL_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    "challenger": {
+      "name": "MSL_rf7_alternate",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "top4",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    "checks": {
+      "all": {
+        "incumbent": -0.19361093260715717,
+        "challenger": -0.38489246674977867,
+        "ratio": 0.8259000363584679
+      },
+      "nonscreen": {
+        "incumbent": -0.2182095473578829,
+        "challenger": -0.2990355397759525,
+        "ratio": 0.9223541741011224
+      }
+    }
+  },
+  "SMAP": {
+    "incumbent": {
+      "name": "SMAP_rf7_native",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    "challenger": {
+      "name": "SMAP_rf7_h64",
+      "kind": "tcn_gcn",
+      "lookback": 64,
+      "hidden": 64,
+      "graph": "star",
+      "kernel_size": 3,
+      "dilations": [
+        1,
+        2
+      ],
+      "epochs": 80,
+      "lr": 0.001
+    },
+    "checks": {
+      "all": {
+        "incumbent": -0.35660730741171937,
+        "challenger": -0.407080819742958,
+        "ratio": 0.9507791122609889
+      },
+      "nonscreen": {
+        "incumbent": -0.279057743743115,
+        "challenger": -0.33131524134700124,
+        "ratio": 0.9490844484043092
+      }
+    }
+  }
+}
+Jobs: 324

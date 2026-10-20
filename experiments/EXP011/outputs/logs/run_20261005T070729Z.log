@@ -1,0 +1,48 @@
+12/440 detector fits
+24/440 detector fits
+36/440 detector fits
+48/440 detector fits
+60/440 detector fits
+72/440 detector fits
+84/440 detector fits
+96/440 detector fits
+108/440 detector fits
+120/440 detector fits
+132/440 detector fits
+144/440 detector fits
+156/440 detector fits
+168/440 detector fits
+180/440 detector fits
+192/440 detector fits
+204/440 detector fits
+216/440 detector fits
+228/440 detector fits
+240/440 detector fits
+252/440 detector fits
+264/440 detector fits
+276/440 detector fits
+288/440 detector fits
+300/440 detector fits
+312/440 detector fits
+324/440 detector fits
+336/440 detector fits
+348/440 detector fits
+360/440 detector fits
+372/440 detector fits
+384/440 detector fits
+396/440 detector fits
+408/440 detector fits
+420/440 detector fits
+432/440 detector fits
+{
+  "status": "COMPLETE_PILOT_NO_DEPLOYMENT_DETECTOR",
+  "detector_fits": 440,
+  "forecasting_fits": 0,
+  "NASA_TEST_accessed": false,
+  "final_calibration_accessed": false,
+  "missions": {
+    "MSL": "STOP_REQUIRE_NEW_INFORMATION",
+    "SMAP": "STOP_REQUIRE_NEW_INFORMATION"
+  },
+  "warning": "Synthetic, posthoc-designed pilot on reused development channels; no real-anomaly performance or operational false-alarm guarantee."
+}

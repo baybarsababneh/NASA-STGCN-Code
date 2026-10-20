@@ -1,0 +1,363 @@
+FIT START SMAP__gdn__17 FIT_windows 283 FIT_batches 18 STOP_windows 96 STOP_batches 6 batch_size 16 epoch_cap 2
+/workspace/scratch/b601914ec2ba/exp013/local_test/official/gdn/models/GDN.py:161: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matrices or `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:3725.)
+  gated_i = torch.arange(0, node_num).T.unsqueeze(1).repeat(1, topk_num).flatten().to(device).unsqueeze(0)
+{"batch": 1, "batches": 18, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 18, "batches": 18, "elapsed_seconds": 0.23, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 2.0 FIT_loss 1.19158 seconds 0.2
+{"batch": 1, "batches": 18, "elapsed_seconds": 0.01, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 18, "batches": 18, "elapsed_seconds": 0.08, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 2 STOP 1.0 FIT_loss 1.079675 seconds 0.1
+FIT START SMAP__gdn__17 FIT_windows 283 FIT_batches 18 STOP_windows 96 STOP_batches 6 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 18, "elapsed_seconds": 0.01, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 18, "batches": 18, "elapsed_seconds": 0.07, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 2.0 FIT_loss 1.19158 seconds 0.1
+EXACT RESUME SMAP__gdn__17 epoch 1 phase epoch_done next_batch 19
+FIT START SMAP__gdn__17 FIT_windows 283 FIT_batches 18 STOP_windows 96 STOP_batches 6 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 18, "elapsed_seconds": 0.01, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 18, "batches": 18, "elapsed_seconds": 0.07, "epoch": 2, "job": "SMAP__gdn__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 2 STOP 1.0 FIT_loss 1.079675 seconds 0.1
+PASS PUBLISHED RESUME gdn including CATCH carried mask gradients and RNG
+FIT START SMAP__catch__17 FIT_windows 97 FIT_batches 7 STOP_windows 96 STOP_batches 6 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 7, "elapsed_seconds": 0.07, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 7, "batches": 7, "elapsed_seconds": 0.26, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 1.0 FIT_loss 15.196829 seconds 0.3
+{"batch": 1, "batches": 7, "elapsed_seconds": 0.04, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 7, "batches": 7, "elapsed_seconds": 0.12, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__catch__17 epoch 2 STOP 1.0 FIT_loss 14.598131 seconds 0.2
+FIT START SMAP__catch__17 FIT_windows 97 FIT_batches 7 STOP_windows 96 STOP_batches 6 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 7, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 7, "batches": 7, "elapsed_seconds": 0.14, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 1.0 FIT_loss 15.196829 seconds 0.2
+EXACT RESUME SMAP__catch__17 epoch 1 phase epoch_done next_batch 8
+FIT START SMAP__catch__17 FIT_windows 97 FIT_batches 7 STOP_windows 96 STOP_batches 6 batch_size 16 epoch_cap 2
+{"batch": 1, "batches": 7, "elapsed_seconds": 0.03, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 7, "batches": 7, "elapsed_seconds": 0.12, "epoch": 2, "job": "SMAP__catch__17", "phase": "FIT"}
+EPOCH COMPLETE SMAP__catch__17 epoch 2 STOP 1.0 FIT_loss 14.598131 seconds 0.2
+PASS PUBLISHED RESUME catch including CATCH carried mask gradients and RNG
+JOB 1 OF 22 MSL__graph__17
+FIT START MSL__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.11, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.88, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.19, "epoch": 1, "job": "MSL__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.21, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.25, "epoch": 1, "job": "MSL__graph__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__17 epoch 1 STOP 0.696685 FIT_loss 0.941122 seconds 1.2
+JOB 2 OF 22 MSL__graph__29
+FIT START MSL__graph__29 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "MSL__graph__29", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.73, "epoch": 1, "job": "MSL__graph__29", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.0, "epoch": 1, "job": "MSL__graph__29", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.02, "epoch": 1, "job": "MSL__graph__29", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.05, "epoch": 1, "job": "MSL__graph__29", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__29 epoch 1 STOP 0.679263 FIT_loss 0.943356 seconds 1.0
+JOB 3 OF 22 MSL__graph__43
+FIT START MSL__graph__43 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.05, "epoch": 1, "job": "MSL__graph__43", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.77, "epoch": 1, "job": "MSL__graph__43", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.09, "epoch": 1, "job": "MSL__graph__43", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.12, "epoch": 1, "job": "MSL__graph__43", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.16, "epoch": 1, "job": "MSL__graph__43", "phase": "STOP"}
+EPOCH COMPLETE MSL__graph__43 epoch 1 STOP 0.682947 FIT_loss 0.940479 seconds 1.2
+JOB 4 OF 22 MSL__removed__17
+FIT START MSL__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "MSL__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.43, "epoch": 1, "job": "MSL__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.59, "epoch": 1, "job": "MSL__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.61, "epoch": 1, "job": "MSL__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.64, "epoch": 1, "job": "MSL__removed__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__removed__17 epoch 1 STOP 0.696239 FIT_loss 0.939095 seconds 0.6
+JOB 5 OF 22 MSL__removed__29
+FIT START MSL__removed__29 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "MSL__removed__29", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.44, "epoch": 1, "job": "MSL__removed__29", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.63, "epoch": 1, "job": "MSL__removed__29", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.65, "epoch": 1, "job": "MSL__removed__29", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.69, "epoch": 1, "job": "MSL__removed__29", "phase": "STOP"}
+EPOCH COMPLETE MSL__removed__29 epoch 1 STOP 0.677686 FIT_loss 0.94257 seconds 0.7
+JOB 6 OF 22 MSL__removed__43
+FIT START MSL__removed__43 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "MSL__removed__43", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.41, "epoch": 1, "job": "MSL__removed__43", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.56, "epoch": 1, "job": "MSL__removed__43", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.59, "epoch": 1, "job": "MSL__removed__43", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.63, "epoch": 1, "job": "MSL__removed__43", "phase": "STOP"}
+EPOCH COMPLETE MSL__removed__43 epoch 1 STOP 0.682438 FIT_loss 0.939542 seconds 0.6
+JOB 7 OF 22 MSL__fusion__17
+FIT START MSL__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.05, "epoch": 1, "job": "MSL__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.71, "epoch": 1, "job": "MSL__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.0, "epoch": 1, "job": "MSL__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.02, "epoch": 1, "job": "MSL__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.06, "epoch": 1, "job": "MSL__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__fusion__17 epoch 1 STOP 0.683946 FIT_loss 0.942936 seconds 1.1
+JOB 8 OF 22 MSL__fusion__29
+FIT START MSL__fusion__29 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "MSL__fusion__29", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.71, "epoch": 1, "job": "MSL__fusion__29", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.99, "epoch": 1, "job": "MSL__fusion__29", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.01, "epoch": 1, "job": "MSL__fusion__29", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.04, "epoch": 1, "job": "MSL__fusion__29", "phase": "STOP"}
+EPOCH COMPLETE MSL__fusion__29 epoch 1 STOP 0.69627 FIT_loss 0.950594 seconds 1.0
+JOB 9 OF 22 MSL__fusion__43
+FIT START MSL__fusion__43 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "MSL__fusion__43", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.73, "epoch": 1, "job": "MSL__fusion__43", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.03, "epoch": 1, "job": "MSL__fusion__43", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.05, "epoch": 1, "job": "MSL__fusion__43", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.08, "epoch": 1, "job": "MSL__fusion__43", "phase": "STOP"}
+EPOCH COMPLETE MSL__fusion__43 epoch 1 STOP 0.651636 FIT_loss 0.92154 seconds 1.1
+JOB 10 OF 22 SMAP__graph__17
+FIT START SMAP__graph__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.06, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.74, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.02, "epoch": 1, "job": "SMAP__graph__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.04, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.08, "epoch": 1, "job": "SMAP__graph__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__17 epoch 1 STOP 0.697868 FIT_loss 0.942705 seconds 1.1
+JOB 11 OF 22 SMAP__graph__29
+FIT START SMAP__graph__29 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__graph__29", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.73, "epoch": 1, "job": "SMAP__graph__29", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.01, "epoch": 1, "job": "SMAP__graph__29", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.03, "epoch": 1, "job": "SMAP__graph__29", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.06, "epoch": 1, "job": "SMAP__graph__29", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__29 epoch 1 STOP 0.680344 FIT_loss 0.942266 seconds 1.1
+JOB 12 OF 22 SMAP__graph__43
+FIT START SMAP__graph__43 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__graph__43", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.77, "epoch": 1, "job": "SMAP__graph__43", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.04, "epoch": 1, "job": "SMAP__graph__43", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.07, "epoch": 1, "job": "SMAP__graph__43", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.1, "epoch": 1, "job": "SMAP__graph__43", "phase": "STOP"}
+EPOCH COMPLETE SMAP__graph__43 epoch 1 STOP 0.684152 FIT_loss 0.942061 seconds 1.1
+JOB 13 OF 22 SMAP__removed__17
+FIT START SMAP__removed__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.03, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.38, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.53, "epoch": 1, "job": "SMAP__removed__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.55, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.58, "epoch": 1, "job": "SMAP__removed__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__17 epoch 1 STOP 0.697529 FIT_loss 0.940971 seconds 0.6
+JOB 14 OF 22 SMAP__removed__29
+FIT START SMAP__removed__29 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__removed__29", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.4, "epoch": 1, "job": "SMAP__removed__29", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.56, "epoch": 1, "job": "SMAP__removed__29", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.58, "epoch": 1, "job": "SMAP__removed__29", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.61, "epoch": 1, "job": "SMAP__removed__29", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__29 epoch 1 STOP 0.678868 FIT_loss 0.941495 seconds 0.6
+JOB 15 OF 22 SMAP__removed__43
+FIT START SMAP__removed__43 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.02, "epoch": 1, "job": "SMAP__removed__43", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.39, "epoch": 1, "job": "SMAP__removed__43", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.54, "epoch": 1, "job": "SMAP__removed__43", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 0.56, "epoch": 1, "job": "SMAP__removed__43", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 0.6, "epoch": 1, "job": "SMAP__removed__43", "phase": "STOP"}
+EPOCH COMPLETE SMAP__removed__43 epoch 1 STOP 0.683616 FIT_loss 0.941134 seconds 0.6
+JOB 16 OF 22 SMAP__fusion__17
+FIT START SMAP__fusion__17 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.74, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.03, "epoch": 1, "job": "SMAP__fusion__17", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.05, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.08, "epoch": 1, "job": "SMAP__fusion__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__17 epoch 1 STOP 0.685522 FIT_loss 0.944712 seconds 1.1
+JOB 17 OF 22 SMAP__fusion__29
+FIT START SMAP__fusion__29 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__fusion__29", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.7, "epoch": 1, "job": "SMAP__fusion__29", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 0.98, "epoch": 1, "job": "SMAP__fusion__29", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.0, "epoch": 1, "job": "SMAP__fusion__29", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.03, "epoch": 1, "job": "SMAP__fusion__29", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__29 epoch 1 STOP 0.69765 FIT_loss 0.949358 seconds 1.0
+JOB 18 OF 22 SMAP__fusion__43
+FIT START SMAP__fusion__43 FIT_windows 448 FIT_batches 28 STOP_windows 64 STOP_batches 4 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 28, "elapsed_seconds": 0.04, "epoch": 1, "job": "SMAP__fusion__43", "phase": "FIT"}
+{"batch": 20, "batches": 28, "elapsed_seconds": 0.74, "epoch": 1, "job": "SMAP__fusion__43", "phase": "FIT"}
+{"batch": 28, "batches": 28, "elapsed_seconds": 1.02, "epoch": 1, "job": "SMAP__fusion__43", "phase": "FIT"}
+{"batch": 1, "batches": 4, "elapsed_seconds": 1.04, "epoch": 1, "job": "SMAP__fusion__43", "phase": "STOP"}
+{"batch": 4, "batches": 4, "elapsed_seconds": 1.08, "epoch": 1, "job": "SMAP__fusion__43", "phase": "STOP"}
+EPOCH COMPLETE SMAP__fusion__43 epoch 1 STOP 0.652763 FIT_loss 0.923111 seconds 1.1
+JOB 19 OF 22 MSL__gdn__17
+FIT START MSL__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.01, "epoch": 1, "job": "MSL__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.07, "epoch": 1, "job": "MSL__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.13, "epoch": 1, "job": "MSL__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.14, "epoch": 1, "job": "MSL__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.16, "epoch": 1, "job": "MSL__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__gdn__17 epoch 1 STOP 0.95412 FIT_loss 1.059902 seconds 0.2
+JOB 20 OF 22 MSL__catch__17
+FIT START MSL__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.04, "epoch": 1, "job": "MSL__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.23, "epoch": 1, "job": "MSL__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.26, "epoch": 1, "job": "MSL__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.33, "epoch": 1, "job": "MSL__catch__17", "phase": "STOP"}
+EPOCH COMPLETE MSL__catch__17 epoch 1 STOP 0.975785 FIT_loss 1.063215 seconds 0.3
+JOB 21 OF 22 SMAP__gdn__17
+FIT START SMAP__gdn__17 FIT_windows 566 FIT_batches 36 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 36, "elapsed_seconds": 0.01, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 20, "batches": 36, "elapsed_seconds": 0.08, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 36, "batches": 36, "elapsed_seconds": 0.14, "epoch": 1, "job": "SMAP__gdn__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.15, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.18, "epoch": 1, "job": "SMAP__gdn__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__gdn__17 epoch 1 STOP 0.94161 FIT_loss 1.057356 seconds 0.2
+JOB 22 OF 22 SMAP__catch__17
+FIT START SMAP__catch__17 FIT_windows 194 FIT_batches 13 STOP_windows 192 STOP_batches 12 batch_size 16 epoch_cap 1
+{"batch": 1, "batches": 13, "elapsed_seconds": 0.08, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 13, "batches": 13, "elapsed_seconds": 0.35, "epoch": 1, "job": "SMAP__catch__17", "phase": "FIT"}
+{"batch": 1, "batches": 12, "elapsed_seconds": 0.37, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+{"batch": 12, "batches": 12, "elapsed_seconds": 0.44, "epoch": 1, "job": "SMAP__catch__17", "phase": "STOP"}
+EPOCH COMPLETE SMAP__catch__17 epoch 1 STOP 0.985083 FIT_loss 13.731203 seconds 0.5
+CALIBRATION CACHE MSL graph 17 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL graph 17 FICTIONAL_MSL_1
+SYNTHETIC SELECT MSL graph FICTIONAL_MSL_0
+SYNTHETIC SELECT MSL graph FICTIONAL_MSL_1
+CALIBRATION CACHE MSL removed 17 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL removed 17 FICTIONAL_MSL_1
+SYNTHETIC SELECT MSL removed FICTIONAL_MSL_0
+SYNTHETIC SELECT MSL removed FICTIONAL_MSL_1
+CALIBRATION CACHE MSL fusion 17 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL fusion 17 FICTIONAL_MSL_1
+SYNTHETIC SELECT MSL fusion FICTIONAL_MSL_0
+SYNTHETIC SELECT MSL fusion FICTIONAL_MSL_1
+CALIBRATION CACHE MSL gdn 17 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL gdn 17 FICTIONAL_MSL_1
+SYNTHETIC SELECT MSL gdn FICTIONAL_MSL_0
+SYNTHETIC SELECT MSL gdn FICTIONAL_MSL_1
+CALIBRATION CACHE MSL catch 17 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL catch 17 FICTIONAL_MSL_1
+SYNTHETIC SELECT MSL catch FICTIONAL_MSL_0
+SYNTHETIC SELECT MSL catch FICTIONAL_MSL_1
+CALIBRATION CACHE SMAP graph 17 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP graph 17 FICTIONAL_SMAP_1
+SYNTHETIC SELECT SMAP graph FICTIONAL_SMAP_0
+SYNTHETIC SELECT SMAP graph FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP removed 17 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP removed 17 FICTIONAL_SMAP_1
+SYNTHETIC SELECT SMAP removed FICTIONAL_SMAP_0
+SYNTHETIC SELECT SMAP removed FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP fusion 17 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP fusion 17 FICTIONAL_SMAP_1
+SYNTHETIC SELECT SMAP fusion FICTIONAL_SMAP_0
+SYNTHETIC SELECT SMAP fusion FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP gdn 17 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP gdn 17 FICTIONAL_SMAP_1
+SYNTHETIC SELECT SMAP gdn FICTIONAL_SMAP_0
+SYNTHETIC SELECT SMAP gdn FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP catch 17 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP catch 17 FICTIONAL_SMAP_1
+SYNTHETIC SELECT SMAP catch FICTIONAL_SMAP_0
+SYNTHETIC SELECT SMAP catch FICTIONAL_SMAP_1
+CALIBRATION CACHE MSL graph 29 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL graph 29 FICTIONAL_MSL_1
+CALIBRATION CACHE MSL graph 43 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL graph 43 FICTIONAL_MSL_1
+CALIBRATION CACHE MSL removed 29 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL removed 29 FICTIONAL_MSL_1
+CALIBRATION CACHE MSL removed 43 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL removed 43 FICTIONAL_MSL_1
+CALIBRATION CACHE MSL fusion 29 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL fusion 29 FICTIONAL_MSL_1
+CALIBRATION CACHE MSL fusion 43 FICTIONAL_MSL_0
+CALIBRATION CACHE MSL fusion 43 FICTIONAL_MSL_1
+CALIBRATION CACHE SMAP graph 29 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP graph 29 FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP graph 43 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP graph 43 FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP removed 29 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP removed 29 FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP removed 43 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP removed 43 FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP fusion 29 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP fusion 29 FICTIONAL_SMAP_1
+CALIBRATION CACHE SMAP fusion 43 FICTIONAL_SMAP_0
+CALIBRATION CACHE SMAP fusion 43 FICTIONAL_SMAP_1
+STUDY SEALED: 22 model jobs. No subsequent training or retuning is permitted.
+SYNTHETIC CONFIRM MSL graph 17 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL graph 17 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL graph 29 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL graph 29 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL graph 43 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL graph 43 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL removed 17 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL removed 17 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL removed 29 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL removed 29 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL removed 43 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL removed 43 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL fusion 17 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL fusion 17 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL fusion 29 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL fusion 29 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL fusion 43 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL fusion 43 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM SMAP graph 17 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP graph 17 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP graph 29 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP graph 29 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP graph 43 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP graph 43 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP removed 17 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP removed 17 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP removed 29 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP removed 29 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP removed 43 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP removed 43 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP fusion 17 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP fusion 17 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP fusion 29 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP fusion 29 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP fusion 43 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP fusion 43 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM MSL gdn 17 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL gdn 17 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM MSL catch 17 FICTIONAL_MSL_0
+SYNTHETIC CONFIRM MSL catch 17 FICTIONAL_MSL_1
+SYNTHETIC CONFIRM SMAP gdn 17 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP gdn 17 FICTIONAL_SMAP_1
+SYNTHETIC CONFIRM SMAP catch 17 FICTIONAL_SMAP_0
+SYNTHETIC CONFIRM SMAP catch 17 FICTIONAL_SMAP_1
+TEST scores committed: MSL__graph__17
+TEST scores committed: MSL__graph__29
+TEST scores committed: MSL__graph__43
+TEST scores committed: MSL__removed__17
+TEST scores committed: MSL__removed__29
+TEST scores committed: MSL__removed__43
+TEST scores committed: MSL__fusion__17
+TEST scores committed: MSL__fusion__29
+TEST scores committed: MSL__fusion__43
+TEST scores committed: SMAP__graph__17
+TEST scores committed: SMAP__graph__29
+TEST scores committed: SMAP__graph__43
+TEST scores committed: SMAP__removed__17
+TEST scores committed: SMAP__removed__29
+TEST scores committed: SMAP__removed__43
+TEST scores committed: SMAP__fusion__17
+TEST scores committed: SMAP__fusion__29
+TEST scores committed: SMAP__fusion__43
+TEST scores committed: MSL__gdn__17
+TEST scores committed: MSL__catch__17
+TEST scores committed: SMAP__gdn__17
+TEST scores committed: SMAP__catch__17
+SCORE SEAL VERIFIED. The exact NASA label CSV may now be uploaded.
+REPORTS COMPLETE. NASA results are retrospective; do not retune this release.
+{
+  "status": "PASS",
+  "version": "EXP013_COMMAND_REFERENCE_V1",
+  "study_freeze_sha256": "214ccea204dfb1dc46373792a8a61e8af1e7f05133fc299e634ff140c9ef34fb",
+  "score_seal_sha256": "3a3fdb47eb8935a6a153d424a7409caf10e015ee55bb2bd40bc025dba15b7b44",
+  "report_seal_sha256": "9fb87971fb2efdd0aaaa42a67cdca0087f08441d70a0956010ba1e6232d03a2d",
+  "expected_score_units": 44,
+  "actual_score_units": 44,
+  "EXP012_fits_or_replay": 0,
+  "automated_hyperparameter_selection_from_new_NASA_TEST": false,
+  "architecture_design_informed_by_prior_NASA_TEST_results": true,
+  "NASA_annotation_CSV_parsed_only_after_score_seal": true,
+  "historical_label_derived_reports_present": true,
+  "physical_label_isolation_claimed": false,
+  "scientific_claim": "retrospective exploratory NASA; synthetic mechanism confirmation only; no independent SOTA or deployment confirmation"
+}
+REUSE SEALED DEVELOPMENT; zero additional fits
+REUSE SEALED NASA SCORES; no replay
+REUSE COMPLETED REPORTS
+PASS FULL SYNTHETIC INTEGRATION:22 fixture fits, study freeze, confirmation,44 score streams, evaluation, report audit, verified reuse and tamper-blocked labels. No NASA research fits/labels/TEST arrays.

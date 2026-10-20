@@ -1,0 +1,46 @@
+{
+  "original_notebook": "experiments/EXP007/notebooks/EXP007_GPU_V1_E01_Resume.ipynb",
+  "original_sha256": "5785fc31f2e86cc9724c54122f5ebaab0288da8d234892d1657ff799c0745965",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": 2,
+      "source_sha256": "3295fd877e8261ca15574d96db10246d7d643d02323c8d5b6139c8f34ed60895",
+      "timing_metadata": {},
+      "original_outputs_sha256": "73124883db723d8aeb7d3e088041d4814c1e3b63b740be2f4cf4c613d0d9fd4a",
+      "original_output_items": 3
+    },
+    {
+      "cell_index": 2,
+      "execution_count": 5,
+      "source_sha256": "47dff75767f76aaa4a6b66468030139a0975249d5b4ddde7cde2c1b6d34716c2",
+      "timing_metadata": {},
+      "original_outputs_sha256": "c2da72a4afa6e39f8598f9c25f89dcdef903272a854a130ee4cd799b6ce89d2b",
+      "original_output_items": 1
+    },
+    {
+      "cell_index": 3,
+      "execution_count": 4,
+      "source_sha256": "577b25097e28c3b477b3e9c4acb65d26c26de50e3667122aea9ef22a77c1dd2c",
+      "timing_metadata": {},
+      "original_outputs_sha256": "202667ebbb9797517a4595c2703b05a4e6c1a01216aec7109bcdc30a48a7e0c5",
+      "original_output_items": 1
+    },
+    {
+      "cell_index": 4,
+      "execution_count": 7,
+      "source_sha256": "2f28c9aeb3af31986b4c69277a8b5463ea03b8f5d94ae2d1e8ec5fb8c4101eb3",
+      "timing_metadata": {},
+      "original_outputs_sha256": "834d7ad09b38f47b4fdbe5c2fd7dd59e2c2db628fbe89ee77b5104a1d22fa8c7",
+      "original_output_items": 1
+    },
+    {
+      "cell_index": 5,
+      "execution_count": null,
+      "source_sha256": "35d00d36cca78ddc679dffa82537304f95cdeb33dea85aefe1a44c7ec074f5d9",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    }
+  ]
+}

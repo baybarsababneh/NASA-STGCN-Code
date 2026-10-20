@@ -1,0 +1,38 @@
+[
+  {
+    "start": 250,
+    "end_exclusive": 2350,
+    "issue_index": 2358,
+    "epsilon": 1.3127143055256238,
+    "epsilon_inverse": 5.614935067940113,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 320,
+    "end_exclusive": 2420,
+    "issue_index": 2428,
+    "epsilon": 1.3127157652642572,
+    "epsilon_inverse": 5.614807567697821,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 390,
+    "end_exclusive": 2490,
+    "issue_index": 2498,
+    "epsilon": 1.3127161145734298,
+    "epsilon_inverse": 5.614774864730812,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 460,
+    "end_exclusive": 2615,
+    "issue_index": 2623,
+    "epsilon": 1.2958381570169901,
+    "epsilon_inverse": 5.550654539135789,
+    "z": 2.5,
+    "z_inverse": 12.0
+  }
+]

@@ -1,0 +1,14 @@
+results/OUTPUT_MANIFEST.json
+results/RUN_FREEZE.json
+results/STATUS.json
+results/STUDY_CLOSE.json
+results/arm_decisions.json
+results/channel_seed_results.json
+results/nominal_results.csv
+results/paired_channel_bootstrap.json
+results/sensitivity_breakdown.json
+results/synthetic_events.csv
+results/threshold_selection.json
+environment/pip_freeze_20261005T070729Z.txt
+source/EXP011_FUSION_PILOT_V1_bundle.zip
+logs/run_20261005T070729Z.log

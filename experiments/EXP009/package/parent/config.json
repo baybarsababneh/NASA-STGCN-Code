@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP009_DETECTOR_V1",
+  "parent_sha256": "be2548a1a7ceff11228358317ff5ae4010e6d15d1817f07e1a5fbf2ef55e2d97",
+  "parent_run_hash": "21579d12088780415c3963dc5881e571a546e8e08ebf79802d03c410596cef73",
+  "families": ["absolute", "ewma10", "multiscale"],
+  "multipliers": [2,4,8,16],
+  "mean_occupancy_max": 0.01,
+  "mean_starts_per_1000_max": 2.0,
+  "channel_p90_occupancy_max": 0.05,
+  "channel_p90_starts_per_1000_max": 10.0,
+  "minimum_worst_family_incremental_recall": 0.5,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 9009,
+  "canonical_reference_end_fraction": 0.7,
+  "canonical_selection_end_fraction": 0.75,
+  "canonical_audit_end_fraction": 0.8,
+  "test_access": false,
+  "final_calibration_access": false,
+  "new_model_fits": 0,
+  "automatic_final_test_evaluation": false
+}

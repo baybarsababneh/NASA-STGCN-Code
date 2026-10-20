@@ -1,0 +1,12 @@
+test_bitwise_comparison_has_no_tolerance (__main__.GateTests.test_bitwise_comparison_has_no_tolerance) ... ok
+test_complete_synthetic_receipt_verified_and_tampering_blocked (__main__.GateTests.test_complete_synthetic_receipt_verified_and_tampering_blocked) ... ok
+test_every_other_runtime_field_is_still_exact (__main__.GateTests.test_every_other_runtime_field_is_still_exact) ... ok
+test_missing_receipt_blocks_authorization (__main__.GateTests.test_missing_receipt_blocks_authorization) ... ok
+test_no_label_or_test_array_access_in_validator (__main__.GateTests.test_no_label_or_test_array_access_in_validator) ... ok
+test_only_gpu_name_and_capacity_are_accepted (__main__.GateTests.test_only_gpu_name_and_capacity_are_accepted) ... ok
+test_wrong_device_capacity_schema_and_scope_rejected (__main__.GateTests.test_wrong_device_capacity_schema_and_scope_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.601s
+
+OK

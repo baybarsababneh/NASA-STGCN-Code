@@ -1,0 +1,26 @@
+{
+  "backup_interval_seconds": 180,
+  "bootstrap_interval": 0.95,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261005,
+  "detector": {
+    "batch_size": 70,
+    "error_buffer": 100,
+    "l_s": 250,
+    "p": 0.13,
+    "smoothing_perc": 0.05,
+    "window_size": 30
+  },
+  "gdn_batch_size": 32,
+  "gdn_lookback": 5,
+  "gdn_seed": 17,
+  "maximum_gpu_reserved_fraction": 0.8,
+  "maximum_single_channel_host_bytes": 536870912,
+  "minimum_free_gpu_bytes_before_model": 4294967296,
+  "native_reference_gate": "bitwise equality of complete frozen native_score arrays; flags, issues and unchanged state",
+  "new_training": false,
+  "precision": "FP32",
+  "restoration_gate": "bitwise equality, including output, RNG and parameters/buffers",
+  "target_start": 250,
+  "version": "EXP014_LITERATURE_COMPARISON_V1"
+}

@@ -1,0 +1,62 @@
+{
+  "GPU_session": "NVIDIA A100-SXM4-80GB, 580.82.07, GPU-b5a8f341-cfbd-1c03-aa02-c8ff8edfd1d7",
+  "actual_requirements": "cuda-bindings==13.3.1\ncuda-pathfinder==1.6.0\ncuda-toolkit==13.0.2\nfilelock==3.32.3\nfsspec==2026.7.0\nJinja2==3.1.6\nMarkupSafe==3.0.3\nmpmath==1.3.0\nnetworkx==3.6.1\nnumpy==2.1.3\nnvidia-cublas==13.1.0.3\nnvidia-cuda-cupti==13.0.85\nnvidia-cuda-nvrtc==13.0.88\nnvidia-cuda-runtime==13.0.96\nnvidia-cudnn-cu13==9.19.0.56\nnvidia-cufft==12.0.0.61\nnvidia-cufile==1.15.1.6\nnvidia-curand==10.4.0.35\nnvidia-cusolver==12.0.4.66\nnvidia-cusparse==12.6.3.3\nnvidia-cusparselt-cu13==0.8.0\nnvidia-nccl-cu13==2.28.9\nnvidia-nvjitlink==13.0.88\nnvidia-nvshmem-cu13==3.4.5\nnvidia-nvtx==13.0.85\npandas==2.2.3\npip==26.2.1\npython-dateutil==2.9.0.post0\npytz==2026.4\nsetuptools==78.1.0\nsix==1.17.0\nsympy==1.14.0\ntorch==2.11.0+cu130\ntriton==3.6.0\ntyping_extensions==4.16.0\ntzdata==2026.5\n",
+  "bootstrap_packages": {
+    "distlib": "0.4.3",
+    "filelock": "4.0.11",
+    "packaging": "26.3",
+    "platformdirs": "4.12.3",
+    "python-discovery": "1.6.1",
+    "uv": "0.12.23",
+    "virtualenv": "21.14.5"
+  },
+  "commands": [
+    [
+      "/usr/bin/python3",
+      "-m",
+      "pip",
+      "install",
+      "--disable-pip-version-check",
+      "--target",
+      "/content/exp012_bootstrap",
+      "virtualenv",
+      "uv"
+    ],
+    [
+      "/usr/bin/python3",
+      "-m",
+      "virtualenv",
+      "--python",
+      "/usr/bin/python3",
+      "/content/EXP012_WORK/scientific_venv"
+    ],
+    [
+      "/content/EXP012_WORK/scientific_venv/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--disable-pip-version-check",
+      "-r",
+      "/content/EXP012_WORK/package/provenance/requirements-resolved.txt",
+      "--extra-index-url",
+      "https://download.pytorch.org/whl/cu130"
+    ],
+    [
+      "/content/EXP012_WORK/scientific_venv/bin/python",
+      "-m",
+      "pip",
+      "check"
+    ]
+  ],
+  "engineering_only": true,
+  "experiment": "EXP012_ANOMALY_BENCHMARK_PREPARATION_V1",
+  "host_python": "3.13.15",
+  "input_bundle_sha256": "8e034443158e5862eae83efa695f570294fe4f9a5f89791604e41b1f195e2c84",
+  "interpreter": "/usr/bin/python3",
+  "interpreter_sha256": "bac00abc4dfc76da8fd1a09023b9454e4d34f591172af79bbfa7ee43091165d6",
+  "notebook_snapshot_sha256": "f7291ec51db0568f7a9773bf5ae3a8180599b5e523997a9f7f892eb0840aef39",
+  "requirements_sha256": "66c0d6fc9c9e2c4a784e3ee91909be4d5ac45c58ef73c3b270d3110456af3db1",
+  "setup_log_sha256": "06b4df4071be765f2eedb391c21e91dc9ef8901381685102db58bb6577ac822e",
+  "sidecar_sha256": "9df5e5717407c2cf785ca37140253cb746e5630703aabc3cb2dea85f944064b6",
+  "strategy": "manual virtualenv; no stdlib venv/ensurepip; no scientific source edits"
+}

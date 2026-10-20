@@ -1,0 +1,86 @@
+{
+  "amendment": "E01_EXACT_EXECUTION_CACHE",
+  "analysis_source_remains_unchanged": true,
+  "original_analysis_freeze_sha256": "61a5ee8876b84bc2b7eaa5dbd2bb49194694a06953b5a21c97ece7dfdf6eb070",
+  "wrapper_sha256": "2b2cb4e6b6f7e298fd1db151f485d2b6e18d76e273464fbb135f1285f4058715",
+  "statistical_parameters_changed": false,
+  "reason": "Initial direct replay was slow on zero-residual-variance windows; stopped after two project streams, without completing or choosing new metric results.",
+  "execution_changes": [
+    "Memoize exact signal-byte-identical threshold searches and identical forecast inputs.",
+    "Skip zero-source-SD threshold searches that provably cannot replace the initialized fallback."
+  ],
+  "reference_checks": [
+    {
+      "case": "zero",
+      "inverse": false,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "zero",
+      "inverse": true,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "constant_positive",
+      "inverse": false,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "constant_positive",
+      "inverse": true,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "constant_negative",
+      "inverse": false,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "constant_negative",
+      "inverse": true,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "near_underflow",
+      "inverse": false,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "near_underflow",
+      "inverse": true,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "ramp",
+      "inverse": false,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "ramp",
+      "inverse": true,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "single_spike",
+      "inverse": false,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "single_spike",
+      "inverse": true,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "smooth",
+      "inverse": false,
+      "exact_threshold_and_grid_selection": true
+    },
+    {
+      "case": "smooth",
+      "inverse": true,
+      "exact_threshold_and_grid_selection": true
+    }
+  ],
+  "conditional_original_process_batches_control_flow": "Retained; threshold computations use the verified equivalent execution wrapper.",
+  "no_tolerance_relaxation": true
+}

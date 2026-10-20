@@ -1,0 +1,162 @@
+[
+  {
+    "path": "references/supplied_examples/smap-msl-let-s-get-started.ipynb",
+    "original_sha256": "a14ff6475ac49b3c7d89ce72ad284acf3920ec18cca784b5427c03780d083e53",
+    "sanitised_sha256": "d0c2650a5ee5fb53742d21613598d32f4e6585539e3beb11f39a15f2a7557f1d",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells"
+  },
+  {
+    "path": "references/supplied_examples/lstmcode.ipynb",
+    "original_sha256": "10dec43db7a12fddbffa05a0fa7d42e0e92ea540c03a0475498f5bd82ae206f8",
+    "sanitised_sha256": "17e51908f16494ca421135b3ed073909522d1533d8ecbecd83210c3be94d6a1c",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells"
+  },
+  {
+    "path": "references/supplied_examples/nasa-anomaly-unsupervised.ipynb",
+    "original_sha256": "95a7888a98205953fec2c494b2702f5101e5b13741948fe394b97dfd800d70d9",
+    "sanitised_sha256": "e844c085c5aa2f2c802cf146437e41ab655cebcb66b0399f7a7cc5145db1162f",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells"
+  },
+  {
+    "path": "history/EXP006_cuda_amendment_bundle/EXP006_Colab_CUDA.ipynb",
+    "original_sha256": "53322daa969e7f9f8ee5300cefd57ac0ae1b423ce5459f0735f4a0b517e651c8",
+    "sanitised_sha256": "85f6419a61696e9857acffe9df00f4423d4969e390239d733aebd0c69b2d43a7",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells"
+  },
+  {
+    "path": "experiments/EXP012/preparation/execution/EXP012_ACTUALLY_EXECUTED.ipynb",
+    "original_sha256": "76a20b90eacd30ccdfd47588fe7748131d1e3e2d73a03c0ed4ca95eaecee0a1c",
+    "sanitised_sha256": "3729a382c2eeb40414eea0fc2f66d75cc54f36c1e3de0b6eda4a9bf5faba9ffd",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP012/preparation/execution/execution_records/EXP012_ACTUALLY_EXECUTED_transcript.txt",
+      "experiments/EXP012/preparation/execution/execution_records/EXP012_ACTUALLY_EXECUTED_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP012/preparation/execution/executed_notebook_at_launch_20261005T112359Z.json",
+    "original_sha256": "f7291ec51db0568f7a9773bf5ae3a8180599b5e523997a9f7f892eb0840aef39",
+    "sanitised_sha256": "1db3d3689c1c459cee89bef65bc8a447858e84ac954a27917aa2c6e8ea41a9c5",
+    "action": "Removed embedded notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP012/preparation/execution/execution_records/executed_notebook_at_launch_20261005T112359Z_transcript.txt",
+      "experiments/EXP012/preparation/execution/execution_records/executed_notebook_at_launch_20261005T112359Z_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP006/notebooks/EXP006_GPU_V1_Run_All.ipynb",
+    "original_sha256": "b5c676df0955546b3a85dc686735cf8b9d88035cb4e4fb7c7dd40887aa05b28e",
+    "sanitised_sha256": "1e232d1d8fec646d7a6bbf41f760fcd44105d15e120d280c9c848ed1cd0152c5",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP006/notebooks/execution_records/EXP006_GPU_V1_Run_All_transcript.txt",
+      "experiments/EXP006/notebooks/execution_records/EXP006_GPU_V1_Run_All_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP007/notebooks/EXP007_GPU_V1_E01_Resume.ipynb",
+    "original_sha256": "5785fc31f2e86cc9724c54122f5ebaab0288da8d234892d1657ff799c0745965",
+    "sanitised_sha256": "b9649d4ea627341bd1081dc8db478ee15efa294d40c6620b8ce1654a232b8202",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP007/notebooks/execution_records/EXP007_GPU_V1_E01_Resume_transcript.txt",
+      "experiments/EXP007/notebooks/execution_records/EXP007_GPU_V1_E01_Resume_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP008/notebooks/EXP008_READINESS_V1_Run_All.ipynb",
+    "original_sha256": "67abd161c29259029d08c53e73dec462fb03e55dc49cc0f4c2ffa02191b9d8fe",
+    "sanitised_sha256": "003a269d84fd52f9d54aea3be62a62bba239eef7ce1b1fe9e13517a04383309c",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP008/notebooks/execution_records/EXP008_READINESS_V1_Run_All_transcript.txt",
+      "experiments/EXP008/notebooks/execution_records/EXP008_READINESS_V1_Run_All_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP009/notebooks/EXP009_DETECTOR_V1_E01_Resume.ipynb",
+    "original_sha256": "33f3690db3b6f7e909df04064125cbaa9f92e6117a5e58edede6dc599b2cb100",
+    "sanitised_sha256": "3b42dfe7a901629ff4f53a466575babe92d4ec26c578295305812d7914494e94",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP009/notebooks/execution_records/EXP009_DETECTOR_V1_E01_Resume_transcript.txt",
+      "experiments/EXP009/notebooks/execution_records/EXP009_DETECTOR_V1_E01_Resume_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP013/notebooks/EXP013_COMMAND_REFERENCE_V1_E03_CONV_Run_All.ipynb",
+    "original_sha256": "d59f7ee7b5a035de6235f635d6330b7c78248dba25e86dc42d86813e35c5067e",
+    "sanitised_sha256": "5c045ed959a62e87360f236adbd6fa037362bc239bd32e7f86f99686bdf5f89c",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP013/notebooks/execution_records/EXP013_COMMAND_REFERENCE_V1_E03_CONV_Run_All_transcript.txt",
+      "experiments/EXP013/notebooks/execution_records/EXP013_COMMAND_REFERENCE_V1_E03_CONV_Run_All_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP014/notebooks/EXP014_LITERATURE_COMPARISON_V1_Run_All.ipynb",
+    "original_sha256": "708220b7f7032e6e69484013c010dbc926f6f795d27f124f5d21daebd6f183ae",
+    "sanitised_sha256": "db69c4a336074cf47bf2bb645a3af02931d41d3dc3259ca50b69f5dfc1753523",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP014/notebooks/execution_records/EXP014_LITERATURE_COMPARISON_V1_Run_All_transcript.txt",
+      "experiments/EXP014/notebooks/execution_records/EXP014_LITERATURE_COMPARISON_V1_Run_All_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP015/notebooks/EXP015_EXP013_GCN_HUNDMAN_SUPPLEMENT_V1_Run_All.ipynb",
+    "original_sha256": "783de500ef5dfd0ec5ade3f42774b06813e178f11801977af8334830a8f2cc15",
+    "sanitised_sha256": "61382fdf7270c2775b0b629ed2c029acc32ce993000837775f5359281961a066",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP015/notebooks/execution_records/EXP015_EXP013_GCN_HUNDMAN_SUPPLEMENT_V1_Run_All_transcript.txt",
+      "experiments/EXP015/notebooks/execution_records/EXP015_EXP013_GCN_HUNDMAN_SUPPLEMENT_V1_Run_All_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP010/notebooks/EXP010_MECHANISMS_V1_Run_All.ipynb",
+    "original_sha256": "48027506e68ffaf8e46b0d77e201c6125be6d4a4c41527fb73cbdb5edcf3b647",
+    "sanitised_sha256": "bafa019010c48d412c7f5da8ef9ac99bb09f17bf4b404d9ea8f1fa3f938c3ff0",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP010/notebooks/execution_records/EXP010_MECHANISMS_V1_Run_All_transcript.txt",
+      "experiments/EXP010/notebooks/execution_records/EXP010_MECHANISMS_V1_Run_All_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP011/notebooks/EXP011_FUSION_PILOT_V1_Run_All.ipynb",
+    "original_sha256": "b832928b0bdaa70d2789db9878218692d256373cc2f705d40382f0df440accc1",
+    "sanitised_sha256": "633468d13cf7f8007e5446ad3318836753e5068e22c7e0042c07737b8dc73aaf",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP011/notebooks/execution_records/EXP011_FUSION_PILOT_V1_Run_All_transcript.txt",
+      "experiments/EXP011/notebooks/execution_records/EXP011_FUSION_PILOT_V1_Run_All_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP012/notebooks/EXP012_A10040GB_AMENDMENT_1_Colab.ipynb",
+    "original_sha256": "fd33735e4a7b4990c4de0dadb5f6e9c61b3a6af0a6f25ab502fce0e28e891e54",
+    "sanitised_sha256": "7a51bfb3556ddc5da39961ffb7fb592eca4dffb5c208ac74264e3b6d6640bc72",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP012/notebooks/execution_records/EXP012_A10040GB_AMENDMENT_1_Colab_transcript.txt",
+      "experiments/EXP012/notebooks/execution_records/EXP012_A10040GB_AMENDMENT_1_Colab_timing.json"
+    ]
+  },
+  {
+    "path": "experiments/EXP012/notebooks/EXP012_RETROSPECTIVE_EVALUATION_V1_Colab.ipynb",
+    "original_sha256": "d31aafdab89f43ddc44686c35fcd9bcad053499bff8651179907acb6f9f3a7a8",
+    "sanitised_sha256": "325f63783506ffd5cab914c28df8e01c524399432580c0383ca90a2d9024f745",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells",
+    "execution_record_paths": [
+      "experiments/EXP012/notebooks/execution_records/EXP012_RETROSPECTIVE_EVALUATION_V1_Colab_transcript.txt",
+      "experiments/EXP012/notebooks/execution_records/EXP012_RETROSPECTIVE_EVALUATION_V1_Colab_timing.json"
+    ]
+  },
+  {
+    "path": "history/notebooks/EXP006_Colab_CUDA.ipynb",
+    "original_sha256": "53322daa969e7f9f8ee5300cefd57ac0ae1b423ce5459f0735f4a0b517e651c8",
+    "sanitised_sha256": "85f6419a61696e9857acffe9df00f4423d4969e390239d733aebd0c69b2d43a7",
+    "action": "Removed notebook outputs, execution counts, and session metadata; retained code/markdown cells"
+  }
+]

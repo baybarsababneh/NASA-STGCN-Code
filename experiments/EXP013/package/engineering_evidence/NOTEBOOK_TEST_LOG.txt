@@ -1,0 +1,23 @@
+Local work verified and protected by an initial durable recovery receipt.
+Retrieved the verified E01 supporting bundle from Drive.
+Local work verified and protected by an initial durable recovery receipt.
+Verified score seal passed. Upload only the historical NASA annotation CSV now.
+{
+  "status": "PASS",
+  "checks": {
+    "all_notebook_code_cells_compile": true,
+    "scientific_dependency_install_cell_byte_identical": true,
+    "embedded_Drive_bootstrap_matches_package_source": true,
+    "automatic_recovery_and_mandatory_order_contract": true,
+    "all_package_python_sources_compile": true,
+    "archive_CRC_roster_and_every_payload_SHA": true,
+    "notebook_first_bundle_setup_verifies_and_caches_release": true,
+    "VM_reset_notebook_retrieves_cached_bundle_without_reupload": true,
+    "local_manifest_bound_to_SHA_pinned_bundle": true,
+    "failed_seal_prevents_label_API_lookup_and_upload": true,
+    "successful_label_request_occurs_only_after_verification": true
+  },
+  "NASA_TEST_float_arrays_opened": false,
+  "NASA_label_CSV_opened": false,
+  "actual_A100_or_live_Drive_test": false
+}

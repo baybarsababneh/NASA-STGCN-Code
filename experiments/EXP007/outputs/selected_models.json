@@ -1,0 +1,44 @@
+{
+  "MSL": {
+    "decision": "retain_EXP006_selected_architecture",
+    "gate_mode": "fixed",
+    "selected_without_detector_metrics": true,
+    "spec": {
+      "candidate_id": "exp002_reference",
+      "dilations": [
+        1,
+        2
+      ],
+      "hidden_by_mission": {
+        "MSL": 32,
+        "SMAP": 64
+      },
+      "kernel_size": 3,
+      "learning_rate": 0.001,
+      "lookback": 64
+    },
+    "validation_mse": 0.2022992893630384
+  },
+  "SMAP": {
+    "decision": "retain_EXP006_selected_architecture",
+    "gate_mode": "fixed",
+    "selected_without_detector_metrics": true,
+    "spec": {
+      "candidate_id": "g09_rf31_base_lr1e3",
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "hidden_by_mission": {
+        "MSL": 32,
+        "SMAP": 64
+      },
+      "kernel_size": 3,
+      "learning_rate": 0.001,
+      "lookback": 64
+    },
+    "validation_mse": 0.10244988904443127
+  }
+}

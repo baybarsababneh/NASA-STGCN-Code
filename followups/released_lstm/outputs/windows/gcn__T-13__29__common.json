@@ -1,0 +1,26 @@
+[
+  {
+    "start": 250,
+    "end_exclusive": 2350,
+    "issue_index": 2349,
+    "epsilon": 0.004515114981282162,
+    "epsilon_inverse": 0.015269440856448109,
+    "z": 2.5,
+    "z_inverse": 12.0,
+    "guard_pass": false,
+    "new_alarm_points": 0,
+    "initial_ignore": 250
+  },
+  {
+    "start": 320,
+    "end_exclusive": 2420,
+    "issue_index": 2419,
+    "epsilon": 0.004463846045311878,
+    "epsilon_inverse": 0.015243042431827137,
+    "z": 2.5,
+    "z_inverse": 12.0,
+    "guard_pass": false,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  }
+]

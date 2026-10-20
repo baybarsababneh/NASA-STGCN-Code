@@ -1,0 +1,12 @@
+{
+  "status": "PASS_CPU_SAVED_TRACE_CONFORMANCE_ONLY",
+  "split_streams_checked": 2106,
+  "detector_split_streams_checked": 4212,
+  "adaptive_windows_checked": 2080,
+  "GPU_40GB_replay_performed": false,
+  "GPU_40GB_use_authorized": false,
+  "NASA_TEST_opened": false,
+  "NASA_labels_opened": false,
+  "thresholds_refitted": false,
+  "scientific_fits": 0
+}

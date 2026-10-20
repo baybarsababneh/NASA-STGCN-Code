@@ -1,0 +1,21 @@
+{
+  "selected": {
+    "SMAP": {
+      "name": "gcn_l64_h32",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star"
+    },
+    "MSL": {
+      "name": "gcn_l64_top4",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4"
+    }
+  },
+  "criterion": "lowest median per-channel chronological validation MSE, separately per mission, graph configurations only",
+  "training_csv_sha256": "c6412159a72d2f035360711f5d17aeacfbf5e7c3015088e6e1d32be2c10a6ade",
+  "test_metrics_seen": false
+}

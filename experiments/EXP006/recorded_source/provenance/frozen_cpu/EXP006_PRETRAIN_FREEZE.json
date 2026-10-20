@@ -1,0 +1,29 @@
+{
+  "freeze_id": "exp006_pretrain_freeze_v1",
+  "status": "FROZEN_PRETRAIN",
+  "methodology": "Astra post-locked-evaluation EXP006 plan",
+  "files_sha256": {
+    "src/v2_models_exp006.py": "fb69785e690a1daf5756ebedbb4c57686af5868f7e109ef33d12450b32c81a44",
+    "src/v2_train_exp006.py": "dec6f08525fcfbd4e16aad8e0aeecd2ae01119e5b0b2fa803a5bd3e65ffa8622",
+    "src/v2_run_exp006.py": "bced96e8052276ef9bb78cf26d6fa4243d684775ad721b82e2723b625adf255c",
+    "configs/v2_exp006_gcn_tuning.json": "6af53044416859f50535451765186dda25160a62b781de01d049b7330d0b1f2b",
+    "configs/v2_exp006_screening_manifest.csv": "4a028eaccac99a306ae9a9b2dee79434bf4b94f7b173af82277f6d2f062253ff",
+    "EXP006_PROTOCOL.md": "1484cf5d1551a21773d074891a13f01e147473266554c18be5b07508c5d869f5",
+    "EXP006_RUN_INSTRUCTIONS.txt": "7e1861358b3aa7d5631be12418f9fa8e9035507d3a86f64da4dc24271577d680",
+    "src/v2_data.py": "98fa2d775dd6b8d474c0ef6e7f613f71f0c70f228860373a3136f05c18f41a46",
+    "src/v2_graph.py": "70e6dc3040eb97c0efedb632d126e2926ab68a6489de6a78546469a882da6c96",
+    "src/v2_models_exp002.py": "30b23668f5926d997a147aa9c7d1d256e686971bbef681e01a26a407ab85d137",
+    "src/v2_models_exp005.py": "fd46569f7f38c6e479551eb55bfada9da00585c2ebe09d4872274e75da18112a"
+  },
+  "reference_artifacts_sha256": {
+    "results/v2_exp002_tcn_gcn_fixed/all_runs.csv": "c7f9ce2652af99de88122abff02d01df8dbfeb3fbfdf1daf10930054b8e62a2b"
+  },
+  "planned_fit_budget": {
+    "screen": 288,
+    "robustness": 192,
+    "confirmation": 486,
+    "maximum_total": 966
+  },
+  "selection_data_policy": "TRAIN-only. NASA TEST arrays, residuals, labels, prior anomaly rankings and channel failures may not guide EXP006 selection.",
+  "warning": "Changing a frozen file after this point creates a new EXP006 protocol version."
+}

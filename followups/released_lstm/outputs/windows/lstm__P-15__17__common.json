@@ -1,0 +1,98 @@
+[
+  {
+    "start": 250,
+    "end_exclusive": 2350,
+    "issue_index": 2349,
+    "epsilon": 10.987496066844214,
+    "epsilon_inverse": 10.987496066844214,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 500
+  },
+  {
+    "start": 320,
+    "end_exclusive": 2420,
+    "issue_index": 2419,
+    "epsilon": 11.120508881269537,
+    "epsilon_inverse": 11.120508881269537,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  },
+  {
+    "start": 390,
+    "end_exclusive": 2490,
+    "issue_index": 2489,
+    "epsilon": 11.206963421421854,
+    "epsilon_inverse": 11.206963421421854,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  },
+  {
+    "start": 460,
+    "end_exclusive": 2560,
+    "issue_index": 2559,
+    "epsilon": 11.245009331599736,
+    "epsilon_inverse": 11.245009331599736,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  },
+  {
+    "start": 530,
+    "end_exclusive": 2630,
+    "issue_index": 2629,
+    "epsilon": 11.235829202253532,
+    "epsilon_inverse": 11.235829202253532,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  },
+  {
+    "start": 600,
+    "end_exclusive": 2700,
+    "issue_index": 2699,
+    "epsilon": 11.178213602540993,
+    "epsilon_inverse": 11.178213602540993,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  },
+  {
+    "start": 670,
+    "end_exclusive": 2770,
+    "issue_index": 2769,
+    "epsilon": 11.066062676722161,
+    "epsilon_inverse": 11.066062676722161,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  },
+  {
+    "start": 740,
+    "end_exclusive": 2846,
+    "issue_index": 2845,
+    "epsilon": 10.894808942999505,
+    "epsilon_inverse": 10.894808942999505,
+    "z": 12.0,
+    "z_inverse": 12.0,
+    "guard_pass": true,
+    "new_alarm_points": 0,
+    "initial_ignore": 0
+  }
+]

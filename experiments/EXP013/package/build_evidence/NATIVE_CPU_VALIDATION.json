@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.6.0+cpu",
+    "torch_build": "PyTorch built with:\n  - GCC 9.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.5.3 (Git Hash 66f0cb9eb66affd2da3bf5f8d897376f04aae6af)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=2236df1770800ffea5697b11b0bb0d910b2e59e1, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.6.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, \n",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.2",
+    "sklearn": "1.6.1",
+    "einops": "0.8.1",
+    "torch_geometric": "2.6.1",
+    "optional_PyG_extensions": {
+      "torch-scatter": null,
+      "torch-sparse": null,
+      "pyg-lib": null,
+      "torch-cluster": null,
+      "torch-spline-conv": null
+    },
+    "device": "cpu",
+    "cuda": null,
+    "cudnn": null,
+    "GPU": null,
+    "GPU_total_bytes": null,
+    "GPU_driver": null,
+    "deterministic": true,
+    "AMP": false,
+    "TF32": false,
+    "threads": 1
+  },
+  "GPU_full_batch_validation": "NOT_RUN_NO_GPU_AVAILABLE",
+  "validation": [
+    {
+      "model": "GDN",
+      "mission": "MSL",
+      "forward_and_gradient_equation_parity": "PASS",
+      "batch": 32,
+      "loss": 0.20573720335960388
+    },
+    {
+      "model": "CATCH",
+      "mission": "MSL",
+      "unmodified_native_forward_loss_score": "PASS",
+      "constant_and_sparse_binary_command_score": "PASS",
+      "parameters": 210881152,
+      "batch": 2,
+      "full_published_batch_tested": false,
+      "peak_GPU_bytes": null
+    },
+    {
+      "model": "GDN",
+      "mission": "SMAP",
+      "forward_and_gradient_equation_parity": "PASS",
+      "batch": 32,
+      "loss": 0.17652587592601776
+    },
+    {
+      "model": "CATCH",
+      "mission": "SMAP",
+      "unmodified_native_forward_loss_score": "PASS",
+      "constant_and_sparse_binary_command_score": "PASS",
+      "parameters": 53464208,
+      "batch": 2,
+      "full_published_batch_tested": false,
+      "peak_GPU_bytes": null
+    }
+  ]
+}

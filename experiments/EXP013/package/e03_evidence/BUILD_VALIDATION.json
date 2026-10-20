@@ -1,0 +1,61 @@
+{
+  "A100_graph_evidence": "user reports numerical/deterministic PASS and 501.39x; not remeasured here",
+  "actual_GPU_in_builder": false,
+  "actual_scientific_fits_in_builder": 0,
+  "all_22_fictional_end_to_end": true,
+  "all_22_fictional_log_sha256": "bbc39622efe1fdd0c988cf65df2da526e51157ec3e7ca650eefde799767e519d",
+  "all_python_sources_AST_parse": "PASS",
+  "amendment": "EXP013_COMMAND_REFERENCE_V1_E03_CONV",
+  "changed_parent_sources": {
+    "src/architectures.py": {
+      "corrected_sha256": "b7304dd14d467bdcd36a57dd0dc13e771b2766355e043eda36bc602f12e40856",
+      "parent_sha256": "de8c5697f92edb0f1bc35e875bcd29a0f9b0fe1dd02d2f3225dc86057b4e54e4"
+    },
+    "src/simple_backup.py": {
+      "corrected_sha256": "aca64c0d067efbc138928b61088dff565e96b6b002f4913c041d1a6fe9b945ea",
+      "parent_sha256": "0fc454a4a887cee48ef1c05436f125c4176684c2702475f2f3cc4e59f6e54fbe"
+    },
+    "src/simple_gate.py": {
+      "corrected_sha256": "6eb3fc18a4afc3250ecd7838af111b1ad5cce2b7746768fa9acd6c193f94a744",
+      "parent_sha256": "7ec89974c9de4e6a48b87e2d067dc8b15fb2e4d6f1f637c6765a11bc9ea2cfc1"
+    },
+    "src/simple_run.py": {
+      "corrected_sha256": "fdc6fccb1886bb968a89969dacafaff860bf3f1d7b5315c1f9722fbdbba961dc",
+      "parent_sha256": "b428aef7e65d7a88b3e32aced425780cd08ef6559e9c23a41fca4b9439fbc73b"
+    },
+    "tests/test_release.py": {
+      "corrected_sha256": "f40c054f41d4a18e935363c06ab68295e4473de9e5ed4f6cb0673428d647c001",
+      "parent_sha256": "e44960cc88e167cd73aa42d5e763b28a3ded2c018ff4b90cbf53c76199905dc0"
+    },
+    "tests/test_simple.py": {
+      "corrected_sha256": "b2ceafcf1a7a93c58f871d90e46c1e2be80619750f65830708613fe5ef4b2d3f",
+      "parent_sha256": "3efc2ada568e3843fb1c68c224f203f541f5dc87a832df753bccc7391fd32efb"
+    }
+  },
+  "essential_scientific_sources_protocol_byte_identical": true,
+  "frozen_scientific_job_count": 22,
+  "full_batch_CPU_attempt": "NOT_COMPLETED exit137 SIGKILL; cause not established",
+  "new_full_batch_GPU_authorisation": "required at actual execution; six corrected native/FP32/RNG regressions plus ten existing hardware records",
+  "tests": {
+    "CONVOLUTION_CPU": {
+      "log_sha256": "e20d1f7d5ea48d7e572147f12dcdc5d6663d955e623cf0e04bc7b50495ff530e",
+      "passed": 9
+    },
+    "E02_RUNNER_CPU": {
+      "log_sha256": "d3a3cb1b3c51415011ef4f707c74bb2f54f029e45fe555bb50c267ea22a2ca6d",
+      "passed": 20
+    },
+    "RELEASE_CPU": {
+      "log_sha256": "1378d55615fbab46820a02d7e28a7951b99419da9f7d72f315a53b86bcd8c851",
+      "passed": 3
+    },
+    "RETAINED_EXECUTION_CPU": {
+      "log_sha256": "fea7cb2964f306e2504e3620862581655d10cc8736334fffeeeeb19ab3f52a56",
+      "passed": 18
+    },
+    "SCIENCE_CPU": {
+      "log_sha256": "22b0463971f4a2fdc25db1afa86fa9e6dd215ab10abbbf0d8259887bf4269a14",
+      "passed": 24
+    }
+  }
+}

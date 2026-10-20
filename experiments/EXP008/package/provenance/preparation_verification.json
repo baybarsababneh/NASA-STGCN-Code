@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "prefixes": 81,
+  "all_prefixes_exact_original_first_80_percent": true,
+  "final_20_percent_values_included": false,
+  "checkpoint_archive_counts": {
+    "canonical": 243,
+    "ablation": 243,
+    "robust": 48
+  },
+  "all_checkpoint_archives_unchanged": true,
+  "original_model_and_environment_source_unchanged": true,
+  "NASA_TEST_or_labels_included": false,
+  "new_training_fits": 0,
+  "CUDA_execution_performed_locally": false
+}

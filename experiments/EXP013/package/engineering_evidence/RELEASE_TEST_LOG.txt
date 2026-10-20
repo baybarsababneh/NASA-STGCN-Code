@@ -1,0 +1,8 @@
+test_original_input_archives_and_pinned_official_sources (__main__.ReleaseTests.test_original_input_archives_and_pinned_official_sources) ... ok
+test_original_scientific_members_and_amended_job_factory (__main__.ReleaseTests.test_original_scientific_members_and_amended_job_factory) ... ok
+test_report_and_receipt_are_verified_and_persisted_without_labels (__main__.ReleaseTests.test_report_and_receipt_are_verified_and_persisted_without_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.981s
+
+OK

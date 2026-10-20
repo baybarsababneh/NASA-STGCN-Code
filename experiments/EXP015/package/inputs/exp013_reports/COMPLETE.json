@@ -1,0 +1,28 @@
+{
+  "EXP012_retrained_or_replayed": false,
+  "files": {
+    "DECISION.json": "d918d9f8c974efafcdda986cb85c2166c2b071194ab25dfe4385d9ea23fd26c8",
+    "EVALUATION_FREEZE.json": "f0570333bffdcf9739ae38099abb192b5169078a1fdcfb662786a66c7aeca965",
+    "EXP012_original_mission_metrics.csv": "627c7de7512170f93d826248a3c8d1905a33ca06a57da9ec3d4b99ed6c8c9606",
+    "LABEL_ROSTER_AUDIT.json": "d7817e3bf398d283fe3fe751187fb6b43da3b58e14c0ac1b057ee86d28878b1e",
+    "PUBLISHED_FIDELITY_FAILURES.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "PUBLISHED_FIDELITY_STATUS.json": "c7b4a1bbbb8178c01b93cdb3905c079b500346eaf86268a077ca73e236ade15f",
+    "RESEARCH_REPORT.md": "8c690fa3c7568a595416a5f28859b716c4c78cdede33255d1873bd4c6aca1e41",
+    "SYNTHETIC_CONFIRMATION_SCOPE.json": "e3f7ca0236630af954d86dba1693917cb2721bf6077edb195b37cde6a21bcacd",
+    "channel_metrics.csv": "b26e02d832e5882ad7d3ec051535a4b4f72784f32aa2ced88ea3fb538c17a309",
+    "confirmation_nominal_alarms.csv": "139cc9b89c9036e57e067a765d53d1262d7aa8cda0700227f999e01494680bab",
+    "event_notifications.csv": "7d1f45e8bca5024d59efb5ea872402011aad1928cbecd2d0f16ebc02fe6a1cdc",
+    "events_outside_support.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "mission_metrics.csv": "76243c2c74db0f13d4f5bf7f3042d0864a159edce7b272e6298f7003783fc7fd",
+    "mission_seed_metrics.csv": "adcc61eb35b90216a132ce7c62bc0dcba855744970bc4a7b5a00b3b454ce822a",
+    "paired_channel_bootstrap.json": "57c3ba0ed31a70f8a92e1dcf655167da0fe35ee55e76b019355b2f2dea5c6629",
+    "strict_point_F1.png": "43508145f32b1fcf177112ec9cdd80166a900597392e223aa4a017348f21e7e1",
+    "synthetic_confirmation_cases.csv": "7b65bc522861483341a6b280baa0e6e7859e4258b2a35c83c93c6262e59c92a9",
+    "synthetic_confirmation_summary.csv": "e59c5dfd4f9280300aaa9cf22d7ac6fc03e0c973d42fa812177113d4548230c9",
+    "synthetic_paired_channel_bootstrap.json": "27fabc55c6017245a50886e47be80ae061fb8ac29da38f7eec8c790daf569f8e"
+  },
+  "no_independent_real_anomaly_confirmation": true,
+  "score_seal_sha256": "b9f76f695947aa0675cf9864da839eae700e74fa4f224e351547ce9548387bc6",
+  "status": "COMPLETE_RETROSPECTIVE_RESEARCH_REPORT",
+  "study_sha256": "a8cacfa66a92eafe8c03eb09b18e7b8d063bcb8b7e6edf613ea2dcdf80712fa8"
+}

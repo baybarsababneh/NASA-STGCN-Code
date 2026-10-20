@@ -1,0 +1,6 @@
+# Recovered notebook execution record
+
+Original notebook: experiments/EXP014/notebooks/EXP014_LITERATURE_COMPARISON_V1_Run_All.ipynb
+Original file SHA-256: 708220b7f7032e6e69484013c010dbc926f6f795d27f124f5d21daebd6f183ae
+
+Existing text outputs only; no cells executed in recovery. ANSI display escapes removed. Rich binary/HTML output is omitted.

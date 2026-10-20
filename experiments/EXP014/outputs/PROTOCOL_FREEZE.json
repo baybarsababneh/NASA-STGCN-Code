@@ -1,0 +1,35 @@
+{
+  "CATCH_Hundman_hybrid": false,
+  "common_detector": "exact EXP012 original-unit forecast residuals; fresh detector stream starts at250",
+  "config": {
+    "backup_interval_seconds": 180,
+    "bootstrap_interval": 0.95,
+    "bootstrap_repetitions": 10000,
+    "bootstrap_seed": 20261005,
+    "detector": {
+      "batch_size": 70,
+      "error_buffer": 100,
+      "l_s": 250,
+      "p": 0.13,
+      "smoothing_perc": 0.05,
+      "window_size": 30
+    },
+    "gdn_batch_size": 32,
+    "gdn_lookback": 5,
+    "gdn_seed": 17,
+    "maximum_gpu_reserved_fraction": 0.8,
+    "maximum_single_channel_host_bytes": 536870912,
+    "minimum_free_gpu_bytes_before_model": 4294967296,
+    "native_reference_gate": "bitwise equality of complete frozen native_score arrays; flags, issues and unchanged state",
+    "new_training": false,
+    "precision": "FP32",
+    "restoration_gate": "bitwise equality, including output, RNG and parameters/buffers",
+    "target_start": 250,
+    "version": "EXP014_LITERATURE_COMPARISON_V1"
+  },
+  "native_replay": "preserve native GDN t5 batch boundaries and history, then crop at250",
+  "no_TEST_label_selection": true,
+  "no_new_calibration": true,
+  "no_new_training": true,
+  "scoring_code_sha256": "623b7131dffd921bd93f7421cf534616b88053404dfba370f3809d4e812c5b28"
+}

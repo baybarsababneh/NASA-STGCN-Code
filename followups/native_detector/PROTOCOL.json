@@ -1,0 +1,22 @@
+{
+  "analysis_id": "HUNDMAN_NATIVE_DETECTOR_CROSSOVER_V1",
+  "scope": "Separate retrospective follow-up to LSTM_RELEASE_BENCHMARK_AUDIT_V1; leave EXP001--EXP015 and the prior audit unchanged",
+  "question": "Do same-rule GCN versus released-LSTM comparisons change when all forecasters use the literal pinned author-released detector rather than HUNDMAN_ADAPT_V1?",
+  "fixed_before_new_scoring": true,
+  "new_neural_fits_or_inference": 0,
+  "new_detector_streams": "486: GCN and controlled LSTM, 81 channels, 3 saved seeds each",
+  "reuse": "Prior 567 common-detector streams plus 81 released-LSTM native streams; verify their hashes and reuse their frozen outputs",
+  "roles": ["gcn", "lstm", "released_lstm"],
+  "support": "Unchanged raw TEST target indices 250 <= t < N-10, same released telemetry units, 81-channel first-P-2 roster and inclusive-to-half-open conversion",
+  "official_source": "telemanom/errors.py at commit 2e6c5b6c3558e7835601519b7bdef37c649bdbdc, the version whose native reference intervals were previously replayed exactly for all 81 channels",
+  "only_execution_fix": "Cast np.delete(E_seq, i_to_remove, axis=0) row indices to int64; no new statistical changes",
+  "native_rules": "Use the identical pinned detector for every forecaster, including 70-point batches, 30-batch window, EWMA105, z grid 2.5:0.5:11.5 with fallback12, forward/inverse branches, scale guards, buffer100, pruning p=.13, C-2 startup exception, and original irregular-final-batch treatment",
+  "guard_contract": "Give every role the same original ten-target observed telemetry matrix used by the released implementation. This requires no ten-step GCN forecasts: only the first-column scalar residual is scored. Charge nine extra observed target indices to reconstructed batch availability, consistently across roles.",
+  "threshold_contract": "Recalculate each stream's native adaptive thresholds from its own unlabelled errors. Do not copy numerical LSTM thresholds to GCN, fit labelled thresholds, change parameters, or choose the best detector after looking at results.",
+  "evaluation": "Retain project corrected event F0.5 for continuity. Also report paper-style event-overlap F0.5, strict point metrics without point adjustment, burden, AP, and reconstructed issue time. All rows use the same frozen evaluator.",
+  "literal_evaluator_diagnostic": "Additionally execute the pinned Detector.evaluate_sequences method, separately labelled. The current release credits only the first labelled event intersecting a predicted run, whereas the paper and initial 2018 code allow every overlapped labelled event. Do not silently replace either evaluator or endorse this version-specific rule as the scientific primary metric.",
+  "verification": "All previous package-manifest hashes unchanged. Check every new native alarm interval against the original Errors.process_batches execution (only the predeclared integer-index fix), and independently recount all saved decision streams. Reuse the 81 prior exact native release receipts. Compare common and native flags, scores and thresholds explicitly.",
+  "uncertainty": "10000 paired-channel resamples, seed20261016; keep project seeds grouped. Report GCN/control minus release under native detector, and within-forecaster native-minus-adapted shifts. Fits and channel dependence remain conditional. No equality or noninferiority conclusion from intervals containing zero.",
+  "sensitivities": "Exclude C-2 on its correct MSL mission; report alternative P-2 labels on SMAP without selecting the better result. Report source-evaluator discrepancies and any native execution failures rather than silently substituting safeguards.",
+  "non_reproduction_boundary": "This is a literal pinned author-release detector sensitivity, not exact reproduction of the original 2018 printed table. Do not reinstate older indexing bugs, change code grid to the shorter paper-description grid, or compare different model/detector combinations as an architecture-only test. Existing training/input, historical TEST exposure, upstream normalisation and alert-budget limitations remain."
+}

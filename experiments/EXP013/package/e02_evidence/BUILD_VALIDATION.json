@@ -1,0 +1,73 @@
+{
+  "CPU_environment": {
+    "AMP": false,
+    "GPU": null,
+    "GPU_driver": null,
+    "GPU_total_bytes": null,
+    "TF32": false,
+    "cuda": null,
+    "cudnn": null,
+    "deterministic": true,
+    "device": "cpu",
+    "einops": "0.8.1",
+    "numpy": "2.1.3",
+    "optional_PyG_extensions": {
+      "pyg-lib": null,
+      "torch-cluster": null,
+      "torch-scatter": null,
+      "torch-sparse": null,
+      "torch-spline-conv": null
+    },
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "scipy": "1.15.2",
+    "sklearn": "1.6.1",
+    "threads": 1,
+    "torch": "2.6.0+cpu",
+    "torch_build": "PyTorch built with:\n  - GCC 9.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.5.3 (Git Hash 66f0cb9eb66affd2da3bf5f8d897376f04aae6af)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=2236df1770800ffea5697b11b0bb0d910b2e59e1, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.6.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, \n",
+    "torch_geometric": "2.6.1"
+  },
+  "E02_fictional_end_to_end": "PASS_22_FICTIONAL_FITS_44_SCORE_STREAMS",
+  "NASA_TEST_float_arrays_opened": false,
+  "NASA_annotation_CSV_opened": false,
+  "NASA_scientific_fits_in_build": 0,
+  "actual_A100_validation": "NOT_RUN",
+  "actual_GPU_available": false,
+  "evidence": {
+    "NOTEBOOK_VALIDATION.json": "e34cbf11f4aeb9748787458db43ffc4f5be0598aa7a71597af5ec565b1172bac",
+    "NOTEBOOK_VALIDATION.log": "4a69443ca357f715d76133c24f757522f32036e96fae87042e84f35b93bd8a5a",
+    "RESOURCE_REQUIREMENTS.json": "1490f9249a5446cc446782caac897c4576c8f1807701173923a7d41de374c7a7",
+    "RETAINED_EXECUTION_TESTS.log": "4e12532a3d0414e18e08af47a7460ca00a422a0d8f4c86fa91f5cf05ba0cafb5",
+    "RETAINED_RELEASE_TESTS.log": "e709aac089f9baf328ed00ec688efbb51817cfdf5fb36c5efa7916ab0e46295d",
+    "SCIENCE_TESTS.log": "1f082d168ecefb3f18812de0c255423846a0d82a9c1ee5de63917d9fab7ad6ea",
+    "SIMPLE_E2E.log": "35c2fb1f93f6179a093953974c26953c717fbe287f5c2955f6857a6be8fc54c6",
+    "SIMPLE_TESTS.log": "3f7272345f007809f9099c6846bce3acc232b20386b644dae318ccd8d3190f00"
+  },
+  "live_authenticated_Drive_validation": "NOT_RUN",
+  "notebook_release_checks": {
+    "NASA_data_or_annotation_values_read": false,
+    "actual_live_Colab_or_Drive_test": false,
+    "checks": {
+      "actual_annotation_cell_failed_seal_blocks_all_label_work": true,
+      "actual_setup_VM_reset_retrieves_cached_bundle_without_upload": true,
+      "actual_setup_first_upload_and_hash_verification": true,
+      "actual_setup_rejects_source_tamper_without_overwrite": true,
+      "all_delivered_source_syntax": true,
+      "bundle_roster_CRC_and_every_payload_SHA256": true,
+      "delivered_source_identity_manifest_matches_actual_bytes": true,
+      "notebook_schema_and_all_cell_syntax": true,
+      "original_package_pins_preserved": true,
+      "seal_verification_precedes_annotation_cache_lookup_and_upload": true
+    },
+    "status": "PASS"
+  },
+  "release": "EXP013_COMMAND_REFERENCE_V1_E02_SIMPLE",
+  "status": "CPU_PASS_GPU_AND_LIVE_DRIVE_CHECKS_REQUIRED",
+  "tests": {
+    "retained_execution": 18,
+    "retained_release": 3,
+    "science": 24,
+    "simple_runner": 18
+  },
+  "total_unit_tests": 63
+}

@@ -1,0 +1,54 @@
+{
+  "original_notebook": "experiments/EXP012/notebooks/EXP012_A10040GB_AMENDMENT_1_Colab.ipynb",
+  "original_sha256": "fd33735e4a7b4990c4de0dadb5f6e9c61b3a6af0a6f25ab502fce0e28e891e54",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": null,
+      "source_sha256": "992db7d5a4f32e32e3a29335e90106787ea2c85aaa1faac51f25d414b851f896",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 3,
+      "execution_count": null,
+      "source_sha256": "3131ba475ba3f8d8a026a77764defd53489e477824cb6f62f7372fb923813d32",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 5,
+      "execution_count": null,
+      "source_sha256": "ecec3c6417fa25270d82e6c18b96310447b5e3261d6465a09cb06d4ba673f0fe",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 7,
+      "execution_count": null,
+      "source_sha256": "011bd9e6fae804dfe6d288d26c66cf2d3b12355779f63f81db67504ffbbc4a8d",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 9,
+      "execution_count": null,
+      "source_sha256": "ba01b4a365a72b99b9a6f9070aed486c108460f8cf53b957fa5ca0b1d3d7e963",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 11,
+      "execution_count": null,
+      "source_sha256": "c279f7cfbcac46669f2511c836f70374390dfbf0ac564b64bf18ce84d329db31",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    }
+  ]
+}

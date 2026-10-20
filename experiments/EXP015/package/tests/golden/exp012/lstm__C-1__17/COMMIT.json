@@ -1,0 +1,11 @@
+{
+  "files": {
+    "adaptive_windows.json": "561a631320f0046cc5b68657d1f09814062adb03fccee7e492125126014da5e2",
+    "record.json": "7fe586eebfe8b699165d69e3118294fdcd6eecbd05d50e7065233a59483e52e2",
+    "scores.npz": "bd5b23d65e43fe593a9ee5d48d8a6cc23cf69817b62f19d7a7d31823aa54b288"
+  },
+  "identity": {
+    "job_id": "lstm__C-1__17",
+    "run_hash": "996ef9b45ecdad272a08c2f6c34eea2920eebf6e8bf624a9f1da07fb1d18daee"
+  }
+}

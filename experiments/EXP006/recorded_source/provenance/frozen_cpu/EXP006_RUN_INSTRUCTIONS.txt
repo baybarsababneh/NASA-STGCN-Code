@@ -1,0 +1,27 @@
+EXP006 — RUN INSTRUCTIONS
+=========================
+
+Copy/unzip this bundle into the existing smap_msl_tcn_gcn_v2 project root.
+It adds new EXP006 files only; it should not overwrite EXP001–EXP005.
+
+From the project root with (.venv) active, run ONE stage at a time.
+
+1) Preflight / frozen-protocol verification
+   python src/v2_run_exp006.py --stage preflight
+
+2) Screening (288 fits maximum)
+   python src/v2_run_exp006.py --stage screen --workers 2
+
+3) Chronological robustness (192 fits maximum)
+   python src/v2_run_exp006.py --stage robust --workers 2
+
+4) Full confirmation (486 fits maximum)
+   python src/v2_run_exp006.py --stage confirm --workers 2
+
+5) Promotion decision
+   python src/v2_run_exp006.py --stage promote
+
+Do not run a later stage until the previous stage has been audited.
+Do not use NASA TEST arrays, anomaly labels, prior TEST channel failures, or anomaly metrics to alter the candidate list or screening roster.
+
+The runner is resumable: completed result files are skipped.

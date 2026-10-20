@@ -1,0 +1,25 @@
+{
+  "NASA_TEST_accessed": false,
+  "anomaly_labels_accessed": false,
+  "architecture_reopened": false,
+  "automatic_promotion": false,
+  "checkpoint_replay_jobs": 534,
+  "final_calibration_accessed": false,
+  "metric_version": "EXP008_METRICS_V2_1",
+  "new_model_fits": 0,
+  "next_gate": "Independent reviewer sign-off and bounded detector/external-baseline protocol; final TEST is not authorised by this script.",
+  "nominal_rows": 288,
+  "scorer_family": {
+    "comparison": "strict >",
+    "q": [
+      0.99,
+      0.995
+    ],
+    "quantile": "higher",
+    "spans": [
+      1,
+      10
+    ]
+  },
+  "status": "COMPLETE_NO_DETECTOR_SELECTED"
+}

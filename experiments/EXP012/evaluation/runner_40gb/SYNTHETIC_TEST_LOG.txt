@@ -1,0 +1,14 @@
+test_bootstrap_seed_group_and_single_persistence (__main__.MetricTests.test_bootstrap_seed_group_and_single_persistence) ... ok
+test_commit_reuse_corruption (__main__.MetricTests.test_commit_reuse_corruption) ... ok
+test_empty_support_and_all_anomaly (__main__.MetricTests.test_empty_support_and_all_anomaly) ... ok
+test_events_counts_original_delay_and_outside (__main__.MetricTests.test_events_counts_original_delay_and_outside) ... ok
+test_phase_a_label_guard (__main__.MetricTests.test_phase_a_label_guard) ... ok
+test_selected_zip_members_only (__main__.MetricTests.test_selected_zip_members_only) ... ok
+test_separate_complete_phase_b_with_synthetic_81_channel_fixture (__main__.MetricTests.test_separate_complete_phase_b_with_synthetic_81_channel_fixture) ... ok
+test_tied_ap (__main__.MetricTests.test_tied_ap) ... ok
+test_undefined_before_zero_recall (__main__.MetricTests.test_undefined_before_zero_recall) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 4.188s
+
+OK

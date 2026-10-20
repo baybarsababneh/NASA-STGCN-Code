@@ -1,0 +1,3 @@
+# Locked retrospective NASA evaluation
+
+Mission metrics average three seed-level pooled results; persistence is reported once. Primary event overlap is retrospective and separate from actual notification timing. Native scores are not pooled for AP; macro denominators are reported. TRAIN calibration and NASA TEST were historically exposed. Controlled LSTM is a one-step adaptation, not exact published reproduction. No detector winner or retuning is authorised by these results. Undefined metrics are JSON null / blank CSV with denominator counts. Bootstrap pairs channels and groups original seeds; persistence remains one stream. Shared contexts limit independence.

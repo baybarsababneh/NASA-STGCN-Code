@@ -1,0 +1,10 @@
+{
+  "MSL": [
+    "g03_rf7_large_lr1e3",
+    "g04_rf7_large_lr3e4"
+  ],
+  "SMAP": [
+    "g09_rf31_base_lr1e3",
+    "g11_rf31_large_lr1e3"
+  ]
+}

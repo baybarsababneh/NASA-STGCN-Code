@@ -1,0 +1,38 @@
+{
+  "original_notebook": "experiments/EXP010/notebooks/EXP010_MECHANISMS_V1_Run_All.ipynb",
+  "original_sha256": "48027506e68ffaf8e46b0d77e201c6125be6d4a4c41527fb73cbdb5edcf3b647",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": null,
+      "source_sha256": "7ed429e289914ad824679480f3506e373f9180184fe4ea035223ab68f02e655c",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 2,
+      "execution_count": null,
+      "source_sha256": "a61759c1925397576b316fc8b48de4fe7f0315fb09e836bd1732e5ce0579a122",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 3,
+      "execution_count": null,
+      "source_sha256": "bce5d9db84da2fe6d338f539361184906faf50d3e7615a7a54cef13206c1ab20",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    },
+    {
+      "cell_index": 4,
+      "execution_count": null,
+      "source_sha256": "247755c4391df269e9ca49ccb32bbfc968877efc98c6af0237194e72d655e9aa",
+      "timing_metadata": {},
+      "original_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_output_items": 0
+    }
+  ]
+}

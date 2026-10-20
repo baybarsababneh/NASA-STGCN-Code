@@ -1,0 +1,62 @@
+{
+  "experiment_id": "v2_exp002_tcn_gcn_fixed",
+  "description": "Causal TCN-GCN forecasting model using the fixed command-context graph from the earlier study.",
+
+  "dataset": {
+    "missions": ["SMAP", "MSL"],
+    "unique_labelled_channels": 81,
+    "exclude_unlabelled": ["T-10"],
+    "duplicate_label_policy": "one unique channel per chan_id",
+    "fit_fraction": 0.60,
+    "validation_end_fraction": 0.80,
+    "calibration_fraction": 0.20,
+    "test_access_during_development": false
+  },
+
+  "model": {
+    "type": "tcn_gcn_fixed",
+    "lookback": 64,
+    "kernel_size": 3,
+    "dilations": [1, 2],
+
+    "hidden_by_mission": {
+      "MSL": 32,
+      "SMAP": 64
+    },
+
+    "graph_by_mission": {
+      "SMAP": {
+        "mode": "star",
+        "description": "All varying command-context nodes connect to the telemetry target with equal fixed weights."
+      },
+
+      "MSL": {
+        "mode": "top4",
+        "description": "Four command-context nodes selected using fit-only lagged association with telemetry target changes.",
+        "selection_lags": [1, 2, 4, 8, 16],
+        "max_command_nodes": 4
+      }
+    },
+
+    "graph_weights": "equal_fixed",
+    "graph_direction": "command_to_target",
+    "graph_layers": 1,
+    "residual_prediction": "persistence"
+  },
+
+  "training": {
+    "seeds": [17, 29, 43],
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "max_epochs": 80,
+    "patience": 6,
+    "min_delta": 1e-7,
+    "gradient_clip_norm": 1.0
+  },
+
+  "selection_metric": "validation_mse",
+
+  "notes": "TRAIN-only development. No NASA TEST arrays or anomaly labels may be used for graph construction, model selection, or tuning."
+}

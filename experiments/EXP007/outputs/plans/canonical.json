@@ -1,0 +1,7292 @@
+[
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "A-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "B-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "C-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-14",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-15",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-16",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "D-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-10",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "E-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "F-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "G-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-6",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "M-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-10",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-11",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-14",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-15",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "P-7",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "R-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "S-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-1",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-12",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-13",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-2",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-3",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "SMAP",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-4",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-5",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-8",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "fixed",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "fixed",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "static",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "static",
+    "seed": 43,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 17,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 29,
+    "stage": "canonical"
+  },
+  {
+    "channel": "T-9",
+    "fold": "canonical",
+    "gate_mode": "dynamic",
+    "mission": "MSL",
+    "remove_messages": false,
+    "role": "dynamic",
+    "seed": 43,
+    "stage": "canonical"
+  }
+]

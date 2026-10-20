@@ -1,0 +1,247 @@
+Evaluating 223 available jobs; 0 await training
+A-4 no_edges 43
+A-3 no_edges 43
+A-2 no_edges 43
+A-1 no_edges 43
+A-6 no_edges 43
+A-5 no_edges 43
+A-7 no_edges 43
+A-8 no_edges 43
+C-1 GCN 29
+C-1 GCN 43
+B-1 no_edges 43
+A-9 no_edges 43
+C-1 no_edges 43
+C-2 GCN 29
+C-1 no_edges 29
+C-1 no_edges 17
+C-2 GCN 43
+C-2 no_edges 29
+C-2 no_edges 43
+C-2 no_edges 17
+D-12 no_edges 43
+D-13 no_edges 43
+D-11 no_edges 43
+D-14 GCN 29
+D-14 GCN 43
+D-14 no_edges 29
+D-14 no_edges 17
+D-14 no_edges 43
+D-1 no_edges 43
+D-15 GCN 29
+D-15 GCN 43
+D-15 no_edges 29
+D-15 no_edges 17
+D-15 no_edges 43
+D-16 GCN 29
+D-16 GCN 43
+D-16 no_edges 17
+D-16 no_edges 29
+D-16 no_edges 43
+D-2 no_edges 43
+D-5 no_edges 43
+D-3 no_edges 43
+D-4 no_edges 43
+D-8 no_edges 43
+D-7 no_edges 43
+D-6 no_edges 43
+D-9 no_edges 43
+E-10 no_edges 43
+E-1 no_edges 43
+E-11 no_edges 43
+E-12 no_edges 43
+E-13 no_edges 43
+E-3 no_edges 43
+E-2 no_edges 43
+E-4 no_edges 43
+E-5 no_edges 43
+E-6 no_edges 43
+E-7 no_edges 43
+E-8 no_edges 29
+E-8 no_edges 43
+E-9 no_edges 29
+E-9 no_edges 43
+F-1 no_edges 29
+F-1 no_edges 43
+F-2 no_edges 29
+F-2 no_edges 43
+F-4 GCN 29
+F-4 GCN 43
+F-3 no_edges 43
+F-3 no_edges 29
+F-4 no_edges 29
+F-4 no_edges 43
+F-5 GCN 29
+F-5 GCN 43
+F-5 no_edges 29
+F-4 no_edges 17
+F-5 no_edges 43
+F-7 GCN 29
+F-7 GCN 43
+F-7 no_edges 29
+F-7 no_edges 43
+F-5 no_edges 17
+F-8 GCN 29
+F-8 GCN 43
+F-8 no_edges 29
+F-8 no_edges 17
+F-8 no_edges 43
+F-7 no_edges 17
+G-2 no_edges 29
+G-1 no_edges 29
+G-1 no_edges 43
+G-2 no_edges 43
+G-3 no_edges 43
+G-3 no_edges 29
+G-4 no_edges 29
+G-4 no_edges 43
+G-7 no_edges 29
+G-7 no_edges 43
+G-6 no_edges 29
+M-1 GCN 29
+G-6 no_edges 43
+M-1 GCN 43
+M-1 no_edges 29
+M-1 no_edges 17
+M-1 no_edges 43
+M-2 GCN 29
+M-2 GCN 43
+M-2 no_edges 17
+M-2 no_edges 29
+M-2 no_edges 43
+M-3 GCN 29
+M-3 GCN 43
+M-3 no_edges 29
+M-3 no_edges 17
+M-3 no_edges 43
+M-4 GCN 43
+M-4 GCN 29
+M-4 no_edges 17
+M-4 no_edges 29
+M-5 GCN 29
+M-4 no_edges 43
+M-5 GCN 43
+M-5 no_edges 43
+M-5 no_edges 29
+M-5 no_edges 17
+M-6 GCN 29
+M-6 GCN 43
+M-6 no_edges 29
+M-6 no_edges 17
+M-6 no_edges 43
+M-7 GCN 29
+M-7 no_edges 29
+M-7 GCN 43
+M-7 no_edges 17
+M-7 no_edges 43
+P-10 GCN 29
+P-10 GCN 43
+P-1 no_edges 29
+P-1 no_edges 43
+P-11 GCN 29
+P-10 no_edges 29
+P-10 no_edges 43
+P-11 GCN 43
+P-11 no_edges 43
+P-11 no_edges 29
+P-14 GCN 29
+P-14 GCN 43
+P-14 no_edges 29
+P-11 no_edges 17
+P-10 no_edges 17
+P-14 no_edges 43
+P-15 GCN 29
+P-15 GCN 43
+P-15 no_edges 29
+P-15 no_edges 17
+P-15 no_edges 43
+P-2 no_edges 43
+P-14 no_edges 17
+P-2 no_edges 29
+P-4 no_edges 29
+P-3 no_edges 29
+P-3 no_edges 43
+P-7 no_edges 29
+P-7 no_edges 43
+P-4 no_edges 43
+R-1 no_edges 29
+R-1 no_edges 43
+S-1 no_edges 29
+S-1 no_edges 43
+S-2 GCN 29
+S-2 GCN 43
+S-2 no_edges 17
+S-2 no_edges 29
+S-2 no_edges 43
+S-2 LSTM_small 17
+T-1 no_edges 29
+T-1 no_edges 43
+P-7 LSTM_small 17
+T-12 GCN 29
+T-12 GCN 43
+T-12 no_edges 17
+T-12 no_edges 29
+T-12 no_edges 43
+T-12 LSTM_small 17
+S-1 LSTM_small 17
+T-13 GCN 29
+T-13 GCN 43
+T-13 no_edges 17
+T-13 no_edges 29
+T-13 no_edges 43
+T-13 LSTM_small 17
+T-2 no_edges 29
+T-1 LSTM_small 17
+T-2 no_edges 43
+T-3 no_edges 29
+T-3 no_edges 43
+T-4 GCN 29
+T-4 GCN 43
+T-4 no_edges 17
+T-2 LSTM_small 17
+T-4 no_edges 29
+T-4 no_edges 43
+T-5 GCN 29
+T-5 GCN 43
+T-4 LSTM_small 17
+T-5 no_edges 29
+T-5 no_edges 17
+T-5 no_edges 43
+T-8 GCN 29
+T-8 GCN 43
+T-5 LSTM_small 17
+T-8 no_edges 17
+T-8 no_edges 43
+T-8 no_edges 29
+T-9 GCN 29
+T-9 GCN 43
+T-8 LSTM_small 17
+T-9 no_edges 17
+T-9 no_edges 29
+T-9 no_edges 43
+T-9 LSTM_small 17
+T-3 LSTM_small 17
+R-1 LSTM_small 17
+spacecraft         model  seed                protocol  channels  event_tp  event_fp  event_fn  event_precision  event_recall  event_f1  event_f05  point_tp  point_fp  point_fn  point_precision  point_recall  point_f1  point_f05  macro_average_precision  macro_alarm_fraction  macro_mae  macro_rmse  macro_median_detected_delay_steps  false_events_per_1000_steps
+       MSL           GCN    17          cal_s10_q0.995        27        31       284         5         0.098413      0.861111  0.176638   0.119599      1848     12307      5908         0.130555      0.238267  0.168682   0.143532                 0.383243              0.170493   0.095732    0.455143                          42.615385                     4.257297
+       MSL           GCN    17 telemanom_compatibility        27        16         2        20         0.888889      0.444444  0.592593   0.740741      1770      3068      5986         0.365854      0.228210  0.281086   0.326472                 0.423863              0.087927   0.095732    0.455143                                NaN                     0.029981
+       MSL    LSTM_small    17          cal_s10_q0.995        27        32       190         4         0.144144      0.888889  0.248062   0.173160      1926     12087      5830         0.137444      0.248324  0.176949   0.150922                 0.431182              0.166851   0.078995    0.423382                          40.269231                     2.848191
+       MSL    LSTM_small    17 telemanom_compatibility        27        18         3        18         0.857143      0.500000  0.631579   0.750000      1905      3316      5851         0.364873      0.245616  0.293596   0.332577                 0.528618              0.097953   0.078995    0.423382                                NaN                     0.044971
+       MSL           MLP    17          cal_s10_q0.995        27        31       312         5         0.090379      0.861111  0.163588   0.110085      1895     12564      5861         0.131060      0.244327  0.170605   0.144454                 0.397551              0.174336   0.098956    0.456127                          40.980000                     4.677030
+       MSL           MLP    17 telemanom_compatibility        27        18         3        18         0.857143      0.500000  0.631579   0.750000      1977      3581      5779         0.355703      0.254899  0.296981   0.329632                 0.431898              0.101025   0.098956    0.456127                                NaN                     0.044971
+       MSL archived_LSTM    17 telemanom_compatibility        27        25         1        11         0.961538      0.694444  0.806452   0.892857      3190      3577      4566         0.471405      0.411294  0.439303   0.458017                 0.472894              0.109260   0.629083    1.755573                                NaN                     0.014990
+       MSL      no_edges    17          cal_s10_q0.995        27        32       217         4         0.128514      0.888889  0.224561   0.155039      1862     13791      5894         0.118955      0.240072  0.159084   0.132304                 0.388008              0.199962   0.099209    0.464435                          40.326923                     3.252934
+       MSL      no_edges    17 telemanom_compatibility        27        16         3        20         0.842105      0.444444  0.581818   0.714286      1768      3287      5988         0.349753      0.227953  0.276013   0.315985                 0.427867              0.090741   0.099209    0.464435                                NaN                     0.044971
+       MSL   persistence    17          cal_s10_q0.995        27        34       314         2         0.097701      0.944444  0.177083   0.119048      1794      9928      5962         0.153046      0.231305  0.184208   0.164153                 0.405937              0.142625   0.066793    0.442776                          47.230769                     4.707011
+       MSL   persistence    17 telemanom_compatibility        27        15         2        21         0.882353      0.416667  0.566038   0.721154      1473      2702      6283         0.352814      0.189917  0.246920   0.301153                 0.502755              0.084650   0.066793    0.442776                                NaN                     0.029981
+      SMAP           GCN    17          cal_s10_q0.995        54        63      1776         5         0.034258      0.926471  0.066072   0.042430     26014     42031     29858         0.382306      0.465600  0.419862   0.396492                 0.567324              0.162225   0.051593    0.098762                          57.480000                     4.210666
+      SMAP           GCN    17 telemanom_compatibility        54        41         3        27         0.931818      0.602941  0.732143   0.840164      6909      4567     48963         0.602039      0.123658  0.205173   0.339422                 0.591519              0.027736   0.051593    0.098762                                NaN                     0.007113
+      SMAP    LSTM_small    17          cal_s10_q0.995        54        64      2020         4         0.030710      0.941176  0.059480   0.038077     18924     36665     36948         0.340427      0.338703  0.339563   0.340081                 0.524448              0.129971   0.042594    0.088439                          54.105769                     4.789158
+      SMAP    LSTM_small    17 telemanom_compatibility        54        41         3        27         0.931818      0.602941  0.732143   0.840164      6894      4142     48978         0.624683      0.123389  0.206074   0.344645                 0.568420              0.026644   0.042594    0.088439                                NaN                     0.007113
+      SMAP           MLP    17          cal_s10_q0.995        54        62      1844         6         0.032529      0.911765  0.062817   0.040302     24791     43828     31081         0.361285      0.443711  0.398278   0.375226                 0.532537              0.163522   0.053649    0.104211                          74.352941                     4.371885
+      SMAP           MLP    17 telemanom_compatibility        54        37        12        31         0.755102      0.544118  0.632479   0.700758      6633      5699     49239         0.537869      0.118718  0.194505   0.315257                 0.562380              0.029545   0.053649    0.104211                                NaN                     0.028450
+      SMAP archived_LSTM    17 telemanom_compatibility        54        61        12         7         0.835616      0.897059  0.865248   0.847222     12516      7048     43356         0.639746      0.224012  0.331831   0.466569                 0.575668              0.046563   0.106065    0.165297                                NaN                     0.028450
+      SMAP      no_edges    17          cal_s10_q0.995        54        64      1383         4         0.044229      0.941176  0.084488   0.054645     26296     41270     29576         0.389190      0.470647  0.426060   0.403145                 0.572148              0.161185   0.050352    0.099461                          91.196078                     3.278914
+      SMAP      no_edges    17 telemanom_compatibility        54        41         8        27         0.836735      0.602941  0.700855   0.776515      6870      5500     49002         0.555376      0.122960  0.201342   0.326050                 0.582649              0.029760   0.050352    0.099461                                NaN                     0.018967
+      SMAP   persistence    17          cal_s10_q0.995        54        55       954        13         0.054509      0.808824  0.102136   0.067008     15851     12289     40021         0.563291      0.283702  0.377351   0.470546                 0.440007              0.068044   0.035596    0.104665                          80.989583                     2.261810
+      SMAP   persistence    17 telemanom_compatibility        54        31         3        37         0.911765      0.455882  0.607843   0.759804      4731      3406     51141         0.581418      0.084676  0.147823   0.267530                 0.477250              0.020040   0.035596    0.104665                                NaN                     0.007113

@@ -1,0 +1,18 @@
+{
+  "analysis_id": "HUNDMAN_NATIVE_DETECTOR_CROSSOVER_V1",
+  "inputs": {
+    "hundman_native_crossover/run_extension.py": "8baa641d80bc8879ff683afda97cd601e1785a3e5e5a44184a20b305cd5abab6",
+    "hundman_native_crossover/PROTOCOL.json": "3059996fd0bf2b1b8d164041bea4d962afbbd6879225f2654b15fff6164f573b",
+    "lstm_benchmark_audit/PACKAGE_MANIFEST.json": "a76179dbc300dfd33ec0d92dd542a925f5941c283e743c867fbc652a380cb543",
+    "lstm_benchmark_audit/analyse.py": "b9faeeb7605d794c11c2ffa25ad7f76c30926d3401234e20b6949a2f8a90b6fd",
+    "lstm_benchmark_audit/outputs/channel_metrics.csv": "233fb4aba1e02d2e1a10baef441d31ce695b5efa87a58bfad131feee1be40fec",
+    "lstm_benchmark_audit/outputs/ANALYSIS_FREEZE.json": "c28fdd12f0636e1e200e6d7e6dbb011d99845ddd6ee87f2b78280669732479f9",
+    "lstm_benchmark_audit/sources/telemanom-master/telemanom/errors.py": "eb27e3dbc524a5252301e21835fb063ec7e1794eb4b252184c1a8a48a047b4aa",
+    "lstm_benchmark_audit/sources/telemanom-master/telemanom/detector.py": "33af1ad594468b0515c5db72860c62ee90e63daec5efb0e23a52d41aaf586003",
+    "project_sources/03-archive.zip": "6084d3ee3906381f2c98aa3773b6b2d77c82413503faa78f962196582e873733",
+    "lstm_benchmark_audit/materialized/NASA Research Project/EXP012_LABEL_BLIND_SCORE_EXPORT.zip": "e224c1286955d8af9c5bc314d5c24be04ab25b1a3fcba722a4bc217565b4d541",
+    "project_sources/02-labeled_anomalies.csv": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539"
+  },
+  "native_compat_sha256": "59d6ed7af14b76931b132738239e276f24af2b543ec1ae6e2c2e2c8d0a16b1a3",
+  "prior_package_files_verified_unchanged": 1415
+}

@@ -1,0 +1,1107 @@
+[
+  {
+    "confidence": 0.9875,
+    "contrast": "graph_minus_removed",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.006795277581842587,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "MSL",
+    "paired_channels": [
+      "C-1",
+      "C-2",
+      "D-14",
+      "D-15",
+      "D-16",
+      "F-4",
+      "F-5",
+      "F-7",
+      "F-8",
+      "M-1",
+      "M-2",
+      "M-3",
+      "M-4",
+      "M-5",
+      "M-6",
+      "M-7",
+      "P-10",
+      "P-11",
+      "P-14",
+      "P-15",
+      "S-2",
+      "T-12",
+      "T-13",
+      "T-4",
+      "T-5",
+      "T-8",
+      "T-9"
+    ],
+    "percentile_interval": [
+      -0.05211917084399319,
+      0.0025347838029196896
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.01269991387026495,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.08350019408941374,
+          0.09244664018017712
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": -0.015928818646050003,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.05594420789712605,
+          0.050773143278814686
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": -0.016842253671698643,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.054861428483869525,
+          0.03771603564934914
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": -0.015215526220755893,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.05688969235716666,
+          0.057672564305549345
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": -0.015838269379345793,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.058577681279052725,
+          0.026120181796461653
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": true,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.9875,
+    "contrast": "graph_minus_fusion",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.005741114888707061,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "MSL",
+    "paired_channels": [
+      "C-1",
+      "C-2",
+      "D-14",
+      "D-15",
+      "D-16",
+      "F-4",
+      "F-5",
+      "F-7",
+      "F-8",
+      "M-1",
+      "M-2",
+      "M-3",
+      "M-4",
+      "M-5",
+      "M-6",
+      "M-7",
+      "P-10",
+      "P-11",
+      "P-14",
+      "P-15",
+      "S-2",
+      "T-12",
+      "T-13",
+      "T-4",
+      "T-5",
+      "T-8",
+      "T-9"
+    ],
+    "percentile_interval": [
+      -0.020238300531098413,
+      0.02698998442513526
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": -0.007526500374354733,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.04246051803351201,
+          0.03290328023448048
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": -0.003354153017348871,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.041290664560409404,
+          0.018252630705848528
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": -0.00553473216525735,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.04299152818653139,
+          0.01936420676225562
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": -0.002484837845436877,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.04295881500479651,
+          0.018802464258795098
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": -0.016310412910979455,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.07287578503773806,
+          0.03734326415286294
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": true,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.95,
+    "contrast": "graph_minus_gdn",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.04090451874727183,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "MSL",
+    "paired_channels": [
+      "C-1",
+      "C-2",
+      "D-14",
+      "D-15",
+      "D-16",
+      "F-4",
+      "F-5",
+      "F-7",
+      "F-8",
+      "M-1",
+      "M-2",
+      "M-3",
+      "M-4",
+      "M-5",
+      "M-6",
+      "M-7",
+      "P-10",
+      "P-11",
+      "P-14",
+      "P-15",
+      "S-2",
+      "T-12",
+      "T-13",
+      "T-4",
+      "T-5",
+      "T-8",
+      "T-9"
+    ],
+    "percentile_interval": [
+      -0.08233003143658436,
+      0.006425408377890758
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.11018976688677595,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.006855356818420859,
+          0.2301266483895973
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": 0.02977279144692413,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.05197611671617673,
+          0.16983079651574476
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": 0.061854395544038515,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.037358268484136245,
+          0.20258326877264293
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": 0.014730362021635912,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.06374527780899565,
+          0.14829953922731787
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": 0.17018628208429912,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.03834217804846647,
+          0.31186008178636787
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": false,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.95,
+    "contrast": "graph_minus_catch",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.030247078077934902,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "MSL",
+    "paired_channels": [
+      "C-1",
+      "C-2",
+      "D-14",
+      "D-15",
+      "D-16",
+      "F-4",
+      "F-5",
+      "F-7",
+      "F-8",
+      "M-1",
+      "M-2",
+      "M-3",
+      "M-4",
+      "M-5",
+      "M-6",
+      "M-7",
+      "P-10",
+      "P-11",
+      "P-14",
+      "P-15",
+      "S-2",
+      "T-12",
+      "T-13",
+      "T-4",
+      "T-5",
+      "T-8",
+      "T-9"
+    ],
+    "percentile_interval": [
+      -0.05466839781225986,
+      0.008891355231296043
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": -0.0010526967614093996,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.1131282716355628,
+          0.11617119789009052
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": -0.026770924467134388,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.09771324803974331,
+          0.06999690093862679
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": -0.03416015103651293,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.11563167758242482,
+          0.07227482122890913
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": -0.023360600921384728,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.0899172212945664,
+          0.07274454170700936
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": -0.06146450339084897,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.2153319877372805,
+          0.11108180007830475
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": false,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.95,
+    "contrast": "graph_minus_EXP012_lstm",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.6807070063790283,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": true,
+    "mission": "MSL",
+    "paired_channels": [
+      "C-1",
+      "C-2",
+      "D-14",
+      "D-15",
+      "D-16",
+      "F-4",
+      "F-5",
+      "F-7",
+      "F-8",
+      "M-1",
+      "M-2",
+      "M-3",
+      "M-4",
+      "M-5",
+      "M-6",
+      "M-7",
+      "P-10",
+      "P-11",
+      "P-14",
+      "P-15",
+      "S-2",
+      "T-12",
+      "T-13",
+      "T-4",
+      "T-5",
+      "T-8",
+      "T-9"
+    ],
+    "percentile_interval": [
+      -0.7906531268227085,
+      -0.5294689836789188
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.17958331222310414,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.046021525930545516,
+          0.33350059971236967
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": -0.2240064081380751,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.3570828431442859,
+          -0.03752981592537425
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": -0.15357617724068323,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.31420998301504377,
+          0.04453960211811826
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": -0.26819213223870164,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.39776825464091314,
+          -0.09371607758002083
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": 0.008198128594729182,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.2024532880554274,
+          0.20898904800807874
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": false,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.9875,
+    "contrast": "graph_minus_removed",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.009272158433671525,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "SMAP",
+    "paired_channels": [
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "B-1",
+      "D-1",
+      "D-11",
+      "D-12",
+      "D-13",
+      "D-2",
+      "D-3",
+      "D-4",
+      "D-5",
+      "D-6",
+      "D-7",
+      "D-8",
+      "D-9",
+      "E-1",
+      "E-10",
+      "E-11",
+      "E-12",
+      "E-13",
+      "E-2",
+      "E-3",
+      "E-4",
+      "E-5",
+      "E-6",
+      "E-7",
+      "E-8",
+      "E-9",
+      "F-1",
+      "F-2",
+      "F-3",
+      "G-1",
+      "G-2",
+      "G-3",
+      "G-4",
+      "G-6",
+      "G-7",
+      "P-1",
+      "P-2",
+      "P-3",
+      "P-4",
+      "P-7",
+      "R-1",
+      "S-1",
+      "T-1",
+      "T-2",
+      "T-3"
+    ],
+    "percentile_interval": [
+      -0.030557623866360895,
+      0.000555852824444219
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.019146443088321474,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.003074355473890323,
+          0.04185270509148743
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": 0.016548359090899023,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.020156128670362365,
+          0.06762118601559225
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": 0.033635230650304604,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.005806304619511034,
+          0.09729316989228412
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": 0.007800048452236474,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.03798774287372544,
+          0.05273135981000672
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": 0.07886580117544667,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.006422927015012622,
+          0.17685111967449912
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": true,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.9875,
+    "contrast": "graph_minus_fusion",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": 0.0028541364123335668,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "SMAP",
+    "paired_channels": [
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "B-1",
+      "D-1",
+      "D-11",
+      "D-12",
+      "D-13",
+      "D-2",
+      "D-3",
+      "D-4",
+      "D-5",
+      "D-6",
+      "D-7",
+      "D-8",
+      "D-9",
+      "E-1",
+      "E-10",
+      "E-11",
+      "E-12",
+      "E-13",
+      "E-2",
+      "E-3",
+      "E-4",
+      "E-5",
+      "E-6",
+      "E-7",
+      "E-8",
+      "E-9",
+      "F-1",
+      "F-2",
+      "F-3",
+      "G-1",
+      "G-2",
+      "G-3",
+      "G-4",
+      "G-6",
+      "G-7",
+      "P-1",
+      "P-2",
+      "P-3",
+      "P-4",
+      "P-7",
+      "R-1",
+      "S-1",
+      "T-1",
+      "T-2",
+      "T-3"
+    ],
+    "percentile_interval": [
+      -0.014045274008323404,
+      0.015881414037849824
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.014136490504106591,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.004103240824471275,
+          0.039602818680764616
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": 0.017408278172676317,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.014946747291365338,
+          0.05369494669876564
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": 0.03335596638123317,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.002015851616227643,
+          0.07822582003742676
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": 0.00836983940398478,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.03757567576582999,
+          0.0419954391742606
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": 0.06925121895974157,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.0010414953062170555,
+          0.14351152290169755
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": true,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.95,
+    "contrast": "graph_minus_gdn",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.03224074569253606,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "SMAP",
+    "paired_channels": [
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "B-1",
+      "D-1",
+      "D-11",
+      "D-12",
+      "D-13",
+      "D-2",
+      "D-3",
+      "D-4",
+      "D-5",
+      "D-6",
+      "D-7",
+      "D-8",
+      "D-9",
+      "E-1",
+      "E-10",
+      "E-11",
+      "E-12",
+      "E-13",
+      "E-2",
+      "E-3",
+      "E-4",
+      "E-5",
+      "E-6",
+      "E-7",
+      "E-8",
+      "E-9",
+      "F-1",
+      "F-2",
+      "F-3",
+      "G-1",
+      "G-2",
+      "G-3",
+      "G-4",
+      "G-6",
+      "G-7",
+      "P-1",
+      "P-2",
+      "P-3",
+      "P-4",
+      "P-7",
+      "R-1",
+      "S-1",
+      "T-1",
+      "T-2",
+      "T-3"
+    ],
+    "percentile_interval": [
+      -0.05139803134983526,
+      -0.01405039555726761
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.04671437356942973,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.00793033353542496,
+          0.10344385510650167
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": 0.0697852033206175,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.0437728936481242,
+          0.18400069444841494
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": 0.11630357054802026,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.008722121998245194,
+          0.23578329064769915
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": 0.04273555235521109,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.09543897549329956,
+          0.1548082165348373
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": 0.2173980425115935,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.09239047932337606,
+          0.3514707283885631
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": false,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.95,
+    "contrast": "graph_minus_catch",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.023496467789756267,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": false,
+    "mission": "SMAP",
+    "paired_channels": [
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "B-1",
+      "D-1",
+      "D-11",
+      "D-12",
+      "D-13",
+      "D-2",
+      "D-3",
+      "D-4",
+      "D-5",
+      "D-6",
+      "D-7",
+      "D-8",
+      "D-9",
+      "E-1",
+      "E-10",
+      "E-11",
+      "E-12",
+      "E-13",
+      "E-2",
+      "E-3",
+      "E-4",
+      "E-5",
+      "E-6",
+      "E-7",
+      "E-8",
+      "E-9",
+      "F-1",
+      "F-2",
+      "F-3",
+      "G-1",
+      "G-2",
+      "G-3",
+      "G-4",
+      "G-6",
+      "G-7",
+      "P-1",
+      "P-2",
+      "P-3",
+      "P-4",
+      "P-7",
+      "R-1",
+      "S-1",
+      "T-1",
+      "T-2",
+      "T-3"
+    ],
+    "percentile_interval": [
+      -0.04454474766230033,
+      -0.005295116644441842
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.039329083015833155,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.012063746556771738,
+          0.1039584636393188
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": 0.03191579988561549,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.09195438815968214,
+          0.17302016877632911
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": 0.06775869342007068,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.07166839170552067,
+          0.22053015340594845
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": 0.012108782352065639,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.11019124792481125,
+          0.14570034103981735
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": 0.15150268826818303,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.038350655855298975,
+          0.3331832261954755
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": false,
+    "seed": 20261006,
+    "undefined_draws": 0
+  },
+  {
+    "confidence": 0.95,
+    "contrast": "graph_minus_EXP012_lstm",
+    "dependence_warning": "entities share command context and model training; intervals are descriptive, not independent NASA confirmation",
+    "difference": -0.7830288318559908,
+    "draws": 10000,
+    "historical_LSTM_pipeline_unchanged": true,
+    "mission": "SMAP",
+    "paired_channels": [
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "B-1",
+      "D-1",
+      "D-11",
+      "D-12",
+      "D-13",
+      "D-2",
+      "D-3",
+      "D-4",
+      "D-5",
+      "D-6",
+      "D-7",
+      "D-8",
+      "D-9",
+      "E-1",
+      "E-10",
+      "E-11",
+      "E-12",
+      "E-13",
+      "E-2",
+      "E-3",
+      "E-4",
+      "E-5",
+      "E-6",
+      "E-7",
+      "E-8",
+      "E-9",
+      "F-1",
+      "F-2",
+      "F-3",
+      "G-1",
+      "G-2",
+      "G-3",
+      "G-4",
+      "G-6",
+      "G-7",
+      "P-1",
+      "P-2",
+      "P-3",
+      "P-4",
+      "P-7",
+      "R-1",
+      "S-1",
+      "T-1",
+      "T-2",
+      "T-3"
+    ],
+    "percentile_interval": [
+      -0.8537797430550137,
+      -0.7047031212270165
+    ],
+    "point_and_alarm_contrasts": {
+      "nominal_occupancy": {
+        "confidence": 0.95,
+        "difference": 0.12752862960011352,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.06046828576859355,
+          0.2078550877513279
+        ],
+        "undefined_draws": 0
+      },
+      "point_f0_5": {
+        "confidence": 0.95,
+        "difference": -0.10173271297854891,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.26124996599523537,
+          0.06508205261004991
+        ],
+        "undefined_draws": 0
+      },
+      "point_f1": {
+        "confidence": 0.95,
+        "difference": 0.07502935245186104,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.10985087405382492,
+          0.23254497070317764
+        ],
+        "undefined_draws": 0
+      },
+      "point_precision": {
+        "confidence": 0.95,
+        "difference": -0.30371250047612425,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          -0.4485234151385993,
+          -0.13464308208862022
+        ],
+        "undefined_draws": 0
+      },
+      "point_recall": {
+        "confidence": 0.95,
+        "difference": 0.2735178760893149,
+        "exploratory_not_multiplicity_adjusted": true,
+        "percentile_interval": [
+          0.06854497807557063,
+          0.434643916408875
+        ],
+        "undefined_draws": 0
+      }
+    },
+    "primary": false,
+    "seed": 20261006,
+    "undefined_draws": 0
+  }
+]

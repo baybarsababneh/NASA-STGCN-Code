@@ -1,0 +1,1946 @@
+[
+  {
+    "job_id": "gcn__A-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__A-9__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__A-9__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__B-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__B-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__B-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__B-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__B-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__B-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__C-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__C-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__C-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__C-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__C-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__C-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__C-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__C-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__C-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__C-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__C-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__C-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-11__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-11__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-11__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-11__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-11__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-11__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-12__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-12__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-12__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-12__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-12__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-12__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-13__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-13__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-13__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-13__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-13__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-13__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-14__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-14__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-14__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-14__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-14__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-14__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-15__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-15__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-15__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-15__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-15__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-15__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-16__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-16__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-16__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-16__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-16__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-16__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__D-9__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__D-9__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-10__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-10__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-10__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-10__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-10__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-10__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-11__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-11__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-11__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-11__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-11__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-11__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-12__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-12__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-12__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-12__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-12__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-12__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-13__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-13__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-13__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-13__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-13__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-13__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__E-9__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__E-9__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__F-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__F-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__G-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__G-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-6__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-6__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-6__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__M-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__M-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-10__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-10__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-10__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-10__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-10__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-10__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-11__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-11__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-11__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-11__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-11__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-11__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-14__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-14__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-14__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-14__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-14__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-14__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-15__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-15__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-15__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-15__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-15__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-15__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__P-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-7__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-7__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__P-7__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__R-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__R-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__R-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__R-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__R-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__R-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__S-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__S-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__S-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__S-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__S-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__S-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__S-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__S-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__S-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__S-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__S-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__S-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-1__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-1__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-1__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-12__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-12__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-12__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-12__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-12__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-12__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-13__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-13__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-13__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-13__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-13__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-13__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-2__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-2__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-2__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-3__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-3__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-3__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-4__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-4__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-4__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-5__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-5__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-5__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-8__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-8__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-8__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "gcn__T-9__43",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-9__17",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-9__29",
+    "saved_count_and_notification_regression": true
+  },
+  {
+    "job_id": "lstm__T-9__43",
+    "saved_count_and_notification_regression": true
+  }
+]

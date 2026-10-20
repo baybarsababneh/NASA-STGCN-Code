@@ -1,0 +1,60 @@
+{
+  "engineering": {
+    "status": "PASS",
+    "checks": [
+      "upstream_parity_synthetic_case0",
+      "upstream_parity_synthetic_case1",
+      "upstream_parity_synthetic_case2",
+      "upstream_parity_synthetic_case3",
+      "upstream_parity_synthetic_case4",
+      "upstream_parity_synthetic_case5",
+      "short_degenerate_tail_coverage_and_issue_timing",
+      "detector_invalid_input_rejected",
+      "AP_ties_permutation_and_undefined_no_positives",
+      "event_all_alarm_correction_and_no_alarm",
+      "notification_delay_uses_original_onset_and_pooled_no_alarm_Fbeta",
+      "higher_quantile_ties_strict_comparison",
+      "numpy_JSON_scalars_and_nonfinite_rejection",
+      "window_orientation_target_exclusion_future_input_invariance",
+      "matched_removal_has_no_command_bypass_initial_persistence_and_LSTM_shape",
+      "committed_bytes_tamper_rejected",
+      "orphan_not_completed",
+      "phase_allowlist_TEST_labels_calibration_rejected"
+    ],
+    "count": 18,
+    "fixtures": "synthetic only; no scientific fits",
+    "golden_sha256": "8cb95fee86684b11287fc8de0d58aa1fd4b4b0d63fddc5c98f1615e7516d303f",
+    "no_NASA_labels": true
+  },
+  "CPU_synthetic_resume": {
+    "status": "PASS",
+    "name": "synthetic_cpu_epoch_resume_exact_and_tamper_rejected",
+    "no_scientific_result": true
+  },
+  "orchestration": {
+    "additional_mock_fit_calls_resume": 0,
+    "all_committed_hashes_unchanged_on_resume": true,
+    "completed_unit_roster": 2106,
+    "freeze_and_detector_recomputation_audit": "PASS",
+    "kind": "full orchestration SYNTHETIC arrays with MOCKED CUDA and forecast/fit boundaries; NOT numerical CUDA verification",
+    "mock_fit_calls_first_run": 243,
+    "no_project_calibration_or_TEST_arrays_read": true,
+    "no_scientific_fits_or_results": true,
+    "nominal_diagnostic_rows": 4212,
+    "status": "PASS"
+  },
+  "existing_GCN_archive_hash_config_graph_state_loaders_verified": 486,
+  "historical_EXP005_CSV_input_contracts_verified": 243,
+  "actual_EXP005_checkpoint_payloads_available_here": false,
+  "scientific_fits_run_here": 0,
+  "NASA_TEST_evaluation_run_here": false,
+  "runtime_here": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "CUDA_available": false
+  },
+  "production_CUDA_verification": "not executable here; strict gates in notebook",
+  "packaging_TRAIN_access": "Full original TRAIN arrays were loaded only to validate/copy split payloads and FIT scalers. No final20% forecasting/scoring/calibration statistics or choices were made in this workspace."
+}

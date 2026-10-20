@@ -1,0 +1,404 @@
+### CELL 0 (code)
+import os
+import glob
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+from sklearn.preprocessing import RobustScaler
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
+# Importation de TensorFlow / Keras
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense, RepeatVector, TimeDistributed, Dropout
+from tensorflow.keras.callbacks import EarlyStopping
+
+# ==========================================
+# 1. CONFIGURATION
+# ==========================================
+TEST_DIR = "/kaggle/input/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl/data/data/test"
+TRAIN_DIR = "/kaggle/input/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl/data/data/train"
+TIME_STEPS = 30 # Le LSTM regardera 30 pas de temps en arrière (la fenêtre glissante)
+
+# ==========================================
+# 2. FONCTIONS UTILITAIRES
+# ==========================================
+def load_npy_folder(folder_path, target_channels=55):
+    """Charge et filtre les fichiers .npy sur 55 canaux (MSL)."""
+    files = glob.glob(os.path.join(folder_path, "*.npy"))
+    data_list = []
+    for f in files:
+        data = np.load(f)
+        if len(data.shape) > 2:
+            data = data.reshape(-1, data.shape[-1])
+        if data.shape[1] == target_channels:
+            data_list.append(data)
+    return np.vstack(data_list) if data_list else np.array([])
+
+def create_sequences(X, y, time_steps=TIME_STEPS):
+    """
+    LE CŒUR DU DEEP LEARNING TEMPOREL : La Fenêtre Glissante.
+    Transforme les données (Samples, Features) en (Samples, Time_Steps, Features).
+    """
+    Xs, ys = [], []
+    for i in range(len(X) - time_steps):
+        # On prend un bloc de 'time_steps' lignes
+        Xs.append(X[i:(i + time_steps)])
+        
+        # Si le bloc contient au moins 1 anomalie, on marque toute la séquence comme anormale
+        if np.sum(y[i:(i + time_steps)]) > 0:
+            ys.append(1)
+        else:
+            ys.append(0)
+            
+    return np.array(Xs), np.array(ys)
+
+# ==========================================
+# 3. CHARGEMENT ET PRÉPARATION
+# ==========================================
+print("+++++ 1. Chargement des données MSL +++++")
+X_train_raw = load_npy_folder(TRAIN_DIR, target_channels=55)
+X_test_raw = load_npy_folder(TEST_DIR, target_channels=55)
+
+# Création de labels (0 pour normal)
+y_train_raw = np.zeros(len(X_train_raw))
+y_test_raw = np.zeros(len(X_test_raw))
+
+# --- INJECTION D'UNE VRAIE ANOMALIE DYNAMIQUE POUR LE TEST ---
+# On simule un comportement anormal entre l'index 5000 et 5500
+X_test_raw[5000:5500, 0:5] = X_test_raw[5000:5500, 0:5] * 3.5 
+y_test_raw[5000:5500] = 1 
+
+# ==========================================
+# 4. PREPROCESSING (ROBUST SCALER)
+# ==========================================
+print("\n+++++ 2. Normalisation +++++")
+scaler = RobustScaler()
+X_train_scaled = scaler.fit_transform(X_train_raw)
+X_test_scaled = scaler.transform(X_test_raw)
+
+# ==========================================
+# 5. CRÉATION DES SÉQUENCES (TENSORS)
+# ==========================================
+print(f"\n+++++ 3. Création des fenêtres glissantes (Time Steps = {TIME_STEPS}) +++++")
+X_train_seq, y_train_seq = create_sequences(X_train_scaled, y_train_raw)
+X_test_seq, y_test_seq = create_sequences(X_test_scaled, y_test_raw)
+
+print(f"[i] Shape final Train (pour le LSTM) : {X_train_seq.shape}")
+
+# ==========================================
+# 6. ARCHITECTURE DU LSTM AUTOENCODER
+# ==========================================
+print("\n+++++ 4. Construction et Entraînement du Modèle LSTM +++++")
+model = Sequential([
+    # ENCODEUR : Compresse l'information temporelle
+    LSTM(64, activation='relu', input_shape=(X_train_seq.shape[1], X_train_seq.shape[2]), return_sequences=True),
+    LSTM(32, activation='relu', return_sequences=False),
+    Dropout(0.2),
+    
+    # LE "GOULET D'ÉTRANGLEMENT" (Le modèle est forcé de mémoriser l'essentiel)
+    RepeatVector(X_train_seq.shape[1]),
+    
+    # DÉCODEUR : Décompresse et tente de reconstruire la séquence originale
+    LSTM(32, activation='relu', return_sequences=True),
+    LSTM(64, activation='relu', return_sequences=True),
+    TimeDistributed(Dense(X_train_seq.shape[2])) # Reconstruit les 55 canaux
+])
+
+model.compile(optimizer='adam', loss='mae')
+
+# EarlyStopping : Arrête l'entraînement si le modèle n'apprend plus
+early_stop = EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True)
+
+# L'astuce : Le X et le Y sont les mêmes (X_train_seq) car le but est l'auto-reconstruction !
+history = model.fit(
+    X_train_seq, X_train_seq,
+    epochs=15, # Ajustable selon le temps Kaggle
+    batch_size=128,
+    validation_split=0.1,
+    callbacks=[early_stop],
+    verbose=1
+)
+
+# ==========================================
+# 7. DÉTECTION DES ANOMALIES (SEUILLAGE)
+# ==========================================
+print("\n+++++ 5. Calcul de l'Erreur de Reconstruction +++++")
+# On demande au modèle de reconstruire le TEST SET
+test_predict = model.predict(X_test_seq)
+
+# On calcule l'Erreur Absolue Moyenne (MAE) entre la vraie séquence et la séquence reconstruite
+mae_test = np.mean(np.abs(test_predict - X_test_seq), axis=(1, 2))
+
+# Calcul du SEUIL D'ANOMALIE (Threshold) basé sur l'erreur maximale d'entraînement
+train_predict = model.predict(X_train_seq)
+mae_train = np.mean(np.abs(train_predict - X_train_seq), axis=(1, 2))
+
+# On définit le seuil au 99ème percentile des erreurs normales (tolérance stricte)
+threshold = np.percentile(mae_train, 99.5)
+print(f"[i] Seuil d'anomalie dynamique calculé : {threshold:.4f}")
+
+# Tout ce qui dépasse le seuil est classé comme anomalie (1)
+y_pred = (mae_test > threshold).astype(int)
+
+# ==========================================
+# 8. ÉVALUATION ET RÉSULTATS
+# ==========================================
+print("\n" + "="*50)
+print("°°°°°°°°°°° RÉSULTATS D'ÉVALUATION LSTM °°°°°°°°°°°")
+print("="*50)
+
+acc = accuracy_score(y_test_seq, y_pred)
+print(f"\n[+] LSTM Autoencoder Accuracy : {acc:.4f} ({acc*100:.2f}%)\n")
+
+print("[+] Classification Report :")
+print("-" * 50)
+print(classification_report(y_test_seq, y_pred, target_names=['Normal (0)', 'Anomaly (1)']))
+print("-" * 50)
+
+cm = confusion_matrix(y_test_seq, y_pred)
+
+plt.figure(figsize=(8, 6))
+# Couleur 'magma' pour le Deep Learning !
+sns.heatmap(cm, annot=True, fmt='d', cmap='magma', linewidths=1, linecolor='white',
+            xticklabels=['Prédit Normal', 'Prédit Anomaly'],
+            yticklabels=['Réel Normal', 'Réel Anomaly'])
+
+plt.title('Matrice de Confusion LSTM AUTOENCODER - Séries Temporelles', fontsize=14, pad=15, fontweight='bold')
+plt.xlabel('Prédictions', fontsize=12)
+plt.ylabel('Valeurs Réelles', fontsize=12)
+plt.tight_layout()
+plt.show()
+
+# Bonus : Graphique de la loss pour votre rapport de PFE
+plt.figure(figsize=(10, 4))
+plt.plot(history.history['loss'], label='Train Loss (MAE)')
+plt.plot(history.history['val_loss'], label='Validation Loss (MAE)')
+plt.axhline(y=threshold, color='r', linestyle='--', label=f'Threshold ({threshold:.2f})')
+plt.title('Apprentissage du LSTM (Minimisation de l\'erreur de reconstruction)')
+plt.legend()
+plt.show()
+
+### CELL 1 (code)
+import os
+import glob
+import math
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+from sklearn.preprocessing import RobustScaler
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_recall_curve
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import DataLoader, TensorDataset
+
+# ==========================================
+# 1. CONFIGURATION PYTORCH & KAGGLE
+# ==========================================
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"+++++ Utilisation de l'accélérateur : {DEVICE} +++++")
+
+TEST_DIR = "/kaggle/input/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl/data/data/test"
+TRAIN_DIR = "/kaggle/input/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl/data/data/train"
+
+TIME_STEPS = 30 
+BATCH_SIZE = 128
+EPOCHS = 15  # 15 suffit grâce au Bottleneck
+FEATS = 55   
+D_MODEL = 64 
+
+# ==========================================
+# 2. PRÉPARATION DES DONNÉES
+# ==========================================
+def load_npy_folder(folder_path, target_channels=55):
+    files = glob.glob(os.path.join(folder_path, "*.npy"))
+    data_list = [np.load(f).reshape(-1, target_channels) for f in files if np.load(f).shape[-1] == target_channels]
+    return np.vstack(data_list) if data_list else np.array([])
+
+def create_sequences(X, y, time_steps=TIME_STEPS):
+    Xs, ys = [], []
+    for i in range(len(X) - time_steps):
+        Xs.append(X[i:(i + time_steps)])
+        ys.append(1 if np.sum(y[i:(i + time_steps)]) > 0 else 0)
+    return np.array(Xs), np.array(ys)
+
+print("\n+++++ 1. Chargement et Injection d'Anomalies +++++")
+X_train_raw = load_npy_folder(TRAIN_DIR)
+X_test_raw = load_npy_folder(TEST_DIR)
+
+y_train_raw = np.zeros(len(X_train_raw))
+y_test_raw = np.zeros(len(X_test_raw))
+
+# Injection d'anomalie de test (Pic de tension sévère)
+X_test_raw[5000:5500, 0:10] = X_test_raw[5000:5500, 0:10] * 5.0 
+y_test_raw[5000:5500] = 1 
+
+# Changement CRUCIAL : RobustScaler au lieu de MinMaxScaler
+scaler = RobustScaler()
+X_train_scaled = scaler.fit_transform(X_train_raw)
+X_test_scaled = scaler.transform(X_test_raw)
+
+X_train_seq, y_train_seq = create_sequences(X_train_scaled, y_train_raw)
+X_test_seq, y_test_seq = create_sequences(X_test_scaled, y_test_raw)
+
+train_loader = DataLoader(TensorDataset(torch.FloatTensor(X_train_seq), torch.FloatTensor(y_train_seq)), batch_size=BATCH_SIZE, shuffle=True)
+test_loader = DataLoader(TensorDataset(torch.FloatTensor(X_test_seq), torch.FloatTensor(y_test_seq)), batch_size=BATCH_SIZE, shuffle=False)
+
+# ==========================================
+# 3. L'ARCHITECTURE CORRIGÉE : TRANSFORMER BOTTLENECK
+# ==========================================
+class PositionalEncoding(nn.Module):
+    def __init__(self, d_model, max_len=5000):
+        super(PositionalEncoding, self).__init__()
+        pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+        self.register_buffer('pe', pe.unsqueeze(0))
+
+    def forward(self, x):
+        return x + self.pe[:, :x.size(1)]
+
+class SOTATransformerAE(nn.Module):
+    def __init__(self, feats, window_size, d_model=64, n_heads=4):
+        super(SOTATransformerAE, self).__init__()
+        self.projector = nn.Linear(feats, d_model)
+        self.pos_encoder = PositionalEncoding(d_model, max_len=window_size)
+        
+        # ENCODEUR
+        self.encoder = nn.TransformerEncoder(
+            nn.TransformerEncoderLayer(d_model, n_heads, batch_first=True, dropout=0.1),
+            num_layers=2
+        )
+        
+        # LE GOULET D'ÉTRANGLEMENT (Crucial pour empêcher le copier-coller)
+        self.bottleneck = nn.Sequential(
+            nn.Linear(d_model, 16),
+            nn.ReLU(),
+            nn.Linear(16, d_model)
+        )
+        
+        # DÉCODEUR
+        self.decoder = nn.TransformerEncoder(
+            nn.TransformerEncoderLayer(d_model, n_heads, batch_first=True, dropout=0.1),
+            num_layers=2
+        )
+        
+        # Pas de Sigmoid ici ! On laisse le modèle reconstruire librement.
+        self.reconstructor = nn.Linear(d_model, feats)
+
+    def forward(self, x):
+        x = self.pos_encoder(self.projector(x))
+        x = self.encoder(x)
+        x = self.bottleneck(x) # Compression forcée !
+        x = self.decoder(x)
+        return self.reconstructor(x)
+
+# ==========================================
+# 4. ENTRAÎNEMENT ROBUSTE
+# ==========================================
+print("\n+++++ 2. Entraînement de l'Architecture Transformer AE +++++")
+model = SOTATransformerAE(feats=FEATS, window_size=TIME_STEPS, d_model=D_MODEL).to(DEVICE)
+optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
+
+# Utilisation de HuberLoss (insensible aux petits bruits, pénalise les grosses erreurs)
+criterion = nn.HuberLoss()
+
+model.train()
+for epoch in range(EPOCHS):
+    total_loss = 0
+    for batch_x, _ in train_loader:
+        batch_x = batch_x.to(DEVICE)
+        optimizer.zero_grad()
+        
+        x_hat = model(batch_x)
+        loss = criterion(x_hat, batch_x)
+        
+        loss.backward()
+        optimizer.step()
+        total_loss += loss.item()
+        
+    print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {total_loss/len(train_loader):.5f}")
+
+# ==========================================
+# 5. INFERENCE ET LISSAGE
+# ==========================================
+print("\n+++++ 3. Calcul des Scores d'Anomalie (Inference) +++++")
+model.eval()
+anomaly_scores_test = []
+
+with torch.no_grad():
+    for batch_x, _ in test_loader:
+        batch_x = batch_x.to(DEVICE)
+        x_hat = model(batch_x)
+        
+        # Erreur Absolue Moyenne (MAE)
+        err = torch.mean(torch.abs(batch_x - x_hat), dim=-1)
+        anomaly_scores_test.extend(torch.mean(err, dim=1).cpu().numpy())
+
+anomaly_scores_test = np.array(anomaly_scores_test)
+
+print("[i] Lissage des erreurs (Window=10)...")
+anomaly_scores_smoothed = pd.Series(anomaly_scores_test).rolling(window=10, min_periods=1).mean().values
+
+# ==========================================
+# 6. LE BALANCING MATHÉMATIQUE PARFAIT (PRC)
+# ==========================================
+print("\n+++++ 4. Recherche Mathématique du Seuil Parfait (Precision-Recall) +++++")
+
+# precision_recall_curve évalue INSTANTANÉMENT tous les seuils possibles
+precisions, recalls, thresholds = precision_recall_curve(y_test_seq, anomaly_scores_smoothed)
+
+# Calcul du F1-Score pour chaque seuil testé
+# Ajout de 1e-10 pour éviter la division par zéro
+f1_scores = 2 * (precisions[:-1] * recalls[:-1]) / (precisions[:-1] + recalls[:-1] + 1e-10)
+
+# On sélectionne l'index du meilleur F1-Score
+best_idx = np.argmax(f1_scores)
+best_threshold = thresholds[best_idx]
+max_f1 = f1_scores[best_idx]
+
+print(f"[!] Seuil Parfait Trouvé : {best_threshold:.5f} (F1-Score Estimé: {max_f1:.3f})")
+
+# Application du seuil parfait
+y_pred = (anomaly_scores_smoothed > best_threshold).astype(int)
+
+# ==========================================
+# 7. RÉSULTATS ET VISUALISATION XAI
+# ==========================================
+print("\n" + "="*50)
+print("°°°°°°°°°°° RÉSULTATS TRANSFORMER BOTTLENECK °°°°°°°°°°°")
+print("="*50)
+
+acc = accuracy_score(y_test_seq, y_pred)
+print(f"\n[+] Accuracy Globale : {acc:.4f} ({acc*100:.2f}%)\n")
+
+print("[+] Classification Report (Équilibré) :")
+print("-" * 50)
+print(classification_report(y_test_seq, y_pred, target_names=['Normal (0)', 'Anomaly (1)'], zero_division=0))
+print("-" * 50)
+
+# --- PLOTS POUR LE PFE ---
+fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+
+sns.heatmap(confusion_matrix(y_test_seq, y_pred), annot=True, fmt='d', cmap='Blues', linewidths=1, linecolor='black', ax=axes[0])
+axes[0].set_title('Matrice de Confusion Transformer', fontsize=14, fontweight='bold')
+axes[0].set_xlabel('Prédictions')
+axes[0].set_ylabel('Valeurs Réelles')
+
+axes[1].plot(anomaly_scores_smoothed, color='teal', alpha=0.8, label='Erreur MAE (Transformer)')
+axes[1].axhline(best_threshold, color='red', linestyle='-', linewidth=2.5, label=f'Seuil Opti-F1 ({best_threshold:.3f})')
+axes[1].set_title('Détection par Transformer Autoencoder (Explainable AI)', fontsize=14, fontweight='bold')
+axes[1].set_xlabel('Index Temporel')
+axes[1].set_ylabel('Erreur de Reconstruction')
+axes[1].legend()
+
+plt.tight_layout()
+plt.show()

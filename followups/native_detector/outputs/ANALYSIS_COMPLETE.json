@@ -1,0 +1,12 @@
+{
+  "analysis_id": "HUNDMAN_NATIVE_DETECTOR_CROSSOVER_V1",
+  "new_detector_streams": 486,
+  "new_neural_fits": 0,
+  "new_neural_inference": 0,
+  "reused_common_streams": 567,
+  "reused_release_native_streams": 81,
+  "total_table_streams": 1134,
+  "native_original_control_flow_exact_passes": 486,
+  "native_failures": [],
+  "prior_package_unchanged": true
+}

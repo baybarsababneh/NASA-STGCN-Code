@@ -1,0 +1,3404 @@
+[
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-14",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-16",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-7",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-1",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-3",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-6",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "M-7",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-11",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-14",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-15",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "S-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-12",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-13",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-8",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "C-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-14",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-16",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "F-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "F-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "F-7",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "M-1",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "M-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "M-3",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "M-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "M-6",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "M-7",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-11",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-14",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-15",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "S-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-12",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-13",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-8",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "C-1",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "C-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-14",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-15",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-16",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "F-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "F-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "F-7",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "F-8",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "M-1",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "M-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "M-3",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "M-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "M-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "M-6",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "M-7",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-10",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-11",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-14",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-15",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "S-2",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-12",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-13",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-4",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-5",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-8",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-9",
+    "MSL",
+    {
+      "name": "MSL_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 16,
+      "graph": "top4",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "B-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-11",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-12",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-13",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "D-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-10",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-11",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-13",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "E-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "F-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "G-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "P-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "R-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "S-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "T-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    17
+  ],
+  [
+    "A-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "B-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-11",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-12",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-13",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "D-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-10",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-11",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-13",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "E-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "F-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "F-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "F-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "G-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "G-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "G-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "G-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "G-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "P-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "R-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "S-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "T-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    29
+  ],
+  [
+    "A-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "A-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "B-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-11",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-12",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-13",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "D-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-10",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-11",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-12",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-13",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-5",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-8",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "E-9",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "F-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "F-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "F-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "G-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "G-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "G-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "G-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "G-6",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "G-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-4",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "P-7",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "R-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "S-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-1",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-2",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ],
+  [
+    "T-3",
+    "SMAP",
+    {
+      "name": "SMAP_fixed80",
+      "kind": "gcn",
+      "lookback": 64,
+      "hidden": 32,
+      "graph": "star",
+      "epochs": 80,
+      "lr": 0.001
+    },
+    43
+  ]
+]

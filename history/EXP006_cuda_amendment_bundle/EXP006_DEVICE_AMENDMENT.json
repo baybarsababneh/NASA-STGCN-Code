@@ -1,0 +1,57 @@
+{
+  "amendment_id": "exp006_device_amendment_v1",
+  "date": "2026-10-03",
+  "parent_freeze_id": "exp006_pretrain_freeze_v1",
+  "status": "FROZEN_EXECUTION_AMENDMENT",
+  "purpose": "CPU-to-CUDA execution-environment migration only; experimental specification and completed screening selection remain unchanged.",
+  "authoritative_screening": {
+    "fits": 288,
+    "failures": 0,
+    "backend": "Mac CPU"
+  },
+  "locked_shortlist": {
+    "MSL": [
+      "g03_rf7_large_lr1e3",
+      "g04_rf7_large_lr3e4"
+    ],
+    "SMAP": [
+      "g11_rf31_large_lr1e3",
+      "g09_rf31_base_lr1e3"
+    ]
+  },
+  "permitted_patched_files": [
+    "src/v2_train_exp006.py",
+    "src/v2_run_exp006.py"
+  ],
+  "original_files_sha256": {
+    "src/v2_train_exp006.py": "dec6f08525fcfbd4e16aad8e0aeecd2ae01119e5b0b2fa803a5bd3e65ffa8622",
+    "src/v2_run_exp006.py": "bced96e8052276ef9bb78cf26d6fa4243d684775ad721b82e2723b625adf255c"
+  },
+  "patched_files_sha256": {
+    "src/v2_train_exp006.py": "5c460c857c2a5b762f13c267e56fc6b265b3a48faf6eb9e71931644db98018d6",
+    "src/v2_run_exp006.py": "af12192da55709817355749af628fef08a80bafbe9fe4e344388859fafb478e6"
+  },
+  "new_files_sha256": {
+    "src/v2_exp006_device.py": "966c21b040b04496a2794b19c8e258c5a46bc1a74c7ff935596e47d051cabf21",
+    "src/v2_verify_exp006_device.py": "4d4aa424931c070a07c43846913886900a166a26d288e03bdb0ec243a8f88ff0",
+    "src/v2_train_exp006_frozen_cpu.py": "dec6f08525fcfbd4e16aad8e0aeecd2ae01119e5b0b2fa803a5bd3e65ffa8622",
+    "src/v2_run_exp006_frozen_cpu.py": "bced96e8052276ef9bb78cf26d6fa4243d684775ad721b82e2723b625adf255c",
+    "EXP006_device_amendment.md": "faad5c9a2188dddcf625247eee7b4e59d2e087fbe4153d903786f7919c714a65",
+    "exp006_device_patch.diff": "a89925c60ddcf07126f3b0680ce20c391e040fb445e0f92da58c6430d3be3a91"
+  },
+  "verification_output": "exp006_device_verification.csv",
+  "execution_environment_output": "exp006_execution_environment.json",
+  "production_rules": {
+    "screening": "retain completed 288 CPU fits and locked shortlist",
+    "robustness": "all 192 fits, including EXP002/EXP005 controls, under one Colab CUDA execution configuration",
+    "confirmation": "all 486 fits on CUDA; do not reuse CPU screening checkpoints",
+    "cuda_workers": 1,
+    "mixed_precision": false,
+    "tf32": false,
+    "torch_compile": false,
+    "data_loader_workers": 0,
+    "dtype": "float32",
+    "optimizer_foreach": false,
+    "optimizer_fused": false
+  }
+}

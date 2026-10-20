@@ -1,0 +1,2024 @@
+{
+  "actual_A100_validation": false,
+  "torch": "2.6.0+cpu",
+  "fixture_batch_size": 8,
+  "cases": [
+    {
+      "features": 55,
+      "role": "graph",
+      "seed": 17,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        9.358484609478523e-08,
+        9.358484609478523e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 8.891104581461031e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.958120942115784e-09,
+          "max_relative_L2_error": 7.457947268042555e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.159527063369751e-07,
+          "max_relative_L2_error": 1.6482642880705682e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.656612873077393e-10,
+          "max_relative_L2_error": 9.205547631432012e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "graph",
+      "seed": 17,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        9.680064172457037e-08,
+        9.680064172457037e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.0830348017729753e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.9686375329924133e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.206093192100525e-07,
+          "max_relative_L2_error": 1.672160219449487e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 9.659050624646993e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "graph",
+      "seed": 29,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1675810585032309e-07,
+        1.1677166433798902e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.2035784258826362e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 1.07575230276522e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.164214134216309e-07,
+          "max_relative_L2_error": 4.004053239700754e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.3969838619232178e-09,
+          "max_relative_L2_error": 1.3509141085519648e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "graph",
+      "seed": 29,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.0552151108456087e-07,
+        1.0555949403467935e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-08,
+          "max_relative_L2_error": 1.801149949947988e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 6.546473414771463e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.187497198581696e-07,
+          "max_relative_L2_error": 4.031726496283276e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.026798367500305e-09,
+          "max_relative_L2_error": 2.077776944891122e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "graph",
+      "seed": 43,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.0075309475610084e-07,
+        1.0069823064284833e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 7.064037383218777e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 1.2167595043198648e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.868473529815674e-07,
+          "max_relative_L2_error": 1.2264662009671824e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.566995918750763e-10,
+          "max_relative_L2_error": 1.8370377231440416e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "graph",
+      "seed": 43,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1256672305393067e-07,
+        1.1256672305393067e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 8.633693476601959e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.725290298461914e-09,
+          "max_relative_L2_error": 1.9663076816548182e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.868473529815674e-07,
+          "max_relative_L2_error": 1.2511507111323918e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.238689482212067e-10,
+          "max_relative_L2_error": 1.5216668286035554e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "removed",
+      "seed": 17,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        5.945435566090396e-08,
+        5.945435566090396e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 2.3840768317352488e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.725290298461914e-09,
+          "max_relative_L2_error": 7.008335553356687e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.7194619178771973e-07,
+          "max_relative_L2_error": 8.915901182055173e-08,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.656612873077393e-10,
+          "max_relative_L2_error": 6.996340804722865e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "removed",
+      "seed": 17,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        5.519949208832031e-08,
+        5.519949208832031e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 2.2823920908162598e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 1.133431175956765e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.7194619178771973e-07,
+          "max_relative_L2_error": 9.336328549309021e-08,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.656612873077393e-10,
+          "max_relative_L2_error": 7.212144105058155e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "removed",
+      "seed": 29,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        5.556611348822571e-08,
+        5.556611348822571e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 4.0243196001266726e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 1.4988489162128966e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.8743019104003906e-07,
+          "max_relative_L2_error": 1.2908366779828144e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.3283064365386963e-10,
+          "max_relative_L2_error": 1.9369509343055137e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "removed",
+      "seed": 29,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.062407477547822e-07,
+        1.0623232293838214e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 4.850218925112072e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 1.657497462789355e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.8743019104003906e-07,
+          "max_relative_L2_error": 1.3256700925305764e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.3283064365386963e-10,
+          "max_relative_L2_error": 2.215775192120428e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "removed",
+      "seed": 43,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        5.240017642016426e-08,
+        5.240017642016426e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 2.8461165872041412e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.2035287462841049e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.214444637298584e-06,
+          "max_relative_L2_error": 3.729090841631612e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.026798367500305e-09,
+          "max_relative_L2_error": 2.3175703630585217e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "removed",
+      "seed": 43,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        3.8981782912728136e-08,
+        3.9037690413579185e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 9.171450750637049e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 2.4748973309132778e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.214444637298584e-06,
+          "max_relative_L2_error": 3.730288299359747e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.7939677238464355e-09,
+          "max_relative_L2_error": 1.9297151598050578e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "fusion",
+      "seed": 17,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1796028953625637e-07,
+        1.1793830223538748e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-08,
+          "max_relative_L2_error": 1.1957994105032518e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 1.8185476186593577e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.0691583156585693e-06,
+          "max_relative_L2_error": 3.2827699211518777e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.313225746154785e-10,
+          "max_relative_L2_error": 2.233214381092278e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "fusion",
+      "seed": 17,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1611960504254171e-07,
+        1.1397239640942303e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.327801926083762e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-08,
+          "max_relative_L2_error": 1.691690994216844e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.0691583156585693e-06,
+          "max_relative_L2_error": 3.287462277675458e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 1.6905985366941303e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "fusion",
+      "seed": 29,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1801887334073058e-07,
+        1.1796379784101418e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.4363010166330022e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 1.1251261773025716e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.296401023864746e-06,
+          "max_relative_L2_error": 3.983831264932691e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 1.5084197711454782e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "fusion",
+      "seed": 29,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.140327099413696e-07,
+        1.1343241546057925e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.960464477539063e-08,
+          "max_relative_L2_error": 1.5542253943208397e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.9308607317621945e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.296401023864746e-06,
+          "max_relative_L2_error": 3.9890719625281796e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.7939677238464355e-09,
+          "max_relative_L2_error": 1.6456112629752351e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "fusion",
+      "seed": 43,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1750319606207427e-07,
+        1.1748183048609917e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.470348358154297e-08,
+          "max_relative_L2_error": 1.2617649287202642e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.1175870895385742e-08,
+          "max_relative_L2_error": 1.0541742300311686e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.72924080491066e-06,
+          "max_relative_L2_error": 1.405444822232334e-06,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.313225746154785e-10,
+          "max_relative_L2_error": 1.2429990138582925e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 55,
+      "role": "fusion",
+      "seed": 43,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1872685501401747e-07,
+        1.1868064797582178e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.2724270820617676e-07,
+          "max_relative_L2_error": 7.065034446756622e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.9371814131736755e-08,
+          "max_relative_L2_error": 2.6811158840667844e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.72924080491066e-06,
+          "max_relative_L2_error": 1.4096472729031103e-06,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.90443960390985e-09,
+          "max_relative_L2_error": 1.8545396130923529e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "graph",
+      "seed": 17,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1879818684334964e-07,
+        1.1872204597196401e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.8906995102894475e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 8.222176172862518e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 6.51925802230835e-07,
+          "max_relative_L2_error": 2.927492900881331e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.313225746154785e-10,
+          "max_relative_L2_error": 1.363432652912234e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "graph",
+      "seed": 17,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.112786436330282e-07,
+        1.1121205201192197e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 2.897740685413403e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 1.4935552837919865e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 6.556510925292969e-07,
+          "max_relative_L2_error": 2.9428208240779644e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.313225746154785e-10,
+          "max_relative_L2_error": 1.1995765776522166e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "graph",
+      "seed": 29,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.0369905334428609e-07,
+        1.036750916227902e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.1825723078842085e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.725290298461914e-09,
+          "max_relative_L2_error": 8.773417567870656e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.76837158203125e-07,
+          "max_relative_L2_error": 1.8963438081300588e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.4924596548080444e-10,
+          "max_relative_L2_error": 1.2320248497125348e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "graph",
+      "seed": 29,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1636022900773924e-07,
+        1.1615183437285737e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.960464477539063e-08,
+          "max_relative_L2_error": 1.0608981138508674e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 1.1257752596672142e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.805624485015869e-07,
+          "max_relative_L2_error": 1.9136257502131049e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.313225746154785e-10,
+          "max_relative_L2_error": 9.214925151667057e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "graph",
+      "seed": 43,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1768426899649853e-07,
+        1.1767335106327437e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 1.3382658561513672e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 4.254267594262587e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.748603820800781e-07,
+          "max_relative_L2_error": 2.3487827193978152e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.725290298461914e-09,
+          "max_relative_L2_error": 7.312844979367677e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "graph",
+      "seed": 43,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1901648866441406e-07,
+        1.189959593084211e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 9.164097803492042e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.1175870895385742e-08,
+          "max_relative_L2_error": 6.278239315209787e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.748603820800781e-07,
+          "max_relative_L2_error": 2.3543049754300978e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 6.155060815465117e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "removed",
+      "seed": 17,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        6.80253102736117e-08,
+        6.80253102736117e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 5.786778440393153e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 8.18952020421011e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.140900611877441e-07,
+          "max_relative_L2_error": 1.5706835105895383e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.3283064365386963e-10,
+          "max_relative_L2_error": 1.0709012191014403e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "removed",
+      "seed": 17,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        7.027967097172905e-08,
+        7.027967097172905e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 9.1111577661451e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.9208528101444244e-09,
+          "max_relative_L2_error": 1.3156582116887247e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.140900611877441e-07,
+          "max_relative_L2_error": 1.5743386946720586e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.3283064365386963e-10,
+          "max_relative_L2_error": 1.0269040423517496e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "removed",
+      "seed": 29,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        7.008421532006537e-08,
+        7.008421532006537e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 3.637995201792672e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 8.905374115465466e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 8.093193173408508e-07,
+          "max_relative_L2_error": 2.66191276168592e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.7462298274040222e-10,
+          "max_relative_L2_error": 1.0101649193063845e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "removed",
+      "seed": 29,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        9.809521994696979e-08,
+        9.809521994696979e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 5.363373490669411e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 1.451063915446393e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 8.253846317529678e-07,
+          "max_relative_L2_error": 2.7250202397417896e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.7462298274040222e-10,
+          "max_relative_L2_error": 9.741422178816745e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "removed",
+      "seed": 43,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        5.9464412283105617e-08,
+        5.9416764175423964e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 3.733575322239561e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.725290298461914e-09,
+          "max_relative_L2_error": 1.4699200195668183e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 8.530914783477783e-07,
+          "max_relative_L2_error": 2.804960625653592e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.0745362639427185e-10,
+          "max_relative_L2_error": 1.4708990723854457e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "removed",
+      "seed": 43,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        5.2026920105419094e-08,
+        5.2026920105419094e-08
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 8.227514772434404e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.725290298461914e-09,
+          "max_relative_L2_error": 1.8166740601287798e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 8.568167686462402e-07,
+          "max_relative_L2_error": 2.8301303948857046e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.0745362639427185e-10,
+          "max_relative_L2_error": 2.948072117766591e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "fusion",
+      "seed": 17,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1328652371744852e-07,
+        1.1329501825585453e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 9.756094016478803e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 1.3214667754178386e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.7620623111724854e-06,
+          "max_relative_L2_error": 6.788652931835104e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 6.984919309616089e-10,
+          "max_relative_L2_error": 1.3227862625796318e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "fusion",
+      "seed": 17,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1633850949266389e-07,
+        1.1643267550098813e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.960464477539063e-08,
+          "max_relative_L2_error": 1.6595517135079903e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 1.5186255212201725e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.762527972459793e-06,
+          "max_relative_L2_error": 6.787503737571956e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.1641532182693481e-09,
+          "max_relative_L2_error": 1.3281322137077165e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "fusion",
+      "seed": 29,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.0483775980674181e-07,
+        1.0483775980674181e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 2.1320983527575623e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 1.3432154073242815e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.3958425521850586e-07,
+          "max_relative_L2_error": 1.6363945269378338e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.313225746154785e-10,
+          "max_relative_L2_error": 1.505839324684895e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "fusion",
+      "seed": 29,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1914422559655691e-07,
+        1.1899577057050692e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-08,
+          "max_relative_L2_error": 1.165073684663902e-07,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 1.649300162435649e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.3958425521850586e-07,
+          "max_relative_L2_error": 1.6504059079959105e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.862645149230957e-09,
+          "max_relative_L2_error": 1.4501603251410605e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "fusion",
+      "seed": 43,
+      "update": 1,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.0574508158001095e-07,
+        1.0579479248207235e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 1.4901161193847656e-08,
+          "max_relative_L2_error": 4.396269100976416e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 3.725290298461914e-09,
+          "max_relative_L2_error": 1.2637636781619375e-06,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.550682544708252e-07,
+          "max_relative_L2_error": 2.4593768062282035e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 4.656612873077393e-10,
+          "max_relative_L2_error": 1.3924552405552024e-06,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "features": 25,
+      "role": "fusion",
+      "seed": 43,
+      "update": 2,
+      "pass": true,
+      "bitwise_equal": false,
+      "Adam_FP64_equation_errors": [
+        1.1192594717712723e-07,
+        1.119859582843219e-07
+      ],
+      "comparisons": {
+        "outputs": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 2.9802322387695312e-08,
+          "max_relative_L2_error": 8.658859220447571e-08,
+          "failures": []
+        },
+        "injection": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        },
+        "gradients": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 7.450580596923828e-09,
+          "max_relative_L2_error": 9.914346561694467e-07,
+          "failures": []
+        },
+        "parameters": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 5.559995770454407e-07,
+          "max_relative_L2_error": 2.512142703565706e-07,
+          "failures": []
+        },
+        "adam": {
+          "pass": true,
+          "bitwise_equal": false,
+          "max_absolute_error": 9.313225746154785e-10,
+          "max_relative_L2_error": 9.722933670110792e-07,
+          "failures": []
+        },
+        "rng": {
+          "pass": true,
+          "bitwise_equal": true,
+          "max_absolute_error": 0.0,
+          "max_relative_L2_error": 0.0,
+          "failures": []
+        }
+      }
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,20 @@
+{
+  "A100_validation": true,
+  "exclusions_preserved": [
+    "STGLR_FIDELITY_GAP",
+    "OmniAnomaly_LEGACY_ENVIRONMENT",
+    "CATCH_HUNDMAN_NOT_NECESSARY"
+  ],
+  "fixture": false,
+  "frozen_EXP012_exact_count_regression": "PASS",
+  "frozen_GDN_native_output_replay": "BITWISE_PASS_ALL_CHANNELS",
+  "full_shape_exact_restoration": "PASS_BOTH_MISSIONS",
+  "input_manifest_sha256": "cecd864ad5b4e6816617952a5fc609279458c40573250ca1bc1e845d0277819f",
+  "new_scientific_fits": 0,
+  "new_score_streams": 81,
+  "originals_modified": false,
+  "report_seal_sha256": "caa68b0bca05930b2a3bd3f132a45d584d293424833af7cd27bdbf61340e7d75",
+  "scientific_interpretation": "retrospective descriptive comparison, not independent confirmation",
+  "score_seal_sha256": "649d2eadc38a2aa6c3ec75394053d2e837c05e5e679c69e5c9b0089c05322aae",
+  "status": "COMPLETE_RETROSPECTIVE_COMPARISON"
+}

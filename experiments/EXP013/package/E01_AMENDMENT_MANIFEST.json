@@ -1,0 +1,226 @@
+{
+  "EXP012_fits_or_replay": 0,
+  "added_engineering_paths": [
+    "E01_AMENDMENT_MANIFEST.json",
+    "E01_BUILD_VALIDATION.json",
+    "E01_ENGINEERING_AUDIT.md",
+    "E01_START_HERE.md",
+    "engineering_evidence/CPU_COLLATION_MEASUREMENTS.json",
+    "engineering_evidence/CPU_SCIENCE_TEST_LOG.txt",
+    "engineering_evidence/E01_E2E_FIXTURE_LOG.txt",
+    "engineering_evidence/E01_EXECUTION_TEST_LOG.txt",
+    "engineering_evidence/E01_MANAGED_E2E_FIXTURE_LOG.txt",
+    "engineering_evidence/NOTEBOOK_TEST_LOG.txt",
+    "engineering_evidence/NOTEBOOK_VALIDATION.json",
+    "engineering_evidence/RELEASE_TEST_LOG.txt",
+    "frozen_originals/BUILD_AUDIT.json",
+    "frozen_originals/BUILD_AUDIT.md",
+    "frozen_originals/PARENT_PACKAGE_MANIFEST.json",
+    "frozen_originals/train.py",
+    "inputs/pinned_catch.zip",
+    "inputs/pinned_gdn.zip",
+    "src/drive_transport.py",
+    "src/execution.py",
+    "src/execution_checkpoint.py",
+    "src/execution_data.py",
+    "src/execution_reports.py",
+    "src/execution_runtime.py",
+    "src/execution_scoring.py",
+    "src/execution_worker.py",
+    "src/performance.py",
+    "src/process_guard.py",
+    "src/recovery.py",
+    "tests/test_execution.py",
+    "tests/test_managed_pipeline_fixture.py",
+    "tests/test_release.py"
+  ],
+  "amended_training_changes": [
+    "exact within-epoch FIT/STOP recovery",
+    "same-value vectorised collation",
+    "single scalar loss finite/accumulator transfer",
+    "streaming same-format checkpoints",
+    "verified completed reuse and scoring identity annotation",
+    "mission-only scaler correctness repair"
+  ],
+  "counts": {
+    "modified_original_members": 2,
+    "original_members": 33,
+    "unchanged_original_members": 31
+  },
+  "date": "2026-10-09",
+  "disclosed_correctness_repair": "Apply the unchanged external scaler only to arrays from its selected mission (55-column MSL / 25-column SMAP).",
+  "engineering_amendment": "EXP013_COMMAND_REFERENCE_V1_E01",
+  "original_members": {
+    "BUILD_AUDIT.json": {
+      "amended_sha256": "448dc415b3fafa80975577136cbd6087be563ac43cc67402c311e7324b03c3ce",
+      "parent_sha256": "448dc415b3fafa80975577136cbd6087be563ac43cc67402c311e7324b03c3ce",
+      "status": "byte_identical"
+    },
+    "BUILD_AUDIT.md": {
+      "amended_sha256": "c1fde4d603298d0ec41c1fb609a2eb43bac6d64ecae8e85443b6cbffd8620e82",
+      "parent_sha256": "c1fde4d603298d0ec41c1fb609a2eb43bac6d64ecae8e85443b6cbffd8620e82",
+      "status": "byte_identical"
+    },
+    "CHANNELS.json": {
+      "amended_sha256": "496712793a5acd80432288b11eba7d435c978addc9bfb2b6df6b2c02262d1105",
+      "parent_sha256": "496712793a5acd80432288b11eba7d435c978addc9bfb2b6df6b2c02262d1105",
+      "status": "byte_identical"
+    },
+    "INPUT_PINS.json": {
+      "amended_sha256": "8416b2dffb93d69ebf2704796f367891332214e8e0531c0092e0a51b12e778bd",
+      "parent_sha256": "8416b2dffb93d69ebf2704796f367891332214e8e0531c0092e0a51b12e778bd",
+      "status": "byte_identical"
+    },
+    "LITERATURE_AND_DESIGN.md": {
+      "amended_sha256": "05f268fc155c18e1840c79ef832e85e80746791a4bf2b86e756dde203a0af12b",
+      "parent_sha256": "05f268fc155c18e1840c79ef832e85e80746791a4bf2b86e756dde203a0af12b",
+      "status": "byte_identical"
+    },
+    "NASA_ARRAY_COPY_AUDIT.json": {
+      "amended_sha256": "0edd6b32b14538d08f38e8047aa0d428bd437f753fe01710fbc67b129b4d6265",
+      "parent_sha256": "0edd6b32b14538d08f38e8047aa0d428bd437f753fe01710fbc67b129b4d6265",
+      "status": "byte_identical"
+    },
+    "PACKAGE_MANIFEST.json": {
+      "amended_sha256_bound_by": "outer RELEASE_HASHES.json and the notebook SHA-pinned bundle; omitted here to avoid a self-referential hash cycle",
+      "parent_sha256": "d1729a7ecb2fbe1c9257ecdf83865381880735518c86b9a0f9222dd297cd5319",
+      "status": "modified_engineering"
+    },
+    "PROTOCOL.json": {
+      "amended_sha256": "e99200107e1d916dc32fe30ab40efc21809cc40ddf8f24d27699abf35ca691ea",
+      "parent_sha256": "e99200107e1d916dc32fe30ab40efc21809cc40ddf8f24d27699abf35ca691ea",
+      "status": "byte_identical"
+    },
+    "PROTOCOL.md": {
+      "amended_sha256": "70b3a7edf3b93129f67362cf615d7c8f68f7425702b59063b2fd272706934ef3",
+      "parent_sha256": "70b3a7edf3b93129f67362cf615d7c8f68f7425702b59063b2fd272706934ef3",
+      "status": "byte_identical"
+    },
+    "README.md": {
+      "amended_sha256": "26b1bc92bc72af16be7f099db9fab181e3454fd10bf2e92ecab4b9de67315fc3",
+      "parent_sha256": "26b1bc92bc72af16be7f099db9fab181e3454fd10bf2e92ecab4b9de67315fc3",
+      "status": "byte_identical"
+    },
+    "TEST_ROSTER.json": {
+      "amended_sha256": "db3a65f62e1481a5c9dea45f4e9122647f302c5cf1db9ecd4f3f030bbb204851",
+      "parent_sha256": "db3a65f62e1481a5c9dea45f4e9122647f302c5cf1db9ecd4f3f030bbb204851",
+      "status": "byte_identical"
+    },
+    "build_evidence/CPU_TEST_LOG.txt": {
+      "amended_sha256": "af929f2bee453bf3d4f7e2beb4092a754a5d10eb05cc8c7be513fba0e3240539",
+      "parent_sha256": "af929f2bee453bf3d4f7e2beb4092a754a5d10eb05cc8c7be513fba0e3240539",
+      "status": "byte_identical"
+    },
+    "build_evidence/DATA_STAGE_VALIDATION.json": {
+      "amended_sha256": "f70141bbbc46655b241785464c7cc1217353023c760493f2e80d68c411e0199c",
+      "parent_sha256": "f70141bbbc46655b241785464c7cc1217353023c760493f2e80d68c411e0199c",
+      "status": "byte_identical"
+    },
+    "build_evidence/E2E_FIXTURE_LOG.txt": {
+      "amended_sha256": "0b88b918fd2d6c8ca7990e8cc7ef051cd7bcc830d32f0788cca01c37e5f541db",
+      "parent_sha256": "0b88b918fd2d6c8ca7990e8cc7ef051cd7bcc830d32f0788cca01c37e5f541db",
+      "status": "byte_identical"
+    },
+    "build_evidence/NATIVE_CPU_VALIDATION.json": {
+      "amended_sha256": "51b0fe902cab650aaa0c24b3cb9085cd1f2ce9c1b77f2f6f5e9214130ee37e3a",
+      "parent_sha256": "51b0fe902cab650aaa0c24b3cb9085cd1f2ce9c1b77f2f6f5e9214130ee37e3a",
+      "status": "byte_identical"
+    },
+    "historical/README_RESULTS.md": {
+      "amended_sha256": "2fa4a7272e7279a97a5b7e930d8ac5c1dfbe59024ed8f5fb0030b87941612f17",
+      "parent_sha256": "2fa4a7272e7279a97a5b7e930d8ac5c1dfbe59024ed8f5fb0030b87941612f17",
+      "status": "byte_identical"
+    },
+    "historical/mission_metrics.csv": {
+      "amended_sha256": "627c7de7512170f93d826248a3c8d1905a33ca06a57da9ec3d4b99ed6c8c9606",
+      "parent_sha256": "627c7de7512170f93d826248a3c8d1905a33ca06a57da9ec3d4b99ed6c8c9606",
+      "status": "byte_identical"
+    },
+    "historical/paired_channel_bootstrap.json": {
+      "amended_sha256": "7c9bd2579c74980340560a18bc151e34edc6cb70a708aa5643b1e33d3b950cec",
+      "parent_sha256": "7c9bd2579c74980340560a18bc151e34edc6cb70a708aa5643b1e33d3b950cec",
+      "status": "byte_identical"
+    },
+    "inputs/EXP012_RETROSPECTIVE_EVALUATION_REPORTS.zip": {
+      "amended_sha256": "f1e12b2f8714a0a41c1b76b9fcfdb8db79e8734ccc58f2da77d01f06fa2018af",
+      "parent_sha256": "f1e12b2f8714a0a41c1b76b9fcfdb8db79e8734ccc58f2da77d01f06fa2018af",
+      "status": "byte_identical"
+    },
+    "inputs/NASA_arrays_only.zip": {
+      "amended_sha256": "ccfd48b4dce0aece170a77cfb2054de3c7df4b08a753f5a3a5ee33e729098ac9",
+      "parent_sha256": "ccfd48b4dce0aece170a77cfb2054de3c7df4b08a753f5a3a5ee33e729098ac9",
+      "status": "byte_identical"
+    },
+    "requirements-colab.txt": {
+      "amended_sha256": "8fdbc7fb46459004d2cfbed2006f38664556378d9980828dea1cba674e007cf4",
+      "parent_sha256": "8fdbc7fb46459004d2cfbed2006f38664556378d9980828dea1cba674e007cf4",
+      "status": "byte_identical"
+    },
+    "src/architectures.py": {
+      "amended_sha256": "de8c5697f92edb0f1bc35e875bcd29a0f9b0fe1dd02d2f3225dc86057b4e54e4",
+      "parent_sha256": "de8c5697f92edb0f1bc35e875bcd29a0f9b0fe1dd02d2f3225dc86057b4e54e4",
+      "status": "byte_identical"
+    },
+    "src/core.py": {
+      "amended_sha256": "93f18286197031d0c1ec51d0f0b90a5d3eecd82bbd154848fef2c387f8679b90",
+      "parent_sha256": "93f18286197031d0c1ec51d0f0b90a5d3eecd82bbd154848fef2c387f8679b90",
+      "status": "byte_identical"
+    },
+    "src/data.py": {
+      "amended_sha256": "68b494751c2b4aca5cb48aa46e6e13dd843a80685db4fe41372ae6768db76e56",
+      "parent_sha256": "68b494751c2b4aca5cb48aa46e6e13dd843a80685db4fe41372ae6768db76e56",
+      "status": "byte_identical"
+    },
+    "src/engineering.py": {
+      "amended_sha256": "1adf30e9f0c9aa788bac91db4c1639454f5a285ef87d69463579cb790d7fd213",
+      "parent_sha256": "1adf30e9f0c9aa788bac91db4c1639454f5a285ef87d69463579cb790d7fd213",
+      "status": "byte_identical"
+    },
+    "src/historical_common.py": {
+      "amended_sha256": "3d7253af4550219d48e9945328dcd6cb18c1bddd9801d0cbf8d94de62fcd3014",
+      "parent_sha256": "3d7253af4550219d48e9945328dcd6cb18c1bddd9801d0cbf8d94de62fcd3014",
+      "status": "byte_identical"
+    },
+    "src/historical_metrics.py": {
+      "amended_sha256": "d8de4c09a197a9647109369ac77082b0588c8b2ad2f1b940bd479bc47cdbceef",
+      "parent_sha256": "d8de4c09a197a9647109369ac77082b0588c8b2ad2f1b940bd479bc47cdbceef",
+      "status": "byte_identical"
+    },
+    "src/pipeline.py": {
+      "amended_sha256": "18f9698cbb739e0e3669b0caa42fcc61d4e91f992aefd65963a5aa5ee032df4f",
+      "parent_sha256": "18f9698cbb739e0e3669b0caa42fcc61d4e91f992aefd65963a5aa5ee032df4f",
+      "status": "byte_identical"
+    },
+    "src/scoring.py": {
+      "amended_sha256": "fae7d32ddaf8ef732360fa85f26cb84c14fcebd5086b14b12da26cb6797284b4",
+      "parent_sha256": "fae7d32ddaf8ef732360fa85f26cb84c14fcebd5086b14b12da26cb6797284b4",
+      "status": "byte_identical"
+    },
+    "src/train.py": {
+      "amended_sha256": "e393063ce0e6ee3ab616d6df2db2f2f8aef73f216744543c16c759d5d30d9413",
+      "parent_sha256": "99c4af27700a5da624b5263661a9aa07debf1dcd6a3433a5e11a76f009c361ff",
+      "status": "modified_engineering"
+    },
+    "src/upstream.py": {
+      "amended_sha256": "4bc45cacb5a2c69446687d3001291613ada41ec38e235ee52a0f8dbf129221e9",
+      "parent_sha256": "4bc45cacb5a2c69446687d3001291613ada41ec38e235ee52a0f8dbf129221e9",
+      "status": "byte_identical"
+    },
+    "tests/test_pipeline_fixture.py": {
+      "amended_sha256": "fbf7fd3bb68fda6479c03e01bb10fa0aa178b2d209c167a01c58883ec10caace",
+      "parent_sha256": "fbf7fd3bb68fda6479c03e01bb10fa0aa178b2d209c167a01c58883ec10caace",
+      "status": "byte_identical"
+    },
+    "tests/test_science.py": {
+      "amended_sha256": "2ac00b0eef61915fa531f365c7bd37e5754fc2b22b8b6434d4046284e6534426",
+      "parent_sha256": "2ac00b0eef61915fa531f365c7bd37e5754fc2b22b8b6434d4046284e6534426",
+      "status": "byte_identical"
+    }
+  },
+  "parent_bundle_sha256": "f94d70b2fbdaa70c22616650ff2993378b6156fa6a1e34ea8ee35e24e2278a5e",
+  "parent_notebook_sha256": "fa36ce48d6e8a1fbf25461fc27c157c41db8244f5b494d14853b55c0a12fdcb6",
+  "parent_release": "EXP013_COMMAND_REFERENCE_V1",
+  "planned_fits": 22,
+  "scientific_settings_changed": false,
+  "verification": "Every payload is bound by PACKAGE_MANIFEST.json and the notebook-pinned outer bundle SHA. Originals remain untouched."
+}

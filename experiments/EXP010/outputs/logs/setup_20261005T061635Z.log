@@ -1,0 +1,170 @@
+COMMAND ['/usr/bin/python3', '-m', 'pip', 'install', '--disable-pip-version-check', 'virtualenv']
+Collecting virtualenv
+  Downloading virtualenv-21.14.5-py3-none-any.whl.metadata (4.1 kB)
+Collecting distlib<1,>=0.3.7 (from virtualenv)
+  Downloading distlib-0.4.3-py2.py3-none-any.whl.metadata (5.3 kB)
+Requirement already satisfied: filelock<5,>=3.24.2 in /usr/local/lib/python3.13/dist-packages (from virtualenv) (3.32.7)
+Requirement already satisfied: packaging>=23.1 in /usr/local/lib/python3.13/dist-packages (from virtualenv) (26.3)
+Requirement already satisfied: platformdirs<5,>=3.9.1 in /usr/local/lib/python3.13/dist-packages (from virtualenv) (4.11.8)
+Collecting python-discovery>=1.6 (from virtualenv)
+  Downloading python_discovery-1.6.1-py3-none-any.whl.metadata (5.1 kB)
+Downloading virtualenv-21.14.5-py3-none-any.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 59.3 MB/s eta 0:00:00
+Downloading distlib-0.4.3-py2.py3-none-any.whl (470 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 470.6/470.6 kB 44.9 MB/s eta 0:00:00
+Downloading python_discovery-1.6.1-py3-none-any.whl (38 kB)
+Installing collected packages: distlib, python-discovery, virtualenv
+Successfully installed distlib-0.4.3 python-discovery-1.6.1 virtualenv-21.14.5
+COMMAND ['/usr/bin/python3', '-m', 'virtualenv', '/content/exp010_mechanisms_v1/venv']
+created virtual environment CPython3.13.15.final.0-64-x86_64 in 330ms
+  creator CPython3Posix(dest=/content/exp010_mechanisms_v1/venv, clear=False, no_vcs_ignore=False, venv_redirect=None, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/root/.cache/virtualenv)
+    added seed packages: pip==26.2.1
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator,XonshActivator
+COMMAND ['/content/exp010_mechanisms_v1/venv/bin/python', '-m', 'pip', 'install', '--disable-pip-version-check', '-r', '/content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt', '--extra-index-url', 'https://download.pytorch.org/whl/cu130']
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu130
+Collecting cuda-bindings==13.3.1 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 1))
+  Downloading cuda_bindings-13.3.1-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (2.5 kB)
+Collecting cuda-pathfinder==1.6.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 2))
+  Downloading cuda_pathfinder-1.6.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting cuda-toolkit==13.0.2 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 3))
+  Downloading cuda_toolkit-13.0.2-py2.py3-none-any.whl (2.4 kB)
+Collecting filelock==3.32.3 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 4))
+  Downloading filelock-3.32.3-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec==2026.7.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 5))
+  Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+Collecting Jinja2==3.1.6 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 6))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting MarkupSafe==3.0.3 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 7))
+  Downloading markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting mpmath==1.3.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 8))
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting networkx==3.6.1 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 9))
+  Downloading networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting numpy==2.1.3 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 10))
+  Downloading numpy-2.1.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+Collecting nvidia-cublas==13.1.0.3 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 11))
+  Downloading nvidia_cublas-13.1.0.3-py3-none-manylinux_2_27_x86_64.whl (423.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 MB 172.2 MB/s  0:00:02
+Collecting nvidia-cuda-cupti==13.0.85 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 12))
+  Downloading nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl (10.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 295.3 MB/s  0:00:00
+Collecting nvidia-cuda-nvrtc==13.0.88 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 13))
+  Downloading nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (90.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.2/90.2 MB 150.2 MB/s  0:00:00
+Collecting nvidia-cuda-runtime==13.0.96 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 14))
+  Downloading nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 417.4 MB/s  0:00:00
+Collecting nvidia-cudnn-cu13==9.19.0.56 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 15))
+  Downloading nvidia_cudnn_cu13-9.19.0.56-py3-none-manylinux_2_27_x86_64.whl (366.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 366.1/366.1 MB 192.3 MB/s  0:00:01
+Collecting nvidia-cufft==12.0.0.61 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 16))
+  Downloading nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (214.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.1/214.1 MB 166.0 MB/s  0:00:01
+Collecting nvidia-cufile==1.15.1.6 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 17))
+  Downloading nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 369.1 MB/s  0:00:00
+Collecting nvidia-curand==10.4.0.35 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 18))
+  Downloading nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl (59.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 MB 222.6 MB/s  0:00:00
+Collecting nvidia-cusolver==12.0.4.66 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 19))
+  Downloading nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl (200.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.9/200.9 MB 257.1 MB/s  0:00:00
+Collecting nvidia-cusparse==12.6.3.3 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 20))
+  Downloading nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (145.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 145.9/145.9 MB 232.9 MB/s  0:00:00
+Collecting nvidia-cusparselt-cu13==0.8.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 21))
+  Downloading nvidia_cusparselt_cu13-0.8.0-py3-none-manylinux2014_x86_64.whl (169.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 169.9/169.9 MB 176.7 MB/s  0:00:00
+Collecting nvidia-nccl-cu13==2.28.9 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 22))
+  Downloading nvidia_nccl_cu13-2.28.9-py3-none-manylinux_2_18_x86_64.whl (196.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 196.5/196.5 MB 181.5 MB/s  0:00:01
+Collecting nvidia-nvjitlink==13.0.88 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 23))
+  Downloading nvidia_nvjitlink-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (40.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.7/40.7 MB 192.7 MB/s  0:00:00
+Collecting nvidia-nvshmem-cu13==3.4.5 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 24))
+  Downloading nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (60.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 MB 242.2 MB/s  0:00:00
+Collecting nvidia-nvtx==13.0.85 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 25))
+  Downloading nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl (148 kB)
+Collecting pandas==2.2.3 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 26))
+  Downloading pandas-2.2.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+Requirement already satisfied: pip==26.2.1 in ./exp010_mechanisms_v1/venv/lib/python3.13/site-packages (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 27)) (26.2.1)
+Collecting python-dateutil==2.9.0.post0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 28))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz==2026.4 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 29))
+  Downloading pytz-2026.4-py2.py3-none-any.whl.metadata (22 kB)
+Collecting setuptools==78.1.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 30))
+  Downloading setuptools-78.1.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting six==1.17.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 31))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting sympy==1.14.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 32))
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting torch==2.11.0+cu130 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 33))
+  Downloading torch-2.11.0%2Bcu130-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (29 kB)
+Collecting triton==3.6.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 34))
+  Downloading triton-3.6.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.7 kB)
+Collecting typing_extensions==4.16.0 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 35))
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting tzdata==2026.5 (from -r /content/exp010_mechanisms_v1/package/provenance/requirements-resolved.txt (line 36))
+  Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading cuda_bindings-13.3.1-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (6.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 86.6 MB/s  0:00:00
+Downloading cuda_pathfinder-1.6.0-py3-none-any.whl (54 kB)
+Downloading filelock-3.32.3-py3-none-any.whl (98 kB)
+Downloading fsspec-2026.7.0-py3-none-any.whl (206 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 27.5 MB/s  0:00:00
+Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 94.4 MB/s  0:00:00
+Downloading numpy-2.1.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.0/16.0 MB 137.8 MB/s  0:00:00
+Downloading pandas-2.2.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 138.8 MB/s  0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading pytz-2026.4-py2.py3-none-any.whl (506 kB)
+Downloading setuptools-78.1.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 73.4 MB/s  0:00:00
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 121.8 MB/s  0:00:00
+Downloading torch-2.11.0%2Bcu130-cp313-cp313-manylinux_2_28_x86_64.whl (531.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 531.1/531.1 MB 40.8 MB/s  0:00:07
+Downloading triton-3.6.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (188.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.3/188.3 MB 148.0 MB/s  0:00:01
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, nvidia-cusparselt-cu13, mpmath, cuda-toolkit, tzdata, typing_extensions, triton, sympy, six, setuptools, nvidia-nvtx, nvidia-nvshmem-cu13, nvidia-nvjitlink, nvidia-nccl-cu13, nvidia-curand, nvidia-cufile, nvidia-cuda-runtime, nvidia-cuda-nvrtc, nvidia-cuda-cupti, nvidia-cublas, numpy, networkx, MarkupSafe, fsspec, filelock, cuda-pathfinder, python-dateutil, nvidia-cusparse, nvidia-cufft, nvidia-cudnn-cu13, Jinja2, cuda-bindings, pandas, nvidia-cusolver, torch
+
+Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.3 cuda-bindings-13.3.1 cuda-pathfinder-1.6.0 cuda-toolkit-13.0.2 filelock-3.32.3 fsspec-2026.7.0 mpmath-1.3.0 networkx-3.6.1 numpy-2.1.3 nvidia-cublas-13.1.0.3 nvidia-cuda-cupti-13.0.85 nvidia-cuda-nvrtc-13.0.88 nvidia-cuda-runtime-13.0.96 nvidia-cudnn-cu13-9.19.0.56 nvidia-cufft-12.0.0.61 nvidia-cufile-1.15.1.6 nvidia-curand-10.4.0.35 nvidia-cusolver-12.0.4.66 nvidia-cusparse-12.6.3.3 nvidia-cusparselt-cu13-0.8.0 nvidia-nccl-cu13-2.28.9 nvidia-nvjitlink-13.0.88 nvidia-nvshmem-cu13-3.4.5 nvidia-nvtx-13.0.85 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2026.4 setuptools-78.1.0 six-1.17.0 sympy-1.14.0 torch-2.11.0+cu130 triton-3.6.0 typing_extensions-4.16.0 tzdata-2026.5
+COMMAND ['/content/exp010_mechanisms_v1/venv/bin/python', '-m', 'pip', 'check']
+No broken requirements found.
+COMMAND ['/content/exp010_mechanisms_v1/venv/bin/python', '/content/exp010_mechanisms_v1/package/src/test_mechanisms.py']
+test_causal_context (__main__.Tests.test_causal_context) ... ok
+test_causality_violation_rejected (__main__.Tests.test_causality_violation_rejected) ... ok
+test_null_stuck (__main__.Tests.test_null_stuck) ... ok
+test_persistence_offset_adaptation (__main__.Tests.test_persistence_offset_adaptation) ... ok
+test_roster (__main__.Tests.test_roster) ... ok
+test_support_and_commands (__main__.Tests.test_support_and_commands) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.041s
+
+OK
+COMMAND ['/content/exp010_mechanisms_v1/venv/bin/python', '/content/exp010_mechanisms_v1/package/src/test_trace_io.py']
+PASS: NumPy scalar commit, exact resume, unchanged bytes and corruption rejection
+COMMAND ['/content/exp010_mechanisms_v1/venv/bin/python', '/content/exp010_mechanisms_v1/package/src/test_exp008.py']
+{
+  "status": "PASS",
+  "metric_version": "EXP008_METRICS_V2_1",
+  "checks": [
+    "AP ties and permutation invariant",
+    "AP constant, perfect, no-positive conventions",
+    "Higher quantile order statistics and causal EWMA",
+    "Strict exceedance, constant scores and boundary run counting",
+    "Event overlap, occupancy correction and explicit undefined cases"
+  ],
+  "NASA_data_used": false
+}

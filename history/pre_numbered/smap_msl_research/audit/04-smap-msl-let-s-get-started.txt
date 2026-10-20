@@ -1,0 +1,21 @@
+### CELL 0 (code)
+# This Python 3 environment comes with many helpful analytics libraries installed
+# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python
+# For example, here's several helpful packages to load
+
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
+### CELL 1 (code)
+LABELS_FILEPATH = "../input/nasa-anomaly-detection-dataset-smap-msl/labeled_anomalies.csv"
+TRAINSET_FILEPATH = "../input/nasa-anomaly-detection-dataset-smap-msl/data/data/train"
+TESTSET_FILEPATH = "../input/nasa-anomaly-detection-dataset-smap-msl/data/data/test"
+
+### CELL 2 (code)
+labels = pd.read_csv(LABELS_FILEPATH)
+
+### CELL 3 (code)
+labels.info()
+
+### CELL 4 (code)
+labels.head(50)

@@ -1,0 +1,76 @@
+{
+  "CPU_collation_measured": [
+    {
+      "CPU_batch_bytes_identical": true,
+      "FIT_batches": 127,
+      "FIT_windows": 32321,
+      "NASA_TEST_floats_loaded": false,
+      "collation_ratio": 4.552745990768772,
+      "mission": "MSL",
+      "original_median_seconds": 0.0032682569999451516,
+      "vectorised_median_seconds": 0.000717864999842277
+    },
+    {
+      "CPU_batch_bytes_identical": true,
+      "FIT_batches": 310,
+      "FIT_windows": 79331,
+      "NASA_TEST_floats_loaded": false,
+      "collation_ratio": 5.008837411011089,
+      "mission": "SMAP",
+      "original_median_seconds": 0.0028996285000175703,
+      "vectorised_median_seconds": 0.0005789025001377013
+    }
+  ],
+  "EXP012_retraining_replay_or_modification": false,
+  "NASA_TEST_float_arrays_opened_during_amendment": false,
+  "NASA_annotation_CSV_opened_during_amendment": false,
+  "actual_A100_tests": "NOT_RUN_NO_GPU_AVAILABLE",
+  "date": "2026-10-09",
+  "gpu_authorisation": "Requires mandatory actual GPU/source-equivalence/resume gate and measured Drive/A100 preflight before any research fit",
+  "hard_10_to_15_minute_wall_clock_guarantee": false,
+  "live_Google_Drive_test": "NOT_RUN_NO_AUTHENTICATED_DRIVE_SESSION",
+  "notebook_validation": {
+    "checks": {
+      "VM_reset_notebook_retrieves_cached_bundle_without_reupload": true,
+      "all_notebook_code_cells_compile": true,
+      "all_package_python_sources_compile": true,
+      "archive_CRC_roster_and_every_payload_SHA": true,
+      "automatic_recovery_and_mandatory_order_contract": true,
+      "embedded_Drive_bootstrap_matches_package_source": true,
+      "failed_seal_prevents_label_API_lookup_and_upload": true,
+      "local_manifest_bound_to_SHA_pinned_bundle": true,
+      "notebook_first_bundle_setup_verifies_and_caches_release": true,
+      "scientific_dependency_install_cell_byte_identical": true,
+      "successful_label_request_occurs_only_after_verification": true
+    },
+    "status": "PASS"
+  },
+  "parent_release": "EXP013_COMMAND_REFERENCE_V1",
+  "release": "EXP013_COMMAND_REFERENCE_V1_E01",
+  "status": "CPU_ENGINEERING_AND_RELEASE_PASS_GPU_VALIDATION_REQUIRED_IN_COLAB",
+  "synthetic_end_to_end": {
+    "NASA_research_fits": 0,
+    "fixture_fits_per_run": 22,
+    "fixture_score_streams_per_run": 44,
+    "managed_recovery_and_score_cache_fixture": "PASS",
+    "original_fixture": "PASS"
+  },
+  "unit_test_suites": {
+    "CPU_SCIENCE_TEST_LOG.txt": {
+      "log_sha256": "0e82b53dabce75aae6bb88c59079156ae13a8893e56cd7bf16a1485aa92014c1",
+      "status": "PASS",
+      "tests": 24
+    },
+    "E01_EXECUTION_TEST_LOG.txt": {
+      "log_sha256": "82c5f17e582c6ad1a2d7ef10fb98dd97776490dfe0356f81ee7ae3ad19287716",
+      "status": "PASS",
+      "tests": 18
+    },
+    "RELEASE_TEST_LOG.txt": {
+      "log_sha256": "20a13fce00fb01e53adfcdb87a3e0ca68b66c5caee8799dce71c920fb9628fa5",
+      "status": "PASS",
+      "tests": 3
+    }
+  },
+  "unit_tests_total": 45
+}

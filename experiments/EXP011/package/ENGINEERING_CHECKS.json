@@ -1,0 +1,18 @@
+{
+  "full_input_integrity": "PASS",
+  "parent_streams": 114,
+  "feature_streams": 228,
+  "dataset_shape": [
+    4139,
+    9
+  ],
+  "class_weights": [
+    0.5,
+    0.5
+  ],
+  "real_detector_fits_run": 0,
+  "forecasting_fits_run": 0,
+  "GPU_required": false,
+  "complete_fixture_orchestration": "PASS: 440 synthetic-fixture fit commits and byte-preserving resume",
+  "scientific_pilot_executed": false
+}

@@ -1,0 +1,6 @@
+{
+ "stage": "Before completion of historical receipt rescoring; primary common/native analysis already complete",
+ "finding": "Eleven initial-2018 label endpoints extend beyond the actual supplied TEST arrays after the source-defined +250 coordinate conversion. All eleven current-label endpoints are their exact clips to raw array length minus one.",
+ "handling": "Record both literal coordinate equality and equality after source-length clipping. Use the unchanged frozen EXP012 current labels for rescoring saved historical intervals. No offset optimisation, label substitution, new threshold, or detector alteration.",
+ "primary_analysis_effect": "None; the completed primary/native analysis already uses the frozen current label roster and common finite support."
+}

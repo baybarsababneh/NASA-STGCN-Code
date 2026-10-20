@@ -1,0 +1,70 @@
+{
+  "experiment": "EXP010_MECHANISMS_V1",
+  "mechanical_channels": [
+    "C-1",
+    "P-10",
+    "M-7",
+    "P-14",
+    "T-13",
+    "D-16",
+    "P-3",
+    "A-8",
+    "G-6",
+    "E-1",
+    "G-4",
+    "A-5"
+  ],
+  "posthoc_mechanism_channels": [
+    "M-4",
+    "M-3",
+    "T-8",
+    "G-3",
+    "G-7",
+    "F-3",
+    "D-11"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "model_roles": [
+    "fixed",
+    "message_removed"
+  ],
+  "lookback": 64,
+  "probe_families": [
+    "spike",
+    "offset32",
+    "ramp32",
+    "stuck32"
+  ],
+  "amplitudes_fit_scale": [
+    0.5,
+    2.0
+  ],
+  "signs": [
+    -1,
+    1
+  ],
+  "onset_fractions": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "probe_region": [
+    0.7,
+    0.8
+  ],
+  "reference_region": [
+    0.6,
+    0.7
+  ],
+  "cases_per_checkpoint": 26,
+  "checkpoints": 114,
+  "max_committed_units": 3078,
+  "new_fits": 0,
+  "detector_selection": false,
+  "promotion": false,
+  "final_calibration_access": false,
+  "NASA_TEST_access": false
+}

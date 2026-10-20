@@ -1,0 +1,8 @@
+{
+  "code_cells_compile": true,
+  "no_outputs": true,
+  "annotation_request_after_verified_seal": true,
+  "reported_graph_measurement_separate_from_new_validation": true,
+  "dependency_pins_smoke_develop_evaluation_cells_unchanged_except_directory": true,
+  "actual_Colab_or_Drive_validation_in_builder": false
+}

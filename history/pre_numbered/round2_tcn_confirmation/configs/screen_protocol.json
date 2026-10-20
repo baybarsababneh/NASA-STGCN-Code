@@ -1,0 +1,270 @@
+{
+  "missions": {
+    "MSL": {
+      "screen_channels": [
+        "C-1",
+        "D-15",
+        "F-8",
+        "M-5",
+        "P-10",
+        "T-9"
+      ],
+      "candidates": [
+        {
+          "name": "MSL_rf7_native",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 16,
+          "graph": "top4",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "MSL_rf7_alternate",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 32,
+          "graph": "top4",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "MSL_rf7_h64",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 64,
+          "graph": "top4",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "MSL_rf13_native",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 16,
+          "graph": "top4",
+          "kernel_size": 5,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "MSL_rf63_h16",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 16,
+          "graph": "top4",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "MSL_rf127_h16",
+          "kind": "tcn_gcn",
+          "lookback": 128,
+          "hidden": 16,
+          "graph": "top4",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "MSL_rf255_h16",
+          "kind": "tcn_gcn",
+          "lookback": 250,
+          "hidden": 16,
+          "graph": "top4",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        }
+      ]
+    },
+    "SMAP": {
+      "screen_channels": [
+        "A-7",
+        "D-6",
+        "E-1",
+        "E-12",
+        "G-4",
+        "P-1"
+      ],
+      "candidates": [
+        {
+          "name": "SMAP_rf7_native",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 32,
+          "graph": "star",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "SMAP_rf7_alternate",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 16,
+          "graph": "star",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "SMAP_rf7_h64",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 64,
+          "graph": "star",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "SMAP_rf13_native",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 32,
+          "graph": "star",
+          "kernel_size": 5,
+          "dilations": [
+            1,
+            2
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "SMAP_rf63_h16",
+          "kind": "tcn_gcn",
+          "lookback": 64,
+          "hidden": 16,
+          "graph": "star",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "SMAP_rf127_h16",
+          "kind": "tcn_gcn",
+          "lookback": 128,
+          "hidden": 16,
+          "graph": "star",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        },
+        {
+          "name": "SMAP_rf255_h16",
+          "kind": "tcn_gcn",
+          "lookback": 250,
+          "hidden": 16,
+          "graph": "star",
+          "kernel_size": 3,
+          "dilations": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64
+          ],
+          "epochs": 80,
+          "lr": 0.001
+        }
+      ]
+    }
+  },
+  "fit_fraction": 0.6,
+  "validation_end": 0.8,
+  "calibration": "sealed",
+  "test": "sealed",
+  "training_start": 64,
+  "short_history": "left-pad fit-standardized zero before raw array start",
+  "patience": 6,
+  "min_delta": 1e-07,
+  "batch_size": 256,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "selection_floor": 0.0001,
+  "selection_score": "mean clipped log((candidate MSE + 1e-4)/(fixed GCN MSE + 1e-4)), clipping at +/- log(4), on fixed-baseline MSE > 1e-4",
+  "screen_rule": "retain RF7 native incumbent plus lowest-score alternative; require >=2% ratio improvement over incumbent to promote an alternative on screening",
+  "confirmation_rule": "all channels seed17, retain alternative only if informative-channel score improves >=2% vs incumbent on nonscreen channels and full mission; then compare incumbent and retained alternative at seeds29,43 and choose using mean across all three seeds; never choose a seed",
+  "baseline_comparison": "original 40-epoch fixed GCN/MLP/LSTM plus fresh matched 80-epoch fixed GCN; persistence from validation",
+  "learned_edges": "no further tuning; optional validation-only reference if available"
+}

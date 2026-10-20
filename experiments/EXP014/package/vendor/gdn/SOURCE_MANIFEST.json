@@ -1,0 +1,23 @@
+{
+  "files": {
+    "LICENSE": "ffdad180c52921c5fb96b388ac08a4b5fa9e8eed6fd531969726219877a70b33",
+    "README.md": "09eeb9c33a1b27d97ebbc37a28f512e95721c415f1561090eea8879c3f9df22c",
+    "evaluate.py": "daa647f55b26e1dd627257a25b9084c60fc36488f58c45faf9d7455491231e83",
+    "models/GDN.py": "eedcdc73d48e9f34c384b1a7ad875e37580f3177e023d59608a14bc56c60eb66",
+    "models/graph_layer.py": "902ceeb565e349323374012a9705f6ff50085957638a4cf2abaf0b40494c032e",
+    "run.sh": "a6b8577f72c56445850894f97c58dc2dbdf7aa8d8abf12615b41091b7ef60506",
+    "train.py": "885687aec4c42ac6a2b4782aced7ebf8785e0d0b56b787f39695a4f1b84169e1",
+    "util/data.py": "f179d97065470c070f4693b77de96bdcb45024e2efb9c7333bc8e607724a9942",
+    "util/env.py": "221a72bfd9b1cc130978edc7847e9fe9424b6c166c920d49a291f4fe9383f36c",
+    "util/iostream.py": "ada29865478629da497fe59198db5bbcd824461d0d96f07b3819aad1bb43daa1",
+    "util/net_struct.py": "e0079cc401b2b9cf6e03634146382581accf267918d91c1ebffe628c82a6bac4",
+    "util/preprocess.py": "fdb8c71028b3a3e4a5db1bd2c677f0dcbe995cf0e0a5039b2370b66117ef7223",
+    "util/time.py": "1e057b7cf328f3493e79be6c424e9501b52a27579f4626315049427b940fa67e"
+  },
+  "runtime_patch": "GDN num_nodes keyword; node_dim=0 to retain PyG1 node axis",
+  "upstream": {
+    "commit": "9853899da860682669a134e4af315d036aab4eca",
+    "repository": "d-ailin/GDN",
+    "sha256": "8e4fa40b492f07a2d010fa26776cd2e78f318931dfa2cc63092d8ba10a848e9e"
+  }
+}

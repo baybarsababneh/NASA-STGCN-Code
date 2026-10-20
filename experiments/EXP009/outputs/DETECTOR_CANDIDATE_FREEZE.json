@@ -1,0 +1,8 @@
+{
+  "decision_basis": "canonical TRAIN development only; audit blocks not scored yet",
+  "runhash": "51fc6e9add60444ec6c38f8bdc2945bbc2bd25f4263309d8141120c8a3223643",
+  "selected": {
+    "MSL": null,
+    "SMAP": null
+  }
+}

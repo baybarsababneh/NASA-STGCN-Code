@@ -1,0 +1,116 @@
+{
+  "CPU_full_native_shapes": [
+    [
+      32,
+      55,
+      5
+    ],
+    [
+      32,
+      25,
+      5
+    ]
+  ],
+  "GDN_dense_oracle_measured_CPU_differences": [
+    {
+      "embedding_gradient_max_abs": 5.960464477539063e-08,
+      "forward_max_abs": 4.470348358154297e-08,
+      "input_gradient_max_abs": 2.384185791015625e-07,
+      "nodes": 55,
+      "original_tolerances_unchanged": true,
+      "parameter_gradient_max_abs": 9.5367431640625e-07
+    },
+    {
+      "embedding_gradient_max_abs": 1.1920928955078125e-07,
+      "forward_max_abs": 4.470348358154297e-08,
+      "input_gradient_max_abs": 2.384185791015625e-07,
+      "nodes": 25,
+      "original_tolerances_unchanged": true,
+      "parameter_gradient_max_abs": 7.152557373046875e-07
+    }
+  ],
+  "actual_A100_execution": false,
+  "computation_device": "cpu",
+  "environment": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "torch": "2.6.0+cpu",
+    "torch_geometric": "2.6.1"
+  },
+  "errors": 0,
+  "failures": 0,
+  "historical_frozen_EXP012_count_rows_checked": 486,
+  "new_NASA_GDN_Hundman_results_generated": false,
+  "original_GDN_dense_oracle_tolerances": {
+    "embedding_parameter_gradient": {
+      "atol": 5e-06,
+      "rtol": 3e-05
+    },
+    "forward_input_gradient": {
+      "atol": 3e-06,
+      "rtol": 1e-05
+    }
+  },
+  "real_frozen_GDN_NASA_checkpoint_replay": false,
+  "saved_EXP012_detector_reference_streams_checked": 6,
+  "scope": [
+    "exact frozen detector/evaluator bytes",
+    "six saved historical detector output/window/issue references",
+    "residual construction and two-stage inverse scaling",
+    "causal forecast support/future invariance",
+    "native history before support cropping",
+    "pruning/startup/buffer/tail/short-stream rules",
+    "event/count/strict-point/timing definitions",
+    "native GDN full shapes/dense forward/gradient parity",
+    "exact checkpoint/output/RNG restoration and corrupt checkpoint detection",
+    "atomic unit publication and stale/corrupt output rejection",
+    "duplicate/traversal archive rejection",
+    "annotation-open/parse gate",
+    "two-generation verified backup/fallback/runtime mismatch rejection",
+    "complete four-channel synthetic workflow",
+    "interruption after commit, local runtime loss, verified restore/skip",
+    "resumed versus uninterrupted numerical equality",
+    "complete report/figure/final archive integrity",
+    "all 486 frozen EXP012 count rows and four mission-level event results"
+  ],
+  "seconds": 17.5763468310015,
+  "skipped": 0,
+  "source_sha256": {
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/backup.py": "1939ad40cdd12e112455ffc075a553580328f57a6394e9719b3ea135c1f2e3e1",
+    "src/checkpoint.py": "623305c48d93fd8a08ff443bef40b6f586002823f1db0bb99f3a7a2ec0dcbc45",
+    "src/export.py": "8cd01e1faef3ff28701d0e72d635d090f0a3198b65194acc7d3c35bfd12132b6",
+    "src/gdn_inference.py": "623b7131dffd921bd93f7421cf534616b88053404dfba370f3809d4e812c5b28",
+    "src/inputs.py": "5d612daba3594053417040deeefeb0b1b13be75faf139a5ae98bcad16f21dad4",
+    "src/integrity.py": "caf8f4306b9c651bc66120be3b14a56509b1f95c4a13187354e55bb2473606f3",
+    "src/report.py": "81ce5f0fb4d84f1bd3d4f26833b6fe519aca39cf841478ea03925aa0f3db7abb",
+    "src/run.py": "71081866312c890a20e8b98349f2fff8bdd0aa6a7e3fb39c0089a2fabab41b71",
+    "tests/fixture.py": "3cc636166e592feb7aebfd4bb52a13ee54c269879190775bac723e54bf1b53a1",
+    "tests/run_tests.py": "ee66404003020e1c502ee60c7de686108a62cdfa8cd84d02b220b26c5c09763c",
+    "tests/test_engineering.py": "556a36c6a5cda0da314f3b9189c673b9eeda6cc32b9663d3388da167c9670243",
+    "tests/test_science.py": "03439c764604ed65eabef2ac9beed7bd8d2143898922bae5ef6a299b75bed563",
+    "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/frozen/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/frozen/hundman_detector.py": "5b238ae7226a60e092b4d0a0954ca276733f3f9a27c0766d98282512dc692714",
+    "vendor/frozen/metrics.py": "d8de4c09a197a9647109369ac77082b0588c8b2ad2f1b940bd479bc47cdbceef",
+    "vendor/gdn/evaluate.py": "daa647f55b26e1dd627257a25b9084c60fc36488f58c45faf9d7455491231e83",
+    "vendor/gdn/models/GDN.py": "eedcdc73d48e9f34c384b1a7ad875e37580f3177e023d59608a14bc56c60eb66",
+    "vendor/gdn/models/graph_layer.py": "902ceeb565e349323374012a9705f6ff50085957638a4cf2abaf0b40494c032e",
+    "vendor/gdn/train.py": "885687aec4c42ac6a2b4782aced7ebf8785e0d0b56b787f39695a4f1b84169e1",
+    "vendor/gdn/util/data.py": "f179d97065470c070f4693b77de96bdcb45024e2efb9c7333bc8e607724a9942",
+    "vendor/gdn/util/env.py": "221a72bfd9b1cc130978edc7847e9fe9424b6c166c920d49a291f4fe9383f36c",
+    "vendor/gdn/util/iostream.py": "ada29865478629da497fe59198db5bbcd824461d0d96f07b3819aad1bb43daa1",
+    "vendor/gdn/util/net_struct.py": "e0079cc401b2b9cf6e03634146382581accf267918d91c1ebffe628c82a6bac4",
+    "vendor/gdn/util/preprocess.py": "fdb8c71028b3a3e4a5db1bd2c677f0dcbe995cf0e0a5039b2370b66117ef7223",
+    "vendor/gdn/util/time.py": "1e057b7cf328f3493e79be6c424e9501b52a27579f4626315049427b940fa67e"
+  },
+  "status": "PASS_CPU_REGRESSION",
+  "tests_run": 17,
+  "unexecuted_requirements": [
+    "real A10040 memory and throughput",
+    "both real frozen GDN checkpoint restorations",
+    "all81 bitwise native-reference replays",
+    "all81 new NASA target-residual detector streams"
+  ]
+}

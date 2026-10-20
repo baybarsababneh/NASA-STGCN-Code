@@ -1,0 +1,7 @@
+{
+  "native_threshold_source_evaluations": 50472,
+  "exact_threshold_cache_hits": 53026,
+  "zero_SD_no_op_eliminations": 4660,
+  "whole_prediction_cache_hits": 34,
+  "elapsed_seconds": 128.3851254340001
+}

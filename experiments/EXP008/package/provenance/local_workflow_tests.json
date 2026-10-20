@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "plan_jobs": 534,
+  "synthetic_nominal_rows": 288,
+  "commit_resume_corruption_tests": true,
+  "uses_NASA_prediction_values": false,
+  "uses_NASA_labels": false,
+  "CUDA_runtime_tested": false
+}

@@ -1,0 +1,21 @@
+{
+  "amended_bundle_sha256": "f620a98da63963f28f2ae6dc50c23baba5ca3b5dd9dcdb92fbab546a18f3b75a",
+  "amended_output": "/content/drive/MyDrive/NASA_EXP007_GPU_V1/results_E01",
+  "checkpoints_migrated": 0,
+  "configuration_sha256": "7d97a3eecdfa09b551e36b462f9d6f7b6387f187c345039a36f2551cf7f9eb1f",
+  "engineering_revision": "E01",
+  "failed_fit_action": "Rerun from its original seed; original trained weights were not committed",
+  "new_execution_sha256": "e73aa74d10d730271bb866be7d63f2c6634b5b6674c05872774d21349d584655",
+  "new_package_manifest_sha256": "f59a99dabdd47cd800ee9820d537ad3552a86d14eb38403d4e5065e628250244",
+  "old_execution_sha256": "ed01ea8ef547d95ef0349d8d42dd8a2c5211090b547ea5fa3068ccf6a4e3707a",
+  "parent_bundle_sha256": "64cbf77f299261468d30b327147ea539fa610b394d025b963f8ab939d904ca4c",
+  "parent_committed_fits": 0,
+  "parent_environment_match_required": true,
+  "parent_output": "/content/drive/MyDrive/NASA_EXP007_GPU_V1/results",
+  "parent_run_freeze_sha256": "e2442cf481494a92ed0801502811fc6d57b80c09e84c07de278bf3bb84438675",
+  "parent_run_hash": "2364b29209d782b38ccbaa00c6a5e405c329b6f660149790edd9d40cc2c5397e",
+  "protocol_sha256": "ff6dda5fcc9add3ff94fe8b7708dde8791cd7b96b57b56f7b4906e92515ed19a",
+  "reason": "Missing math import in clean_json; failure occurred before first checkpoint commit",
+  "scientific_experiment": "EXP007_GPU_V1",
+  "source_change": "Add import math to src/execution.py; no other source changes"
+}

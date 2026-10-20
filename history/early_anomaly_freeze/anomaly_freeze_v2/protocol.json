@@ -1,0 +1,121 @@
+{
+  "protocol_id": "nasa_smap_msl_anomaly_freeze_v2",
+  "status": "retrospective_locked_benchmark",
+  "study_population": {
+    "channels": 81,
+    "missions": {"SMAP": 54, "MSL": 27},
+    "exclude_unlabelled": ["T-10"],
+    "duplicate_label_policy": "one row per chan_id; for duplicated P-2 keep the first source-CSV row, matching the existing V2 drop_duplicates(keep='first') convention"
+  },
+  "development_split": {
+    "fit_fraction": 0.60,
+    "validation_end_fraction": 0.80,
+    "fit_use": "model fitting, target scaling, fit-only feature/graph selection",
+    "validation_use": "checkpoint and hyperparameter selection",
+    "calibration_use": "score-to-alarm threshold calibration only",
+    "test_use": "locked retrospective evaluation only"
+  },
+  "models": {
+    "persistence": {"role": "supporting_deterministic_baseline"},
+    "exp001": {"experiment_id": "v2_exp001_tcn_baseline", "role": "supporting_internal_baseline"},
+    "exp002": {"experiment_id": "v2_exp002_tcn_gcn_fixed", "role": "principal_gcn"},
+    "exp003": {"experiment_id": "v2_exp003_tcn_no_graph", "role": "core_matched_ablation"},
+    "exp004": {"experiment_id": "v2_exp004_tcn_gcn_learned_edges", "role": "secondary_learned_edge_ablation"},
+    "exp005": {
+      "experiment_id": "v2_exp005_command_tcn_tuned",
+      "role": "main_independently_tuned_competitor",
+      "selected_candidate_by_mission": {"MSL": "c03_rf7_large_lr1e3", "SMAP": "c11_rf31_large_lr1e3"}
+    }
+  },
+  "primary_internal_comparisons": [
+    ["exp002", "exp005"],
+    ["exp002", "exp003"]
+  ],
+  "secondary_internal_comparisons": [
+    ["exp004", "exp002"]
+  ],
+  "seeds": [17, 29, 43],
+  "scoring": {
+    "primary": "absolute_standardized_target_residual",
+    "higher_is_more_anomalous": true,
+    "sensitivity_scorer": {
+      "name": "causal_ewma",
+      "span": 10,
+      "adjust": false,
+      "alpha": 0.18181818181818182,
+      "initialization": "z0=s0 separately for calibration and evaluation score blocks",
+      "drop_initialization_transient": false
+    }
+  },
+  "calibration": {
+    "threshold_scope": "model x channel x seed x scorer; persistence is deterministic and calibrated once per channel",
+    "primary_quantile": 0.99,
+    "sensitivity_quantiles": [0.995],
+    "numpy_method": "higher",
+    "alarm_rule": "score > threshold",
+    "pool_channels": false,
+    "pool_seeds": false,
+    "near_constant_policy": "do not alter the rule; record distinct-score count, constant-score flag, and threshold-is-maximum flag"
+  },
+  "evaluation_windows": {
+    "primary": {"start_target_index_zero_based": 250, "models": "all controlled rows"},
+    "secondary_internal_coverage": {"start_target_index_zero_based": 64, "models": ["exp002", "exp003", "exp004", "exp005"]}
+  },
+  "events": {
+    "label_endpoints_in_source": "inclusive",
+    "internal_interval_convention": "half_open_[start,end)",
+    "merge_true_overlapping_or_adjacent": true,
+    "predicted_event": "maximal consecutive run of alarmed target indices",
+    "gap_tolerance_samples": 0,
+    "timing_tolerance_samples": 0,
+    "minimum_duration_samples": 1,
+    "dilation_samples": 0,
+    "boundary_policy": "intersect annotations with scored domain; boundary-crossing events remain detection-eligible but left-censored events are excluded from delay summaries"
+  },
+  "primary_metric": "corrected_event_f0.5",
+  "corrected_event_metric": {
+    "event_precision": "H/(H+U)",
+    "event_recall": "H/(H+M)",
+    "nominal_alarm_fraction": "FPt/N0",
+    "corrected_precision": "event_precision*(1-FPt/N0)",
+    "f_beta": 0.5
+  },
+  "mandatory_secondary_metrics": [
+    "Hundman-style overlap event precision/recall/F0.5 under common protocol",
+    "strict pointwise precision/recall/F1/F0.5",
+    "average precision from continuous scores",
+    "false alarm runs per 10000 nominal samples",
+    "nominal flagged fraction",
+    "missed event count",
+    "fragmentation",
+    "detection delay summaries excluding left-censored events",
+    "event recall within 1,5,10,30 samples"
+  ],
+  "aggregation": {
+    "report_missions_separately": true,
+    "mission_event_counts": "sum channel counts within seed before metric calculation",
+    "seed_summary": "compute each seed separately then arithmetic mean",
+    "mission_balanced_summary": "secondary only",
+    "channel_is_primary_replication_unit": true
+  },
+  "uncertainty": {
+    "paired_channel_bootstrap_replicates": 10000,
+    "bootstrap_rng_seed": 2026,
+    "retain_all_seed_results_with_resampled_channel": true,
+    "ci": 0.95,
+    "formal_multiplicity": "Holm across two primary contrasts x two missions if formal significance claims are made"
+  },
+  "sensitivity_grid": {
+    "scorers": ["raw", "ewma_span10"],
+    "quantiles": [0.99, 0.995],
+    "selection_after_test": "forbidden; report fixed grid"
+  },
+  "freeze_requirements": [
+    "checkpoint_manifest.csv exists and readiness audit passes",
+    "synthetic metric tests pass",
+    "thresholds.csv generated using TRAIN calibration only",
+    "protocol, code, checkpoint manifest and thresholds are hashed before TEST score export",
+    "TEST score export must not read anomaly labels",
+    "evaluate_locked.py is the sole anomaly-label reader in this package"
+  ]
+}

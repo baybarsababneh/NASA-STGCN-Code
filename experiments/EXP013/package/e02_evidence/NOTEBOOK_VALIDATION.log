@@ -1,0 +1,20 @@
+Upload only EXP013_COMMAND_REFERENCE_V1_E02_SIMPLE_input_bundle.zip. No annotation CSV here.
+Verified E02 package. Dedicated recovery path: /tmp/tmpe7jnuese/content/drive/MyDrive/EXP013_COMMAND_REFERENCE_V1_E02_SIMPLE/main
+Verified E02 package. Dedicated recovery path: /tmp/tmpe7jnuese/content/drive/MyDrive/EXP013_COMMAND_REFERENCE_V1_E02_SIMPLE/main
+{
+  "status": "PASS",
+  "checks": {
+    "notebook_schema_and_all_cell_syntax": true,
+    "all_delivered_source_syntax": true,
+    "bundle_roster_CRC_and_every_payload_SHA256": true,
+    "original_package_pins_preserved": true,
+    "seal_verification_precedes_annotation_cache_lookup_and_upload": true,
+    "actual_setup_first_upload_and_hash_verification": true,
+    "actual_setup_VM_reset_retrieves_cached_bundle_without_upload": true,
+    "actual_setup_rejects_source_tamper_without_overwrite": true,
+    "actual_annotation_cell_failed_seal_blocks_all_label_work": true,
+    "delivered_source_identity_manifest_matches_actual_bytes": true
+  },
+  "actual_live_Colab_or_Drive_test": false,
+  "NASA_data_or_annotation_values_read": false
+}

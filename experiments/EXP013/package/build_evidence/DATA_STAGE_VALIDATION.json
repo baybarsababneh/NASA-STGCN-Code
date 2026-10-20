@@ -1,0 +1,38 @@
+{
+  "TRAIN_only_stage": "PASS",
+  "entities": 81,
+  "missions": {
+    "MSL": 27,
+    "SMAP": 54
+  },
+  "scale_floor_channels": [
+    "A-1",
+    "A-5",
+    "B-1",
+    "C-2",
+    "D-12",
+    "D-13",
+    "D-14",
+    "D-2",
+    "D-5",
+    "D-7",
+    "D-8",
+    "D-9",
+    "G-2",
+    "G-3",
+    "M-6",
+    "P-14",
+    "P-4",
+    "R-1",
+    "S-2",
+    "T-5"
+  ],
+  "CATCH_zero_FIT_window_channels": [
+    "D-12"
+  ],
+  "minimum_CAL_samples": 31,
+  "min_FIT_samples": 187,
+  "TEST_float_arrays_opened": false,
+  "NASA_labels_semantically_read": false,
+  "historical_metrics_module_byte_identical": true
+}

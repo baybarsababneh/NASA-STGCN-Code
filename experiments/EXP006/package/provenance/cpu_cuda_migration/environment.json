@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-03T09:22:00.787249+00:00",
+  "python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "torch_version": "2.11.0+cu130",
+  "numpy_version": "2.1.3",
+  "pandas_version": "2.2.3",
+  "device_requested": "cuda",
+  "device_resolved": "cuda",
+  "dtype": "float32",
+  "cuda_available": true,
+  "torch_cuda_version": "13.0",
+  "cudnn_version": 92700,
+  "gpu_model": "Tesla T4",
+  "gpu_compute_capability": [
+    7,
+    5
+  ],
+  "cublas_workspace_config": ":4096:8",
+  "deterministic_algorithms": true,
+  "cudnn_benchmark": false,
+  "cudnn_deterministic": true,
+  "cuda_matmul_allow_tf32": false,
+  "cudnn_allow_tf32": false,
+  "optimizer_foreach": false,
+  "optimizer_fused": false,
+  "tracked_file_sha256": {
+    "src/v2_models_exp006.py": "fb69785e690a1daf5756ebedbb4c57686af5868f7e109ef33d12450b32c81a44",
+    "src/v2_train_exp006.py": "5c460c857c2a5b762f13c267e56fc6b265b3a48faf6eb9e71931644db98018d6",
+    "src/v2_run_exp006.py": "af12192da55709817355749af628fef08a80bafbe9fe4e344388859fafb478e6",
+    "src/v2_exp006_device.py": "966c21b040b04496a2794b19c8e258c5a46bc1a74c7ff935596e47d051cabf21",
+    "src/v2_verify_exp006_device.py": "4d4aa424931c070a07c43846913886900a166a26d288e03bdb0ec243a8f88ff0",
+    "src/v2_train_exp006_frozen_cpu.py": "dec6f08525fcfbd4e16aad8e0aeecd2ae01119e5b0b2fa803a5bd3e65ffa8622",
+    "src/v2_run_exp006_frozen_cpu.py": "bced96e8052276ef9bb78cf26d6fa4243d684775ad721b82e2723b625adf255c",
+    "configs/v2_exp006_gcn_tuning.json": "6af53044416859f50535451765186dda25160a62b781de01d049b7330d0b1f2b",
+    "configs/v2_exp006_screening_manifest.csv": "4a028eaccac99a306ae9a9b2dee79434bf4b94f7b173af82277f6d2f062253ff",
+    "EXP006_PRETRAIN_FREEZE.json": "ea25dfe067fbdd5c66a3d3eea20f957a1ce3ffc4dfc19cca7e041ba0d8beeaee",
+    "EXP006_DEVICE_AMENDMENT.json": "47eb44620be4d5bded950f2ca45d037d2f9b8bfec73580fa7acf7bfe2c756f0a"
+  },
+  "execution_environment_id": "exp006_env_1c9d273d379cc6fe"
+}

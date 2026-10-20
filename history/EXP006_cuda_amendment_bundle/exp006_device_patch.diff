@@ -1,0 +1,1207 @@
+--- a/src/v2_train_exp006.py
++++ b/src/v2_train_exp006.py
+@@ -13,15 +13,18 @@
+ from v2_models_exp002 import TCNGCNFixed as HistoricalEXP002GCN
+ from v2_models_exp005 import CommandAwareTCN
+ from v2_models_exp006 import TCNGCNFixedTuned, count_parameters
++from v2_exp006_device import configure_device, optimizer_execution_kwargs
+ 
+ 
+ RELATIVE_EPS = 1e-8
+ 
+ 
+-def set_seed(seed):
++def set_seed(seed, device_name="cpu"):
+     random.seed(int(seed))
+     np.random.seed(int(seed))
+     torch.manual_seed(int(seed))
++    if str(device_name).lower() == "cuda" and torch.cuda.is_available():
++        torch.cuda.manual_seed_all(int(seed))
+ 
+ 
+ def make_loader(x, y, batch_size, shuffle, seed):
+@@ -79,14 +82,19 @@
+     learning_rate,
+     common,
+     smoke_epochs=None,
++    device_name="cpu",
+ ):
+-    device = torch.device("cpu")
++    # Models are deliberately initialised on CPU by the caller, then moved
++    # here before optimizer construction. This preserves the frozen CPU
++    # initialisation procedure while permitting CUDA execution.
++    device = configure_device(device_name)
+     model = model.to(device)
+     criterion = nn.MSELoss()
+     optimizer = torch.optim.AdamW(
+         model.parameters(),
+         lr=float(learning_rate),
+         weight_decay=float(common["weight_decay"]),
++        **optimizer_execution_kwargs(),
+     )
+ 
+     fit_loader = make_loader(
+@@ -160,9 +168,9 @@
+             raise RuntimeError("Initial output is not exact persistence")
+ 
+ 
+-def train_standard(channel, seed, base_config, candidate, smoke_epochs=None):
++def train_standard(channel, seed, base_config, candidate, smoke_epochs=None, device_name="cpu", execution_environment_id=None):
+     """60/20/20 TRAIN-only screening or confirmation fit."""
+-    set_seed(seed)
++    set_seed(seed, device_name=device_name)
+     dataset_cfg = base_config["dataset"]
+     common = base_config["training_common"]
+ 
+@@ -209,6 +217,7 @@
+             learning_rate=float(candidate["learning_rate"]),
+             common=common,
+             smoke_epochs=smoke_epochs,
++            device_name=device_name,
+         )
+     )
+ 
+@@ -254,6 +263,11 @@
+         "persistence_validation_mse": float(persistence_mse),
+         "relative_mse_reduction_pct": float(reduction),
+         "elapsed_seconds": float(elapsed),
++        "device": str(device_name),
++        "dtype": "float32",
++        "optimizer_foreach": False,
++        "optimizer_fused": False,
++        "execution_environment_id": execution_environment_id,
+     }
+     return model, result
+ 
+@@ -322,6 +336,8 @@
+     fold_name,
+     candidate=None,
+     smoke_epochs=None,
++    device_name="cpu",
++    execution_environment_id=None,
+ ):
+     """
+     Earlier-origin TRAIN-only robustness fit.
+@@ -329,7 +345,7 @@
+     role is one of: gcn_candidate, exp002_reference, exp005_reference.
+     The graph/command support is recomputed from the fold fit block.
+     """
+-    set_seed(seed)
++    set_seed(seed, device_name=device_name)
+     common = base_config["training_common"]
+     fold = base_config["robustness"]["folds"][fold_name]
+ 
+@@ -417,6 +433,7 @@
+             learning_rate=float(spec["learning_rate"]),
+             common=common,
+             smoke_epochs=smoke_epochs,
++            device_name=device_name,
+         )
+     )
+ 
+@@ -425,7 +442,7 @@
+         x_assess, arrays["y_assess"], common["batch_size"], False, seed
+     )
+     assessment_mse = evaluate_mse(
+-        model, assess_loader, criterion, torch.device("cpu")
++        model, assess_loader, criterion, configure_device(device_name)
+     )
+     persistence_mse = float(
+         np.mean((arrays["p_assess"] - arrays["y_assess"]) ** 2)
+@@ -463,4 +480,9 @@
+         "assessment_mse": float(assessment_mse),
+         "persistence_assessment_mse": float(persistence_mse),
+         "elapsed_seconds": float(elapsed),
++        "device": str(device_name),
++        "dtype": "float32",
++        "optimizer_foreach": False,
++        "optimizer_fused": False,
++        "execution_environment_id": execution_environment_id,
+     }
+
+--- a/src/v2_run_exp006.py
++++ b/src/v2_run_exp006.py
+@@ -14,6 +14,11 @@
+ from v2_graph import build_channel_graph
+ from v2_models_exp006 import TCNGCNFixedTuned
+ from v2_train_exp006 import train_robustness, train_standard
++from v2_exp006_device import (
++    configure_device,
++    portable_state_dict,
++    write_environment_record,
++)
+ 
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+@@ -23,6 +28,7 @@
+ RESULTS_ROOT = ROOT / "results" / "v2_exp006_gcn_tuned"
+ CHECKPOINT_ROOT = ROOT / "checkpoints" / "v2_exp006_gcn_tuned"
+ EXP002_RUNS = ROOT / "results" / "v2_exp002_tcn_gcn_fixed" / "all_runs.csv"
++AMENDMENT_PATH = ROOT / "EXP006_DEVICE_AMENDMENT.json"
+ 
+ 
+ def sha256_file(path):
+@@ -47,6 +53,16 @@
+         raise FileNotFoundError(f"Missing freeze manifest: {FREEZE_PATH}")
+     freeze = json.loads(FREEZE_PATH.read_text())
+ 
++    amendment = None
++    if AMENDMENT_PATH.exists():
++        amendment = json.loads(AMENDMENT_PATH.read_text())
++        if amendment.get("parent_freeze_id") != freeze.get("freeze_id"):
++            raise RuntimeError("EXP006 device amendment does not reference the active freeze")
++
++    patched = set((amendment or {}).get("permitted_patched_files", []))
++    original_hashes = (amendment or {}).get("original_files_sha256", {})
++    patched_hashes = (amendment or {}).get("patched_files_sha256", {})
++
+     failures = []
+     for rel, expected in freeze["files_sha256"].items():
+         p = ROOT / rel
+@@ -54,9 +70,22 @@
+             failures.append(f"missing frozen file: {rel}")
+             continue
+         actual = sha256_file(p)
+-        if actual != expected:
++        if rel in patched:
++            if original_hashes.get(rel) != expected:
++                failures.append(f"amendment original hash does not match freeze: {rel}")
++            if patched_hashes.get(rel) != actual:
++                failures.append(f"patched-file hash mismatch: {rel}")
++        elif actual != expected:
+             failures.append(f"hash mismatch: {rel}")
+ 
++    if amendment is not None:
++        for rel, expected in amendment.get("new_files_sha256", {}).items():
++            p = ROOT / rel
++            if not p.exists():
++                failures.append(f"missing amendment file: {rel}")
++            elif sha256_file(p) != expected:
++                failures.append(f"amendment-file hash mismatch: {rel}")
++
+     if strict_reference_results:
+         ref = freeze.get("reference_artifacts_sha256", {})
+         if "results/v2_exp002_tcn_gcn_fixed/all_runs.csv" in ref:
+@@ -69,8 +98,7 @@
+ 
+     if failures:
+         raise RuntimeError("EXP006 frozen-protocol verification failed:\n- " + "\n- ".join(failures))
+-    return freeze
+-
++    return freeze, amendment
+ 
+ def _worker_init():
+     try:
+@@ -123,6 +151,8 @@
+             seed=int(job["seed"]),
+             base_config=job["config"],
+             candidate=job["candidate"],
++            device_name=job.get("device", "cpu"),
++            execution_environment_id=job.get("execution_environment_id"),
+         )
+         rpath, cpath = screen_or_confirm_paths(
+             stage,
+@@ -136,7 +166,7 @@
+             cpath.parent.mkdir(parents=True, exist_ok=True)
+             torch.save(
+                 {
+-                    "state_dict": model.state_dict(),
++                    "state_dict": portable_state_dict(model),
+                     "result": result,
+                     "candidate": job["candidate"],
+                     "experiment_config": job["config"],
+@@ -161,6 +191,8 @@
+             role=job["role"],
+             fold_name=job["fold"],
+             candidate=job.get("candidate"),
++            device_name=job.get("device", "cpu"),
++            execution_environment_id=job.get("execution_environment_id"),
+         )
+         candidate_id = result["candidate_id"]
+         rpath = robust_path(
+@@ -183,8 +215,20 @@
+     raise ValueError(stage)
+ 
+ 
+-def run_jobs(stage, jobs, workers):
++def run_jobs(stage, jobs, workers, device_name="cpu", execution_environment_id=None):
+     verify_freeze(strict_reference_results=False)
++    device_name = str(device_name).lower()
++    configure_device(device_name)
++
++    if device_name == "cuda" and int(workers) != 1:
++        raise RuntimeError(
++            "EXP006 CUDA amendment requires --workers 1 (one training process per GPU)."
++        )
++
++    for job in jobs:
++        job["device"] = device_name
++        job["execution_environment_id"] = execution_environment_id
++
+     pending = [j for j in jobs if not _job_complete(j)]
+ 
+     print("=" * 78)
+@@ -193,7 +237,9 @@
+     print(f"Expected jobs: {len(jobs)}")
+     print(f"Already complete: {len(jobs) - len(pending)}")
+     print(f"Jobs this launch: {len(pending)}")
+-    print(f"Workers: {workers}\n")
++    print(f"Workers: {workers}")
++    print(f"Device: {device_name}")
++    print(f"Execution environment: {execution_environment_id}\n")
+ 
+     if not pending:
+         return []
+@@ -203,42 +249,54 @@
+     failures = []
+     completed = 0
+ 
+-    with ProcessPoolExecutor(max_workers=int(workers), initializer=_worker_init) as pool:
+-        future_map = {pool.submit(execute_job, job): job for job in pending}
+-        for future in as_completed(future_map):
+-            job = future_map[future]
++    def report_success(out):
++        nonlocal completed
++        completed += 1
++        prefix = (
++            f"{out.get('fold')} | {out.get('role')} | "
++            if stage == "robust"
++            else ""
++        )
++        print(
++            f"[DONE] {stage} | {prefix}{out['candidate_id']} | "
++            f"{out['channel']} seed={out['seed']} | "
++            f"mse={out['metric']:.8f} | epochs={out['epochs']} | "
++            f"time={out['elapsed']:.1f}s",
++            flush=True,
++        )
++
++    def report_failure(job, exc):
++        failures.append(
++            {
++                "stage": stage,
++                "job": {
++                    k: v
++                    for k, v in job.items()
++                    if k not in {"config", "candidate"}
++                },
++                "candidate_id": (job.get("candidate", {}) or {}).get("candidate_id"),
++                "error": repr(exc),
++                "traceback": traceback.format_exc(),
++            }
++        )
++        print(f"[FAIL] {stage} | {exc}", flush=True)
++
++    if device_name == "cuda":
++        # Avoid forked CUDA contexts. One serial training process per GPU.
++        for job in pending:
+             try:
+-                out = future.result()
+-                completed += 1
+-                prefix = (
+-                    f"{out.get('fold')} | {out.get('role')} | "
+-                    if stage == "robust"
+-                    else ""
+-                )
+-                print(
+-                    f"[DONE] {stage} | {prefix}{out['candidate_id']} | "
+-                    f"{out['channel']} seed={out['seed']} | "
+-                    f"mse={out['metric']:.8f} | epochs={out['epochs']} | "
+-                    f"time={out['elapsed']:.1f}s",
+-                    flush=True,
+-                )
++                report_success(execute_job(job))
+             except Exception as exc:
+-                failures.append(
+-                    {
+-                        "stage": stage,
+-                        "job": {
+-                            k: v
+-                            for k, v in job.items()
+-                            if k not in {"config", "candidate"}
+-                        },
+-                        "candidate_id": (
+-                            job.get("candidate", {}) or {}
+-                        ).get("candidate_id"),
+-                        "error": repr(exc),
+-                        "traceback": traceback.format_exc(),
+-                    }
+-                )
+-                print(f"[FAIL] {stage} | {exc}", flush=True)
++                report_failure(job, exc)
++    else:
++        with ProcessPoolExecutor(max_workers=int(workers), initializer=_worker_init) as pool:
++            future_map = {pool.submit(execute_job, job): job for job in pending}
++            for future in as_completed(future_map):
++                job = future_map[future]
++                try:
++                    report_success(future.result())
++                except Exception as exc:
++                    report_failure(job, exc)
+ 
+     print(f"\nNew jobs completed: {completed}")
+     print(f"Failures: {len(failures)}")
+@@ -248,7 +306,6 @@
+         p.write_text(json.dumps(failures, indent=2))
+     return failures
+ 
+-
+ def collect_stage(stage):
+     run_dir = RESULTS_ROOT / stage / "runs"
+     rows = []
+@@ -340,7 +397,15 @@
+     p = RESULTS_ROOT / "screen" / "selected_top2.json"
+     if not p.exists():
+         raise RuntimeError("Run and summarise screening before robustness")
+-    return json.loads(p.read_text())
++    selected = json.loads(p.read_text())
++    if AMENDMENT_PATH.exists():
++        amendment = json.loads(AMENDMENT_PATH.read_text())
++        locked = amendment.get("locked_shortlist")
++        if locked is not None and selected != locked:
++            raise RuntimeError(
++                "Screening shortlist differs from the shortlist locked before the device migration"
++            )
++    return selected
+ 
+ 
+ def build_robust_jobs(config, selected):
+@@ -643,8 +708,9 @@
+     return decisions
+ 
+ 
+-def preflight(config):
+-    freeze = verify_freeze(strict_reference_results=False)
++def preflight(config, device_name="cpu"):
++    freeze, amendment = verify_freeze(strict_reference_results=False)
++    configure_device(device_name)
+ 
+     channels = list_channels()
+     if len(channels) != 81:
+@@ -711,6 +777,9 @@
+     print("Planned fits: 288 screen + 192 robustness + 486 confirmation = 966 max")
+     print("NASA TEST arrays and anomaly labels are not used by EXP006 selection code.")
+     print(f"Freeze ID: {freeze['freeze_id']}")
++    if amendment is not None:
++        print(f"Device amendment ID: {amendment['amendment_id']}")
++    print(f"Requested device: {device_name}")
+ 
+ 
+ def main():
+@@ -721,15 +790,29 @@
+         choices=["preflight", "screen", "robust", "confirm", "promote"],
+     )
+     parser.add_argument("--workers", type=int, default=2)
++    parser.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
+     args = parser.parse_args()
+     config = load_config()
+ 
++    if args.stage == "screen" and args.device != "cpu":
++        raise SystemExit(
++            "The authoritative 288-fit screening remains the completed Mac CPU stage; "
++            "do not rerun screening on CUDA."
++        )
++
++    env = write_environment_record(ROOT, args.device)
++    env_id = env["execution_environment_id"]
++
+     if args.stage == "preflight":
+-        preflight(config)
++        preflight(config, device_name=args.device)
++        print(f"Execution environment ID: {env_id}")
+         return
+ 
+     if args.stage == "screen":
+-        failures = run_jobs("screen", build_screen_jobs(config), args.workers)
++        failures = run_jobs(
++            "screen", build_screen_jobs(config), args.workers,
++            device_name=args.device, execution_environment_id=env_id
++        )
+         if failures:
+             raise SystemExit("Screening had failures; rerun after resolving them")
+         summarise_screen(config)
+@@ -738,7 +821,10 @@
+     selected = _load_selected_top2()
+ 
+     if args.stage == "robust":
+-        failures = run_jobs("robust", build_robust_jobs(config, selected), args.workers)
++        failures = run_jobs(
++            "robust", build_robust_jobs(config, selected), args.workers,
++            device_name=args.device, execution_environment_id=env_id
++        )
+         if failures:
+             raise SystemExit("Robustness stage had failures; rerun after resolving them")
+         summarise_robust(config, selected)
+@@ -747,7 +833,10 @@
+     if args.stage == "confirm":
+         # Enforce Astra's stage order: robustness must be complete first.
+         summarise_robust(config, selected)
+-        failures = run_jobs("confirm", build_confirm_jobs(config, selected), args.workers)
++        failures = run_jobs(
++            "confirm", build_confirm_jobs(config, selected), args.workers,
++            device_name=args.device, execution_environment_id=env_id
++        )
+         if failures:
+             raise SystemExit("Confirmation had failures; rerun after resolving them")
+         summarise_confirmation(config, selected)
+
+--- /dev/null
++++ b/src/v2_exp006_device.py
+@@ -0,0 +1,170 @@
++import hashlib
++import json
++import os
++import platform
++import sys
++from datetime import datetime, timezone
++from pathlib import Path
++
++import numpy as np
++import pandas as pd
++import torch
++
++
++def sha256_file(path):
++    h = hashlib.sha256()
++    with open(path, "rb") as f:
++        for chunk in iter(lambda: f.read(1024 * 1024), b""):
++            h.update(chunk)
++    return h.hexdigest()
++
++
++def configure_device(device_name):
++    name = str(device_name).lower().strip()
++    if name not in {"cpu", "cuda"}:
++        raise ValueError("device must be 'cpu' or 'cuda'")
++
++    if name == "cuda":
++        if not torch.cuda.is_available():
++            raise RuntimeError(
++                "CUDA was requested but torch.cuda.is_available() is False. "
++                "Enable a GPU runtime before continuing."
++            )
++
++        # Must be set before deterministic CUDA GEMM operations are launched.
++        os.environ.setdefault("CUBLAS_WORKSPACE_CONFIG", ":4096:8")
++
++        torch.backends.cudnn.benchmark = False
++        torch.backends.cudnn.deterministic = True
++        torch.use_deterministic_algorithms(True)
++
++        # Preserve full float32 behaviour; do not permit TF32 shortcuts.
++        if hasattr(torch.backends, "cuda") and hasattr(torch.backends.cuda, "matmul"):
++            if hasattr(torch.backends.cuda.matmul, "allow_tf32"):
++                torch.backends.cuda.matmul.allow_tf32 = False
++        if hasattr(torch.backends, "cudnn") and hasattr(torch.backends.cudnn, "allow_tf32"):
++            torch.backends.cudnn.allow_tf32 = False
++
++        # Newer PyTorch versions may expose precision strings instead.
++        try:
++            if hasattr(torch.backends.cuda.matmul, "fp32_precision"):
++                torch.backends.cuda.matmul.fp32_precision = "ieee"
++        except Exception:
++            pass
++        try:
++            if hasattr(torch.backends.cudnn, "conv") and hasattr(
++                torch.backends.cudnn.conv, "fp32_precision"
++            ):
++                torch.backends.cudnn.conv.fp32_precision = "ieee"
++        except Exception:
++            pass
++
++    return torch.device(name)
++
++
++def optimizer_execution_kwargs():
++    # Force the scalar/for-loop AdamW implementation on both CPU and CUDA so
++    # the backend does not silently switch to foreach/fused implementations.
++    kwargs = {"foreach": False}
++    try:
++        import inspect
++
++        sig = inspect.signature(torch.optim.AdamW)
++        if "fused" in sig.parameters:
++            kwargs["fused"] = False
++    except Exception:
++        pass
++    return kwargs
++
++
++def portable_state_dict(model):
++    return {
++        k: v.detach().cpu().clone()
++        for k, v in model.state_dict().items()
++    }
++
++
++def environment_payload(root, device_name):
++    root = Path(root)
++    device = configure_device(device_name)
++
++    tracked = [
++        "src/v2_models_exp006.py",
++        "src/v2_train_exp006.py",
++        "src/v2_run_exp006.py",
++        "src/v2_exp006_device.py",
++        "src/v2_verify_exp006_device.py",
++        "src/v2_train_exp006_frozen_cpu.py",
++        "src/v2_run_exp006_frozen_cpu.py",
++        "configs/v2_exp006_gcn_tuning.json",
++        "configs/v2_exp006_screening_manifest.csv",
++        "EXP006_PRETRAIN_FREEZE.json",
++        "EXP006_DEVICE_AMENDMENT.json",
++    ]
++    hashes = {}
++    for rel in tracked:
++        p = root / rel
++        if p.exists():
++            hashes[rel] = sha256_file(p)
++
++    gpu_name = None
++    cuda_capability = None
++    if device.type == "cuda":
++        idx = torch.cuda.current_device()
++        gpu_name = torch.cuda.get_device_name(idx)
++        cuda_capability = list(torch.cuda.get_device_capability(idx))
++
++    deterministic_enabled = bool(torch.are_deterministic_algorithms_enabled())
++    payload = {
++        "created_utc": datetime.now(timezone.utc).isoformat(),
++        "python_version": sys.version,
++        "platform": platform.platform(),
++        "torch_version": torch.__version__,
++        "numpy_version": np.__version__,
++        "pandas_version": pd.__version__,
++        "device_requested": str(device_name),
++        "device_resolved": str(device),
++        "dtype": "float32",
++        "cuda_available": bool(torch.cuda.is_available()),
++        "torch_cuda_version": torch.version.cuda,
++        "cudnn_version": (
++            int(torch.backends.cudnn.version())
++            if torch.backends.cudnn.is_available()
++            else None
++        ),
++        "gpu_model": gpu_name,
++        "gpu_compute_capability": cuda_capability,
++        "cublas_workspace_config": os.environ.get("CUBLAS_WORKSPACE_CONFIG"),
++        "deterministic_algorithms": deterministic_enabled,
++        "cudnn_benchmark": bool(torch.backends.cudnn.benchmark),
++        "cudnn_deterministic": bool(torch.backends.cudnn.deterministic),
++        "cuda_matmul_allow_tf32": (
++            bool(torch.backends.cuda.matmul.allow_tf32)
++            if hasattr(torch.backends.cuda.matmul, "allow_tf32")
++            else None
++        ),
++        "cudnn_allow_tf32": (
++            bool(torch.backends.cudnn.allow_tf32)
++            if hasattr(torch.backends.cudnn, "allow_tf32")
++            else None
++        ),
++        "optimizer_foreach": False,
++        "optimizer_fused": False,
++        "tracked_file_sha256": hashes,
++    }
++
++    canonical = dict(payload)
++    canonical.pop("created_utc", None)
++    env_id = hashlib.sha256(
++        json.dumps(canonical, sort_keys=True, separators=(",", ":")).encode("utf-8")
++    ).hexdigest()[:16]
++    payload["execution_environment_id"] = f"exp006_env_{env_id}"
++    return payload
++
++
++def write_environment_record(root, device_name):
++    root = Path(root)
++    payload = environment_payload(root, device_name)
++    path = root / "exp006_execution_environment.json"
++    path.write_text(json.dumps(payload, indent=2) + "\n")
++    return payload
+
+--- /dev/null
++++ b/src/v2_verify_exp006_device.py
+@@ -0,0 +1,583 @@
++import argparse
++import json
++import math
++import os
++import sys
++from pathlib import Path
++
++# Deterministic cuBLAS setting must exist before CUDA work begins.
++os.environ.setdefault("CUBLAS_WORKSPACE_CONFIG", ":4096:8")
++
++import numpy as np
++import pandas as pd
++import torch
++from torch import nn
++
++from v2_data import TRAIN_DIR, load_channel
++from v2_graph import build_channel_graph
++from v2_models_exp006 import TCNGCNFixedTuned, count_parameters
++import v2_train_exp006 as patched
++import v2_train_exp006_frozen_cpu as frozen_cpu
++from v2_exp006_device import (
++    configure_device,
++    optimizer_execution_kwargs,
++    portable_state_dict,
++    write_environment_record,
++)
++
++
++ROOT = Path(__file__).resolve().parents[1]
++CONFIG_PATH = ROOT / "configs" / "v2_exp006_gcn_tuning.json"
++AMENDMENT_PATH = ROOT / "EXP006_DEVICE_AMENDMENT.json"
++SELECTED_PATH = ROOT / "results" / "v2_exp006_gcn_tuned" / "screen" / "selected_top2.json"
++OUT_CSV = ROOT / "exp006_device_verification.csv"
++SELECTION_PATH = ROOT / "exp006_device_verification_selection.json"
++VERIFY_DIR = ROOT / "results" / "v2_exp006_gcn_tuned" / "device_verification"
++
++PRED_RTOL = 1e-5
++PRED_ATOL = 1e-6
++GRAD_RTOL = 1e-4
++GRAD_ATOL = 1e-6
++
++
++def _load_json(path):
++    return json.loads(Path(path).read_text())
++
++
++def _candidate_lookup(config):
++    return {c["candidate_id"]: c for c in config["candidates"]}
++
++
++def _first_nonzero_variance_channel(config, mission):
++    for channel in config["screening"]["channels"][mission]:
++        raw = np.load(TRAIN_DIR / f"{channel}.npy", mmap_mode="r")
++        fit_end = int(np.floor(len(raw) * float(config["dataset"]["fit_fraction"])))
++        variance = float(np.var(np.asarray(raw[:fit_end, 0], dtype=np.float64)))
++        if np.isfinite(variance) and variance > 0.0:
++            return channel, variance
++    raise RuntimeError(f"No non-zero fit-block telemetry variance channel found for {mission}")
++
++
++def _make_model(channel, candidate, seed):
++    patched.set_seed(seed, device_name="cpu")
++    data = load_channel(
++        channel=channel,
++        lookback=int(candidate["lookback"]),
++        fit_fraction=0.60,
++        validation_end_fraction=0.80,
++    )
++    graph = build_channel_graph(channel=channel, fit_fraction=0.60)
++    x_fit = patched.subset_features(data.x_fit, graph.feature_indices)
++    x_val = patched.subset_features(data.x_val, graph.feature_indices)
++    model = TCNGCNFixedTuned(
++        num_nodes=graph.num_nodes,
++        hidden_size=int(candidate["hidden_by_mission"][data.mission]),
++        adjacency=graph.adjacency,
++        kernel_size=int(candidate["kernel_size"]),
++        dilations=tuple(int(d) for d in candidate["dilations"]),
++    )
++    return model, data, graph, x_fit, x_val
++
++
++def _state_max_abs_diff(a, b):
++    keys = list(a.keys())
++    if keys != list(b.keys()):
++        raise RuntimeError("State dict keys differ")
++    max_diff = 0.0
++    exact = True
++    for k in keys:
++        ta = a[k].detach().cpu()
++        tb = b[k].detach().cpu()
++        if ta.shape != tb.shape or ta.dtype != tb.dtype:
++            return float("inf"), False
++        if not torch.equal(ta, tb):
++            exact = False
++        if ta.numel():
++            d = float((ta - tb).abs().max().item())
++            max_diff = max(max_diff, d)
++    return max_diff, exact
++
++
++def _append(rows, **kwargs):
++    row = {
++        "check_group": kwargs.pop("check_group"),
++        "mission": kwargs.pop("mission", None),
++        "candidate_id": kwargs.pop("candidate_id", None),
++        "channel": kwargs.pop("channel", None),
++        "metric": kwargs.pop("metric"),
++        "cpu_value": kwargs.pop("cpu_value", None),
++        "cuda_value": kwargs.pop("cuda_value", None),
++        "abs_diff": kwargs.pop("abs_diff", None),
++        "tolerance": kwargs.pop("tolerance", None),
++        "passed": bool(kwargs.pop("passed")),
++        "notes": kwargs.pop("notes", ""),
++    }
++    row.update(kwargs)
++    rows.append(row)
++    pd.DataFrame(rows).to_csv(OUT_CSV, index=False)
++
++
++def _close(a, b, rtol, atol):
++    return bool(np.allclose(np.asarray(a), np.asarray(b), rtol=rtol, atol=atol, equal_nan=False))
++
++
++def _tensor_close(a, b, rtol, atol):
++    return bool(torch.allclose(a.detach().cpu(), b.detach().cpu(), rtol=rtol, atol=atol))
++
++
++def _manual_parity(channel, candidate, trained_cpu_state, seed, rows):
++    mission = load_channel(channel, lookback=int(candidate["lookback"])).mission
++    model0, data, graph, x_fit, _ = _make_model(channel, candidate, seed)
++    model0.load_state_dict(trained_cpu_state)
++
++    # Ensure this is not the zero-head persistence initialisation.
++    head_nonzero = bool(
++        torch.count_nonzero(model0.head.weight.detach()).item()
++        or torch.count_nonzero(model0.head.bias.detach()).item()
++    )
++    _append(
++        rows,
++        check_group="numerical_parity",
++        mission=mission,
++        candidate_id=candidate["candidate_id"],
++        channel=channel,
++        metric="trained_checkpoint_nonzero_head",
++        cpu_value=int(head_nonzero),
++        cuda_value=int(head_nonzero),
++        abs_diff=0.0,
++        tolerance=0.0,
++        passed=head_nonzero,
++        notes="Parity uses a trained checkpoint, not the initial persistence head.",
++    )
++
++    configure_device("cuda")
++    cpu = TCNGCNFixedTuned(
++        num_nodes=graph.num_nodes,
++        hidden_size=int(candidate["hidden_by_mission"][mission]),
++        adjacency=graph.adjacency,
++        kernel_size=int(candidate["kernel_size"]),
++        dilations=tuple(int(d) for d in candidate["dilations"]),
++    )
++    gpu = TCNGCNFixedTuned(
++        num_nodes=graph.num_nodes,
++        hidden_size=int(candidate["hidden_by_mission"][mission]),
++        adjacency=graph.adjacency,
++        kernel_size=int(candidate["kernel_size"]),
++        dilations=tuple(int(d) for d in candidate["dilations"]),
++    )
++    cpu.load_state_dict(trained_cpu_state)
++    gpu.load_state_dict(trained_cpu_state)
++    cpu = cpu.to("cpu")
++    gpu = gpu.to("cuda")
++
++    n = min(64, len(x_fit))
++    xb_cpu = torch.from_numpy(x_fit[:n].astype(np.float32))
++    yb_cpu = torch.from_numpy(data.y_fit[:n].astype(np.float32))
++    xb_gpu = xb_cpu.to("cuda")
++    yb_gpu = yb_cpu.to("cuda")
++    criterion = nn.MSELoss()
++
++    cpu.zero_grad(set_to_none=True)
++    gpu.zero_grad(set_to_none=True)
++    pred_cpu = cpu(xb_cpu)
++    pred_gpu = gpu(xb_gpu)
++    loss_cpu = criterion(pred_cpu, yb_cpu)
++    loss_gpu = criterion(pred_gpu, yb_gpu)
++    loss_cpu.backward()
++    loss_gpu.backward()
++
++    pred_diff = float((pred_cpu.detach() - pred_gpu.detach().cpu()).abs().max().item())
++    pred_pass = _tensor_close(pred_cpu, pred_gpu, PRED_RTOL, PRED_ATOL)
++    _append(
++        rows,
++        check_group="numerical_parity",
++        mission=mission,
++        candidate_id=candidate["candidate_id"],
++        channel=channel,
++        metric="prediction_max_abs_diff",
++        cpu_value=float(pred_cpu.detach().abs().max().item()),
++        cuda_value=float(pred_gpu.detach().abs().max().item()),
++        abs_diff=pred_diff,
++        tolerance=f"rtol={PRED_RTOL},atol={PRED_ATOL}",
++        passed=pred_pass,
++    )
++
++    loss_diff = abs(float(loss_cpu.item()) - float(loss_gpu.item()))
++    loss_pass = math.isclose(float(loss_cpu.item()), float(loss_gpu.item()), rel_tol=PRED_RTOL, abs_tol=PRED_ATOL)
++    _append(
++        rows,
++        check_group="numerical_parity",
++        mission=mission,
++        candidate_id=candidate["candidate_id"],
++        channel=channel,
++        metric="loss_abs_diff",
++        cpu_value=float(loss_cpu.item()),
++        cuda_value=float(loss_gpu.item()),
++        abs_diff=loss_diff,
++        tolerance=f"rtol={PRED_RTOL},atol={PRED_ATOL}",
++        passed=loss_pass,
++    )
++
++    max_grad_diff = 0.0
++    grad_pass = True
++    for (name_c, p_c), (name_g, p_g) in zip(cpu.named_parameters(), gpu.named_parameters()):
++        if name_c != name_g:
++            raise RuntimeError("Parameter ordering differs during parity check")
++        if p_c.grad is None or p_g.grad is None:
++            if p_c.grad is not None or p_g.grad is not None:
++                grad_pass = False
++            continue
++        d = float((p_c.grad.detach() - p_g.grad.detach().cpu()).abs().max().item())
++        max_grad_diff = max(max_grad_diff, d)
++        if not _tensor_close(p_c.grad, p_g.grad, GRAD_RTOL, GRAD_ATOL):
++            grad_pass = False
++    _append(
++        rows,
++        check_group="numerical_parity",
++        mission=mission,
++        candidate_id=candidate["candidate_id"],
++        channel=channel,
++        metric="gradient_max_abs_diff",
++        cpu_value=None,
++        cuda_value=None,
++        abs_diff=max_grad_diff,
++        tolerance=f"rtol={GRAD_RTOL},atol={GRAD_ATOL}",
++        passed=grad_pass,
++    )
++
++    opt_cpu = torch.optim.AdamW(
++        cpu.parameters(),
++        lr=float(candidate["learning_rate"]),
++        weight_decay=1e-4,
++        **optimizer_execution_kwargs(),
++    )
++    opt_gpu = torch.optim.AdamW(
++        gpu.parameters(),
++        lr=float(candidate["learning_rate"]),
++        weight_decay=1e-4,
++        **optimizer_execution_kwargs(),
++    )
++    opt_cpu.step()
++    opt_gpu.step()
++
++    max_param_diff = 0.0
++    param_pass = True
++    for (name_c, p_c), (name_g, p_g) in zip(cpu.named_parameters(), gpu.named_parameters()):
++        if name_c != name_g:
++            raise RuntimeError("Parameter ordering differs during update check")
++        d = float((p_c.detach() - p_g.detach().cpu()).abs().max().item())
++        max_param_diff = max(max_param_diff, d)
++        if not _tensor_close(p_c, p_g, GRAD_RTOL, GRAD_ATOL):
++            param_pass = False
++    _append(
++        rows,
++        check_group="numerical_parity",
++        mission=mission,
++        candidate_id=candidate["candidate_id"],
++        channel=channel,
++        metric="one_step_parameter_max_abs_diff",
++        cpu_value=None,
++        cuda_value=None,
++        abs_diff=max_param_diff,
++        tolerance=f"rtol={GRAD_RTOL},atol={GRAD_ATOL}",
++        passed=param_pass,
++    )
++
++
++def main():
++    parser = argparse.ArgumentParser()
++    parser.add_argument("--seed", type=int, default=17)
++    args = parser.parse_args()
++
++    if not torch.cuda.is_available():
++        raise SystemExit("CUDA verification requires a GPU runtime")
++
++    config = _load_json(CONFIG_PATH)
++    amendment = _load_json(AMENDMENT_PATH)
++    selected = _load_json(SELECTED_PATH)
++    locked = amendment["locked_shortlist"]
++    if selected != locked:
++        raise RuntimeError("selected_top2.json does not match the locked device-amendment shortlist")
++
++    lookup = _candidate_lookup(config)
++    rows = []
++    VERIFY_DIR.mkdir(parents=True, exist_ok=True)
++
++    # Fix the verification channels before viewing any backend comparison.
++    selection = {}
++    for mission in config["dataset"]["missions"]:
++        ch, var = _first_nonzero_variance_channel(config, mission)
++        selection[mission] = {
++            "channel": ch,
++            "fit_block_telemetry_variance": var,
++            "selection_rule": "first screening channel in frozen roster with non-zero fit-block telemetry variance",
++        }
++    SELECTION_PATH.write_text(json.dumps(selection, indent=2) + "\n")
++    print("Verification channels fixed before backend comparison:")
++    print(json.dumps(selection, indent=2))
++
++    # ------------------------------------------------------------------
++    # 1. Data/model identity and CPU regression. Keep CUDA deterministic
++    # settings untouched until these CPU checks have completed.
++    # ------------------------------------------------------------------
++    trained_smoke_states = {}
++    cpu_bridge = {}
++
++    for mission in config["dataset"]["missions"]:
++        channel = selection[mission]["channel"]
++
++        data_a = load_channel(channel, lookback=64, fit_fraction=0.60, validation_end_fraction=0.80)
++        data_b = load_channel(channel, lookback=64, fit_fraction=0.60, validation_end_fraction=0.80)
++        graph_a = build_channel_graph(channel, fit_fraction=0.60)
++        graph_b = build_channel_graph(channel, fit_fraction=0.60)
++
++        identity_pass = (
++            data_a.fit_end == data_b.fit_end
++            and data_a.val_end == data_b.val_end
++            and data_a.num_values == data_b.num_values
++            and np.array_equal(graph_a.feature_indices, graph_b.feature_indices)
++            and np.array_equal(graph_a.source_original_columns, graph_b.source_original_columns)
++            and np.array_equal(graph_a.adjacency, graph_b.adjacency)
++        )
++        _append(
++            rows,
++            check_group="data_model_identity",
++            mission=mission,
++            channel=channel,
++            metric="split_graph_exact_equality",
++            cpu_value=f"fit_end={data_a.fit_end};val_end={data_a.val_end};n={data_a.num_values}",
++            cuda_value=f"fit_end={data_b.fit_end};val_end={data_b.val_end};n={data_b.num_values}",
++            abs_diff=0.0 if identity_pass else None,
++            tolerance="exact",
++            passed=identity_pass,
++            notes=f"feature_indices={graph_a.feature_indices.tolist()}; adjacency compared exactly",
++        )
++
++        for cid in locked[mission]:
++            cand = lookup[cid]
++            m1, _, g1, _, _ = _make_model(channel, cand, args.seed)
++            state1 = portable_state_dict(m1)
++            m2, _, g2, _, _ = _make_model(channel, cand, args.seed)
++            state2 = portable_state_dict(m2)
++            maxdiff, exact = _state_max_abs_diff(state1, state2)
++            param_count_equal = count_parameters(m1) == count_parameters(m2)
++            init_pass = bool(exact and param_count_equal and np.array_equal(g1.adjacency, g2.adjacency))
++            _append(
++                rows,
++                check_group="data_model_identity",
++                mission=mission,
++                candidate_id=cid,
++                channel=channel,
++                metric="initial_state_and_parameter_count",
++                cpu_value=count_parameters(m1),
++                cuda_value=count_parameters(m2),
++                abs_diff=maxdiff,
++                tolerance="exact",
++                passed=init_pass,
++            )
++
++        # CPU regression uses first shortlisted configuration for each mission.
++        cid = locked[mission][0]
++        cand = lookup[cid]
++        model_old, res_old = frozen_cpu.train_standard(
++            channel=channel,
++            seed=args.seed,
++            base_config=config,
++            candidate=cand,
++            smoke_epochs=3,
++        )
++        model_new, res_new = patched.train_standard(
++            channel=channel,
++            seed=args.seed,
++            base_config=config,
++            candidate=cand,
++            smoke_epochs=3,
++            device_name="cpu",
++            execution_environment_id="cpu_regression",
++        )
++        old_state = portable_state_dict(model_old)
++        new_state = portable_state_dict(model_new)
++        maxdiff, exact = _state_max_abs_diff(old_state, new_state)
++        mse_diff = abs(float(res_old["validation_mse"]) - float(res_new["validation_mse"]))
++        cpu_reg_pass = bool(exact and mse_diff == 0.0 and res_old["best_epoch"] == res_new["best_epoch"])
++        _append(
++            rows,
++            check_group="cpu_regression",
++            mission=mission,
++            candidate_id=cid,
++            channel=channel,
++            metric="three_epoch_original_vs_patched",
++            cpu_value=float(res_old["validation_mse"]),
++            cuda_value=float(res_new["validation_mse"]),
++            abs_diff=max(maxdiff, mse_diff),
++            tolerance="exact",
++            passed=cpu_reg_pass,
++            notes=f"best_epoch old/new={res_old['best_epoch']}/{res_new['best_epoch']}; state_exact={exact}",
++        )
++        trained_smoke_states[mission] = portable_state_dict(model_new)
++
++    # Full CPU side of all four bridge pairs, before enabling CUDA settings.
++    for mission in config["dataset"]["missions"]:
++        channel = selection[mission]["channel"]
++        for cid in locked[mission]:
++            cand = lookup[cid]
++            model_cpu, result_cpu = patched.train_standard(
++                channel=channel,
++                seed=args.seed,
++                base_config=config,
++                candidate=cand,
++                device_name="cpu",
++                execution_environment_id="colab_cpu_bridge",
++            )
++            cpu_bridge[(mission, cid)] = {
++                "result": result_cpu,
++                "state": portable_state_dict(model_cpu),
++            }
++            del model_cpu
++
++    # ------------------------------------------------------------------
++    # 2. Enable deterministic CUDA and run numerical parity + full bridges.
++    # ------------------------------------------------------------------
++    configure_device("cuda")
++    env = write_environment_record(ROOT, "cuda")
++    env_id = env["execution_environment_id"]
++    print(f"CUDA execution environment: {env_id}")
++
++    for mission in config["dataset"]["missions"]:
++        channel = selection[mission]["channel"]
++        cid = locked[mission][0]
++        _manual_parity(channel, lookup[cid], trained_smoke_states[mission], args.seed, rows)
++
++    gpu_bridge_models = {}
++    gpu_bridge_results = {}
++    for mission in config["dataset"]["missions"]:
++        channel = selection[mission]["channel"]
++        for cid in locked[mission]:
++            cand = lookup[cid]
++            model_gpu, result_gpu = patched.train_standard(
++                channel=channel,
++                seed=args.seed,
++                base_config=config,
++                candidate=cand,
++                device_name="cuda",
++                execution_environment_id=env_id,
++            )
++            cpu_result = cpu_bridge[(mission, cid)]["result"]
++            cpu_mse = float(cpu_result["validation_mse"])
++            gpu_mse = float(result_gpu["validation_mse"])
++            diff = abs(cpu_mse - gpu_mse)
++            threshold = max(1e-6, 0.01 * abs(cpu_mse))
++            passed = diff <= threshold
++            _append(
++                rows,
++                check_group="full_training_bridge",
++                mission=mission,
++                candidate_id=cid,
++                channel=channel,
++                metric="validation_mse",
++                cpu_value=cpu_mse,
++                cuda_value=gpu_mse,
++                abs_diff=diff,
++                tolerance=threshold,
++                passed=passed,
++                notes=f"best_epoch cpu/cuda={cpu_result['best_epoch']}/{result_gpu['best_epoch']}",
++            )
++            gpu_bridge_results[(mission, cid)] = result_gpu
++            gpu_bridge_models[(mission, cid)] = model_gpu
++
++    # One same-environment GPU repeat per mission using the first shortlist item.
++    for mission in config["dataset"]["missions"]:
++        channel = selection[mission]["channel"]
++        cid = locked[mission][0]
++        cand = lookup[cid]
++        model_repeat, result_repeat = patched.train_standard(
++            channel=channel,
++            seed=args.seed,
++            base_config=config,
++            candidate=cand,
++            device_name="cuda",
++            execution_environment_id=env_id,
++        )
++        first = gpu_bridge_results[(mission, cid)]
++        first_mse = float(first["validation_mse"])
++        repeat_mse = float(result_repeat["validation_mse"])
++        diff = abs(first_mse - repeat_mse)
++        threshold = max(1e-6, 0.01 * abs(first_mse))
++        _append(
++            rows,
++            check_group="cuda_repeatability",
++            mission=mission,
++            candidate_id=cid,
++            channel=channel,
++            metric="validation_mse_repeat",
++            cpu_value=first_mse,
++            cuda_value=repeat_mse,
++            abs_diff=diff,
++            tolerance=threshold,
++            passed=diff <= threshold,
++            notes=f"best_epoch first/repeat={first['best_epoch']}/{result_repeat['best_epoch']}",
++        )
++        del model_repeat
++        torch.cuda.empty_cache()
++
++    # Checkpoint portability: first shortlisted GPU bridge per mission.
++    for mission in config["dataset"]["missions"]:
++        channel = selection[mission]["channel"]
++        cid = locked[mission][0]
++        cand = lookup[cid]
++        model_gpu = gpu_bridge_models[(mission, cid)]
++        state_cpu = portable_state_dict(model_gpu)
++        ckpt = VERIFY_DIR / f"portable_{mission}_{cid}_seed{args.seed}.pt"
++        torch.save({"state_dict": state_cpu, "candidate_id": cid, "channel": channel}, ckpt)
++        loaded = torch.load(ckpt, map_location="cpu")
++
++        model_cpu, data, graph, _, x_val = _make_model(channel, cand, args.seed)
++        model_cpu.load_state_dict(loaded["state_dict"])
++        model_cpu.eval()
++        model_gpu.eval()
++        n = min(64, len(x_val))
++        xb_cpu = torch.from_numpy(x_val[:n].astype(np.float32))
++        xb_gpu = xb_cpu.to("cuda")
++        with torch.no_grad():
++            p_cpu = model_cpu(xb_cpu)
++            p_gpu = model_gpu(xb_gpu).cpu()
++        diff = float((p_cpu - p_gpu).abs().max().item())
++        passed = _tensor_close(p_cpu, p_gpu, PRED_RTOL, PRED_ATOL)
++        _append(
++            rows,
++            check_group="checkpoint_portability",
++            mission=mission,
++            candidate_id=cid,
++            channel=channel,
++            metric="reloaded_prediction_max_abs_diff",
++            cpu_value=float(p_cpu.abs().max().item()),
++            cuda_value=float(p_gpu.abs().max().item()),
++            abs_diff=diff,
++            tolerance=f"rtol={PRED_RTOL},atol={PRED_ATOL}",
++            passed=passed,
++            notes=str(ckpt.relative_to(ROOT)),
++        )
++
++    # Clean GPU bridge models only after portability check.
++    gpu_bridge_models.clear()
++    torch.cuda.empty_cache()
++
++    df = pd.DataFrame(rows)
++    df.to_csv(OUT_CSV, index=False)
++    failures = df[~df["passed"].astype(bool)]
++    print("\nEXP006 DEVICE VERIFICATION SUMMARY")
++    print(df[["check_group", "mission", "candidate_id", "metric", "abs_diff", "tolerance", "passed"]].to_string(index=False))
++    print(f"\nVerification rows: {len(df)}")
++    print(f"Failures: {len(failures)}")
++    print(f"CSV: {OUT_CSV}")
++
++    if len(failures):
++        raise SystemExit(
++            "EXP006 device verification did not pass. Pause the migration and investigate; do not loosen tolerances."
++        )
++
++    print("EXP006 DEVICE VERIFICATION: PASS")
++
++
++if __name__ == "__main__":
++    main()

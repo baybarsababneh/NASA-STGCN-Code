@@ -1,0 +1,15 @@
+# Begin EXP014 in Colab
+
+1. Keep your completed EXP013 archive in Drive at `MyDrive/EXP013_COMMAND_REFERENCE_V1_E03_CONV/main/FINAL_RESULTS.zip`. It is the approximately 1.23 GB archive from the completed E03 run, not the E03 **input** bundle or `reports.zip`. If it is stored elsewhere, edit only `SOURCE_PATH` in the notebook's setup cell.
+2. Open `EXP014_LITERATURE_COMPARISON_V1_Run_All.ipynb` through Colab's **File → Upload notebook**. Set **Runtime → Change runtime type → A100 GPU**. The runner requires the 40 GB device and Python 3.12/3.13.
+3. Choose **Runtime → Run all**, authorise the Drive mount, and upload exactly `EXP014_LITERATURE_COMPARISON_V1_input_bundle.zip` when requested. The notebook caches and verifies that bundle in the new EXP014 Drive folder, so subsequent sessions do not ask for it again. No separate NASA-data or annotation upload is necessary.
+4. The notebook installs the frozen package versions and runs one bounded regression. It then verifies the original inputs, checks real full native GDN batches at `[32,55,5]` and `[32,25,5]`, restores each checkpoint exactly, and checks every native score against its sealed EXP013 reference before running the new detector. Watch `COMPLETE n/81`, memory receipts and the measured remaining-work estimate.
+5. Collect the final archive from `MyDrive/EXP014_LITERATURE_COMPARISON_V1/main/exports/`. `LATEST_EXPORT.json` identifies its exact filename/hash. Supply it and the bundled scientific decision/completion audit to the report-writing task. The archive includes the report-ready summary, CSV tables, event notifications, uncertainty and PNG/PDF figures.
+
+After disconnection, reconnect an A100 40 GB and repeat **Run all** with the same `RUN_SLOT='main'` and unchanged input bundle. The notebook restores a verified backup and skips completed scientific channels. It may recompute an uncommitted channel. Original experiments are never overwritten.
+
+If the original EXP013 source is missing, provide `FINAL_RESULTS.zip` at the path above, or set `SOURCE_PATH` to an unpacked directory/smaller ZIP containing the exact 252 paths in `audit/INPUT_INVENTORY.csv`. Those paths include both GDN `selected.pt`, `COMPLETE.json`, `IDENTITY.json`, both frozen threshold files, `scores/SCORE_SEAL.json`, and the 81 GDN native score/record/commit triples. **No CATCH checkpoint is needed.** The original score seal pins each reference triple.
+
+Do not use an E01/P01/E02 native-convolution run, replace weights, lower batch size, relax replay checks or edit a failed gate to PASS. A native replay mismatch stops the comparison and preserves diagnostics. The supplied sources and tests must resolve the cause before another numerical implementation is authorised.
+
+No new scientific training is scheduled. The earlier 17.33-second graph epoch and 501.39× convolution speedup are historical receipts for other models; they are not EXP014 inference benchmarks. GPU/setup/Drive duration is unmeasured here. An inference ETA appears after the first completed channel and improves as channel timings accumulate. No completion time is guaranteed.

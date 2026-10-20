@@ -1,0 +1,32 @@
+{
+  "40GB_Phase_A_use_authorized": false,
+  "CPU_saved_trace_conformance": {
+    "GPU_40GB_replay_performed": false,
+    "GPU_40GB_use_authorized": false,
+    "NASA_TEST_opened": false,
+    "NASA_labels_opened": false,
+    "adaptive_windows_checked": 2080,
+    "detector_split_streams_checked": 4212,
+    "scientific_fits": 0,
+    "split_streams_checked": 2106,
+    "status": "PASS_CPU_SAVED_TRACE_CONFORMANCE_ONLY",
+    "thresholds_refitted": false
+  },
+  "NASA_TEST_arrays_accessed": false,
+  "NASA_labels_accessed": false,
+  "exporter_changed_only_at_runtime_gate_and_receipt_provenance": true,
+  "gate_synthetic_tests_passed": 7,
+  "inherited_synthetic_tests_passed": 9,
+  "metrics_common_label_evaluator_byte_identical": true,
+  "no_training_calls": true,
+  "original_80GB_artifact_sha256": {
+    "EXP012_FINAL_READINESS_AUDIT.md": "0a95b05aa840fe22c9dfbb7beb591ec9e2ac412e9b93debbd4f9f00526fc057c",
+    "EXP012_RETROSPECTIVE_EVALUATION_V1_Colab.ipynb": "d31aafdab89f43ddc44686c35fcd9bcad053499bff8651179907acb6f9f3a7a8",
+    "EXP012_RETROSPECTIVE_EVALUATION_V1_runner_bundle.zip": "31211604e069247aff113355af2b2ff6f1392f2bc9146e7dee94a0f409014d65"
+  },
+  "original_80GB_artifacts_unchanged": true,
+  "real_40GB_GPU_available": false,
+  "real_40GB_GPU_replay_performed": false,
+  "scientific_contract_and_input_bindings_unchanged": true,
+  "status": "STATIC_AND_CPU_CHECKS_PASS_REAL_40GB_REPLAY_PENDING"
+}

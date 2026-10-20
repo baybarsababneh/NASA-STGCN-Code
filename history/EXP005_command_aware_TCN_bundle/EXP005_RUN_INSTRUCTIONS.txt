@@ -1,0 +1,64 @@
+EXP005: Tuned command-aware non-graph TCN
+==========================================
+
+Purpose
+-------
+This is the independent non-graph control recommended after EXP004. It gives a
+TCN direct access to the same command histories that feed telemetry node 0 in
+EXP002, while removing graph aggregation. It is prospectively tuned on TRAIN
+validation only.
+
+Do NOT change EXP001-EXP004.
+Do NOT use NASA TEST or anomaly labels during this run.
+
+Files to add to your existing smap_msl_tcn_gcn_v2 project
+----------------------------------------------------------
+configs/v2_exp005_command_tcn_tuning.json
+src/v2_models_exp005.py
+src/v2_train_exp005.py
+src/v2_run_exp005_tuning.py
+
+The scripts reuse your existing src/v2_data.py and src/v2_graph.py unchanged.
+
+Protocol
+--------
+Screening:
+  12 predeclared TCN configurations
+  12 fixed screening channels (6 MSL + 6 SMAP)
+  seeds 17 and 29
+  total = 288 fits
+
+Confirmation:
+  best 2 screening configurations per mission
+  all 81 channels
+  seeds 17, 29, 43
+  total = 486 fits
+
+Final selection:
+  one configuration per mission, lowest mean validation MSE across all
+  mission channels and all three seeds.
+
+Total planned fits = 774.
+
+Run
+---
+From the smap_msl_tcn_gcn_v2 project root, with .venv activated:
+
+  caffeinate -i python -u src/v2_run_exp005_tuning.py --stage all --workers 2 \
+    2>&1 | tee results/v2_exp005_command_tcn_tuned/full_tuning_run.log
+
+The run is resumable. If interrupted, run the exact same command again; completed
+per-run files/checkpoints are skipped.
+
+Outputs to send back after completion
+-------------------------------------
+results/v2_exp005_command_tcn_tuned/screen/candidate_summary.csv
+results/v2_exp005_command_tcn_tuned/screen/selected_top2.json
+results/v2_exp005_command_tcn_tuned/confirm/candidate_summary.csv
+results/v2_exp005_command_tcn_tuned/confirm/final_selected_by_mission.json
+results/v2_exp005_command_tcn_tuned/final/all_runs.csv
+results/v2_exp005_command_tcn_tuned/final/mission_seed_summary.csv
+results/v2_exp005_command_tcn_tuned/final/mission_summary.csv
+results/v2_exp005_command_tcn_tuned/full_tuning_run.log
+
+Keep the confirmation checkpoints. They are needed for later anomaly scoring.

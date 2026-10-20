@@ -1,0 +1,14 @@
+[
+  {
+    "end_exclusive": 1096,
+    "epsilon": 0.3899311601231843,
+    "epsilon_inverse": 1.069232791115602,
+    "guard_pass": true,
+    "initial_ignore": 0,
+    "issue_index": 1095,
+    "new_alarm_points": 227,
+    "start": 250,
+    "z": 2.5,
+    "z_inverse": 12.0
+  }
+]

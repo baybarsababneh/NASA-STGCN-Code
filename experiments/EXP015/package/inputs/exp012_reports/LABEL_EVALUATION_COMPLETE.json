@@ -1,0 +1,19 @@
+{
+  "channel_detector_rows": 2106,
+  "detector_selection_performed": false,
+  "files": {
+    "LABEL_EVALUATION_FREEZE.json": "2b3da7e1d44f199ee65c7a6842b3d8c00dc0f5a4ff2947db9236461a32d92ed8",
+    "LABEL_ROSTER_AUDIT.json": "e4d65e79b3e99952b0136c5d8bef4ba172ed1893b39c3abb7f0588771422dd0f",
+    "README_RESULTS.md": "2fa4a7272e7279a97a5b7e930d8ac5c1dfbe59024ed8f5fb0030b87941612f17",
+    "channel_metrics.csv": "e09b295fd2ce55ca4efe4299cfa684c45c8637bfca3bf009474c5947823143fc",
+    "event_notifications.csv": "79564b64143b892381543ab35fefe8d26e73b0d3df93778e1e5fecb71151e81f",
+    "events_outside_support.csv": "373c0cdc78412725713f9e7243db623322a912189631abcb6fe810deac3b530c",
+    "mission_metrics.csv": "627c7de7512170f93d826248a3c8d1905a33ca06a57da9ec3d4b99ed6c8c9606",
+    "mission_seed_metrics.csv": "ba378f5d9e50de1acc5270937d552eb83ad08c3d6c7a4c13ce9c98636e679509",
+    "paired_channel_bootstrap.json": "7c9bd2579c74980340560a18bc151e34edc6cb70a708aa5643b1e33d3b950cec"
+  },
+  "scientific_fits": 0,
+  "score_export_freeze_sha256": "3fecc74f7b72c84842879d00625f37922c5209140545d17e5cd5e698c48b6c26",
+  "settings_changed": false,
+  "status": "COMPLETE_LOCKED_RETROSPECTIVE_EVALUATION"
+}

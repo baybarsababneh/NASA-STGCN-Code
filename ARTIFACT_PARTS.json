@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "NASA_SMAP_MSL_Artifacts_01_of_05.zip",
+    "bytes": 496037413,
+    "sha256": "8763af61980f39e8690980e6749a1f9ac7688bbda1ccdc86b899a2696b070744",
+    "objects": 8,
+    "uncompressed_object_bytes": 503316373
+  },
+  {
+    "filename": "NASA_SMAP_MSL_Artifacts_02_of_05.zip",
+    "bytes": 323747725,
+    "sha256": "4a5b238f7d03e75941f502e346097a548d2f12f9677659b6745e4b933ff9f6d8",
+    "objects": 163,
+    "uncompressed_object_bytes": 503316478
+  },
+  {
+    "filename": "NASA_SMAP_MSL_Artifacts_03_of_05.zip",
+    "bytes": 386608001,
+    "sha256": "a44ee653197bc4d6f5ae7274bb69aa5e439eaa058e17c9155edcb7cfa54608f0",
+    "objects": 975,
+    "uncompressed_object_bytes": 503316478
+  },
+  {
+    "filename": "NASA_SMAP_MSL_Artifacts_04_of_05.zip",
+    "bytes": 462168030,
+    "sha256": "b4ae92372dc578ec40b0a8eba7926f25471889f091d1d4e93dda2f2ad840ce00",
+    "objects": 3095,
+    "uncompressed_object_bytes": 503316399
+  },
+  {
+    "filename": "NASA_SMAP_MSL_Artifacts_05_of_05.zip",
+    "bytes": 232169836,
+    "sha256": "b83f6d876eb94dc15e4de55bb626034e8cc484459a6e7cd245315ab2c5d48ff6",
+    "objects": 36056,
+    "uncompressed_object_bytes": 445160484
+  }
+]

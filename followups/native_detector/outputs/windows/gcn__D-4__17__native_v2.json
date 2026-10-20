@@ -1,0 +1,794 @@
+[
+  {
+    "start": 250,
+    "end_exclusive": 2350,
+    "issue_index": 2358,
+    "epsilon": 4.045658155273447e-05,
+    "epsilon_inverse": 0.00010536059939456912,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 320,
+    "end_exclusive": 2420,
+    "issue_index": 2428,
+    "epsilon": 4.045853808110636e-05,
+    "epsilon_inverse": 0.00010556125736558352,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 390,
+    "end_exclusive": 2490,
+    "issue_index": 2498,
+    "epsilon": 4.045996469508491e-05,
+    "epsilon_inverse": 0.0001057666611147277,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 460,
+    "end_exclusive": 2560,
+    "issue_index": 2568,
+    "epsilon": 4.0460389043428795e-05,
+    "epsilon_inverse": 0.00010596935071609728,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 530,
+    "end_exclusive": 2630,
+    "issue_index": 2638,
+    "epsilon": 4.046105941808943e-05,
+    "epsilon_inverse": 0.00010610511713913151,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 600,
+    "end_exclusive": 2700,
+    "issue_index": 2708,
+    "epsilon": 4.0463348554810444e-05,
+    "epsilon_inverse": 0.00010615930575819536,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 670,
+    "end_exclusive": 2770,
+    "issue_index": 2778,
+    "epsilon": 4.046558973470615e-05,
+    "epsilon_inverse": 0.00010621332985443396,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 740,
+    "end_exclusive": 2840,
+    "issue_index": 2848,
+    "epsilon": 3.948399932450102e-05,
+    "epsilon_inverse": 0.00010221431412747186,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 810,
+    "end_exclusive": 2910,
+    "issue_index": 2918,
+    "epsilon": 4.019122936568371e-05,
+    "epsilon_inverse": 0.00010547792787410281,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 880,
+    "end_exclusive": 2980,
+    "issue_index": 2988,
+    "epsilon": 4.038657114120448e-05,
+    "epsilon_inverse": 0.00010605809721756627,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 950,
+    "end_exclusive": 3050,
+    "issue_index": 3058,
+    "epsilon": 4.039524487763604e-05,
+    "epsilon_inverse": 0.00010601188305483341,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1020,
+    "end_exclusive": 3120,
+    "issue_index": 3128,
+    "epsilon": 4.039490753882342e-05,
+    "epsilon_inverse": 0.00010599141050737821,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1090,
+    "end_exclusive": 3190,
+    "issue_index": 3198,
+    "epsilon": 3.79606110251577e-05,
+    "epsilon_inverse": 9.649425969396364e-05,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1160,
+    "end_exclusive": 3260,
+    "issue_index": 3268,
+    "epsilon": 5.552484757275331e-05,
+    "epsilon_inverse": 0.00012033367868032021,
+    "z": 4.0,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1230,
+    "end_exclusive": 3330,
+    "issue_index": 3338,
+    "epsilon": 5.455219879286153e-05,
+    "epsilon_inverse": 0.00012932835263137118,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1300,
+    "end_exclusive": 3400,
+    "issue_index": 3408,
+    "epsilon": 5.466072923627945e-05,
+    "epsilon_inverse": 0.0001293017759279386,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1370,
+    "end_exclusive": 3470,
+    "issue_index": 3478,
+    "epsilon": 5.464621308108528e-05,
+    "epsilon_inverse": 0.0001291599578406181,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1440,
+    "end_exclusive": 3540,
+    "issue_index": 3548,
+    "epsilon": 5.5013593024305704e-05,
+    "epsilon_inverse": 0.00013025411077475943,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1510,
+    "end_exclusive": 3610,
+    "issue_index": 3618,
+    "epsilon": 5.681635633063468e-05,
+    "epsilon_inverse": 0.00013501825489504072,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1580,
+    "end_exclusive": 3680,
+    "issue_index": 3688,
+    "epsilon": 5.5629993978134086e-05,
+    "epsilon_inverse": 0.00013120125700774297,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1650,
+    "end_exclusive": 3750,
+    "issue_index": 3758,
+    "epsilon": 5.460775703265916e-05,
+    "epsilon_inverse": 0.00012871496712603007,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1720,
+    "end_exclusive": 3820,
+    "issue_index": 3828,
+    "epsilon": 5.459848178867108e-05,
+    "epsilon_inverse": 0.00012897359472849955,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1790,
+    "end_exclusive": 3890,
+    "issue_index": 3898,
+    "epsilon": 5.4620370764534216e-05,
+    "epsilon_inverse": 0.0001291471377709119,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1860,
+    "end_exclusive": 3960,
+    "issue_index": 3968,
+    "epsilon": 5.463428239248028e-05,
+    "epsilon_inverse": 0.00012924392863615132,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 1930,
+    "end_exclusive": 4030,
+    "issue_index": 4038,
+    "epsilon": 5.4644798638451e-05,
+    "epsilon_inverse": 0.00012931542159944946,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2000,
+    "end_exclusive": 4100,
+    "issue_index": 4108,
+    "epsilon": 5.465455495742438e-05,
+    "epsilon_inverse": 0.0001293814734916413,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2070,
+    "end_exclusive": 4170,
+    "issue_index": 4178,
+    "epsilon": 5.4284646960444104e-05,
+    "epsilon_inverse": 0.00012829728769225108,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2140,
+    "end_exclusive": 4240,
+    "issue_index": 4248,
+    "epsilon": 5.428945238377183e-05,
+    "epsilon_inverse": 0.00012861864855428034,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2210,
+    "end_exclusive": 4310,
+    "issue_index": 4318,
+    "epsilon": 5.45674467381964e-05,
+    "epsilon_inverse": 0.00012928645540287464,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2280,
+    "end_exclusive": 4380,
+    "issue_index": 4388,
+    "epsilon": 5.662830210996499e-05,
+    "epsilon_inverse": 0.00013526184999888304,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2350,
+    "end_exclusive": 4450,
+    "issue_index": 4458,
+    "epsilon": 5.7075300746697225e-05,
+    "epsilon_inverse": 0.00013602876048566758,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2420,
+    "end_exclusive": 4520,
+    "issue_index": 4528,
+    "epsilon": 5.705148347967996e-05,
+    "epsilon_inverse": 0.0001357703608866756,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2490,
+    "end_exclusive": 4590,
+    "issue_index": 4598,
+    "epsilon": 5.883476609983174e-05,
+    "epsilon_inverse": 0.00014069387780483945,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2560,
+    "end_exclusive": 4660,
+    "issue_index": 4668,
+    "epsilon": 5.901801205853013e-05,
+    "epsilon_inverse": 0.00014066733664483972,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2630,
+    "end_exclusive": 4730,
+    "issue_index": 4738,
+    "epsilon": 5.9699811602465374e-05,
+    "epsilon_inverse": 0.00014250053026717934,
+    "z": 3.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2700,
+    "end_exclusive": 4800,
+    "issue_index": 4808,
+    "epsilon": 5.928693793407348e-05,
+    "epsilon_inverse": 0.00015714114460899589,
+    "z": 3.0,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2770,
+    "end_exclusive": 4870,
+    "issue_index": 4878,
+    "epsilon": 6.068558003364757e-05,
+    "epsilon_inverse": 0.00016091952124052536,
+    "z": 3.0,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2840,
+    "end_exclusive": 4940,
+    "issue_index": 4948,
+    "epsilon": 5.9287226900900294e-05,
+    "epsilon_inverse": 0.00017646910035553563,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2910,
+    "end_exclusive": 5010,
+    "issue_index": 5018,
+    "epsilon": 5.848648184745258e-05,
+    "epsilon_inverse": 0.00017354932534518737,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 2980,
+    "end_exclusive": 5080,
+    "issue_index": 5088,
+    "epsilon": 5.843474327348351e-05,
+    "epsilon_inverse": 0.00017391164695765591,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3050,
+    "end_exclusive": 5150,
+    "issue_index": 5158,
+    "epsilon": 5.84593822312623e-05,
+    "epsilon_inverse": 0.00017422882832252536,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3120,
+    "end_exclusive": 5220,
+    "issue_index": 5228,
+    "epsilon": 0.00011699668590760417,
+    "epsilon_inverse": 0.00018048363955907107,
+    "z": 7.0,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3190,
+    "end_exclusive": 5290,
+    "issue_index": 5298,
+    "epsilon": 0.00048787252703832003,
+    "epsilon_inverse": 0.0021351651197429084,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3260,
+    "end_exclusive": 5360,
+    "issue_index": 5368,
+    "epsilon": 0.0008749653633000796,
+    "epsilon_inverse": 0.0038130172554113775,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3330,
+    "end_exclusive": 5430,
+    "issue_index": 5438,
+    "epsilon": 0.0009840711150623043,
+    "epsilon_inverse": 0.004227640516603017,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3400,
+    "end_exclusive": 5500,
+    "issue_index": 5508,
+    "epsilon": 0.0010424493046389714,
+    "epsilon_inverse": 0.004422379958395407,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3470,
+    "end_exclusive": 5570,
+    "issue_index": 5578,
+    "epsilon": 0.001085189187982749,
+    "epsilon_inverse": 0.004551013945019173,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3540,
+    "end_exclusive": 5640,
+    "issue_index": 5648,
+    "epsilon": 0.00111737627886391,
+    "epsilon_inverse": 0.004636426902557975,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3610,
+    "end_exclusive": 5710,
+    "issue_index": 5718,
+    "epsilon": 0.0011546777653750834,
+    "epsilon_inverse": 0.0047411037290900964,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3680,
+    "end_exclusive": 5780,
+    "issue_index": 5788,
+    "epsilon": 0.0011912884605990268,
+    "epsilon_inverse": 0.004837935190692193,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3750,
+    "end_exclusive": 5850,
+    "issue_index": 5858,
+    "epsilon": 0.0012179337725805556,
+    "epsilon_inverse": 0.004894516732024457,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3820,
+    "end_exclusive": 5920,
+    "issue_index": 5928,
+    "epsilon": 0.0012350580374318612,
+    "epsilon_inverse": 0.004914889934542239,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3890,
+    "end_exclusive": 5990,
+    "issue_index": 5998,
+    "epsilon": 0.0012620672762051917,
+    "epsilon_inverse": 0.004967090420304923,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 3960,
+    "end_exclusive": 6060,
+    "issue_index": 6068,
+    "epsilon": 0.0013064843902808063,
+    "epsilon_inverse": 0.005083534491555015,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4030,
+    "end_exclusive": 6130,
+    "issue_index": 6138,
+    "epsilon": 0.0013647219231548962,
+    "epsilon_inverse": 0.005248490282188897,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4100,
+    "end_exclusive": 6200,
+    "issue_index": 6208,
+    "epsilon": 0.0013907727854509644,
+    "epsilon_inverse": 0.0052847536901814126,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4170,
+    "end_exclusive": 6270,
+    "issue_index": 6278,
+    "epsilon": 0.001414996596662474,
+    "epsilon_inverse": 0.005310417019969941,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4240,
+    "end_exclusive": 6340,
+    "issue_index": 6348,
+    "epsilon": 0.0014270969565239513,
+    "epsilon_inverse": 0.005292487902156391,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4310,
+    "end_exclusive": 6410,
+    "issue_index": 6418,
+    "epsilon": 0.0014427907055171616,
+    "epsilon_inverse": 0.005282466024803871,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4380,
+    "end_exclusive": 6480,
+    "issue_index": 6488,
+    "epsilon": 0.0014586791248726264,
+    "epsilon_inverse": 0.0052692990366880535,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4450,
+    "end_exclusive": 6550,
+    "issue_index": 6558,
+    "epsilon": 0.001471549358974938,
+    "epsilon_inverse": 0.005239547454091411,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4520,
+    "end_exclusive": 6620,
+    "issue_index": 6628,
+    "epsilon": 0.0014717545474866448,
+    "epsilon_inverse": 0.005161723011338961,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4590,
+    "end_exclusive": 6690,
+    "issue_index": 6698,
+    "epsilon": 0.001469538737428046,
+    "epsilon_inverse": 0.0050738720474568415,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4660,
+    "end_exclusive": 6760,
+    "issue_index": 6768,
+    "epsilon": 0.0014606299173283363,
+    "epsilon_inverse": 0.004960606940092705,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4730,
+    "end_exclusive": 6830,
+    "issue_index": 6838,
+    "epsilon": 0.0014515520038151522,
+    "epsilon_inverse": 0.004837878892859044,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4800,
+    "end_exclusive": 6900,
+    "issue_index": 6908,
+    "epsilon": 0.001438967665842976,
+    "epsilon_inverse": 0.004706344480395538,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4870,
+    "end_exclusive": 6970,
+    "issue_index": 6978,
+    "epsilon": 0.001422318899901926,
+    "epsilon_inverse": 0.004549486194431231,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 4940,
+    "end_exclusive": 7040,
+    "issue_index": 7048,
+    "epsilon": 0.0014072283513608674,
+    "epsilon_inverse": 0.0043909569002480485,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 5010,
+    "end_exclusive": 7110,
+    "issue_index": 7118,
+    "epsilon": 0.0013865115068618155,
+    "epsilon_inverse": 0.004194642685758386,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 5080,
+    "end_exclusive": 7180,
+    "issue_index": 7188,
+    "epsilon": 0.0013555258277104304,
+    "epsilon_inverse": 0.00394788445702606,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 5150,
+    "end_exclusive": 7250,
+    "issue_index": 7258,
+    "epsilon": 0.0013117264862612978,
+    "epsilon_inverse": 0.0013117264862612978,
+    "z": 2.5,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5220,
+    "end_exclusive": 7320,
+    "issue_index": 7328,
+    "epsilon": 0.0012493800955321356,
+    "epsilon_inverse": 0.0012493800955321356,
+    "z": 2.5,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5290,
+    "end_exclusive": 7390,
+    "issue_index": 7398,
+    "epsilon": 0.0012734445438665073,
+    "epsilon_inverse": 0.002932323588972741,
+    "z": 3.0,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 5360,
+    "end_exclusive": 7460,
+    "issue_index": 7468,
+    "epsilon": 0.000987777952088986,
+    "epsilon_inverse": 0.0020956275628736453,
+    "z": 2.5,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 5430,
+    "end_exclusive": 7530,
+    "issue_index": 7538,
+    "epsilon": 0.0009674516603634608,
+    "epsilon_inverse": 0.0009674516603634608,
+    "z": 2.5,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5500,
+    "end_exclusive": 7600,
+    "issue_index": 7608,
+    "epsilon": 0.0009864787564181675,
+    "epsilon_inverse": 0.0009864787564181675,
+    "z": 2.5,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5570,
+    "end_exclusive": 7670,
+    "issue_index": 7678,
+    "epsilon": 0.001061466800874579,
+    "epsilon_inverse": 0.0010023247812272526,
+    "z": 3.0,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5640,
+    "end_exclusive": 7740,
+    "issue_index": 7748,
+    "epsilon": 0.0010659569673057633,
+    "epsilon_inverse": 0.0010074309192751713,
+    "z": 3.0,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5710,
+    "end_exclusive": 7810,
+    "issue_index": 7818,
+    "epsilon": 0.0010687420360447316,
+    "epsilon_inverse": 0.0010107173063371748,
+    "z": 3.0,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5780,
+    "end_exclusive": 7880,
+    "issue_index": 7888,
+    "epsilon": 0.0010712400394760813,
+    "epsilon_inverse": 0.0010134852575391746,
+    "z": 3.0,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5850,
+    "end_exclusive": 7950,
+    "issue_index": 7958,
+    "epsilon": 0.0010687502865741043,
+    "epsilon_inverse": 0.0010124494173765312,
+    "z": 3.0,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 5920,
+    "end_exclusive": 8020,
+    "issue_index": 8028,
+    "epsilon": 0.0010540537525660946,
+    "epsilon_inverse": 0.0019970530790731,
+    "z": 3.0,
+    "z_inverse": 12.0
+  },
+  {
+    "start": 5990,
+    "end_exclusive": 8090,
+    "issue_index": 8098,
+    "epsilon": 0.001051868903034477,
+    "epsilon_inverse": 0.0010005707883203826,
+    "z": 3.0,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 6060,
+    "end_exclusive": 8160,
+    "issue_index": 8168,
+    "epsilon": 0.001048421748556337,
+    "epsilon_inverse": 0.000998070086412676,
+    "z": 3.0,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 6130,
+    "end_exclusive": 8230,
+    "issue_index": 8238,
+    "epsilon": 0.000985837286516011,
+    "epsilon_inverse": 0.000985837286516011,
+    "z": 2.5,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 6200,
+    "end_exclusive": 8300,
+    "issue_index": 8308,
+    "epsilon": 0.0009879338815148447,
+    "epsilon_inverse": 0.0009879338815148447,
+    "z": 2.5,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 6270,
+    "end_exclusive": 8370,
+    "issue_index": 8378,
+    "epsilon": 0.0009912011382534648,
+    "epsilon_inverse": 0.0009912011382534648,
+    "z": 2.5,
+    "z_inverse": 2.5
+  },
+  {
+    "start": 6340,
+    "end_exclusive": 8463,
+    "issue_index": 8471,
+    "epsilon": 0.0009929686364777996,
+    "epsilon_inverse": 0.0009929686364777996,
+    "z": 2.5,
+    "z_inverse": 2.5
+  }
+]

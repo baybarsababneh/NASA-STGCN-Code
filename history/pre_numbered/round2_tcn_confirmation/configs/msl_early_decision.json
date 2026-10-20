@@ -1,0 +1,10 @@
+{
+  "ratios": {
+    "all": 0.8259000363584679,
+    "nonscreen": 0.9223541741011223
+  },
+  "retained": [
+    "MSL_rf7_native",
+    "MSL_rf7_alternate"
+  ]
+}

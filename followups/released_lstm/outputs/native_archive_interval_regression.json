@@ -1,0 +1,1608 @@
+[
+  {
+    "channel": "A-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4730,
+        4869
+      ]
+    ],
+    "new_intervals": [
+      [
+        4730,
+        4869
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1043,
+        1345
+      ],
+      [
+        1463,
+        1716
+      ],
+      [
+        4450,
+        4659
+      ]
+    ],
+    "new_intervals": [
+      [
+        1043,
+        1345
+      ],
+      [
+        1463,
+        1716
+      ],
+      [
+        4450,
+        4659
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-3",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4590,
+        4869
+      ]
+    ],
+    "new_intervals": [
+      [
+        4590,
+        4869
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-4",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4520,
+        4796
+      ]
+    ],
+    "new_intervals": [
+      [
+        4520,
+        4796
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-5",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        2700,
+        2979
+      ]
+    ],
+    "new_intervals": [
+      [
+        2700,
+        2979
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-6",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1805,
+        2084
+      ]
+    ],
+    "new_intervals": [
+      [
+        1805,
+        2084
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-7",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        6200,
+        6689
+      ],
+      [
+        8300,
+        8509
+      ]
+    ],
+    "new_intervals": [
+      [
+        6200,
+        6689
+      ],
+      [
+        8300,
+        8509
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-8",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        7880,
+        8229
+      ],
+      [
+        8295,
+        8364
+      ]
+    ],
+    "new_intervals": [
+      [
+        7880,
+        8229
+      ],
+      [
+        8295,
+        8364
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "A-9",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  },
+  {
+    "channel": "B-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5010,
+        5219
+      ]
+    ],
+    "new_intervals": [
+      [
+        5010,
+        5219
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "C-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        500,
+        757
+      ]
+    ],
+    "new_intervals": [
+      [
+        500,
+        757
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "C-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        250,
+        445
+      ]
+    ],
+    "new_intervals": [
+      [
+        250,
+        445
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5220,
+        5359
+      ],
+      [
+        5570,
+        5919
+      ]
+    ],
+    "new_intervals": [
+      [
+        5220,
+        5359
+      ],
+      [
+        5570,
+        5919
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-11",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4240,
+        4449
+      ]
+    ],
+    "new_intervals": [
+      [
+        4240,
+        4449
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-12",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5360,
+        5709
+      ],
+      [
+        7320,
+        7529
+      ]
+    ],
+    "new_intervals": [
+      [
+        5360,
+        5709
+      ],
+      [
+        7320,
+        7529
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-13",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5080,
+        5343
+      ]
+    ],
+    "new_intervals": [
+      [
+        5080,
+        5343
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-14",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1891,
+        2119
+      ]
+    ],
+    "new_intervals": [
+      [
+        1891,
+        2119
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-15",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1751,
+        2147
+      ]
+    ],
+    "new_intervals": [
+      [
+        1751,
+        2147
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-16",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        726,
+        957
+      ]
+    ],
+    "new_intervals": [
+      [
+        726,
+        957
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4660,
+        4869
+      ],
+      [
+        8440,
+        8509
+      ]
+    ],
+    "new_intervals": [
+      [
+        4660,
+        4869
+      ],
+      [
+        8440,
+        8509
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-3",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5360,
+        5919
+      ]
+    ],
+    "new_intervals": [
+      [
+        5360,
+        5919
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-4",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5290,
+        5779
+      ]
+    ],
+    "new_intervals": [
+      [
+        5290,
+        5779
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-5",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4800,
+        4939
+      ]
+    ],
+    "new_intervals": [
+      [
+        4800,
+        4939
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-6",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4870,
+        5009
+      ]
+    ],
+    "new_intervals": [
+      [
+        4870,
+        5009
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-7",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5010,
+        5359
+      ],
+      [
+        5430,
+        5639
+      ],
+      [
+        5710,
+        5849
+      ]
+    ],
+    "new_intervals": [
+      [
+        5010,
+        5359
+      ],
+      [
+        5430,
+        5639
+      ],
+      [
+        5710,
+        5849
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "D-8",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  },
+  {
+    "channel": "D-9",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        6410,
+        6619
+      ],
+      [
+        7326,
+        7395
+      ]
+    ],
+    "new_intervals": [
+      [
+        6410,
+        6619
+      ],
+      [
+        7326,
+        7395
+      ]
+    ],
+    "warnings": [
+      "Degrees of freedom <= 0 for slice",
+      "Mean of empty slice.",
+      "invalid value encountered in divide",
+      "invalid value encountered in scalar divide"
+    ]
+  },
+  {
+    "channel": "E-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1751,
+        2001
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5965
+      ]
+    ],
+    "new_intervals": [
+      [
+        1751,
+        2001
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5965
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-10",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1748,
+        1999
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5963
+      ]
+    ],
+    "new_intervals": [
+      [
+        1748,
+        1999
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5963
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-11",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1718,
+        2000
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5964
+      ]
+    ],
+    "new_intervals": [
+      [
+        1718,
+        2000
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5964
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-12",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1775,
+        2008
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5709
+      ],
+      [
+        5850,
+        5919
+      ],
+      [
+        5990,
+        6594
+      ]
+    ],
+    "new_intervals": [
+      [
+        1775,
+        2008
+      ],
+      [
+        5010,
+        5149
+      ],
+      [
+        5570,
+        5709
+      ],
+      [
+        5850,
+        5919
+      ],
+      [
+        5990,
+        6594
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-13",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5570,
+        5709
+      ],
+      [
+        6480,
+        6549
+      ]
+    ],
+    "new_intervals": [
+      [
+        5570,
+        5709
+      ],
+      [
+        6480,
+        6549
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5570,
+        5919
+      ]
+    ],
+    "new_intervals": [
+      [
+        5570,
+        5919
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-3",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5570,
+        5779
+      ]
+    ],
+    "new_intervals": [
+      [
+        5570,
+        5779
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-4",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5570,
+        5975
+      ]
+    ],
+    "new_intervals": [
+      [
+        5570,
+        5975
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-5",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5570,
+        5709
+      ]
+    ],
+    "new_intervals": [
+      [
+        5570,
+        5709
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-6",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5570,
+        5779
+      ]
+    ],
+    "new_intervals": [
+      [
+        5570,
+        5779
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-7",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5430,
+        5766
+      ]
+    ],
+    "new_intervals": [
+      [
+        5430,
+        5766
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-8",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5710,
+        5919
+      ]
+    ],
+    "new_intervals": [
+      [
+        5710,
+        5919
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "E-9",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5710,
+        5919
+      ]
+    ],
+    "new_intervals": [
+      [
+        5710,
+        5919
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "F-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        7530,
+        7599
+      ]
+    ],
+    "new_intervals": [
+      [
+        7530,
+        7599
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "F-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        6760,
+        6969
+      ]
+    ],
+    "new_intervals": [
+      [
+        6760,
+        6969
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "F-3",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  },
+  {
+    "channel": "F-4",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        2700,
+        2839
+      ]
+    ],
+    "new_intervals": [
+      [
+        2700,
+        2839
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "F-5",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        3540,
+        3813
+      ]
+    ],
+    "new_intervals": [
+      [
+        3540,
+        3813
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "F-7",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1322,
+        1576
+      ],
+      [
+        1967,
+        2206
+      ],
+      [
+        2700,
+        2839
+      ]
+    ],
+    "new_intervals": [
+      [
+        1322,
+        1576
+      ],
+      [
+        1967,
+        2206
+      ],
+      [
+        2700,
+        2839
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "F-8",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1915,
+        2238
+      ]
+    ],
+    "new_intervals": [
+      [
+        1915,
+        2238
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "G-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5990,
+        6129
+      ]
+    ],
+    "new_intervals": [
+      [
+        5990,
+        6129
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "G-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4030,
+        4169
+      ]
+    ],
+    "new_intervals": [
+      [
+        4030,
+        4169
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "G-3",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4170,
+        4377
+      ],
+      [
+        5640,
+        5709
+      ]
+    ],
+    "new_intervals": [
+      [
+        4170,
+        4377
+      ],
+      [
+        5640,
+        5709
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "G-4",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4660,
+        4869
+      ]
+    ],
+    "new_intervals": [
+      [
+        4660,
+        4869
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "G-6",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5640,
+        5779
+      ]
+    ],
+    "new_intervals": [
+      [
+        5640,
+        5779
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "G-7",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        3610,
+        3878
+      ],
+      [
+        5010,
+        5217
+      ],
+      [
+        7530,
+        7810
+      ]
+    ],
+    "new_intervals": [
+      [
+        3610,
+        3878
+      ],
+      [
+        5010,
+        5217
+      ],
+      [
+        7530,
+        7810
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "M-1",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  },
+  {
+    "channel": "M-2",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  },
+  {
+    "channel": "M-3",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1372,
+        1652
+      ]
+    ],
+    "new_intervals": [
+      [
+        1372,
+        1652
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "M-4",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1315,
+        1595
+      ]
+    ],
+    "new_intervals": [
+      [
+        1315,
+        1595
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "M-5",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1529,
+        1793
+      ]
+    ],
+    "new_intervals": [
+      [
+        1529,
+        1793
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "M-6",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1815,
+        2038
+      ]
+    ],
+    "new_intervals": [
+      [
+        1815,
+        2038
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "M-7",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        861,
+        1156
+      ]
+    ],
+    "new_intervals": [
+      [
+        861,
+        1156
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        2130,
+        2349
+      ],
+      [
+        3190,
+        3329
+      ],
+      [
+        3540,
+        3679
+      ],
+      [
+        4520,
+        4589
+      ]
+    ],
+    "new_intervals": [
+      [
+        2130,
+        2349
+      ],
+      [
+        3190,
+        3329
+      ],
+      [
+        3540,
+        3679
+      ],
+      [
+        4520,
+        4589
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-10",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4590,
+        5009
+      ]
+    ],
+    "new_intervals": [
+      [
+        4590,
+        5009
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-11",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1190,
+        1464
+      ],
+      [
+        1750,
+        2010
+      ]
+    ],
+    "new_intervals": [
+      [
+        1190,
+        1464
+      ],
+      [
+        1750,
+        2010
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-14",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4590,
+        4869
+      ]
+    ],
+    "new_intervals": [
+      [
+        4590,
+        4869
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-15",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1300,
+        1567
+      ]
+    ],
+    "new_intervals": [
+      [
+        1300,
+        1567
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5290,
+        5709
+      ]
+    ],
+    "new_intervals": [
+      [
+        5290,
+        5709
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-3",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5360,
+        5673
+      ],
+      [
+        5780,
+        6059
+      ]
+    ],
+    "new_intervals": [
+      [
+        5360,
+        5673
+      ],
+      [
+        5780,
+        6059
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-4",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        931,
+        1186
+      ],
+      [
+        2171,
+        2349
+      ],
+      [
+        4800,
+        4981
+      ]
+    ],
+    "new_intervals": [
+      [
+        931,
+        1186
+      ],
+      [
+        2171,
+        2349
+      ],
+      [
+        4800,
+        4981
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "P-7",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5010,
+        5289
+      ],
+      [
+        5360,
+        5429
+      ]
+    ],
+    "new_intervals": [
+      [
+        5010,
+        5289
+      ],
+      [
+        5360,
+        5429
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "R-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        4520,
+        4726
+      ]
+    ],
+    "new_intervals": [
+      [
+        4520,
+        4726
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "S-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        5290,
+        5656
+      ]
+    ],
+    "new_intervals": [
+      [
+        5290,
+        5656
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "S-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        806,
+        1064
+      ]
+    ],
+    "new_intervals": [
+      [
+        806,
+        1064
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "T-1",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        2560,
+        2979
+      ],
+      [
+        3960,
+        4029
+      ],
+      [
+        6620,
+        6689
+      ]
+    ],
+    "new_intervals": [
+      [
+        2560,
+        2979
+      ],
+      [
+        3960,
+        4029
+      ],
+      [
+        6620,
+        6689
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "T-12",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        616,
+        852
+      ]
+    ],
+    "new_intervals": [
+      [
+        616,
+        852
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "T-13",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  },
+  {
+    "channel": "T-2",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        6900,
+        7039
+      ]
+    ],
+    "new_intervals": [
+      [
+        6900,
+        7039
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "T-3",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        2057,
+        2320
+      ],
+      [
+        5220,
+        5417
+      ]
+    ],
+    "new_intervals": [
+      [
+        2057,
+        2320
+      ],
+      [
+        5220,
+        5417
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "T-4",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  },
+  {
+    "channel": "T-5",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        1114,
+        1381
+      ]
+    ],
+    "new_intervals": [
+      [
+        1114,
+        1381
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "T-8",
+    "interval_match": true,
+    "saved_intervals": [
+      [
+        786,
+        1036
+      ],
+      [
+        1273,
+        1488
+      ]
+    ],
+    "new_intervals": [
+      [
+        786,
+        1036
+      ],
+      [
+        1273,
+        1488
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "channel": "T-9",
+    "interval_match": true,
+    "saved_intervals": [],
+    "new_intervals": [],
+    "warnings": []
+  }
+]

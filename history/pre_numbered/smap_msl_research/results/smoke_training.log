@@ -1,0 +1,12 @@
+gcn_l32_h16 D-12 seed=17 val=0.00000 epoch=1 0.0s
+gcn_l32_h16 M-1 seed=17 val=0.33850 epoch=38 0.6s
+gcn_l32_h16 P-1 seed=17 val=0.21721 epoch=39 0.9s
+gcn_l64_h16 D-12 seed=17 val=0.00000 epoch=1 0.0s
+gcn_l64_h16 M-1 seed=17 val=0.37311 epoch=19 0.4s
+gcn_l64_h16 P-1 seed=17 val=0.23513 epoch=30 0.8s
+gcn_l128_h16 D-12 seed=17 val=0.00000 epoch=1 0.0s
+gcn_l128_h16 M-1 seed=17 val=0.36012 epoch=26 0.6s
+gcn_l128_h16 P-1 seed=17 val=0.25756 epoch=14 0.6s
+lstm_l64 D-12 seed=17 val=0.00000 epoch=1 0.1s
+lstm_l64 M-1 seed=17 val=0.33794 epoch=40 5.2s
+lstm_l64 P-1 seed=17 val=0.20960 epoch=40 6.7s

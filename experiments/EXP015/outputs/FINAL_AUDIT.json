@@ -1,0 +1,18 @@
+{
+  "A100_validation": true,
+  "GPU": "NVIDIA A100-SXM4-40GB",
+  "GPU_total_bytes": 42405855232,
+  "discriminator_hybrid_executed": false,
+  "fixture": false,
+  "frozen_EXP013_native_output_replay": "BITWISE_PASS_ALL_STREAMS",
+  "full_shape_exact_restoration": "PASS_ALL_18_FITS",
+  "input_manifest_sha256": "b94676e34a8e9e8847b58c5bb8028ef86f192e73f8e0176c0e9f99cdd490fe6d",
+  "new_scientific_fits": 0,
+  "new_score_streams": 729,
+  "original_content_rechecked_after_execution": true,
+  "originals_modified": false,
+  "report_seal_sha256": "4792d4330d5f71b1a60d297642dd0e845882a15a7949522971d73ec3b42b55a1",
+  "scientific_interpretation": "retrospective exploratory detector-pipeline evidence; no architecture-only or independent operational claim",
+  "score_seal_sha256": "67da76f14ac3d5a8761d0f0d83a876ecbfae806e322c0a756d63ccfe54e67f6f",
+  "status": "COMPLETE_RETROSPECTIVE_EXP015_SUPPLEMENT"
+}

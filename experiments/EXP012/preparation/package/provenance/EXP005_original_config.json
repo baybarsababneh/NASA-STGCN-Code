@@ -1,0 +1,64 @@
+{
+  "experiment_id": "v2_exp005_command_tcn_tuned",
+  "description": "Prospectively tuned command-aware non-graph TCN control. Uses the same command histories that feed telemetry node 0 in EXP002, but fuses them directly in a causal TCN rather than by graph message passing.",
+  "dataset": {
+    "missions": ["SMAP", "MSL"],
+    "unique_labelled_channels": 81,
+    "exclude_unlabelled": ["T-10"],
+    "fit_fraction": 0.60,
+    "validation_end_fraction": 0.80,
+    "calibration_fraction": 0.20,
+    "test_access_during_development": false,
+    "anomaly_label_access_during_development": false
+  },
+  "input_contract": {
+    "primary": "telemetry column 0 plus EXP002 incoming command-source columns only",
+    "SMAP": "all fit-varying command columns retained by the EXP002 star support",
+    "MSL": "the four fit-only top4 command columns that send messages into telemetry node 0 in EXP002",
+    "all_command_variant": "deferred; not part of the primary graph-vs-non-graph control"
+  },
+  "screening": {
+    "selection_basis": "fixed before candidate results; deterministic fit-only coverage of sequence length, target variability and selected-command activity; constant-target or zero-command channels excluded only from screening, not confirmation",
+    "channels": {
+      "MSL": ["C-1", "P-10", "M-7", "P-14", "T-13", "D-16"],
+      "SMAP": ["P-3", "A-8", "G-6", "E-1", "G-4", "A-5"]
+    },
+    "seeds": [17, 29],
+    "configs_per_family": 12,
+    "select_top_per_mission": 2,
+    "metric": "mean validation_mse across screening channels and seeds"
+  },
+  "confirmation": {
+    "channels": "all 81 study channels",
+    "seeds": [17, 29, 43],
+    "configs_per_mission": 2,
+    "final_selection": "one candidate per mission with lowest mean validation_mse across all channels and all three seeds"
+  },
+  "training_common": {
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "max_epochs": 80,
+    "patience": 6,
+    "min_delta": 1e-7,
+    "gradient_clip_norm": 1.0
+  },
+  "candidates": [
+    {"candidate_id": "c01_rf7_base_lr1e3",  "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.001},
+    {"candidate_id": "c02_rf7_base_lr3e4",  "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.0003},
+    {"candidate_id": "c03_rf7_large_lr1e3", "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.001},
+    {"candidate_id": "c04_rf7_large_lr3e4", "lookback": 64, "kernel_size": 3, "dilations": [1,2],     "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.0003},
+
+    {"candidate_id": "c05_rf15_base_lr1e3",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.001},
+    {"candidate_id": "c06_rf15_base_lr3e4",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.0003},
+    {"candidate_id": "c07_rf15_large_lr1e3", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.001},
+    {"candidate_id": "c08_rf15_large_lr3e4", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4],   "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.0003},
+
+    {"candidate_id": "c09_rf31_base_lr1e3",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.001},
+    {"candidate_id": "c10_rf31_base_lr3e4",  "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 32, "SMAP": 64},  "learning_rate": 0.0003},
+    {"candidate_id": "c11_rf31_large_lr1e3", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.001},
+    {"candidate_id": "c12_rf31_large_lr3e4", "lookback": 64, "kernel_size": 3, "dilations": [1,2,4,8], "hidden_by_mission": {"MSL": 64, "SMAP": 128}, "learning_rate": 0.0003}
+  ],
+  "selection_metric": "validation_mse",
+  "notes": "TRAIN-only prospective tuning. Calibration remains untouched. NASA TEST arrays and anomaly labels must not be used for screening, confirmation, model selection, or early stopping."
+}

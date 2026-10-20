@@ -1,0 +1,24 @@
+{
+  "NASA_archive_sha256": "6084d3ee3906381f2c98aa3773b6b2d77c82413503faa78f962196582e873733",
+  "score_export_sha256": "e224c1286955d8af9c5bc314d5c24be04ab25b1a3fcba722a4bc217565b4d541",
+  "score_commits_verified": 1053,
+  "score_files_hash_verified": 3159,
+  "TRAIN_TEST_array_bindings_verified": 162,
+  "released_models": 82,
+  "model_replays": 246,
+  "maximum_sampled_prediction_difference": 8.344650268554688e-07,
+  "maximum_evaluation_roster_cached_smoothed_error_difference": 0.0,
+  "excluded_array_error_failures": [
+    {
+      "channel": "T-10",
+      "max_absolute_error": 0.025994310274280646,
+      "cached_smoothing_replay_pass": false,
+      "in_frozen_evaluation_roster": false
+    }
+  ],
+  "alignment": "prediction[k] = forecast for raw TEST[k+250,0]; last ten raw rows omitted",
+  "release_horizon": 10,
+  "saved_scalar_is": "first output, not ten-output mean",
+  "no_training": true,
+  "no_NASA_metric_calculation": true
+}

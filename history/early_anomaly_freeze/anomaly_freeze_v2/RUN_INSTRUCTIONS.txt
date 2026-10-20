@@ -1,0 +1,17 @@
+COPY the anomaly_freeze_v2 folder into the root of smap_msl_tcn_gcn_v2.
+
+FIRST STAGE ONLY (TRAIN-only; safe before TEST):
+  python anomaly_freeze_v2/audit_readiness.py
+  python anomaly_freeze_v2/test_metrics.py
+  python anomaly_freeze_v2/calibrate.py
+  python anomaly_freeze_v2/freeze.py
+
+Then send the Terminal output plus these generated files back for audit:
+  anomaly_freeze_v2/readiness_report.json
+  anomaly_freeze_v2/checkpoint_manifest.csv
+  anomaly_freeze_v2/calibration_report.json
+  anomaly_freeze_v2/calibration_diagnostics.csv
+  anomaly_freeze_v2/thresholds.csv
+  anomaly_freeze_v2/FREEZE_MANIFEST.json
+
+DO NOT run export_test_scores.py or evaluate_locked.py until that pre-TEST freeze has been checked.

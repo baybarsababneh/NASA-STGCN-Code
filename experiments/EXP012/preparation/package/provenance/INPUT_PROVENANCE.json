@@ -1,0 +1,22 @@
+{
+  "EXP005_result_source_sha256": "0317968ce464d8cdb81888af9082001c1a0a99eb550eeb71ea897eb002227af0",
+  "Hundman_sources": {
+    "config.yaml": {
+      "sha256": "3d2caeda9f8e84f15fadd50d7e77924700a2c611bd255831c75aa9182aae3353",
+      "url": "https://raw.githubusercontent.com/khundman/telemanom/master/config.yaml"
+    },
+    "telemanom__channel.py": {
+      "sha256": "f43d34ac332117c569e68bdb36f349529362f4f75696bf790656217815d73050",
+      "url": "https://raw.githubusercontent.com/khundman/telemanom/master/telemanom/channel.py"
+    },
+    "telemanom__errors.py": {
+      "sha256": "eb27e3dbc524a5252301e21835fb063ec7e1794eb4b252184c1a8a48a047b4aa",
+      "url": "https://raw.githubusercontent.com/khundman/telemanom/master/telemanom/errors.py"
+    }
+  },
+  "full_TRAIN_source": "EXP007 original TRAIN arrays, verified against saved EXP008 full-source hashes; no TEST extraction",
+  "parent_bundle": "/workspace/scratch/f0395e41521a/upload/EXP008_READINESS_V1_input_bundle(1).zip",
+  "parent_bundle_sha256": "60304e17d166dd9dc2d2ba65c961ffd5448637a52cc4e185caa95089ddd0397b",
+  "retrieved_utc_date": "2026-10-05",
+  "source_code_origin": "unchanged audited EXP007/EXP006 and EXP005 modules; no historical edits"
+}

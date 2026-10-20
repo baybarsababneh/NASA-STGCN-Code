@@ -1,0 +1,38 @@
+{
+  "experiment_id": "v2_exp001_tcn_baseline",
+  "description": "Causal TCN-only forecasting baseline with no graph message passing.",
+  "dataset": {
+    "missions": ["SMAP", "MSL"],
+    "unique_labelled_channels": 81,
+    "exclude_unlabelled": ["T-10"],
+    "duplicate_label_policy": "one unique channel per chan_id",
+    "fit_fraction": 0.60,
+    "validation_end_fraction": 0.80,
+    "calibration_fraction": 0.20,
+    "test_access_during_development": false
+  },
+  "model": {
+    "type": "tcn_only",
+    "lookback": 64,
+    "kernel_size": 3,
+    "dilations": [1, 2],
+    "hidden_by_mission": {
+      "MSL": 32,
+      "SMAP": 64
+    },
+    "residual_prediction": "persistence"
+  },
+  "training": {
+    "seeds": [17, 29, 43],
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "max_epochs": 80,
+    "patience": 6,
+    "min_delta": 1e-7,
+    "gradient_clip_norm": 1.0
+  },
+  "selection_metric": "validation_mse",
+  "notes": "No NASA TEST arrays or anomaly labels may be used for model selection."
+}

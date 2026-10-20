@@ -1,0 +1,44 @@
+{
+  "summary_audit": "PASS",
+  "fit_rows": 1209,
+  "unique_job_ids": 1209,
+  "all_jobs_match_frozen_plans": true,
+  "run_hash": "6bf9f6e15a80b6884d922f5787921cd6deb2aa5a305a53fed3dba8947c7aea41",
+  "source_hashes_verified": true,
+  "TRAIN_hashes_verified": 81,
+  "recomputed_promotion": [
+    {
+      "mission": "MSL",
+      "candidate": "g03_rf7_large_lr1e3",
+      "improvement_pct": 0.4522487801757083,
+      "each_seed": false,
+      "robust_mean_pct": 0.07228795803853041,
+      "passes": false
+    },
+    {
+      "mission": "MSL",
+      "candidate": "g04_rf7_large_lr3e4",
+      "improvement_pct": -3.2069621571658984,
+      "each_seed": false,
+      "robust_mean_pct": 0.4667942882418551,
+      "passes": false
+    },
+    {
+      "mission": "SMAP",
+      "candidate": "g09_rf31_base_lr1e3",
+      "improvement_pct": 7.644553790936528,
+      "each_seed": true,
+      "robust_mean_pct": 8.991124321836784,
+      "passes": true
+    },
+    {
+      "mission": "SMAP",
+      "candidate": "g11_rf31_large_lr1e3",
+      "improvement_pct": 6.96265287165543,
+      "each_seed": true,
+      "robust_mean_pct": 0.7401627353046658,
+      "passes": true
+    }
+  ],
+  "limitation": "Summary archive excludes fit checkpoint archives; independent checkpoint byte-integrity verification is not possible from this upload."
+}

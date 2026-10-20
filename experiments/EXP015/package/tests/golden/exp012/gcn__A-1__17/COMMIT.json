@@ -1,0 +1,11 @@
+{
+  "files": {
+    "adaptive_windows.json": "20746975832d7dd3a066d367c95a56f5fe963d95a42df5fe0a46f15d5ce5bbb0",
+    "record.json": "9202669d49a071809baf7e92e97b0e10a4fdf4c45afb7f485f06d6eb7a2d008b",
+    "scores.npz": "95f6a03e83fe4d305227f7b7c175da98f6d63ab3be96573a4a877de903b8306a"
+  },
+  "identity": {
+    "job_id": "gcn__A-1__17",
+    "run_hash": "996ef9b45ecdad272a08c2f6c34eea2920eebf6e8bf624a9f1da07fb1d18daee"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "amendment": "EXP009_DETECTOR_V1_E01",
+  "amendment_manifest_sha256": "cc7cc4746e7c3822d1083d266fd5104d8e249f90b004790bbf6c5bdb7d787330",
+  "change": "JSON fallback converts supported NumPy scalar values to native Python scalar values; all original scientific functions and commit identities retained",
+  "parent_manifest_sha256": "db99d8d31f4724b9084c60f80a8efbe2e4123ed53630681180713fa882f40553",
+  "parent_run_freeze_sha256": "51fc6e9add60444ec6c38f8bdc2945bbc2bd25f4263309d8141120c8a3223643",
+  "parent_runhash": "51fc6e9add60444ec6c38f8bdc2945bbc2bd25f4263309d8141120c8a3223643",
+  "pre_amendment_committed_units": 936,
+  "scientific_experiment": "EXP009_DETECTOR_V1"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "decision": "READY_FOR_LOCKED_RETROSPECTIVE_EVALUATION_RUNNER_BUILD",
+  "NASA_TEST_opened": false,
+  "labels_opened": false,
+  "scientific_settings_changed": false,
+  "output_payload_hashes_verified": 7099,
+  "package_payload_hashes_verified": 680,
+  "committed_units_verified": 2106,
+  "new_LSTM_histories_verified": 243,
+  "checkpoint_state_hashes_verified": 972,
+  "thresholds_recomputed": 1053,
+  "diagnostic_streams_recomputed": 2106,
+  "adaptive_windows_recomputed": 2080,
+  "execution_provenance_correlated": true,
+  "verification_backend": "NumPy/pandas CPU for saved-trace recomputation; restricted nonexecuting checkpoint storage decode. Existing exact GPU replay evidence checked; no new GPU inference/training."
+}

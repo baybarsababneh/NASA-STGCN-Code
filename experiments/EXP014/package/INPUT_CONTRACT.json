@@ -1,0 +1,23 @@
+{
+  "archive_size_is_descriptive_not_a_hash_gate": true,
+  "dynamic_required_files": "For all 81 GDN streams: scores/units/{mission}__gdn__17__{channel}/{COMMIT.json,record.json,scores.npz}; exact hashes are recovered from the hash-pinned scores/SCORE_SEAL.json. No CATCH checkpoints are required.",
+  "expected_source_archive_bytes_from_notebook_receipt": 1230763737,
+  "frozen_detector_sha256": "5b238ae7226a60e092b4d0a0954ca276733f3f9a27c0766d98282512dc692714",
+  "frozen_evaluator_sha256": "d8de4c09a197a9647109369ac77082b0588c8b2ad2f1b940bd479bc47cdbceef",
+  "known_required_files": {
+    "calibration/MSL__gdn__17/thresholds.json": "339eeb003b4bd303b53371b7515fbdf169ce7f4f8fc6a868c9a2b27c601b2016",
+    "calibration/SMAP__gdn__17/thresholds.json": "2061ded58f2fd94b8173629e6bcc7e8030578006ee96820d3d971d867175f8c0",
+    "models/MSL__gdn__17/COMPLETE.json": "36944234297e9602d9216000bf30817fb193ef2e4f41f157d19deec4908c79ea",
+    "models/MSL__gdn__17/IDENTITY.json": "20e4b46c7c1defb535e131807e44b3ded45906ef89b2eb3d4b540f7e95b51fd6",
+    "models/MSL__gdn__17/selected.pt": "32ed9cb7d217bd198544856120b49c657b23141e4d6fb8cbc77da8dea57dda4d",
+    "models/SMAP__gdn__17/COMPLETE.json": "28576ca930b97c5bfec59ab0c5f28ea9cc2c8fdbbf92b86bc05ed8434b207678",
+    "models/SMAP__gdn__17/IDENTITY.json": "88237a81f0700fe19608a6743604a0998dd9cd72b807a2a80294ac87dca9d1f1",
+    "models/SMAP__gdn__17/selected.pt": "53eac339653dadfeef344c4622606d1050b51a0355ea3f2bf82564fb13c02a29",
+    "scores/SCORE_SEAL.json": "b9f76f695947aa0675cf9864da839eae700e74fa4f224e351547ce9548387bc6"
+  },
+  "new_training_authorised": false,
+  "original_report_zip_sha256": "a2be65a407ac25f228371dba18c85d55f9ea22250fc6f3a4a80852be8d1e21ce",
+  "preferred_source": "/content/drive/MyDrive/EXP013_COMMAND_REFERENCE_V1_E03_CONV/main/FINAL_RESULTS.zip",
+  "source_alternative": "directory containing the exact constituent relative paths",
+  "version": "EXP014_LITERATURE_COMPARISON_V1"
+}

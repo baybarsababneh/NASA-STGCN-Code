@@ -1,0 +1,22 @@
+[
+  {
+    "mission": "MSL",
+    "FIT_windows": 32321,
+    "FIT_batches": 127,
+    "CPU_batch_bytes_identical": true,
+    "NASA_TEST_floats_loaded": false,
+    "original_median_seconds": 0.0032682569999451516,
+    "vectorised_median_seconds": 0.000717864999842277,
+    "collation_ratio": 4.552745990768772
+  },
+  {
+    "mission": "SMAP",
+    "FIT_windows": 79331,
+    "FIT_batches": 310,
+    "CPU_batch_bytes_identical": true,
+    "NASA_TEST_floats_loaded": false,
+    "original_median_seconds": 0.0028996285000175703,
+    "vectorised_median_seconds": 0.0005789025001377013,
+    "collation_ratio": 5.008837411011089
+  }
+]

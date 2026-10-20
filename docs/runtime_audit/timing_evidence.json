@@ -1,0 +1,365 @@
+{
+  "method": "Recorded timers only; no creation-date or hardware-scaled duration inference.",
+  "experiments": [
+    {
+      "experiment": "EXP001",
+      "hardware": "CPU; processor not recorded",
+      "measured_seconds": 2086.03152762627,
+      "basis": "sum of measured training-loop elapsed timers",
+      "scope": "243 channel/seed fits",
+      "evidence": "checkpoints.zip: checkpoints/v2_exp001*/...pt -> result.elapsed_seconds",
+      "count": 243,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP002",
+      "hardware": "CPU; processor not recorded",
+      "measured_seconds": 31066.866574949818,
+      "basis": "sum of measured training-loop elapsed timers",
+      "scope": "243 channel/seed fits",
+      "evidence": "checkpoints.zip: checkpoints/v2_exp002*/...pt -> result.elapsed_seconds",
+      "count": 243,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP003",
+      "hardware": "CPU; processor not recorded",
+      "measured_seconds": 28054.698575880728,
+      "basis": "sum of measured training-loop elapsed timers",
+      "scope": "243 channel/seed fits",
+      "evidence": "checkpoints.zip: checkpoints/v2_exp003*/...pt -> result.elapsed_seconds",
+      "count": 243,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP004",
+      "hardware": "CPU; processor not recorded",
+      "measured_seconds": 35731.239161739475,
+      "basis": "sum of measured training-loop elapsed timers",
+      "scope": "243 channel/seed fits",
+      "evidence": "checkpoints.zip: checkpoints/v2_exp004*/...pt -> result.elapsed_seconds",
+      "count": 243,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP005",
+      "hardware": "CPU; processor not recorded",
+      "measured_seconds": 11086.680716827279,
+      "basis": "sum of measured training-loop elapsed timers",
+      "scope": "486 confirmation fits; screening additional",
+      "evidence": "checkpoints.zip: checkpoints/v2_exp005*/...pt -> result.elapsed_seconds",
+      "count": 486,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP006",
+      "hardware": "NVIDIA A100-SXM4-40GB",
+      "measured_seconds": 8061.458553530005,
+      "basis": "sum of synchronized per-fit wall timers",
+      "scope": "1209 unique fits in the final GPU study; setup and earlier attempts excluded",
+      "evidence": "exports-20261004T114850Z-1-001.zip -> exports/EXP006_GPU_V1_results.zip: tables/all_runs.csv, fit_wall_seconds",
+      "count": 1209,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP007",
+      "hardware": "NVIDIA A100-SXM4-40GB",
+      "measured_seconds": 5621.861976040004,
+      "basis": "sum of synchronized per-fit wall timers",
+      "scope": "1116 unique fits in the final GPU study; setup and earlier attempts excluded",
+      "evidence": "exports-20261004T114932Z-1-001.zip -> exports/EXP007_GPU_V1_results.zip: tables/all_runs.csv, fit_wall_seconds",
+      "count": 1116,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP008",
+      "hardware": "NVIDIA A100-SXM4-40GB",
+      "measured_seconds": 10.969004855992353,
+      "basis": "sum of measured replay-loop timers",
+      "scope": "534 two-pass replays; checkpoint/data loading, nominal diagnostics, and export excluded",
+      "evidence": "EXP008_results.zip: tables/replay_results.csv, elapsed_seconds",
+      "count": 534,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP009",
+      "hardware": "CPU NumPy detector; processor not recorded",
+      "measured_seconds": 187.30641952899998,
+      "basis": "measured elapsed time of resumed detector run",
+      "scope": "E01 resumed stage, with 936 earlier units reused; initial failed launch excluded",
+      "evidence": "EXP009_DETECTOR_V1_E01_results_20261004T160429Z.zip: results/STUDY_CLOSE.json, elapsed_seconds; PRE_E01_COMMIT_INVENTORY.json",
+      "count": 4194,
+      "reused_units": 936,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP010",
+      "hardware": "NVIDIA A100-SXM4-40GB",
+      "measured_seconds": null,
+      "basis": "not recoverable",
+      "scope": "3078 committed diagnostic units; no computational timer in unit or closure records",
+      "evidence": "EXP010_MECHANISMS_V1_results.zip: all units/*/record.json, STATUS.json, STUDY_CLOSE.json",
+      "count": 3078
+    },
+    {
+      "experiment": "EXP011",
+      "hardware": "CPU environment; processor not recorded",
+      "measured_seconds": null,
+      "basis": "not recoverable",
+      "scope": "440 classifier fits; exported summary and log contain no computational elapsed time",
+      "evidence": "EXP011_FUSION_PILOT_V1_summary_20261005T070729Z.zip: results/STATUS.json, STUDY_CLOSE.json, logs/run_20261005T070729Z.log",
+      "count": 440
+    },
+    {
+      "experiment": "EXP012",
+      "hardware": "NVIDIA A100-SXM4-80GB",
+      "measured_seconds": 1557.744,
+      "basis": "measured Colab execution-cell elapsed time",
+      "scope": "complete preparation cell, including 243 LSTM fits and qualification; setup and later TEST evaluation excluded",
+      "evidence": "EXP012_execution_provenance.zip: EXP012_ACTUALLY_EXECUTED.ipynb, cell 5, executionInfo.elapsed (milliseconds)",
+      "count": 243,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP013",
+      "hardware": "NVIDIA A100-SXM4-40GB",
+      "measured_seconds": 23284.566,
+      "basis": "sum of recorded epoch and scoring-call elapsed timers",
+      "scope": "22 mission-level fits (254 epochs), plus 49781 uncached scoring calls; not an end-to-end run timer",
+      "evidence": "EXECUTION_PROGRESS.jsonl: max elapsed_epoch_seconds per job/epoch and SCORE_CALL_COMMITTED.seconds",
+      "count": 22,
+      "epoch_seconds": 8913.47,
+      "score_call_seconds": 14371.096,
+      "whole_experiment_wall_seconds": null
+    },
+    {
+      "experiment": "EXP014",
+      "hardware": "NVIDIA A100-SXM4-40GB",
+      "measured_seconds": 103.9121431110002,
+      "basis": "sum of measured scoring-unit timers",
+      "scope": "81 frozen-GDN scoring units, including replay/residual/detector work; report generation and setup additional",
+      "evidence": "EXP014_FINAL_RESULTS_392b1c7bdcd08967.zip: PROGRESS.jsonl, UNIT_COMMITTED",
+      "count": 81,
+      "whole_experiment_wall_seconds": null,
+      "runner_source_manifest_matches_final_run": true
+    },
+    {
+      "experiment": "EXP015",
+      "hardware": "NVIDIA A100-SXM4-40GB",
+      "measured_seconds": 302.0008407120122,
+      "basis": "sum of measured scoring-unit timers",
+      "scope": "729 scoring units; model loading, validation, reports, setup, and exports additional",
+      "evidence": "EXP015_FINAL_RESULTS_c5f0eceb421e3e9d.zip: PROGRESS.jsonl, UNIT_COMMITTED",
+      "count": 729,
+      "whole_experiment_wall_seconds": null,
+      "runner_source_manifest_matches_final_run": true,
+      "inference_seconds": 158.45587086601654,
+      "detector_seconds": 143.54496984599564
+    }
+  ],
+  "stage_details": {
+    "EXP001": {
+      "MSL": {
+        "fits": 81,
+        "measured_seconds": 560.9080819134833
+      },
+      "SMAP": {
+        "fits": 162,
+        "measured_seconds": 1525.1234457127866
+      }
+    },
+    "EXP002": {
+      "MSL": {
+        "fits": 81,
+        "measured_seconds": 5363.8162426597555
+      },
+      "SMAP": {
+        "fits": 162,
+        "measured_seconds": 25703.050332290062
+      }
+    },
+    "EXP003": {
+      "MSL": {
+        "fits": 81,
+        "measured_seconds": 4447.1463956717635
+      },
+      "SMAP": {
+        "fits": 162,
+        "measured_seconds": 23607.552180208964
+      }
+    },
+    "EXP004": {
+      "MSL": {
+        "fits": 81,
+        "measured_seconds": 6007.707994537486
+      },
+      "SMAP": {
+        "fits": 162,
+        "measured_seconds": 29723.53116720199
+      },
+      "resumed_launch": {
+        "new_fits": 239,
+        "reused_fits": 4,
+        "measured_wall_seconds": 18003.23,
+        "workers": 2
+      }
+    },
+    "EXP005": {
+      "MSL": {
+        "fits": 162,
+        "measured_seconds": 1645.511129536666
+      },
+      "SMAP": {
+        "fits": 324,
+        "measured_seconds": 9441.169587290613
+      },
+      "screening_partial_log": {
+        "new_fits": 251,
+        "reused_fits": 37,
+        "sum_rounded_display_seconds": 4597.1,
+        "complete_screening_timer_available": false
+      }
+    },
+    "EXP006": {
+      "confirm": {
+        "fits": 486,
+        "measured_seconds": 4888.418730243997
+      },
+      "reference": {
+        "fits": 243,
+        "measured_seconds": 733.4277172460088
+      },
+      "robust": {
+        "fits": 192,
+        "measured_seconds": 644.8391190120001
+      },
+      "screen": {
+        "fits": 288,
+        "measured_seconds": 1794.7729870279989
+      }
+    },
+    "EXP007": {
+      "ablation": {
+        "fits": 243,
+        "measured_seconds": 1069.4236868630096
+      },
+      "canonical": {
+        "fits": 729,
+        "measured_seconds": 4140.651419846992
+      },
+      "robust": {
+        "fits": 144,
+        "measured_seconds": 411.7868693300029
+      }
+    },
+    "EXP013": {
+      "MSL__catch__17": {
+        "epochs": 5,
+        "measured_epoch_seconds": 990.1
+      },
+      "MSL__fusion__17": {
+        "epochs": 10,
+        "measured_epoch_seconds": 156.77
+      },
+      "MSL__fusion__29": {
+        "epochs": 12,
+        "measured_epoch_seconds": 188.17
+      },
+      "MSL__fusion__43": {
+        "epochs": 18,
+        "measured_epoch_seconds": 282.3
+      },
+      "MSL__gdn__17": {
+        "epochs": 30,
+        "measured_epoch_seconds": 1566.52
+      },
+      "MSL__graph__17": {
+        "epochs": 12,
+        "measured_epoch_seconds": 192.53
+      },
+      "MSL__graph__29": {
+        "epochs": 14,
+        "measured_epoch_seconds": 222.35
+      },
+      "MSL__graph__43": {
+        "epochs": 19,
+        "measured_epoch_seconds": 300.67
+      },
+      "MSL__removed__17": {
+        "epochs": 13,
+        "measured_epoch_seconds": 121.71
+      },
+      "MSL__removed__29": {
+        "epochs": 14,
+        "measured_epoch_seconds": 130.86
+      },
+      "MSL__removed__43": {
+        "epochs": 21,
+        "measured_epoch_seconds": 196.34
+      },
+      "SMAP__catch__17": {
+        "epochs": 10,
+        "measured_epoch_seconds": 836.37
+      },
+      "SMAP__fusion__17": {
+        "epochs": 6,
+        "measured_epoch_seconds": 151.36
+      },
+      "SMAP__fusion__29": {
+        "epochs": 6,
+        "measured_epoch_seconds": 151.72
+      },
+      "SMAP__fusion__43": {
+        "epochs": 6,
+        "measured_epoch_seconds": 151.23
+      },
+      "SMAP__gdn__17": {
+        "epochs": 19,
+        "measured_epoch_seconds": 2346.88
+      },
+      "SMAP__graph__17": {
+        "epochs": 8,
+        "measured_epoch_seconds": 203.01
+      },
+      "SMAP__graph__29": {
+        "epochs": 6,
+        "measured_epoch_seconds": 151.93
+      },
+      "SMAP__graph__43": {
+        "epochs": 7,
+        "measured_epoch_seconds": 177.57999999999998
+      },
+      "SMAP__removed__17": {
+        "epochs": 6,
+        "measured_epoch_seconds": 131.04
+      },
+      "SMAP__removed__29": {
+        "epochs": 6,
+        "measured_epoch_seconds": 131.25
+      },
+      "SMAP__removed__43": {
+        "epochs": 6,
+        "measured_epoch_seconds": 132.78
+      }
+    }
+  },
+  "source_sha256": {
+    "checkpoints.zip": "1b9154ed8926801e78099c20501793d54ecc67decfbc17827b0345c314984004",
+    "src.zip": "2e6aa841b1890a108e093ff3cc4a0f9a961d76701e2ca54187012f8f5004754c",
+    "full_parallel_run.log": "a96a970efb02c1f9403be06cbee14138e809da0da059c18231dedb790aab8c10",
+    "full_tuning_run.log": "dddc43e8e0436a4425b91a979647e10518ea0a7d898d68c9335f6f525505df78",
+    "exports-20261004T114850Z-1-001.zip": "1cfaf5c5ae5e30f2cd70f3123f99cb4da71d4a527a7216e72b5a39f7fadb8689",
+    "exports-20261004T114932Z-1-001.zip": "d29b3c81eddb39154ecfdef1baaee850bb6da01dd1aafccabb64f3132d1f46b8",
+    "EXP008_results.zip": "be2548a1a7ceff11228358317ff5ae4010e6d15d1817f07e1a5fbf2ef55e2d97",
+    "EXP009_DETECTOR_V1_E01_results_20261004T160429Z.zip": "01e10d5de8721a8c87f7830aa7a2f02d4bc87fd5bbe948e64116fc3403a306ab",
+    "EXP010_MECHANISMS_V1_results.zip": "4834bffa6d79c85a6a6b3a6da130eff1fad3782d90e3d3f993cab04f683f8962",
+    "EXP011_FUSION_PILOT_V1_summary_20261005T070729Z.zip": "0e1a91ac58a9829785fbada0d9aad04ad0370e93f7d96ebe0c3b2ec7bdcbdd0c",
+    "EXP012_execution_provenance.zip": "6078d268bdf519b35f32151c1eaa2b43ed63528ff92910905ebb319bd17eb9a3",
+    "EXP012_PREPARATION_results.zip": "cf8a0887e5424f1e854a9114297130d5a68e5204991a5169bb7ff628e3e8ae45",
+    "EXECUTION_PROGRESS.jsonl": "808ce85406086f128f908b56ddb4e53b6b542fc2ea190721cfb4d4676f5389f3",
+    "EXP014_LITERATURE_COMPARISON_V1_input_bundle.zip": "1ea0a9b86fd3473a3ea6ea3fd6fc200a5927d90ccf8a6c7c4bb2489974323ef7",
+    "EXP015_EXP013_GCN_HUNDMAN_SUPPLEMENT_V1_input_bundle.zip": "93fd86d725e9549b3910d0aa5959a73e1516bc8292b44af01597d1cc034e0df8",
+    "EXP014_FINAL_RESULTS_392b1c7bdcd08967.zip": "392b1c7bdcd0896708391e4c1b28ddbff011392522dfb83ca02244eb2ca3ba64",
+    "EXP015_FINAL_RESULTS_c5f0eceb421e3e9d.zip": "c5f0eceb421e3e9d99ab2296deb2025115b6efa4cfc4393a3c3ac7f9d096bb93"
+  }
+}

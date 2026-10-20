@@ -1,0 +1,112 @@
+{
+  "version": "EXP013_COMMAND_REFERENCE_V1",
+  "objective": "Improve anomaly discrimination and timely alarms on BOTH missions; a negative result is valid.",
+  "historical_benchmark": "EXP012 unchanged; reuse completed reports, zero old-model fits or replay.",
+  "exposure": "NASA TEST labels and final TRAIN have been historically exposed. New NASA results are exploratory retrospective evidence, never independent confirmation.",
+  "entities": "81 original entities:27 MSL,54 SMAP, first P-2 label row. One telemetry target plus command features per file; no graph edges or windows across unaligned entities.",
+  "splits": {
+    "FIT_end_fraction": 0.6,
+    "STOP_end_fraction": 0.8,
+    "CAL_SELECT_end_fraction": 0.9,
+    "CONF_end_fraction": 1.0
+  },
+  "normalization": "FIT float64 telemetry mean/std per entity, std floor0.001; unchanged command values. Published models additionally use pooled FIT-only StandardScaler on all input dimensions.",
+  "new_models": [
+    "command_reference_graph",
+    "exact_command_message_removal",
+    "direct_command_fusion_no_graph"
+  ],
+  "architecture": "Shared per-mission TCN32 with RF63, entity embedding8, command embedding32, top4 learned command neighbours plus null, telemetry-independent reference. Observed telemetry representation and residual summaries feed a synthetic fault discriminator. Strict one-sided score at t; commands only through t-1.",
+  "new_model_seeds": [
+    17,
+    29,
+    43
+  ],
+  "published_model_seeds": [
+    17
+  ],
+  "published_models": [
+    "GDN official architecture, FIT-only score normalization adaptation",
+    "CATCH official forward/loss/native frequency score, causal right-edge adapter"
+  ],
+  "published_fit_policy": "One model per mission trained over individual entity windows; never boundary concatenations. Common chronological FIT/STOP and common detector. These are controlled NASA adaptations, NOT reproductions of published leaderboard scores. GDN30 epochs/batch32 from pinned run.sh; CATCH5 MSL/10 SMAP epochs/batch128 from pinned mission scripts. Fixed seed17, no seed uncertainty claim for these baselines.",
+  "non_reproduced_methods": {
+    "STGLR": "No official source located and paper underspecifies a faithful VAE/attention/graph implementation; published point-adjusted numbers are not commensurable. Excluded with documented fidelity gap.",
+    "OmniAnomaly": "Official Python3.5/3.6 TensorFlow/TFSnippet environment is incompatible with the single modern Colab workflow; no unvalidated Torch approximation. CATCH chosen as the agreed alternative."
+  },
+  "synthetic_training_families": [
+    "spike",
+    "offset",
+    "ramp",
+    "stuck",
+    "contextual_telemetry_swap_with_command_context_unchanged"
+  ],
+  "synthetic_training_amplitudes": "uniform0.5:4 FIT std units, random sign; contextual swap from another FIT window in the same batch",
+  "synthetic_training_durations": [
+    1,
+    8,
+    32
+  ],
+  "selection_families": [
+    "spike",
+    "offset",
+    "ramp",
+    "stuck"
+  ],
+  "selection_amplitudes": [
+    1.5,
+    3.0
+  ],
+  "selection_durations": "Spike1; other families16/64. CONF spike1; other families48/96. Requested long events shorten by the declared short-segment rule.",
+  "confirmation_families": [
+    "spike",
+    "offset",
+    "ramp",
+    "stuck",
+    "variance",
+    "oscillation"
+  ],
+  "confirmation_amplitudes": [
+    2.0,
+    4.0
+  ],
+  "confirmation_durations": [
+    1,
+    48,
+    96
+  ],
+  "short_segment_rule": "Duration=min(requested,max(1,(segment_length-16)//2)); retain requested/effective lengths. Unchanged injections invalid, reported separately, never count as a hit.",
+  "selection": "Seed17 only. Equal-family average of .5 incremental event recall + .5 strict point F0.5. Background overlap, unconditional hits, conditional clean-window hits and incremental hits kept separate. Identical normal/injected random mask seeds for CATCH.",
+  "detector_grid": {
+    "causal_EWMA_span": [
+      1,
+      8
+    ],
+    "higher_quantile": [
+      0.99,
+      0.995,
+      0.999
+    ]
+  },
+  "nominal_selection_gate": {
+    "CAL_mean_channel_occupancy_max": 0.01,
+    "CAL_mean_channel_alarm_starts_per_1000_max": 1.0
+  },
+  "no_feasible_policy": "Report NO_FEASIBLE_CANDIDATE; freeze q0.999/span1 solely as a diagnostic, never certify it or select a winner from NASA results.",
+  "thresholds": "Per-entity, per-model, per-seed thresholds from clean80:90% TRAIN only, higher quantile and strict greater-than. No TEST distribution moments, threshold adaptation, smoothing change, PA, alarm merging, interval expansion, best-TEST threshold or seed selection.",
+  "freeze": "All code, input identities, selected model states, source pins, candidate decisions and thresholds sealed BEFORE synthetic confirmation and BEFORE opening NASA TEST arrays.",
+  "TEST_common_start": 250,
+  "metrics": "Unmodified EXP012 metric implementation: corrected event F0.5 and event P/R; strict point P/R/F0.5/F1; per-channel tied-score AP then macro with denominator; nominal occupancy, starts per1000 nominal, event notification timing. New scores issued at target t; historical batch issue delays preserved in completed reports. No point adjustment.",
+  "statistics": "Paired channel bootstrap, seeds grouped,10000 draws, seed20261006. Four primary graph-minus-removal/fusion contrasts across2 missions:98.75% descriptive intervals. Old LSTM/GDN/CATCH exploratory95% intervals. Shared mission models/channels and historical exposure limit inference; no independent NASA significance claim.",
+  "claim_rule": "Synthetic mechanism confirmation can support only synthetic discrimination. NASA improvement requires both missions and adequate alarm burden, but remains retrospective exploratory even with positive intervals. No deployment/SOTA claim; independent real-anomaly confirmation remains outstanding.",
+  "compute": "18 new shared-model fits +4 published shared-model fits, default22. No architecture sweep. All active I/O local/content. FP32, no AMP/TF32/compile, deterministic algorithms, single thread. Full GPU runtime self-test before training.",
+  "resume": "Epoch-boundary optimizer, mask gradient, loader and RNG snapshots; selected-state hashes; completed stages skipped only after byte verification. Environment/code/data drift aborts. No post-freeze fit/selection. Snapshots include selected weights and stage manifests.",
+  "label_gate": "Successful complete score-seal verification before requesting and opening exact historical NASA label CSV. Labels file must have SHA256057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539. Reject duplicates except canonical firstP-2, preserve104 original events.",
+  "inherited_preprocessing": "The official telemanom README states the supplied telemetry arrays were pre-scaled using TEST min/max. EXP013 does not fit new transforms on TEST, but cannot undo inherited preprocessing or certify a raw-data leakage-free benchmark. Scale floor0.001 is numerical in supplied units, not physical sensor resolution.",
+  "graph_interpretation": "Within-file command module slots and one telemetry target, not an aligned multivariate telemetry network across entities. Shared per-mission slot embeddings use the mission encoding convention described by Hundman; anonymized module identifiers are unavailable, so learned edges are statistical, not physical topology.",
+  "decision_rule": "Prespecified graph-vs-removal/fusion paired synthetic objective comparisons on held-out variance/oscillation families,98.75% descriptive channel-bootstrap intervals across four contrasts, plus CAL selection and CONF nominal alarm gates. Positive synthetic evidence supports only the injected mechanisms. NASA pointF0.5/F1, corrected eventF0.5 and alarm burden are jointly reported without TEST-driven winner selection; any apparent improvement is retrospective only.",
+  "graph_FIT_support": "New graph and fusion use only within-entity command slots varying in FIT, stored as a model buffer. Inactive slots are zeroed and excluded from graph top-k; null message handles zero eligible commands. No TEST support selection.",
+  "published_short_FIT_support": "CATCH lookback191 means D-12 FIT187 contributes zero native training windows. Shared MSL model remains trained on other entities and evaluates D-12 without substituting a shorter sequence. Per-channel FIT/STOP window counts and zero-window entities are reported.",
+  "additional_statistics": "Point precision/recall/F0.5/F1 and nominal occupancy paired differences use same grouped channel bootstrap draws with exploratory95% descriptive intervals, no additional multiplicity correction, undefined draws reported. No confirmatory significance claim.",
+  "blinding_scope": "NASA annotation CSV excluded; preserved historical reports include label-derived outcomes/event metadata. Not physical isolation from historical label information. New training/selection/scoring ignore archived event intervals; new annotation CSV parsing is gated after verified score seal. Prior exposure remains declared."
+}

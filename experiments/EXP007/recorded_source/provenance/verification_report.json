@@ -1,0 +1,27 @@
+{
+  "status": "PASS_LOCAL_ENGINEERING",
+  "tests": 7,
+  "full_synthetic_plan_fits": 1116,
+  "duplicate_completed_fits_on_resume": 0,
+  "canonical_and_robust_selection_fits": 873,
+  "post_freeze_ablation_fits": 243,
+  "final_checkpoint_index_entries": 486,
+  "TRAIN_arrays_verified_against_completed_EXP006": 81,
+  "graph_scaler_origins_verified": 243,
+  "model_checks": [
+    "identity gate with nonzero head",
+    "shared backbone seed initialisation",
+    "RF/causality with nonzero gate",
+    "dynamic gate gradient and input dependence",
+    "zero-edge case",
+    "command-removal invariance",
+    "checkpoint reload",
+    "legacy EXP002 RF7 mapping"
+  ],
+  "all_roles_training_smokes": "18 synthetic fits on CPU with test-only device substitution; no research fits",
+  "training_core_preservation": "AST equality of all reused functions to completed EXP006 trainer",
+  "notebook_setup_simulation": "one upload, correct hash/extraction, repeated setup preserves output",
+  "actual_GPU_Colab_execution": "not available locally; required automatic CUDA preflight before any research fit",
+  "NASA_TEST_and_labels_accessed": false,
+  "architecture_selection_before_ablation": "enforced and verified"
+}

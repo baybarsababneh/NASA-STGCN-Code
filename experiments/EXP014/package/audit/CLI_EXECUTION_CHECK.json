@@ -1,0 +1,11 @@
+{
+  "status": "PASS_CPU_SYNTHETIC_CLI",
+  "actual_A100_execution": false,
+  "real_NASA_comparison": false,
+  "package_manifest_verification": true,
+  "source_ZIP": true,
+  "complete_cli_inference_evaluation_export": true,
+  "synthetic_figure_visually_checked": true,
+  "kernel_venv_creation_command_tested": true,
+  "notebook_code_cells_compiled_on_build": true
+}

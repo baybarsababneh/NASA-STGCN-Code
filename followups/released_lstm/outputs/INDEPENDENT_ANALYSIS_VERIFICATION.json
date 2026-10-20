@@ -1,0 +1,7 @@
+{
+  "independent_stream_count_checks": 648,
+  "all_pass": true,
+  "original_historical_outputs_modified": false,
+  "sensitivity_correction": "Use sensitivity_verified_seed_metrics.csv; initial C-2 exclusion rows in sensitivity_seed_metrics.csv apply to SMAP and are no-ops. Correct C-2 exclusion applies to MSL.",
+  "all_native_intervals_match_current_official_CSV": true
+}

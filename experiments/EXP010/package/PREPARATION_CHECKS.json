@@ -1,0 +1,10 @@
+{
+  "local_synthetic_mechanism_tests": 6,
+  "transaction_tests": "PASS",
+  "source_syntax": "PASS",
+  "all_114_split_and_26_case_rosters_checked": true,
+  "all_inherited_copied_bytes_match_original_manifest": true,
+  "GPU_tested_locally": false,
+  "Colab_tested_locally": false,
+  "project_perturbation_inference_executed": false
+}

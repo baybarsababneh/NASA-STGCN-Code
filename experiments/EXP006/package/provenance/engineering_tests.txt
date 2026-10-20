@@ -1,0 +1,26 @@
+test_all_train_arrays_and_graphs (__main__.EngineeringTests.test_all_train_arrays_and_graphs) ... ok
+test_all_training_roles_synthetic (__main__.EngineeringTests.test_all_training_roles_synthetic) ...   epoch=1 stop_mse=1.48147285
+  epoch=1 stop_mse=1.48147285
+  epoch=1 stop_mse=2.35837889
+  epoch=1 stop_mse=2.35837889
+  epoch=1 stop_mse=2.3589077
+  epoch=1 stop_mse=2.22946811
+  epoch=1 stop_mse=2.22946811
+  epoch=1 stop_mse=2.20858908
+  epoch=1 stop_mse=2.20858908
+  epoch=1 stop_mse=2.20870399
+ok
+test_commit_resume_and_corruption (__main__.EngineeringTests.test_commit_resume_and_corruption) ... ok
+test_exact_tie_ranking (__main__.EngineeringTests.test_exact_tie_ranking) ... ok
+test_fit_only_graph_invariance (__main__.EngineeringTests.test_fit_only_graph_invariance) ... ok
+test_frozen_identity (__main__.EngineeringTests.test_frozen_identity) ... ok
+test_grid_and_full_plan (__main__.EngineeringTests.test_grid_and_full_plan) ... ok
+test_promotion_all_three_gates (__main__.EngineeringTests.test_promotion_all_three_gates) ... ok
+test_training_loop_preserved_on_same_backend (__main__.EngineeringTests.test_training_loop_preserved_on_same_backend) ...   epoch=1 stop_mse=2.97010827
+ok
+test_windows_are_causal_and_oriented (__main__.EngineeringTests.test_windows_are_causal_and_oriented) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.755s
+
+OK

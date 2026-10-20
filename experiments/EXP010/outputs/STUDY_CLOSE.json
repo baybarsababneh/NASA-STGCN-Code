@@ -1,0 +1,13 @@
+{
+  "NASA_TEST_accessed": false,
+  "anomaly_labels_accessed": false,
+  "detector_selected": false,
+  "final_calibration_accessed": false,
+  "new_fits": 0,
+  "nominal_checkpoint_replays": 114,
+  "perturbed_model_streams": 2964,
+  "status": "COMPLETE_DIAGNOSTIC_NO_SELECTION",
+  "unique_persistence_probe_records": 494,
+  "units": 3078,
+  "weights_changed": false
+}

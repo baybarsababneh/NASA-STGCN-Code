@@ -1,0 +1,9 @@
+{
+  "held_out_families": [
+    "variance",
+    "oscillation"
+  ],
+  "retuning_forbidden": true,
+  "synthetic_evidence_only": true,
+  "temporal_segment": "TRAIN90:100% quarantined within EXP013 only; historically exposed in earlier research"
+}

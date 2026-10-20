@@ -1,0 +1,15 @@
+{
+  "purpose": "code-first publication",
+  "removed_files": {
+    "followups/released_lstm/sources/hundman2018.txt": "Full text of a third-party publication",
+    "followups/released_lstm/sources/current_report.txt": "Duplicated report text, not code",
+    "references/supplied_examples/lstmcode.ipynb": "Supplied third-party example with unverified licence",
+    "references/supplied_examples/nasa-anomaly-unsupervised.ipynb": "Supplied third-party example with unverified licence",
+    "references/supplied_examples/smap-msl-let-s-get-started.ipynb": "Unnecessary third-party example; link to source instead",
+    "history/pre_numbered/smap_msl_research/audit/paper_table2.png": "Copied paper table",
+    "history/pre_numbered/round2_tcn_confirmation/Round2_Report.md": "Old narrative research report, numerical outputs retained",
+    "history/pre_numbered/smap_msl_research/Technical_Report.md": "Old narrative research report, code and numerical outputs retained",
+    "experiments/EXP015/package/evidence/EXP013_README.md": "Unrelated report preparation instructions"
+  },
+  "note": "Original files remain in the private archival ZIP. Historical scientific freezes are unchanged."
+}

@@ -1,0 +1,27 @@
+check_group,mission,candidate_id,channel,metric,cpu_value,cuda_value,abs_diff,tolerance,passed,notes
+data_model_identity,MSL,,C-1,split_graph_exact_equality,fit_end=1294;val_end=1726;n=2158,fit_end=1294;val_end=1726;n=2158,0.0,exact,True,"feature_indices=[0, 5, 11, 12, 19, 20, 27, 29, 35, 39, 41, 43, 45, 47, 49]; adjacency compared exactly"
+data_model_identity,MSL,g03_rf7_large_lr1e3,C-1,initial_state_and_parameter_count,22849,22849,0.0,exact,True,
+data_model_identity,MSL,g04_rf7_large_lr3e4,C-1,initial_state_and_parameter_count,22849,22849,0.0,exact,True,
+cpu_regression,MSL,g03_rf7_large_lr1e3,C-1,three_epoch_original_vs_patched,0.012629218140823973,0.012629218140823973,0.0,exact,True,best_epoch old/new=3/3; state_exact=True
+data_model_identity,SMAP,,P-3,split_graph_exact_equality,fit_end=1713;val_end=2284;n=2855,fit_end=1713;val_end=2284;n=2855,0.0,exact,True,"feature_indices=[0, 1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 17, 18, 19, 21, 22]; adjacency compared exactly"
+data_model_identity,SMAP,g11_rf31_large_lr1e3,P-3,initial_state_and_parameter_count,185985,185985,0.0,exact,True,
+data_model_identity,SMAP,g09_rf31_base_lr1e3,P-3,initial_state_and_parameter_count,47937,47937,0.0,exact,True,
+cpu_regression,SMAP,g11_rf31_large_lr1e3,P-3,three_epoch_original_vs_patched,0.08766488634350003,0.08766488634350003,0.0,exact,True,best_epoch old/new=3/3; state_exact=True
+numerical_parity,MSL,g03_rf7_large_lr1e3,C-1,trained_checkpoint_nonzero_head,1,1,0.0,0.0,True,"Parity uses a trained checkpoint, not the initial persistence head."
+numerical_parity,MSL,g03_rf7_large_lr1e3,C-1,prediction_max_abs_diff,0.667866587638855,0.667866587638855,5.960464477539063e-08,"rtol=1e-05,atol=1e-06",True,
+numerical_parity,MSL,g03_rf7_large_lr1e3,C-1,loss_abs_diff,0.0016196874203160405,0.0016196874203160405,0.0,"rtol=1e-05,atol=1e-06",True,
+numerical_parity,MSL,g03_rf7_large_lr1e3,C-1,gradient_max_abs_diff,,,1.862645149230957e-09,"rtol=0.0001,atol=1e-06",True,
+numerical_parity,MSL,g03_rf7_large_lr1e3,C-1,one_step_parameter_max_abs_diff,,,8.903443813323975e-07,"rtol=0.0001,atol=1e-06",True,
+numerical_parity,SMAP,g11_rf31_large_lr1e3,P-3,trained_checkpoint_nonzero_head,1,1,0.0,0.0,True,"Parity uses a trained checkpoint, not the initial persistence head."
+numerical_parity,SMAP,g11_rf31_large_lr1e3,P-3,prediction_max_abs_diff,1.905340552330017,1.905340552330017,2.9802322387695312e-08,"rtol=1e-05,atol=1e-06",True,
+numerical_parity,SMAP,g11_rf31_large_lr1e3,P-3,loss_abs_diff,0.08321340382099152,0.08321341127157211,7.450580596923828e-09,"rtol=1e-05,atol=1e-06",True,
+numerical_parity,SMAP,g11_rf31_large_lr1e3,P-3,gradient_max_abs_diff,,,5.238689482212067e-09,"rtol=0.0001,atol=1e-06",True,
+numerical_parity,SMAP,g11_rf31_large_lr1e3,P-3,one_step_parameter_max_abs_diff,,,5.288049578666687e-06,"rtol=0.0001,atol=1e-06",False,
+full_training_bridge,MSL,g03_rf7_large_lr1e3,C-1,validation_mse,0.0010497738592136928,0.0010497739928757288,1.336620360833235e-10,1.0497738592136928e-05,True,best_epoch cpu/cuda=48/48
+full_training_bridge,MSL,g04_rf7_large_lr3e4,C-1,validation_mse,0.0037296379170449518,0.0038041446349342113,7.450671788925955e-05,3.729637917044952e-05,False,best_epoch cpu/cuda=80/80
+full_training_bridge,SMAP,g11_rf31_large_lr1e3,P-3,validation_mse,0.052469189968710396,0.05402352732660056,0.0015543373578901648,0.000524691899687104,False,best_epoch cpu/cuda=24/13
+full_training_bridge,SMAP,g09_rf31_base_lr1e3,P-3,validation_mse,0.056403208178208715,0.054047228980502814,0.0023559791977059014,0.0005640320817820872,False,best_epoch cpu/cuda=13/24
+cuda_repeatability,MSL,g03_rf7_large_lr1e3,C-1,validation_mse_repeat,0.0010497739928757288,0.0010497739928757288,0.0,1.049773992875729e-05,True,best_epoch first/repeat=48/48
+cuda_repeatability,SMAP,g11_rf31_large_lr1e3,P-3,validation_mse_repeat,0.05402352732660056,0.05402352732660056,0.0,0.0005402352732660057,True,best_epoch first/repeat=13/13
+checkpoint_portability,MSL,g03_rf7_large_lr1e3,C-1,reloaded_prediction_max_abs_diff,1.0581879615783691,1.0581880807876587,1.1920928955078125e-07,"rtol=1e-05,atol=1e-06",True,results/v2_exp006_gcn_tuned/device_verification/portable_MSL_g03_rf7_large_lr1e3_seed17.pt
+checkpoint_portability,SMAP,g11_rf31_large_lr1e3,P-3,reloaded_prediction_max_abs_diff,0.8824945688247681,0.8824946880340576,1.6391277313232422e-07,"rtol=1e-05,atol=1e-06",True,results/v2_exp006_gcn_tuned/device_verification/portable_SMAP_g11_rf31_large_lr1e3_seed17.pt

@@ -1,0 +1,132 @@
+# Recovered notebook execution record
+
+Original notebook: experiments/EXP009/notebooks/EXP009_DETECTOR_V1_E01_Resume.ipynb
+Original file SHA-256: 33f3690db3b6f7e909df04064125cbaa9f92e6117a5e58edede6dc599b2cb100
+
+Existing text outputs only; no cells executed in recovery. ANSI display escapes removed. Rich binary/HTML output is omitted.
+
+
+## Cell 1; execution 1
+Source first line: from google.colab import drive,files
+
+Mounted at /content/drive
+
+
+<IPython.core.display.HTML object>
+
+Saving EXP009_DETECTOR_V1_E01_bundle.zip to EXP009_DETECTOR_V1_E01_bundle.zip
+Original bundle and separate E01 amendment verified.
+
+
+
+## Cell 2; execution 2
+Source first line: # Reuse the existing numerical environment. Only provision it if the runtime was reset.
+
+Resume preflight and engineering regression checks passed.
+
+
+
+## Cell 3; execution 3
+Source first line: with (LOGS/f'{STAMP}_E01_run.log').open('w')as log:
+
+E01 preflight: 936 current committed units verified; 936 pre-amendment units protected.
+100 detector units committed/verified
+200 detector units committed/verified
+300 detector units committed/verified
+400 detector units committed/verified
+500 detector units committed/verified
+600 detector units committed/verified
+700 detector units committed/verified
+800 detector units committed/verified
+900 detector units committed/verified
+1000 detector units committed/verified
+1100 detector units committed/verified
+1200 detector units committed/verified
+1300 detector units committed/verified
+1400 detector units committed/verified
+1500 detector units committed/verified
+1600 detector units committed/verified
+1700 detector units committed/verified
+1800 detector units committed/verified
+1900 detector units committed/verified
+2000 detector units committed/verified
+2100 detector units committed/verified
+2200 detector units committed/verified
+2300 detector units committed/verified
+2400 detector units committed/verified
+2500 detector units committed/verified
+2600 detector units committed/verified
+2700 detector units committed/verified
+2800 detector units committed/verified
+2900 detector units committed/verified
+3000 detector units committed/verified
+3100 detector units committed/verified
+3200 detector units committed/verified
+3300 detector units committed/verified
+3400 detector units committed/verified
+3500 detector units committed/verified
+3600 detector units committed/verified
+3700 detector units committed/verified
+3800 detector units committed/verified
+3900 detector units committed/verified
+4000 detector units committed/verified
+4100 detector units committed/verified
+{
+  "status": "COMPLETE_PROVISIONAL_ONLY",
+  "mission_decisions": {
+    "MSL": "NO_FEASIBLE_CANDIDATE",
+    "SMAP": "NO_FEASIBLE_CANDIDATE"
+  },
+  "units": 4194,
+  "new_model_fits": 0,
+  "NASA_TEST_accessed": false,
+  "anomaly_labels_accessed": false,
+  "final_calibration_accessed": false,
+  "elapsed_seconds": 187.30641952899998,
+  "selection_stream_rows": 2916,
+  "audit_stream_rows": 1278
+}
+{
+  "status": "PASS",
+  "unique_units": 4194,
+  "ranking_recomputed": true,
+  "commit_hashes_verified": true,
+  "scope": "integrity and decision logic; scientific review still required"
+}
+E01 complete: original committed units and scientific freeze preserved.
+{
+  "NASA_TEST_accessed": false,
+  "anomaly_labels_accessed": false,
+  "audit_stream_rows": 1278,
+  "elapsed_seconds": 187.30641952899998,
+  "final_calibration_accessed": false,
+  "mission_decisions": {
+    "MSL": "NO_FEASIBLE_CANDIDATE",
+    "SMAP": "NO_FEASIBLE_CANDIDATE"
+  },
+  "new_model_fits": 0,
+  "selection_stream_rows": 2916,
+  "status": "COMPLETE_PROVISIONAL_ONLY",
+  "units": 4194
+}
+{
+  "all_pre_amendment_results_and_markers_byte_identical": true,
+  "parent_freeze_byte_identical": true,
+  "pre_amendment_units": 936,
+  "runhash_unchanged": true,
+  "status": "COMPLETE"
+}
+
+
+
+## Cell 4; execution 4
+Source first line: EXPORT=BASE/'exports';EXPORT.mkdir(exist_ok=True)
+
+Saved: /content/drive/MyDrive/NASA_GCN/EXP009_DETECTOR_V1/exports/EXP009_DETECTOR_V1_E01_results_20261004T160429Z.zip
+SHA-256: 01e10d5de8721a8c87f7830aa7a2f02d4bc87fd5bbe948e64116fc3403a306ab
+STOP: submit the completed results and executed E01 notebook for audit. No final NASA evaluation is run here.
+
+
+<IPython.core.display.Javascript object>
+
+<IPython.core.display.Javascript object>

@@ -1,0 +1,38 @@
+{
+  "original_notebook": "experiments/EXP009/notebooks/EXP009_DETECTOR_V1_E01_Resume.ipynb",
+  "original_sha256": "33f3690db3b6f7e909df04064125cbaa9f92e6117a5e58edede6dc599b2cb100",
+  "cells": [
+    {
+      "cell_index": 1,
+      "execution_count": 1,
+      "source_sha256": "76fee6b4f376b2502205c3efdccaac943e6f21fdeba690247bced6a1868a5e1d",
+      "timing_metadata": {},
+      "original_outputs_sha256": "a7795d62adace44ef4d7e5a065b332ad976066ed7352514b8fb6be140103412f",
+      "original_output_items": 3
+    },
+    {
+      "cell_index": 2,
+      "execution_count": 2,
+      "source_sha256": "07fa218bb3b06f27f0027cfb1e0e3f23f76c9c677916487a3bf3df88b3431b5e",
+      "timing_metadata": {},
+      "original_outputs_sha256": "0eb73ad9decf0a21d014e16e3277a87a3aa4169b817048959bd81e59dcc2552d",
+      "original_output_items": 1
+    },
+    {
+      "cell_index": 3,
+      "execution_count": 3,
+      "source_sha256": "327f51494a609e710d053b4b5d517e29ac25621ef184b2da8f64321ddb31c3bc",
+      "timing_metadata": {},
+      "original_outputs_sha256": "fb871cb14a11c07f9ad162ab9666053bd6f4074dd7e45bb0d2991d64a85d3e74",
+      "original_output_items": 1
+    },
+    {
+      "cell_index": 4,
+      "execution_count": 4,
+      "source_sha256": "9b04b6e6142c6f4ad4e3412072b94ec813036c7d932c5d89d6923f1fd7910986",
+      "timing_metadata": {},
+      "original_outputs_sha256": "b38c9981ea7d9b73810a7bf812705a4d5c5a40c4e5f7343f118c5e737637d17d",
+      "original_output_items": 3
+    }
+  ]
+}

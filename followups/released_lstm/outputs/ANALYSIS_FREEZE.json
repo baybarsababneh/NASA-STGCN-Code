@@ -1,0 +1,19 @@
+{
+  "analysis_id": "LSTM_RELEASE_BENCHMARK_AUDIT_V1",
+  "input_sha256": {
+    "project_sources/03-archive.zip": "6084d3ee3906381f2c98aa3773b6b2d77c82413503faa78f962196582e873733",
+    "lstm_benchmark_audit/materialized/NASA Research Project/EXP012_LABEL_BLIND_SCORE_EXPORT.zip": "e224c1286955d8af9c5bc314d5c24be04ab25b1a3fcba722a4bc217565b4d541",
+    "project_sources/02-labeled_anomalies.csv": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539",
+    "upload/NASA_Project_SMAP_MSL_STGCN_Research_Report.pdf": "fcd846cc5afcb5bbda2b7e92721f5593f5254090679cd0257c9bea80a66d9218",
+    "lstm_benchmark_audit/exp012_source/config.json": "2c2faabb8ce0da1f6f1cfe389440303fc6023bac7ea7379da6abf5fd8e0505bd",
+    "lstm_benchmark_audit/exp012_source/src/lstm_baseline.py": "e237fe98d8a2ea816118628801a1e12ef6c0a8c8044f417be8de8ed67877061c",
+    "lstm_benchmark_audit/exp012_source/src/models_io.py": "b6dbb2a2fbcb9ba78bbe7e6e4321cf78a03c4277638791fdc669dbb7f2962271",
+    "lstm_benchmark_audit/exp012_source/src/hundman_detector.py": "5b238ae7226a60e092b4d0a0954ca276733f3f9a27c0766d98282512dc692714",
+    "lstm_benchmark_audit/frozen_reference/vendor/frozen/metrics.py": "d8de4c09a197a9647109369ac77082b0588c8b2ad2f1b940bd479bc47cdbceef",
+    "lstm_benchmark_audit/sources/telemanom-master/telemanom/errors.py": "eb27e3dbc524a5252301e21835fb063ec7e1794eb4b252184c1a8a48a047b4aa",
+    "lstm_benchmark_audit/PROTOCOL.json": "bba27b7a892d5a09640ee22bc4c0ea9336ca40de2ab5a1d9283877867393e6c9",
+    "lstm_benchmark_audit/analyse.py": "b9faeeb7605d794c11c2ffa25ad7f76c30926d3401234e20b6949a2f8a90b6fd"
+  },
+  "native_compat_sha256": "59d6ed7af14b76931b132738239e276f24af2b543ec1ae6e2c2e2c8d0a16b1a3",
+  "protocol_sha256": "bba27b7a892d5a09640ee22bc4c0ea9336ca40de2ab5a1d9283877867393e6c9"
+}
