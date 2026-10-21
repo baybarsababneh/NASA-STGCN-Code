@@ -1,16 +1,17 @@
 # NASA SMAP/MSL anomaly detection
 
-Code, configurations and saved results for experiments **EXP001–EXP015**. 
+Code, configurations and saved results for experiments **EXP001–EXP016**. 
 
 This project compares command-aware graph models with LSTM and other baselines for spacecraft telemetry anomaly detection. The graph models command-to-telemetry context, **not** a verified network of synchronised sensors.
 
 ## Find the code
 
-- [`experiments/`](experiments/) — 15 numbered studies. Open an experiment's `README.md` for its entry points.
+- [`experiments/`](experiments/) — 16 numbered studies. Open an experiment's `README.md` for its entry points.
+- [EXP016](experiments/EXP016/) — Closer methodological comparison with Hundman's author-released LSTM.
 - [`followups/`](followups/) — released-LSTM and detector comparison code.
 - [`results/`](results/) — links to main result tables.
 - [`history/`](history/) — earlier source, controls and saved diagnostic outputs.
-- [`tools/`](tools/) — verify files, restore large artifacts, and stage a workspace.
+- [`tools/`](tools/) — verify files, restore large artefacts, and stage a workspace.
 - [`EXPERIMENT_INVENTORY.md`](EXPERIMENT_INVENTORY.md) — one-line guide to every experiment.
 
 ## Quick start
