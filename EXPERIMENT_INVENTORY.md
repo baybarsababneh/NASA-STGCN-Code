@@ -19,5 +19,6 @@ Each experiment folder includes a short entry-point README, source/configuration
 | [EXP013](experiments/EXP013/) | Command-reference alternatives |
 | [EXP014](experiments/EXP014/) | Frozen GDN residual detector |
 | [EXP015](experiments/EXP015/) | Command-reference detector substitution |
+| [EXP016](experiments/EXP016/) | ST-GCN comparison with Hundman's author-released LSTM |
 
 Full code and original outputs are kept under their numbered folders. See [`docs/MISSING_ARTIFACTS.md`](docs/MISSING_ARTIFACTS.md) for reproduction limits.
