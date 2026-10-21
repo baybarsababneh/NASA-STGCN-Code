@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP016_RELEASED_METHOD_STGCN_V1",
+  "history": 250, "horizon": 10, "hidden": 64, "dropout": 0.3,
+  "seeds": [17, 29, 43], "epochs": 35, "batch_size": 64,
+  "learning_rate": 0.001, "adam_epsilon": 1e-7, "patience": 10,
+  "min_delta": 0.0003, "validation_fraction": 0.2,
+  "checkpoint_steps": 100, "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261021, "prediction_batch_size": 256,
+  "primary_detector": "uniform", "sensitivity_detector": "native_C2",
+  "precision": "FP32_no_TF32_no_AMP", "training_channels": 82,
+  "labelled_channels": 81, "P2_primary": "first_supplied_row"
+}

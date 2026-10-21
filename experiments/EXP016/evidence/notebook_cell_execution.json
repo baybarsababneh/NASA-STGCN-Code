@@ -1,0 +1,43 @@
+{
+  "method": "Every actual code cell executed unchanged in one shared Python namespace; host forbids Jupyter kernel sockets",
+  "cells": [
+    {
+      "cell": 1,
+      "status": "PASS",
+      "seconds": 0.0034666249994188547
+    },
+    {
+      "cell": 3,
+      "status": "PASS",
+      "seconds": 0.4526711059988884
+    },
+    {
+      "cell": 4,
+      "status": "PASS",
+      "seconds": 4.082192482999744
+    },
+    {
+      "cell": 6,
+      "status": "PASS",
+      "seconds": 10.99577803200009
+    },
+    {
+      "cell": 8,
+      "status": "PASS",
+      "seconds": 4.201431236000644
+    },
+    {
+      "cell": 10,
+      "status": "PASS",
+      "seconds": 4.8160829260014
+    },
+    {
+      "cell": 12,
+      "status": "PASS",
+      "seconds": 1.7563300860001618
+    }
+  ],
+  "full_GPU_run": false,
+  "Colab_UI_tested": false,
+  "fixture": true
+}

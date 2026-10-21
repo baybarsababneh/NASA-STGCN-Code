@@ -1,0 +1,58 @@
+{
+  "conservative_training_hours_35_epochs": 120.48418385861844,
+  "environment": {
+    "amp": false,
+    "cuda": null,
+    "cudnn": null,
+    "deterministic": true,
+    "device": "CPU",
+    "h5py": "3.12.1",
+    "more_itertools": "10.5.0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "tf32": false,
+    "torch": "2.5.1+cpu"
+  },
+  "estimated_inference_hours": 2.3544788719517653,
+  "estimated_training_under_six_hours": false,
+  "note": "Measured on this machine, extrapolated by exact batch counts; not an observed full-run runtime. Excludes setup, detector processing, export and Drive I/O. Six hours is not guaranteed. CPU timings are NOT A100 timings.",
+  "timings": [
+    {
+      "checkpoint_seconds": 0.013187312999434653,
+      "eval_batch_seconds_median": 0.2170144640003855,
+      "inference_batch256_seconds": 1.3535580469997512,
+      "inference_batches64_per_seed": 6614,
+      "measured_train_steps": 12,
+      "nodes": 25,
+      "peak_cuda_bytes": null,
+      "representative_channel": "G-6",
+      "seconds_per_seed_epoch": 1364.7406464180349,
+      "train_batch_seconds_max": 1.0021318229992175,
+      "train_batch_seconds_median": 0.8102002539999376,
+      "train_batches_per_seed_epoch": 1570,
+      "validation_batches_per_seed_epoch": 424
+    },
+    {
+      "checkpoint_seconds": 0.011056968000048073,
+      "eval_batch_seconds_median": 0.507001500500337,
+      "inference_batch256_seconds": 2.2140109920001123,
+      "inference_batches64_per_seed": 1061,
+      "measured_train_steps": 12,
+      "nodes": 55,
+      "peak_cuda_bytes": null,
+      "representative_channel": "P-10",
+      "seconds_per_seed_epoch": 1389.1835560646723,
+      "train_batch_seconds_max": 2.168460018001497,
+      "train_batch_seconds_median": 1.993315486000938,
+      "train_batches_per_seed_epoch": 652,
+      "validation_batches_per_seed_epoch": 176
+    }
+  ],
+  "training_jobs": 246,
+  "training_only_hours_by_epochs": {
+    "11": 25.244305189424818,
+    "20": 45.898736708045114,
+    "35": 80.32278923907896
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "detector_failures": 0,
+  "fit_jobs": 2,
+  "fixture": true,
+  "identity": "155bf8d2994f218fdd4b2d5487316a8ece46326b02d03ef2f5412de9aa03d4c8",
+  "labelled_channels": 2,
+  "limitations": [
+    "retrospective TEST exposure",
+    "inherited TEST-extrema preprocessing",
+    "chronological purged split differs from released LSTM",
+    "one released LSTM fit per channel; original training seed/history unavailable",
+    "native detector uses retrospective lookahead"
+  ],
+  "mission_rows": 8,
+  "primary_degenerate_branches": 0,
+  "scientific_GPU_run": false,
+  "score_rows": 8,
+  "status": "FIXTURE_COMPLETE",
+  "training_channels": 2
+}

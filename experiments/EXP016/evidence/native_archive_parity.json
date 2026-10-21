@@ -1,0 +1,416 @@
+{
+  "channels": 81,
+  "checks": [
+    {
+      "channel": "P-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "S-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-5",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-6",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-7",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-8",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-9",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-10",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-11",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-12",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "E-13",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "G-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "G-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-5",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-6",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-7",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "F-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "G-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-8",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-9",
+      "intervals_exact": true,
+      "warnings": [
+        "Degrees of freedom <= 0 for slice",
+        "Mean of empty slice.",
+        "invalid value encountered in divide",
+        "invalid value encountered in scalar divide"
+      ]
+    },
+    {
+      "channel": "F-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "G-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-11",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-12",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "B-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "G-6",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "G-7",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-7",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "R-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-5",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-6",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-7",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-13",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-8",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "A-9",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "F-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "M-6",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "M-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "M-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "S-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-10",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-5",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "F-7",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "M-3",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "M-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "M-5",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-15",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "C-1",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "C-2",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-12",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-13",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "F-4",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "F-5",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-14",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-9",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-14",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "T-8",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "P-11",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-15",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "D-16",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "M-7",
+      "intervals_exact": true,
+      "warnings": []
+    },
+    {
+      "channel": "F-8",
+      "intervals_exact": true,
+      "warnings": []
+    }
+  ],
+  "seconds": 69.22524403399984
+}
